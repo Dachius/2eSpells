@@ -6,11 +6,10 @@ _td_ = document.createElement('td');
 wizardTable();
 
 async function wizardTable(){
-    const response = await fetch('json/Wizard.json')
+    const response = await fetch('json/wizard.json')
     var data = await response.json();
     realTable = buildHtmlTable(data);
     realTable.classList.add("sortable");
-    console.log(realTable)
     document.body.appendChild(realTable);
     sorttable.makeSortable(realTable);
 }
@@ -32,9 +31,9 @@ function buildHtmlTable(arr) {
         tb.appendChild(tr);
     }
     table.appendChild(tb);
-    the = document.createElement('thead');
-    the.appendChild(table.rows[0]);
-    table.insertBefore(the,table.firstChild);
+    _thead_ = document.createElement('thead');
+    _thead_.appendChild(table.rows[0]);
+    table.insertBefore(_thead_,table.firstChild);
 
     return table;
 }
@@ -47,7 +46,7 @@ function addAllColumnHeaders(arr, table) {
 
     for (var i = 0, l = arr.length; i < l; i++) {
         for (var key in arr[i]) {
-            if (arr[i].hasOwnProperty(key) && columnSet.indexOf(key) === -1 && (key != "verbal" && key != "somatic" && key != "material")) {
+            if (arr[i].hasOwnProperty(key) && columnSet.indexOf(key) === -1 && (key != "verbal" && key != "somatic" && key != "material" && key != "damage" && key != "description" && key != "class")) {
                 columnSet.push(key);
                 var th = _th_.cloneNode(false);
                 th.appendChild(document.createTextNode(key));

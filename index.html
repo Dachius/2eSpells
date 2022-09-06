@@ -3,23 +3,77 @@
     <head>
         <title>2e Spell List</title>
         <style type="text/css">
-            th {
-                background-color: gray;
-                color: white;
+            :root {
+                color-scheme: dark;
             }
-            tr {
-                background-color: gray;
-                color: white;
+            .header {
+                position: absolute;
+                width: 90%;
+                left: 5%;
+                right: 5%;
+                height: 20%;
+                color:white;
             }
-            td {
-                color: black;
+            .table {
+                position: absolute;
+                width: 24%;
+                top: 15vh;
+                left: 5%;
+                right: 60%;
+            }
+            .box {
+                position: absolute;
+                width: 50%;
+                left: 30%;
+                top: 15%;
             }
         </style>
-        <script src="js/sorttable.js"></script>
     </head>
-    <body style="background-color:black">
+    <body style="background-color:rgb(24, 26, 27)">
         <main>
-            <script src="js/table.js"></script>
+            <div class="header">
+                <h>
+                    This is an AD&D 2e spell sorter.
+                </h>
+            </div>
+            <div class="table" id="spellTable"></div>
+
+            <div class="box" id="box"></div>
+
+
+            
+            <link href="tabulator/css/tabulator_midnight.css" rel="stylesheet">
+            <script type="text/javascript" src="tabulator/js/tabulator.min.js"></script>
+            
+            <script>
+                wizardTable();
+
+                async function wizardTable(){
+                    const response = await fetch('json/wizard.json')
+                    var wizardData = await response.json();
+                    var table = new Tabulator("#spellTable", {
+                        data:wizardData, //assign data to table
+                        height:"80vh",
+                        columns:[
+                            {title:"Lvl", field:"level", sorter:"number", width:"17em"},
+                            {title:"Name", field:"name", sorter:"alphanum", width:"54em"},
+                            {title:"School", field:"school", sorter:"alphanum", width:"25em"}
+                        ],
+                    });
+
+                    table.on("rowClick", function(e, row){
+                    drawBox(e, row);
+                        //e - the click event object
+                        //row - row component
+                    });
+                }
+
+                function drawBox(e, row){
+                    var div = document.getElementById("box");
+                    var content = row.getData().description;
+                    div.textContent = content;
+                }
+            </script>
         </main>
     </body>
 </html>
