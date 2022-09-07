@@ -5,75 +5,87 @@
         <style type="text/css">
             :root {
                 color-scheme: dark;
+                width: 100%;
+                height: 100%;
             }
-            .header {
-                position: absolute;
-                width: 90em;
-                left: 5em;
-                right: 5em;
-                height: 20em;
+            #viewportWrapper {
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+            #headerWrapper {
+                position: relative;
+                width: 94%;
+                left: 3%;
+                right: 3%;
+                height: 15vh;
                 color:white;
             }
-            .table {
-                position: absolute;
-                width: 24em;
-                top: 15vh;
-                left: 5em;
-                right: 60%;
+            #contentWrapper {
+                position: relative;
+                height: 75vh;
+                width: 80%;
+                left: 3%;
+                right: 3%;
             }
-            .box {
-                position: absolute;
-                width: 50em;
-                left: 30em;
-                top: 15vh;
+            #listWrapper {
+                width: 28em;
+                height: 75vh;
+                border:0;
+            }
+            #infoWrapper {
+                left: 25em;
+                height: 75vh;
+                margin: -75vh 0 0 30em;
             }
         </style>
     </head>
     <body style="background-color:rgb(24, 26, 27)">
-        <main>
-            <div class="header">
-                <h>
-                    This is an AD&D 2e spell sorter.
-                </h>
+        <div id="viewportWrapper">
+            <div id="headerWrapper">
+                <div>
+                    Hello!
+                </div>
             </div>
-            <div class="table" id="spellTable"></div>
-
-            <div class="box" id="box"></div>
-
-
-            
-            <link href="tabulator/css/tabulator_midnight.css" rel="stylesheet">
-            <script type="text/javascript" src="tabulator/js/tabulator.min.js"></script>
-            
-            <script>
-                wizardTable();
-
-                async function wizardTable(){
-                    const response = await fetch('json/wizard.json')
-                    var wizardData = await response.json();
-                    var table = new Tabulator("#spellTable", {
-                        data:wizardData, //assign data to table
-                        height:"80vh",
-                        columns:[
-                            {title:"Lvl", field:"level", sorter:"number", width:"17em"},
-                            {title:"Name", field:"name", sorter:"alphanum", width:"54em"},
-                            {title:"School", field:"school", sorter:"alphanum", width:"25em"}
-                        ],
-                    });
-
-                    table.on("rowClick", function(e, row){
-                    drawBox(e, row);
-                        //e - the click event object
-                        //row - row component
-                    });
-                }
-
-                function drawBox(e, row){
-                    var div = document.getElementById("box");
-                    var content = row.getData().description;
-                    div.textContent = content;
-                }
-            </script>
-        </main>
+            <div id="contentWrapper" id="content">
+                <div id="listWrapper"></div>
+                <div id="infoWrapper"></div>
+            </div>
+        </div>
     </body>
+
+    <link href="tabulator/css/tabulator_midnight.css" rel="stylesheet">
+    <script type="text/javascript" src="tabulator/js/tabulator.min.js"></script>
+        
+    <script>
+        wizardTable();
+
+        async function wizardTable(){
+            const response = await fetch('json/wizard.json')
+            var wizardData = await response.json();
+            var table = new Tabulator("#listWrapper", {
+                data:wizardData, //assign data to table
+                height:"75vh",
+                layout:"fitColumns",
+                columns:[
+                    {title:"Lvl", field:"level", sorter:"number", width:"15em"},
+                    {title:"Name", field:"name", sorter:"alphanum", width:"56em"},
+                    {title:"School", field:"school", sorter:"alphanum", width:"25em"}
+                ]
+            });
+            
+            table.on("rowClick", function(e, row){drawBox(e, row);});
+        }
+
+        function drawBox(e, row){
+            var div = document.getElementById("infoWrapper");
+            div.innerText = ""; //Wipe previous
+            div.innerText += "Description: " + row.getData().description;
+        }
+
+        function makeFilter(type, param){
+            var table = document.getElementById("listWrapper");
+            table.setFilter("level", "=", "1");
+        }
+    </script>
 </html>
