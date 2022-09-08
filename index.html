@@ -16,27 +16,41 @@
             #headerWrapper {
                 position: relative;
                 width: 94%;
-                left: 3%;
-                right: 3%;
-                height: 15vh;
+                padding: 3%;
+                height: 9%;
                 color:white;
             }
             #contentWrapper {
                 position: relative;
-                height: 75vh;
-                width: 80%;
-                left: 3%;
-                right: 3%;
+                margin: 3% 0 3% 3%;
             }
             #listWrapper {
-                width: 28em;
-                height: 75vh;
-                border:0;
+                display:inline-block;
+                vertical-align:top;
+                max-width:30%;
             }
             #infoWrapper {
-                left: 25em;
-                height: 75vh;
-                margin: -75vh 0 0 30em;
+                display:inline-block;
+                vertical-align:top;
+                width: 65%;
+                margin-left: 2%;
+            }
+            .infoTable {
+                width: 100%;
+                border-collapse:collapse;
+            }
+            .infoData{
+                color:rgb(187, 187, 187);
+            }
+            #Name {
+                color: #d29a38;
+                font-size: 1.8em;
+                font-family: times new roman,serif;
+                font-variant: small-caps;
+                font-weight: 500;
+            }
+            #Duration {
+                border-bottom:2px solid#d29a38
             }
         </style>
     </head>
@@ -44,12 +58,25 @@
         <div id="viewportWrapper">
             <div id="headerWrapper">
                 <div>
-                    Hello!
+                    AD&D 2e spell sorter. Click on a row in the table for more information on a spell.
                 </div>
+                <button type="button" onClick="makeFilter(1)">Level 1</button>
             </div>
             <div id="contentWrapper" id="content">
                 <div id="listWrapper"></div>
-                <div id="infoWrapper"></div>
+                <div id="infoWrapper">
+                    <table id="infoTable">
+                        <tbody>
+                            <tr><td class="infoData" id="Name"></td></tr>
+                            <tr><td class="infoData" id="Level&School"></td></tr>
+                            <tr><td class="infoData" id="CastingTime"></td></tr>
+                            <tr><td class="infoData" id="Range"></td></tr>
+                            <tr><td class="infoData" id="Components"></td></tr>
+                            <tr><td class="infoData" id="Duration"></td></tr>
+                            <tr><td class="infoData" id="Description"></td></tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </body>
@@ -60,32 +87,38 @@
     <script>
         wizardTable();
 
+        var table;
+        
         async function wizardTable(){
             const response = await fetch('json/wizard.json')
             var wizardData = await response.json();
-            var table = new Tabulator("#listWrapper", {
+            table = new Tabulator("#listWrapper", {
                 data:wizardData, //assign data to table
                 height:"75vh",
-                layout:"fitColumns",
+                layout:"fitDataTable",
                 columns:[
-                    {title:"Lvl", field:"level", sorter:"number", width:"15em"},
-                    {title:"Name", field:"name", sorter:"alphanum", width:"56em"},
-                    {title:"School", field:"school", sorter:"alphanum", width:"25em"}
+                    {title:"Lvl", field:"level", sorter:"number"},
+                    {title:"Name", field:"name", sorter:"alphanum"},
+                    {title:"School", field:"school", sorter:"alphanum"}
                 ]
             });
             
-            table.on("rowClick", function(e, row){drawBox(e, row);});
+            table.on("rowClick", function(e, row){drawInfoBox(e, row);});
         }
 
-        function drawBox(e, row){
-            var div = document.getElementById("infoWrapper");
-            div.innerText = ""; //Wipe previous
-            div.innerText += "Description: " + row.getData().description;
+        function drawInfoBox(e, row){
+            var data = row.getData();
+            document.getElementById("Name").innerHTML = data.name;
+            document.getElementById("Level&School").innerHTML = "Level " + data.level + " " + data.school;
+            document.getElementById("CastingTime").innerHTML = "<strong>Casting Time:</strong> " + data.castingTime;
+            document.getElementById("Range").innerHTML = "<strong>Range:</strong> " + data.range;
+            document.getElementById("Components").innerHTML = data.name;
+            document.getElementById("Duration").innerHTML = "<strong>Duration:</strong> " + data.duration;
+            document.getElementById("Description").innerText = data.description;
         }
 
-        function makeFilter(type, param){
-            var table = document.getElementById("listWrapper");
-            table.setFilter("level", "=", "1");
+        function makeFilter(param){
+            table.setFilter("name", "=", "Leomund's Hidden Lodge");
         }
     </script>
 </html>
