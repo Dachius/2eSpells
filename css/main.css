@@ -8,8 +8,9 @@
     position: relative;
     width: 94%;
     margin: 1% 2% 0 2%;
-    height: 15vh;
+    max-height: 15vh;
     overflow:auto;
+    border-bottom: 2px solid #d29a38;
 }
 .nameCell {
     font-size: 18px;
@@ -41,7 +42,7 @@
 }
 #contentWrapper {
     position: relative;
-    margin: 2% 0 2% 2%;
+    margin: 1% 0 2% 2%;
     height: 75vh;
 }
 #listWrapper {
