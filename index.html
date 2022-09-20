@@ -2,51 +2,101 @@
 <html lang="en">
     <head>
         <title>2e Spell List</title>
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/main.css">
         <link href="tabulator/css/tabulator_midnight.css" rel="stylesheet">
     </head>
     <body style="background-color:rgb(24, 26, 27)">
         <div id="viewportWrapper">
             <div id="headerWrapper">
-                <div>
-                    AD&D 2e spell sorter. Click on a row in the table for more information on a spell.
-                </div>
                 <div id="filterWrapper">
-                    <select id="filter-field">
-                    <option></option>
-                        <option value="name">Name</option>
-                        <option value="level">Level</option>
-                        <option value="school">School</option>
-                    </select>
-                
-                    <select id="filter-type">
-                        <option value="=">=</option>
-                        <option value="<"><</option>
-                        <option value="<="><=</option>
-                        <option value=">">></option>
-                        <option value=">=">>=</option>
-                        <option value="!=">!=</option>
-                        <option value="like">like</option>
-                    </select>
-                    
-                    <input id="filter-value" type="text" placeholder="value to filter">
-                    
-                    <button class="styledButton" id="filter-clear">Clear Filter</button>
-
                     <table>
-                        <tbody>
-                            <tr>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton1">Level 1</button></td>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton2">Level 2</button></td>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton3">Level 3</button></td>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton4">Level 4</button></td>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton5">Level 5</button></td>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton6">Level 6</button></td>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton7">Level 7</button></td>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton8">Level 8</button></td>
-                                <td><button class="styledButton lvlButton" value=0 id="lvlButton9">Level 9</button></td>
-                            </tr>
-                        </tbody>
+                        <tr>
+                            <td class="nameCell">Class</td>
+                            <td>
+                                <div>
+                                    <table class="filterTable" id="classTable"><tbody><tr>
+                                        <td><button class="styledButton classButton" value=0 id="Cleric">Cleric</button></td>
+                                        <td><button class="styledButton classButton" value=0 id="Wizard">Wizard</button></td>
+                                    </tr></tbody></table>
+                                    <table class="filterTable" id="specialistTable"><tbody><tr>
+                                        <td class="nameCell">Specialist</td>
+                                        <td><button class="styledButton classButton" value=0 id="Abjurer">Abjurer</button></td>
+                                        <td><button class="styledButton classButton" value=0 id="Conjurer">Conjurer</button></td>
+                                        <td><button class="styledButton classButton" value=0 id="Diviner">Diviner</button></td>
+                                        <td><button class="styledButton classButton" value=0 id="Enchanter">Enchanter</button></td>
+                                        <td><button class="styledButton classButton" value=0 id="Illusionist">Illusionist</button></td>
+                                        <td><button class="styledButton classButton" value=0 id="Invoker">Invoker</button></td>
+                                        <td><button class="styledButton classButton" value=0 id="Necromancer">Necromancer</button></td>
+                                        <td><button class="styledButton classButton" value=0 id="Transmuter">Transmuter</button></td>
+                                    </tr></tbody></table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="nameCell">Level</td>
+                            <td>
+                                <table class="filterTable" id="lvlTable"><tbody><tr>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton1">Level 1</button></td>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton2">Level 2</button></td>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton3">Level 3</button></td>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton4">Level 4</button></td>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton5">Level 5</button></td>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton6">Level 6</button></td>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton7">Level 7</button></td>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton8">Level 8</button></td>
+                                    <td><button class="styledButton lvlButton" value=0 id="lvlButton9">Level 9</button></td>
+                                </tr></tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="nameCell">School</td>
+                            <td>
+                                <table class="filterTable" id="schoolTable"><tbody><tr>
+                                    <td><button class="styledButton schoolButton" value=0 id="Abjuration">Abjuration</button></td>
+                                    <td><button class="styledButton schoolButton" value=0 id="Alteration">Alteration</button></td>
+                                    <td><button class="styledButton schoolButton" value=0 id="Conjuration">Conjuration</button></td>
+                                    <td><button class="styledButton schoolButton" value=0 id="Divination">Divination</button></td>
+                                    <td><button class="styledButton schoolButton" value=0 id="Enchantment">Enchantment</button></td>
+                                    <td><button class="styledButton schoolButton" value=0 id="Evocation">Evocation</button></td>
+                                    <td><button class="styledButton schoolButton" value=0 id="Illusion">Illusion</button></td>
+                                    <td><button class="styledButton schoolButton" value=0 id="Necromancy">Necromancy</button></td>
+                                </tr></tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="nameCell">Sphere</td>
+                            <td>
+                                <table class="filterTable" id="sphereTable"><tbody><tr>
+                                    <td><button class="styledButton sphereButton" value=0 id="All">All</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Animal">Animal</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Astral">Astral</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Chaos">Chaos</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Charm">Charm</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Combat">Combat</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Creation">Creation</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Divination">Divination</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Air">Air</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Earth">Earth</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Fire">Fire</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Water">Water</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Guardian">Guardian</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Healing">Healing</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Law">Law</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Necromantic">Necromantic</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Numbers">Numbers</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Plant">Plant</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Protection">Protection</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Summoning">Summoning</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Sun">Sun</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Thought">Thought</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Time">Time</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Travelers">Travelers</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="War">War</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Wards">Wards</button></td>
+                                    <td><button class="styledButton sphereButton" value=0 id="Weather">Weather</button></td>
+                                </tr></tbody></table>
+                            </td>
+                        </tr>
                     </table>
                 </div>
 
@@ -60,7 +110,7 @@
                     <table id="infoTable">
                         <tbody>
                             <tr><td class="infoData" id="Name"></td></tr>
-                            <tr><td class="infoData" id="Level&School"></td></tr>
+                            <tr><td class="infoData" id="Level&School&Sphere"></td></tr>
                             <tr><td class="infoData" id="CastingTime"></td></tr>
                             <tr><td class="infoData" id="Range"></td></tr>
                             <tr><td class="infoData" id="AOE"></td></tr>
@@ -76,129 +126,5 @@
     </body>
 
     <script type="text/javascript" src="tabulator/js/tabulator.min.js"></script>
-        
-    <script>
-
-        // Make table
-        var table;
-        wizardTable();
-        
-        async function wizardTable(){
-            const response = await fetch('json/wizard.json')
-            var wizardData = await response.json();
-            table = new Tabulator("#list", {
-                data:wizardData, //assign data to table
-                height:"100%",
-                layout:"fitData",
-                columns:[
-                    {title:"Lvl", field:"level", sorter:"number"},
-                    {title:"Name", field:"name", sorter:"alphanum"},
-                    {title:"School", field:"school", sorter:"alphanum"}
-                ]
-            });
-            
-            table.on("rowClick", function(e, row){drawInfoBox(e, row)});
-        }
-
-        // Stuff
-
-
-        // Generic filter stuff
-        var fieldEl = document.getElementById("filter-field");
-        var typeEl = document.getElementById("filter-type");
-        var valueEl = document.getElementById("filter-value");
-        fieldEl.addEventListener("change", updateFilter);
-        typeEl.addEventListener("change", updateFilter);
-        valueEl.addEventListener("keyup", updateFilter);
-
-        var nameFilter = document.getElementById("nameFilter");
-        nameFilter.addEventListener("keyup", updateFilter);
-
-        // lvl button listeners
-        var lvlButtons = document.getElementsByClassName("lvlButton");
-        var buttonColorArray = ["rgb(107, 107, 107)", "blue", "red"]
-        for(var i = 0; i < 9; i++){
-            lvlButtons[i].addEventListener("click", function(){
-                this.value = (this.value + 1) % 3;
-                this.style.backgroundColor = buttonColorArray[this.value];
-                updateFilter();
-            });
-        }
-
-        function updateFilter(){
-            var filterVal = fieldEl.options[fieldEl.selectedIndex].value;
-            var typeVal = typeEl.options[typeEl.selectedIndex].value;
-
-            var filterArray = 
-            [
-                {field:"name", type:"like", value:nameFilter.value}
-            ];
-
-            var includeArray = new Array();
-            var lvlButtons = document.getElementsByClassName("lvlButton");
-            for(var i = 0; i < 9; i++){
-                if(lvlButtons[i].value == 1){
-                    includeArray.push({field:"level", type:"=", value:(i + 1)})
-                }
-                else if(lvlButtons[i].value == 2){
-                    filterArray.push({field:"level", type:"!=", value:(i + 1)})
-                }
-            }
-            
-            filterArray.push(includeArray);
-            table.setFilter(filterArray);
-        }
-
-        document.getElementById("filter-clear").addEventListener("click", function(){
-            fieldEl.value = "";
-            typeEl.value = "=";
-            valueEl.value = "";
-            nameFilter.value = "";
-            var lvlButtons = document.getElementsByClassName("lvlButton");
-            var buttonColorArray = ["grey", "blue", "red"]
-            for(var i = 0; i < 9; i++){
-                
-            }
-            table.clearFilter();
-        });
-
-        //Draw info box
-        function drawInfoBox(e, row){
-            var data = row.getData();
-            document.getElementById("Name").innerHTML = data.name;
-            document.getElementById("Level&School").innerHTML = "Level " + data.level + " " + data.school;
-            document.getElementById("CastingTime").innerHTML = "<strong>Casting Time:</strong> " + data.castingTime;
-            document.getElementById("Range").innerHTML = "<strong>Range:</strong> " + data.range;
-            document.getElementById("AOE").innerHTML = "<strong>Area:</strong> " + data.aoe;
-            document.getElementById("Save").innerHTML = "<strong>Save:</strong> " + data.save;
-            //Components
-            var componentString = "<strong>Components:</strong> ";
-            if(data.verbal){
-                componentString += "V";
-                if(data.somatic || data.material){
-                    componentString += ", ";
-                }
-            }
-            if(data.somatic){
-                componentString += "S";
-                if(data.material){
-                    componentString += ", ";
-                }
-            }
-            if(data.material){
-                componentString += "M";
-            }
-            if(data.materials != ""){
-                componentString += " (" + data.materials + ")"
-            }
-            document.getElementById("Components").innerHTML = componentString;
-            //End Components
-            //Duration
-            duration = document.getElementById("Duration");
-            duration.style.borderBottom = "2px solid #d29a38"
-            duration.innerHTML = "<strong>Duration:</strong> " + data.duration;
-            //End Duration
-            document.getElementById("Description").innerText = data.description;
-        }
-    </script>
+    <script type="text/javascript" src="js/main.js"></script>
 </html>

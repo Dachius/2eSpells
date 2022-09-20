@@ -7,20 +7,48 @@
 #headerWrapper {
     position: relative;
     width: 94%;
-    margin: 2% 3% 0 3%;
-    height: 9vh;
-    color:rgb(187, 187, 187);
+    margin: 1% 2% 0 2%;
+    height: 15vh;
+    overflow:auto;
+}
+.nameCell {
+    font-size: 18px;
+    color: #d29a38;
+    font-family: times new roman,serif;
+    font-variant: small-caps;
+    font-weight: 500;
+    text-align:right;
+}
+#classTable {
+    display: inline-block;
+    vertical-align: top;
+}
+#specialistTable {
+    display: inline-block;
+    vertical-align: top;
+}
+#lvlTable {
+    /* display: inline-block;
+    vertical-align: top; */
+}
+#schoolTable {
+    /* display: inline-block;
+    vertical-align: top; */
+}
+#sphereTable {
+    /* display: inline-block;
+    vertical-align: top; */
 }
 #contentWrapper {
     position: relative;
-    margin: 3% 0 3% 3%;
-    height: 68vh;
+    margin: 2% 0 2% 2%;
+    height: 75vh;
 }
 #listWrapper {
     display: inline-block;
     vertical-align: top;
     max-width: 30%;
-    height: 68vh;
+    height: 75vh;
 }
 #list {
     max-width: 100%;
@@ -30,7 +58,7 @@
     vertical-align: top;
     width: 65%;
     margin-left: 2%;
-    height: 68vh;
+    height: 75vh;
     overflow-y: auto;
 }
 #nameFilter {
@@ -51,7 +79,7 @@
     font-weight: 500;
 }
 .styledButton {
-    background-color: rgb(107, 107, 107);
+    background-color: rgb(24, 26, 27);
     border: none;
     color: white;
     padding: 4px;

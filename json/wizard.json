@@ -2,8 +2,8 @@
   {
     "level": 1,
     "name": "Affect Normal Fires",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -20,8 +20,8 @@
   {
     "level": 1,
     "name": "Alarm",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -38,8 +38,8 @@
   {
     "level": 1,
     "name": "Alarm",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -56,8 +56,8 @@
   {
     "level": 1,
     "name": "Allure",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -74,8 +74,8 @@
   {
     "level": 1,
     "name": "Allure",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -92,8 +92,8 @@
   {
     "level": 1,
     "name": "Armor",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -110,8 +110,8 @@
   {
     "level": 1,
     "name": "Audible Glamer",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -128,8 +128,8 @@
   {
     "level": 1,
     "name": "Barkskin",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -146,8 +146,8 @@
   {
     "level": 1,
     "name": "Burning Hands",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -164,8 +164,8 @@
   {
     "level": 1,
     "name": "Cantrip",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -182,8 +182,8 @@
   {
     "level": 1,
     "name": "Change Self",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -200,8 +200,8 @@
   {
     "level": 1,
     "name": "Charm Person",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -218,8 +218,8 @@
   {
     "level": 1,
     "name": "Chill Touch",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -236,8 +236,8 @@
   {
     "level": 1,
     "name": "Color Spray",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -254,8 +254,8 @@
   {
     "level": 1,
     "name": "Comprehend Languages",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -272,8 +272,8 @@
   {
     "level": 1,
     "name": "Comprehend Languages",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -290,8 +290,8 @@
   {
     "level": 1,
     "name": "Conjure Spell Component",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -308,8 +308,8 @@
   {
     "level": 1,
     "name": "Dancing Lights",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -326,8 +326,8 @@
   {
     "level": 1,
     "name": "Detect Magic",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -344,8 +344,8 @@
   {
     "level": 1,
     "name": "Detect Magic",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -362,8 +362,8 @@
   {
     "level": 1,
     "name": "Detect Phase",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -380,8 +380,8 @@
   {
     "level": 1,
     "name": "Detect Secret Passages and Portals",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -398,8 +398,8 @@
   {
     "level": 1,
     "name": "Detect Undead",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -416,8 +416,8 @@
   {
     "level": 1,
     "name": "Dictation",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -434,8 +434,8 @@
   {
     "level": 1,
     "name": "Direct",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -452,8 +452,8 @@
   {
     "level": 1,
     "name": "Duplicate Object",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -470,8 +470,8 @@
   {
     "level": 1,
     "name": "Enlarge",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -488,8 +488,8 @@
   {
     "level": 1,
     "name": "Erase",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -506,8 +506,8 @@
   {
     "level": 1,
     "name": "Expeditious Retreat",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -524,8 +524,8 @@
   {
     "level": 1,
     "name": "Extinguish",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -542,8 +542,8 @@
   {
     "level": 1,
     "name": "Feather Fall",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -560,8 +560,8 @@
   {
     "level": 1,
     "name": "Find Familiar",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -578,8 +578,8 @@
   {
     "level": 1,
     "name": "Fire Burst",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -596,8 +596,8 @@
   {
     "level": 1,
     "name": "Fist of Stone",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -614,8 +614,8 @@
   {
     "level": 1,
     "name": "Friends",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -632,8 +632,8 @@
   {
     "level": 1,
     "name": "Gaze Reflection",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -650,8 +650,8 @@
   {
     "level": 1,
     "name": "Georg's Handy Metric",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -668,8 +668,8 @@
   {
     "level": 1,
     "name": "Glancing Blow",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": false,
@@ -686,8 +686,8 @@
   {
     "level": 1,
     "name": "Grease",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -704,8 +704,8 @@
   {
     "level": 1,
     "name": "Hold Portal",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -722,8 +722,8 @@
   {
     "level": 1,
     "name": "Hold Portal",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -740,8 +740,8 @@
   {
     "level": 1,
     "name": "Hornung's Guess",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -758,8 +758,8 @@
   {
     "level": 1,
     "name": "Hypnotism",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -776,8 +776,8 @@
   {
     "level": 1,
     "name": "Identify",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -794,8 +794,8 @@
   {
     "level": 1,
     "name": "Identify Potion",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -812,8 +812,8 @@
   {
     "level": 1,
     "name": "Jump",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -830,8 +830,8 @@
   {
     "level": 1,
     "name": "Lasting Breath",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -848,8 +848,8 @@
   {
     "level": 1,
     "name": "Lesser Personal Shield",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -866,8 +866,8 @@
   {
     "level": 1,
     "name": "Light",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -884,8 +884,8 @@
   {
     "level": 1,
     "name": "Light",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -902,8 +902,8 @@
   {
     "level": 1,
     "name": "Light",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -920,8 +920,8 @@
   {
     "level": 1,
     "name": "Light",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -938,8 +938,8 @@
   {
     "level": 1,
     "name": "Magic Missile",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -956,8 +956,8 @@
   {
     "level": 1,
     "name": "Mana Tap",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -974,8 +974,8 @@
   {
     "level": 1,
     "name": "Mending",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -992,8 +992,8 @@
   {
     "level": 1,
     "name": "Message",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1010,8 +1010,8 @@
   {
     "level": 1,
     "name": "Metamorphose Liquids",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1028,8 +1028,8 @@
   {
     "level": 1,
     "name": "Minor Disintegration",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1046,8 +1046,8 @@
   {
     "level": 1,
     "name": "Mount ",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1064,8 +1064,8 @@
   {
     "level": 1,
     "name": "Murdock's Feathery Flyer",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1082,8 +1082,8 @@
   {
     "level": 1,
     "name": "Nahal's Reckless Dweomer",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1100,8 +1100,8 @@
   {
     "level": 1,
     "name": "Nystul's Magical Aura",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1118,8 +1118,8 @@
   {
     "level": 1,
     "name": "Patternweave",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1136,8 +1136,8 @@
   {
     "level": 1,
     "name": "Phantasmal Force",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1154,8 +1154,8 @@
   {
     "level": 1,
     "name": "Protection From Evil",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1172,8 +1172,8 @@
   {
     "level": 1,
     "name": "Protection from Vermin",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -1190,8 +1190,8 @@
   {
     "level": 1,
     "name": "Ray of Fatigue",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1208,8 +1208,8 @@
   {
     "level": 1,
     "name": "Read Magic",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1226,8 +1226,8 @@
   {
     "level": 1,
     "name": "Reveal Doors",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1244,8 +1244,8 @@
   {
     "level": 1,
     "name": "Separate",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1262,8 +1262,8 @@
   {
     "level": 1,
     "name": "Shield",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1280,8 +1280,8 @@
   {
     "level": 1,
     "name": "Shocking Grasp",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1298,8 +1298,8 @@
   {
     "level": 1,
     "name": "Silence",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -1316,8 +1316,8 @@
   {
     "level": 1,
     "name": "Simple Summoning",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1334,8 +1334,8 @@
   {
     "level": 1,
     "name": "Sleep",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1352,8 +1352,8 @@
   {
     "level": 1,
     "name": "Spark Shower",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1370,8 +1370,8 @@
   {
     "level": 1,
     "name": "Spider Climb",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1388,8 +1388,8 @@
   {
     "level": 1,
     "name": "Spider Climb",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1406,8 +1406,8 @@
   {
     "level": 1,
     "name": "Spook",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1424,8 +1424,8 @@
   {
     "level": 1,
     "name": "Taunt ",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1442,8 +1442,8 @@
   {
     "level": 1,
     "name": "Tenser's Floating Disc",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1460,8 +1460,8 @@
   {
     "level": 1,
     "name": "Unseen Servant ",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1478,8 +1478,8 @@
   {
     "level": 1,
     "name": "Ventriloquism",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -1496,8 +1496,8 @@
   {
     "level": 1,
     "name": "Wall of Fog",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1514,8 +1514,8 @@
   {
     "level": 1,
     "name": "Wizard Mark",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1532,8 +1532,8 @@
   {
     "level": 2,
     "name": "Ageusia & Anosmia",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1550,8 +1550,8 @@
   {
     "level": 2,
     "name": "Alter Self",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1568,8 +1568,8 @@
   {
     "level": 2,
     "name": "Arcane Spray",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1586,8 +1586,8 @@
   {
     "level": 2,
     "name": "Attune",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1604,8 +1604,8 @@
   {
     "level": 2,
     "name": "Ball of Force",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1622,8 +1622,8 @@
   {
     "level": 2,
     "name": "Beacon",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1640,8 +1640,8 @@
   {
     "level": 2,
     "name": "Bind",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1658,8 +1658,8 @@
   {
     "level": 2,
     "name": "Blindness",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -1676,8 +1676,8 @@
   {
     "level": 2,
     "name": "Blur",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1694,8 +1694,8 @@
   {
     "level": 2,
     "name": "Cat's Grace ",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1712,8 +1712,8 @@
   {
     "level": 2,
     "name": "Chaos Shield",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1730,8 +1730,8 @@
   {
     "level": 2,
     "name": "Conjure Simple Object",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1748,8 +1748,8 @@
   {
     "level": 2,
     "name": "Continual Light",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1766,8 +1766,8 @@
   {
     "level": 2,
     "name": "Darkness, 15' Radius",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1784,8 +1784,8 @@
   {
     "level": 2,
     "name": "Deafness",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1802,8 +1802,8 @@
   {
     "level": 2,
     "name": "Deeppockets",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1820,8 +1820,8 @@
   {
     "level": 2,
     "name": "Detect Evil",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1838,8 +1838,8 @@
   {
     "level": 2,
     "name": "Detect Invisibility",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1856,8 +1856,8 @@
   {
     "level": 2,
     "name": "Displace Self",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -1874,8 +1874,8 @@
   {
     "level": 2,
     "name": "ESP",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1892,8 +1892,8 @@
   {
     "level": 2,
     "name": "Flaming Sphere",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1910,8 +1910,8 @@
   {
     "level": 2,
     "name": "Fog cloud",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1928,8 +1928,8 @@
   {
     "level": 2,
     "name": "Fools' Gold",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1946,8 +1946,8 @@
   {
     "level": 2,
     "name": "Forget",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -1964,8 +1964,8 @@
   {
     "level": 2,
     "name": "Glitterdust",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -1982,8 +1982,8 @@
   {
     "level": 2,
     "name": "Hornung's Baneful Deflector",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2000,8 +2000,8 @@
   {
     "level": 2,
     "name": "Hypnotic Pattern",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -2018,8 +2018,8 @@
   {
     "level": 2,
     "name": "Improved Phantasmal Force",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2036,8 +2036,8 @@
   {
     "level": 2,
     "name": "Insatiable Thirst",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2054,8 +2054,8 @@
   {
     "level": 2,
     "name": "Invisibility",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2072,8 +2072,8 @@
   {
     "level": 2,
     "name": "Irritation",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2090,8 +2090,8 @@
   {
     "level": 2,
     "name": "Knock",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -2108,8 +2108,8 @@
   {
     "level": 2,
     "name": "Know Alignment",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2126,8 +2126,8 @@
   {
     "level": 2,
     "name": "Leomund's Trap",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2144,8 +2144,8 @@
   {
     "level": 2,
     "name": "Levitate",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2162,8 +2162,8 @@
   {
     "level": 2,
     "name": "Locate Landmark",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2180,8 +2180,8 @@
   {
     "level": 2,
     "name": "Locate Object",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2198,8 +2198,8 @@
   {
     "level": 2,
     "name": "Magic Circle",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2216,8 +2216,8 @@
   {
     "level": 2,
     "name": "Magic Key",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2234,8 +2234,8 @@
   {
     "level": 2,
     "name": "Magic Lantern",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -2252,8 +2252,8 @@
   {
     "level": 2,
     "name": "Magic Mouth",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2270,8 +2270,8 @@
   {
     "level": 2,
     "name": "Mark of Recall",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2288,8 +2288,8 @@
   {
     "level": 2,
     "name": "Maximillian's Earthen Grasp",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2306,8 +2306,8 @@
   {
     "level": 2,
     "name": "Melf's Acid Arrow",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2324,8 +2324,8 @@
   {
     "level": 2,
     "name": "Messenger",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2342,8 +2342,8 @@
   {
     "level": 2,
     "name": "Minor Sealing Ward",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2360,8 +2360,8 @@
   {
     "level": 2,
     "name": "Mirror Image",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2378,8 +2378,8 @@
   {
     "level": 2,
     "name": "Misdirection",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2396,8 +2396,8 @@
   {
     "level": 2,
     "name": "Moon Rune",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2414,8 +2414,8 @@
   {
     "level": 2,
     "name": "Mount",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2432,8 +2432,8 @@
   {
     "level": 2,
     "name": "Nahal's Nonsensical Nulifier",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2450,8 +2450,8 @@
   {
     "level": 2,
     "name": "Numbness",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2468,8 +2468,8 @@
   {
     "level": 2,
     "name": "Past Life",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2486,8 +2486,8 @@
   {
     "level": 2,
     "name": "Personal Perception Filter",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -2504,8 +2504,8 @@
   {
     "level": 2,
     "name": "Poorvan's Frosted Cubes",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2522,8 +2522,8 @@
   {
     "level": 2,
     "name": "Protection From Cantrips",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2540,8 +2540,8 @@
   {
     "level": 2,
     "name": "Protection From Paralysis",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2558,8 +2558,8 @@
   {
     "level": 2,
     "name": "Protection from Poison",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2576,8 +2576,8 @@
   {
     "level": 2,
     "name": "Pyrotechnics",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2594,8 +2594,8 @@
   {
     "level": 2,
     "name": "Ray of Enfeeblement",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2612,8 +2612,8 @@
   {
     "level": 2,
     "name": "Reveal Wonderous Walls",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2630,8 +2630,8 @@
   {
     "level": 2,
     "name": "Ride the Wind",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2648,8 +2648,8 @@
   {
     "level": 2,
     "name": "Rope Trick",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2666,8 +2666,8 @@
   {
     "level": 2,
     "name": "Scare",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2684,8 +2684,8 @@
   {
     "level": 2,
     "name": "Sense Shifting",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2702,8 +2702,8 @@
   {
     "level": 2,
     "name": "Shadow Snap",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2720,8 +2720,8 @@
   {
     "level": 2,
     "name": "Shatter",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2738,8 +2738,8 @@
   {
     "level": 2,
     "name": "Spectral Hand",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2756,8 +2756,8 @@
   {
     "level": 2,
     "name": "Stinking Cloud",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2774,8 +2774,8 @@
   {
     "level": 2,
     "name": "Strength",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2792,8 +2792,8 @@
   {
     "level": 2,
     "name": "Summon Swarm",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2810,8 +2810,8 @@
   {
     "level": 2,
     "name": "Tasha's Uncontrollable Hideous Laughter",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2828,8 +2828,8 @@
   {
     "level": 2,
     "name": "Unholy Strength",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2846,8 +2846,8 @@
   {
     "level": 2,
     "name": "Wall of Gloom",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2864,8 +2864,8 @@
   {
     "level": 2,
     "name": "Watchful Ward",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2882,8 +2882,8 @@
   {
     "level": 2,
     "name": "Web",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2900,8 +2900,8 @@
   {
     "level": 2,
     "name": "Whispering Wind",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2918,8 +2918,8 @@
   {
     "level": 2,
     "name": "Wizard Lock",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -2936,8 +2936,8 @@
   {
     "level": 2,
     "name": "Wizard Lock",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2954,8 +2954,8 @@
   {
     "level": 3,
     "name": "Alamir's Fundamental Breakdown",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -2972,8 +2972,8 @@
   {
     "level": 3,
     "name": "Aldric's Discriminating Door",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -2990,8 +2990,8 @@
   {
     "level": 3,
     "name": "Alternate Reality",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3008,8 +3008,8 @@
   {
     "level": 3,
     "name": "Arcane Blast",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3026,8 +3026,8 @@
   {
     "level": 3,
     "name": "Bands of Sirellyn",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3044,8 +3044,8 @@
   {
     "level": 3,
     "name": "Blink",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3062,8 +3062,8 @@
   {
     "level": 3,
     "name": "Clairaudience",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3080,8 +3080,8 @@
   {
     "level": 3,
     "name": "Clairvoyance",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3098,8 +3098,8 @@
   {
     "level": 3,
     "name": "Clairvoyance",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3116,8 +3116,8 @@
   {
     "level": 3,
     "name": "Clairvoyance",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3134,8 +3134,8 @@
   {
     "level": 3,
     "name": "Delude",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3152,8 +3152,8 @@
   {
     "level": 3,
     "name": "Dispel Magic",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3170,8 +3170,8 @@
   {
     "level": 3,
     "name": "False Detection",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3188,8 +3188,8 @@
   {
     "level": 3,
     "name": "Feign Death",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3206,8 +3206,8 @@
   {
     "level": 3,
     "name": "Fireball",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3224,8 +3224,8 @@
   {
     "level": 3,
     "name": "Fireflow",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3242,8 +3242,8 @@
   {
     "level": 3,
     "name": "Flame Arrow",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3260,8 +3260,8 @@
   {
     "level": 3,
     "name": "Fly",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3278,8 +3278,8 @@
   {
     "level": 3,
     "name": "Fool's Speech",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3296,8 +3296,8 @@
   {
     "level": 3,
     "name": "Gust of Wind",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3314,8 +3314,8 @@
   {
     "level": 3,
     "name": "Haste",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3332,8 +3332,8 @@
   {
     "level": 3,
     "name": "Hold Person",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3350,8 +3350,8 @@
   {
     "level": 3,
     "name": "Hold Person",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3368,8 +3368,8 @@
   {
     "level": 3,
     "name": "Hold Person",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -3386,8 +3386,8 @@
   {
     "level": 3,
     "name": "Hold Person",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3404,8 +3404,8 @@
   {
     "level": 3,
     "name": "Hold Undead",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3422,8 +3422,8 @@
   {
     "level": 3,
     "name": "Illusionary Script",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3440,8 +3440,8 @@
   {
     "level": 3,
     "name": "Infravision",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3458,8 +3458,8 @@
   {
     "level": 3,
     "name": "Invisibility, 10' Radius",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3476,8 +3476,8 @@
   {
     "level": 3,
     "name": "Item",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3494,8 +3494,8 @@
   {
     "level": 3,
     "name": "Koibu's Shadowy Grasp",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3512,8 +3512,8 @@
   {
     "level": 3,
     "name": "Lance of Disruption",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3530,8 +3530,8 @@
   {
     "level": 3,
     "name": "Leomund's Tiny Hut",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3548,8 +3548,8 @@
   {
     "level": 3,
     "name": "Lesser Sign of Sealing",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -3566,8 +3566,8 @@
   {
     "level": 3,
     "name": "Lightning Bolt",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3584,8 +3584,8 @@
   {
     "level": 3,
     "name": "Locate Beacon",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3602,8 +3602,8 @@
   {
     "level": 3,
     "name": "Lorloveim's Creeping Shadow",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3620,8 +3620,8 @@
   {
     "level": 3,
     "name": "Magic Shell",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3638,8 +3638,8 @@
   {
     "level": 3,
     "name": "Maximillian's Stone Grasp",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3656,8 +3656,8 @@
   {
     "level": 3,
     "name": "Melf's Minute Meteors",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3674,8 +3674,8 @@
   {
     "level": 3,
     "name": "Minor Gateway",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -3692,8 +3692,8 @@
   {
     "level": 3,
     "name": "Minor Malison",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -3710,8 +3710,8 @@
   {
     "level": 3,
     "name": "Missile Shield",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3728,8 +3728,8 @@
   {
     "level": 3,
     "name": "Monster Summoning I",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3746,8 +3746,8 @@
   {
     "level": 3,
     "name": "Non-Detection",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3764,8 +3764,8 @@
   {
     "level": 3,
     "name": "Personal Shield",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3782,8 +3782,8 @@
   {
     "level": 3,
     "name": "Phantom Feast",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3800,8 +3800,8 @@
   {
     "level": 3,
     "name": "Phantom Feast",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -3818,8 +3818,8 @@
   {
     "level": 3,
     "name": "Phantom Steed",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3836,8 +3836,8 @@
   {
     "level": 3,
     "name": "Plagiarize",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3854,8 +3854,8 @@
   {
     "level": 3,
     "name": "Protection from Amorphs",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3872,8 +3872,8 @@
   {
     "level": 3,
     "name": "Protection From Evil, 10' Radius",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3890,8 +3890,8 @@
   {
     "level": 3,
     "name": "Protection From Normal Missiles",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3908,8 +3908,8 @@
   {
     "level": 3,
     "name": "Repel Water",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3926,8 +3926,8 @@
   {
     "level": 3,
     "name": "Reverse Healing",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3944,8 +3944,8 @@
   {
     "level": 3,
     "name": "Seal Portal",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -3962,8 +3962,8 @@
   {
     "level": 3,
     "name": "Secret Page",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3980,8 +3980,8 @@
   {
     "level": 3,
     "name": "Sepia Snake Sigil",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -3998,8 +3998,8 @@
   {
     "level": 3,
     "name": "Slow",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4016,8 +4016,8 @@
   {
     "level": 3,
     "name": "Solvent of Corrosion",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4034,8 +4034,8 @@
   {
     "level": 3,
     "name": "Spectral Force",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4052,8 +4052,8 @@
   {
     "level": 3,
     "name": "Spirit Armor",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4070,8 +4070,8 @@
   {
     "level": 3,
     "name": "Spirit Armor",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4088,8 +4088,8 @@
   {
     "level": 3,
     "name": "Suggestion",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -4106,8 +4106,8 @@
   {
     "level": 3,
     "name": "Summon Creature",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4124,8 +4124,8 @@
   {
     "level": 3,
     "name": "Tongues",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -4142,8 +4142,8 @@
   {
     "level": 3,
     "name": "Translate",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4160,8 +4160,8 @@
   {
     "level": 3,
     "name": "Trollish Regeneration",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4178,8 +4178,8 @@
   {
     "level": 3,
     "name": "Vampiric Touch",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4196,8 +4196,8 @@
   {
     "level": 3,
     "name": "Wall of Water",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4214,8 +4214,8 @@
   {
     "level": 3,
     "name": "Water Breathing",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4232,8 +4232,8 @@
   {
     "level": 3,
     "name": "Water Breathing",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4250,8 +4250,8 @@
   {
     "level": 3,
     "name": "Watery Double",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4268,8 +4268,8 @@
   {
     "level": 3,
     "name": "Wind Wall",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4286,8 +4286,8 @@
   {
     "level": 3,
     "name": "Wizard Sight",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4304,8 +4304,8 @@
   {
     "level": 3,
     "name": "Wraithform",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -4322,8 +4322,8 @@
   {
     "level": 4,
     "name": "Arcane Bomb",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4340,8 +4340,8 @@
   {
     "level": 4,
     "name": "Charm Monster",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4358,8 +4358,8 @@
   {
     "level": 4,
     "name": "Confusion",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4376,8 +4376,8 @@
   {
     "level": 4,
     "name": "Conjure Elemental-Kin",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4394,8 +4394,8 @@
   {
     "level": 4,
     "name": "Conjure Object",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4412,8 +4412,8 @@
   {
     "level": 4,
     "name": "Contagion",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4430,8 +4430,8 @@
   {
     "level": 4,
     "name": "Detect Scrying",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4448,8 +4448,8 @@
   {
     "level": 4,
     "name": "Dig",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4466,8 +4466,8 @@
   {
     "level": 4,
     "name": "Dimension Door",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -4484,8 +4484,8 @@
   {
     "level": 4,
     "name": "Dimensional Chest",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4502,8 +4502,8 @@
   {
     "level": 4,
     "name": "Dimensional Tear",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4520,8 +4520,8 @@
   {
     "level": 4,
     "name": "Emotion",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4538,8 +4538,8 @@
   {
     "level": 4,
     "name": "Enchanted Weapon",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4556,8 +4556,8 @@
   {
     "level": 4,
     "name": "Enervation",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4574,8 +4574,8 @@
   {
     "level": 4,
     "name": "Evard's Black Tentacles",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4592,8 +4592,8 @@
   {
     "level": 4,
     "name": "Explosive Runes",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4610,8 +4610,8 @@
   {
     "level": 4,
     "name": "Fear",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4628,8 +4628,8 @@
   {
     "level": 4,
     "name": "Fire Charm",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4646,8 +4646,8 @@
   {
     "level": 4,
     "name": "Fire Shield",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4664,8 +4664,8 @@
   {
     "level": 4,
     "name": "Fire Trap",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4682,8 +4682,8 @@
   {
     "level": 4,
     "name": "Fumble",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4700,8 +4700,8 @@
   {
     "level": 4,
     "name": "Greater Beacon",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4718,8 +4718,8 @@
   {
     "level": 4,
     "name": "Greater Malison",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -4736,8 +4736,8 @@
   {
     "level": 4,
     "name": "Greater Mending",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4754,8 +4754,8 @@
   {
     "level": 4,
     "name": "Hallucinatory Terrain",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4772,8 +4772,8 @@
   {
     "level": 4,
     "name": "Ice Storm",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4790,8 +4790,8 @@
   {
     "level": 4,
     "name": "Illusionary Wall",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4808,8 +4808,8 @@
   {
     "level": 4,
     "name": "Immaterial Temporal Shift",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4826,8 +4826,8 @@
   {
     "level": 4,
     "name": "Improved Invisibility",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -4844,8 +4844,8 @@
   {
     "level": 4,
     "name": "Improved Strength",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4862,8 +4862,8 @@
   {
     "level": 4,
     "name": "Leomund's Secure Shelter",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4880,8 +4880,8 @@
   {
     "level": 4,
     "name": "Lesser Disintegration",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4898,8 +4898,8 @@
   {
     "level": 4,
     "name": "Lesser Geas",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -4916,8 +4916,8 @@
   {
     "level": 4,
     "name": "Locate Creature",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4934,8 +4934,8 @@
   {
     "level": 4,
     "name": "Magic Mirror",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4952,8 +4952,8 @@
   {
     "level": 4,
     "name": "Mask of Death",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4970,8 +4970,8 @@
   {
     "level": 4,
     "name": "Massmorph",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -4988,8 +4988,8 @@
   {
     "level": 4,
     "name": "Minor Creation",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5006,8 +5006,8 @@
   {
     "level": 4,
     "name": "Minor Globe of Invulnerability",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5024,8 +5024,8 @@
   {
     "level": 4,
     "name": "Minor Spell Turning",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5042,8 +5042,8 @@
   {
     "level": 4,
     "name": "Monster Summoning II",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5060,8 +5060,8 @@
   {
     "level": 4,
     "name": "Mordenkainen's Force Missiles",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5078,8 +5078,8 @@
   {
     "level": 4,
     "name": "Otiluke's Resilient Sphere",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5096,8 +5096,8 @@
   {
     "level": 4,
     "name": "Phantasmal Killer",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5114,8 +5114,8 @@
   {
     "level": 4,
     "name": "Plant Growth",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5132,8 +5132,8 @@
   {
     "level": 4,
     "name": "Polymorph Other",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5150,8 +5150,8 @@
   {
     "level": 4,
     "name": "Polymorph Self",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -5168,8 +5168,8 @@
   {
     "level": 4,
     "name": "Project Self",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": false,
@@ -5186,8 +5186,8 @@
   {
     "level": 4,
     "name": "Psychic Protection",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5204,8 +5204,8 @@
   {
     "level": 4,
     "name": "Rainbow Pattern",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -5222,8 +5222,8 @@
   {
     "level": 4,
     "name": "Rary's Mnemonic Enhancer",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5240,8 +5240,8 @@
   {
     "level": 4,
     "name": "Remove Curse",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5258,8 +5258,8 @@
   {
     "level": 4,
     "name": "Sealing Ward",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5276,8 +5276,8 @@
   {
     "level": 4,
     "name": "Shadow Monsters",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5294,8 +5294,8 @@
   {
     "level": 4,
     "name": "Shout",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -5312,8 +5312,8 @@
   {
     "level": 4,
     "name": "Solid Fog",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5330,8 +5330,8 @@
   {
     "level": 4,
     "name": "Spectral Sentry",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5348,8 +5348,8 @@
   {
     "level": 4,
     "name": "Stoneskin",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5366,8 +5366,8 @@
   {
     "level": 4,
     "name": "Summon Creatures",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5384,8 +5384,8 @@
   {
     "level": 4,
     "name": "Summon Lycanthrope",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5402,8 +5402,8 @@
   {
     "level": 4,
     "name": "Thunder Staff",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5420,8 +5420,8 @@
   {
     "level": 4,
     "name": "Turn Pebble to Boulder",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5438,8 +5438,8 @@
   {
     "level": 4,
     "name": "Ultravision",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5456,8 +5456,8 @@
   {
     "level": 4,
     "name": "Unluck",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5474,8 +5474,8 @@
   {
     "level": 4,
     "name": "Vacancy",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5492,8 +5492,8 @@
   {
     "level": 4,
     "name": "Vitriolic Sphere",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5510,8 +5510,8 @@
   {
     "level": 4,
     "name": "Wall of Fire",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5528,8 +5528,8 @@
   {
     "level": 4,
     "name": "Wall of Ice",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5546,8 +5546,8 @@
   {
     "level": 4,
     "name": "Wizard Eye",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5565,8 +5565,8 @@
   {
     "level": 5,
     "name": "Advanced Illusion",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5583,8 +5583,8 @@
   {
     "level": 5,
     "name": "Airy Water",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5601,8 +5601,8 @@
   {
     "level": 5,
     "name": "Animal Growth",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5619,8 +5619,8 @@
   {
     "level": 5,
     "name": "Animate Dead",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5637,8 +5637,8 @@
   {
     "level": 5,
     "name": "Avoidance",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5655,8 +5655,8 @@
   {
     "level": 5,
     "name": "Bigby's Interposing Hand",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5673,8 +5673,8 @@
   {
     "level": 5,
     "name": "Chaos",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5691,8 +5691,8 @@
   {
     "level": 5,
     "name": "Cloudkill",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5709,8 +5709,8 @@
   {
     "level": 5,
     "name": "Cone of Cold",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5727,8 +5727,8 @@
   {
     "level": 5,
     "name": "Conjure Elemental",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5745,8 +5745,8 @@
   {
     "level": 5,
     "name": "Contact Other Plane",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -5763,8 +5763,8 @@
   {
     "level": 5,
     "name": "Demishadow Monsters",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5781,8 +5781,8 @@
   {
     "level": 5,
     "name": "Dimensional Anchor",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5799,8 +5799,8 @@
   {
     "level": 5,
     "name": "Dismissal",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5817,8 +5817,8 @@
   {
     "level": 5,
     "name": "Distance Distortion",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5835,8 +5835,8 @@
   {
     "level": 5,
     "name": "Domination",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5853,8 +5853,8 @@
   {
     "level": 5,
     "name": "Dream",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5871,8 +5871,8 @@
   {
     "level": 5,
     "name": "Duo Reality",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5889,8 +5889,8 @@
   {
     "level": 5,
     "name": "Fabricate",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5907,8 +5907,8 @@
   {
     "level": 5,
     "name": "False Vision",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5925,8 +5925,8 @@
   {
     "level": 5,
     "name": "Feeblemind",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5943,8 +5943,8 @@
   {
     "level": 5,
     "name": "Greater Personal Shield",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5961,8 +5961,8 @@
   {
     "level": 5,
     "name": "Hold Monster",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -5979,8 +5979,8 @@
   {
     "level": 5,
     "name": "Improved Blink",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -5997,8 +5997,8 @@
   {
     "level": 5,
     "name": "Improved Magic Circle",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6015,8 +6015,8 @@
   {
     "level": 5,
     "name": "Khazid's Procurement",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6033,8 +6033,8 @@
   {
     "level": 5,
     "name": "Leomund's Hidden Lodge",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6051,8 +6051,8 @@
   {
     "level": 5,
     "name": "Leomund's Lamentable Belaborment",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -6069,8 +6069,8 @@
   {
     "level": 5,
     "name": "Leomund's Secret Chest",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6087,8 +6087,8 @@
   {
     "level": 5,
     "name": "Lower Resistance",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6105,8 +6105,8 @@
   {
     "level": 5,
     "name": "Magic Jar",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6123,8 +6123,8 @@
   {
     "level": 5,
     "name": "Magic Staff",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6141,8 +6141,8 @@
   {
     "level": 5,
     "name": "Major Creation",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6159,8 +6159,8 @@
   {
     "level": 5,
     "name": "Malakai's Teleportation Circle",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6177,8 +6177,8 @@
   {
     "level": 5,
     "name": "Mind Fog",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6195,8 +6195,8 @@
   {
     "level": 5,
     "name": "Monster Summoning III",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6213,8 +6213,8 @@
   {
     "level": 5,
     "name": "Mordenkainen's Faithful Hound",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6231,8 +6231,8 @@
   {
     "level": 5,
     "name": "Passwall",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6249,8 +6249,8 @@
   {
     "level": 5,
     "name": "Proofing versus Combustion",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6267,8 +6267,8 @@
   {
     "level": 5,
     "name": "Prying Eyes",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6285,8 +6285,8 @@
   {
     "level": 5,
     "name": "Rusting Grasp",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6303,8 +6303,8 @@
   {
     "level": 5,
     "name": "Safeguarding",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6321,8 +6321,8 @@
   {
     "level": 5,
     "name": "Seeming",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -6339,8 +6339,8 @@
   {
     "level": 5,
     "name": "Sending",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6357,8 +6357,8 @@
   {
     "level": 5,
     "name": "Shadow Door",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": false,
@@ -6375,8 +6375,8 @@
   {
     "level": 5,
     "name": "Shadow Magic",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6393,8 +6393,8 @@
   {
     "level": 5,
     "name": "Stone Shape",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6411,8 +6411,8 @@
   {
     "level": 5,
     "name": "Summon Shadow",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6429,8 +6429,8 @@
   {
     "level": 5,
     "name": "Telekinesis",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6447,8 +6447,8 @@
   {
     "level": 5,
     "name": "Teleport",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -6465,8 +6465,8 @@
   {
     "level": 5,
     "name": "Tenser's Destructive Resonance",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6483,8 +6483,8 @@
   {
     "level": 5,
     "name": "Vandarien's Vile Venom",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6501,8 +6501,8 @@
   {
     "level": 5,
     "name": "Von Gasik's Refusal",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6519,8 +6519,8 @@
   {
     "level": 5,
     "name": "Vortex",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6537,8 +6537,8 @@
   {
     "level": 5,
     "name": "Wall of Force",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6555,8 +6555,8 @@
   {
     "level": 5,
     "name": "Wall of Iron",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6573,8 +6573,8 @@
   {
     "level": 5,
     "name": "Wall of Stone",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6591,8 +6591,8 @@
   {
     "level": 5,
     "name": "Waltraud's Wall of Wonder",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6609,8 +6609,8 @@
   {
     "level": 5,
     "name": "Waveform ",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -6628,8 +6628,8 @@
   {
     "level": 6,
     "name": "Antimagic Shell",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6646,8 +6646,8 @@
   {
     "level": 6,
     "name": "Arrow of Bone",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6664,8 +6664,8 @@
   {
     "level": 6,
     "name": "Bigby's Forceful Hand",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6682,8 +6682,8 @@
   {
     "level": 6,
     "name": "Bloodstone's Spectral Steed",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6700,8 +6700,8 @@
   {
     "level": 6,
     "name": "Chain Lightning",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6718,8 +6718,8 @@
   {
     "level": 6,
     "name": "Conjure Animals",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6736,8 +6736,8 @@
   {
     "level": 6,
     "name": "Contingency",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6754,8 +6754,8 @@
   {
     "level": 6,
     "name": "Control Weather",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6772,8 +6772,8 @@
   {
     "level": 6,
     "name": "Death Fog",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6790,8 +6790,8 @@
   {
     "level": 6,
     "name": "Death Spell",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6808,8 +6808,8 @@
   {
     "level": 6,
     "name": "Demishadow Magic",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6826,8 +6826,8 @@
   {
     "level": 6,
     "name": "Dimensional Blade",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6844,8 +6844,8 @@
   {
     "level": 6,
     "name": "Disintegrate",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6862,8 +6862,8 @@
   {
     "level": 6,
     "name": "Enchant an Item",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6880,8 +6880,8 @@
   {
     "level": 6,
     "name": "Ensnarement",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6898,8 +6898,8 @@
   {
     "level": 6,
     "name": "Etherealness",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6916,8 +6916,8 @@
   {
     "level": 6,
     "name": "Eyebite",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -6934,8 +6934,8 @@
   {
     "level": 6,
     "name": "Forest's Fiery Constrictor",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6952,8 +6952,8 @@
   {
     "level": 6,
     "name": "Geas",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -6970,8 +6970,8 @@
   {
     "level": 6,
     "name": "Glassee",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -6988,8 +6988,8 @@
   {
     "level": 6,
     "name": "Globe of Invulnerability",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7006,8 +7006,8 @@
   {
     "level": 6,
     "name": "Greater False Detection",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7024,8 +7024,8 @@
   {
     "level": 6,
     "name": "Greater Sign of Sealing",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -7042,8 +7042,8 @@
   {
     "level": 6,
     "name": "Guards and Wards",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7060,8 +7060,8 @@
   {
     "level": 6,
     "name": "Invisible Stalker",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7078,8 +7078,8 @@
   {
     "level": 6,
     "name": "Legend Lore",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7096,8 +7096,8 @@
   {
     "level": 6,
     "name": "Lorloveim's Shadowy Transformation",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7114,8 +7114,8 @@
   {
     "level": 6,
     "name": "Lower Water",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7132,8 +7132,8 @@
   {
     "level": 6,
     "name": "Mass Suggestion",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -7150,8 +7150,8 @@
   {
     "level": 6,
     "name": "Mislead",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": false,
@@ -7168,8 +7168,8 @@
   {
     "level": 6,
     "name": "Monster Summoning IV",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7186,8 +7186,8 @@
   {
     "level": 6,
     "name": "Mordenkainen's Lucubration",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7204,8 +7204,8 @@
   {
     "level": 6,
     "name": "Move Earth",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7222,8 +7222,8 @@
   {
     "level": 6,
     "name": "Otiluke's Freezing Sphere",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7240,8 +7240,8 @@
   {
     "level": 6,
     "name": "Part Water",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7258,8 +7258,8 @@
   {
     "level": 6,
     "name": "Permanent Illusion",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7276,8 +7276,8 @@
   {
     "level": 6,
     "name": "Postcognition",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": true,
@@ -7294,8 +7294,8 @@
   {
     "level": 6,
     "name": "Programmed Illusion",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7312,8 +7312,8 @@
   {
     "level": 6,
     "name": "Project Image",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7330,8 +7330,8 @@
   {
     "level": 6,
     "name": "Repulsion",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7348,8 +7348,8 @@
   {
     "level": 6,
     "name": "Shades",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7366,8 +7366,8 @@
   {
     "level": 6,
     "name": "Stone to Flesh",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7384,8 +7384,8 @@
   {
     "level": 6,
     "name": "Summon Person",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7402,8 +7402,8 @@
   {
     "level": 6,
     "name": "Superior Magnetism",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7420,8 +7420,8 @@
   {
     "level": 6,
     "name": "Tenser's Transformation",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7438,8 +7438,8 @@
   {
     "level": 6,
     "name": "Transmute Water to Dust",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7456,8 +7456,8 @@
   {
     "level": 6,
     "name": "Trollish Fortitude",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7474,8 +7474,8 @@
   {
     "level": 6,
     "name": "True Seeing",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7492,8 +7492,8 @@
   {
     "level": 6,
     "name": "Veil",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7510,8 +7510,8 @@
   {
     "level": 6,
     "name": "Wildshield",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7528,8 +7528,8 @@
   {
     "level": 6,
     "name": "Wildstrike",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7547,8 +7547,8 @@
   {
     "level": 7,
     "name": "Acid Storm",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7565,8 +7565,8 @@
   {
     "level": 7,
     "name": "Banishment",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7583,8 +7583,8 @@
   {
     "level": 7,
     "name": "Bigby's Grasping Hand",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7601,8 +7601,8 @@
   {
     "level": 7,
     "name": "Bloodstone's Frightful joining",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7619,8 +7619,8 @@
   {
     "level": 7,
     "name": "Charm Plants",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7637,8 +7637,8 @@
   {
     "level": 7,
     "name": "Control Undead",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7655,8 +7655,8 @@
   {
     "level": 7,
     "name": "Delayed Blast Fireball",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7673,8 +7673,8 @@
   {
     "level": 7,
     "name": "Descent into Madness",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7691,8 +7691,8 @@
   {
     "level": 7,
     "name": "Drawmij's Instant Summons",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7709,8 +7709,8 @@
   {
     "level": 7,
     "name": "Duo-Dimension",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7727,8 +7727,8 @@
   {
     "level": 7,
     "name": "Finger of Death",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7745,8 +7745,8 @@
   {
     "level": 7,
     "name": "Forcecage",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7763,8 +7763,8 @@
   {
     "level": 7,
     "name": "Hornung's Surge Selector",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7781,8 +7781,8 @@
   {
     "level": 7,
     "name": "Intensify Summoning",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7799,8 +7799,8 @@
   {
     "level": 7,
     "name": "Lesser Permanency",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7817,8 +7817,8 @@
   {
     "level": 7,
     "name": "Limited Wish",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -7835,8 +7835,8 @@
   {
     "level": 7,
     "name": "Malec-Keth's Flame Fist",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -7853,8 +7853,8 @@
   {
     "level": 7,
     "name": "Mass Invisibility",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7871,8 +7871,8 @@
   {
     "level": 7,
     "name": "Monster Summoning V",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7889,8 +7889,8 @@
   {
     "level": 7,
     "name": "Mordenkainen's Magnificent Mansion",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7907,8 +7907,8 @@
   {
     "level": 7,
     "name": "Mordenkainen's Sword",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7925,8 +7925,8 @@
   {
     "level": 7,
     "name": "Neutralize Gas",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7943,8 +7943,8 @@
   {
     "level": 7,
     "name": "Persistence",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -7961,8 +7961,8 @@
   {
     "level": 7,
     "name": "Phase Door",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -7979,8 +7979,8 @@
   {
     "level": 7,
     "name": "Power Word, Stun",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -7997,8 +7997,8 @@
   {
     "level": 7,
     "name": "Prismatic Spray",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8015,8 +8015,8 @@
   {
     "level": 7,
     "name": "Reverse Gravity",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8033,8 +8033,8 @@
   {
     "level": 7,
     "name": "Sequester",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8051,8 +8051,8 @@
   {
     "level": 7,
     "name": "Seven-Eyes",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8069,8 +8069,8 @@
   {
     "level": 7,
     "name": "Shadow Walk",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8087,8 +8087,8 @@
   {
     "level": 7,
     "name": "Shadowcat",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8105,8 +8105,8 @@
   {
     "level": 7,
     "name": "Simulacrum",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8123,8 +8123,8 @@
   {
     "level": 7,
     "name": "Spell Shape",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8141,8 +8141,8 @@
   {
     "level": 7,
     "name": "Spell Turning",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8159,8 +8159,8 @@
   {
     "level": 7,
     "name": "Statue",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8177,8 +8177,8 @@
   {
     "level": 7,
     "name": "Steal Enchantment",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8195,8 +8195,8 @@
   {
     "level": 7,
     "name": "Suffocate",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": true,
@@ -8213,8 +8213,8 @@
   {
     "level": 7,
     "name": "Teleport Without Error",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -8231,8 +8231,8 @@
   {
     "level": 7,
     "name": "Vanish",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -8250,8 +8250,8 @@
   {
     "level": 8,
     "name": "Abi-Dalzim's Horrid Wilting",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8268,8 +8268,8 @@
   {
     "level": 8,
     "name": "Airboat",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8286,8 +8286,8 @@
   {
     "level": 8,
     "name": "Analyze Dweomer",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8304,8 +8304,8 @@
   {
     "level": 8,
     "name": "Antipathy-Sympathy",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8322,8 +8322,8 @@
   {
     "level": 8,
     "name": "Bigby's Clenched Fist",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8340,8 +8340,8 @@
   {
     "level": 8,
     "name": "Binding",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8358,8 +8358,8 @@
   {
     "level": 8,
     "name": "Clone",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8376,8 +8376,8 @@
   {
     "level": 8,
     "name": "Demand",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8394,8 +8394,8 @@
   {
     "level": 8,
     "name": "Estate Transference",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8412,8 +8412,8 @@
   {
     "level": 8,
     "name": "Glassteel",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8430,8 +8430,8 @@
   {
     "level": 8,
     "name": "Greater Permanency",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8448,8 +8448,8 @@
   {
     "level": 8,
     "name": "Gunther's Kaleidoscopic Strike",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8466,8 +8466,8 @@
   {
     "level": 8,
     "name": "Heart of Stone",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8484,8 +8484,8 @@
   {
     "level": 8,
     "name": "Homunculus Shield",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8502,8 +8502,8 @@
   {
     "level": 8,
     "name": "Homung",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -8520,8 +8520,8 @@
   {
     "level": 8,
     "name": "Incendiary Cloud",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8538,8 +8538,8 @@
   {
     "level": 8,
     "name": "Iron Body",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8556,8 +8556,8 @@
   {
     "level": 8,
     "name": "Mass Charm",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -8574,8 +8574,8 @@
   {
     "level": 8,
     "name": "Maze",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8592,8 +8592,8 @@
   {
     "level": 8,
     "name": "Mind Blank",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8610,8 +8610,8 @@
   {
     "level": 8,
     "name": "Monster Summoning VI",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8628,8 +8628,8 @@
   {
     "level": 8,
     "name": "Otiluke's Telekinetic Sphere",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8646,8 +8646,8 @@
   {
     "level": 8,
     "name": "Otto's Irresistible Dance",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -8664,8 +8664,8 @@
   {
     "level": 8,
     "name": "Polymorph Any Object",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8682,8 +8682,8 @@
   {
     "level": 8,
     "name": "Power Word, Blind",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -8700,8 +8700,8 @@
   {
     "level": 8,
     "name": "Prismatic Wall",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8718,8 +8718,8 @@
   {
     "level": 8,
     "name": "Screen",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8736,8 +8736,8 @@
   {
     "level": 8,
     "name": "Serten's Spell Immunity",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8754,8 +8754,8 @@
   {
     "level": 8,
     "name": "Sink",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8772,8 +8772,8 @@
   {
     "level": 8,
     "name": "Symbol",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8790,8 +8790,8 @@
   {
     "level": 8,
     "name": "Trap the Soul",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8808,8 +8808,8 @@
   {
     "level": 8,
     "name": "Wildzone",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8827,8 +8827,8 @@
   {
     "level": 9,
     "name": "Astral Spell",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8845,8 +8845,8 @@
   {
     "level": 9,
     "name": "Bigby's Crushing Hand",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8863,8 +8863,8 @@
   {
     "level": 9,
     "name": "Chain Contingency",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8881,8 +8881,8 @@
   {
     "level": 9,
     "name": "Crystalbrittle",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8899,8 +8899,8 @@
   {
     "level": 9,
     "name": "Elemental Aura",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -8917,8 +8917,8 @@
   {
     "level": 9,
     "name": "Energy Drain",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8935,8 +8935,8 @@
   {
     "level": 9,
     "name": "Foresight",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -8953,8 +8953,8 @@
   {
     "level": 9,
     "name": "Gate",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8971,8 +8971,8 @@
   {
     "level": 9,
     "name": "Imprisonment",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -8989,8 +8989,8 @@
   {
     "level": 9,
     "name": "Listen",
-    "class": "Wizard",
     "school": "Divination",
+    "class": "Wizard",
     "verbal": false,
     "somatic": true,
     "material": false,
@@ -9007,8 +9007,8 @@
   {
     "level": 9,
     "name": "Meteor Swarm",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -9025,8 +9025,8 @@
   {
     "level": 9,
     "name": "Monster Summoning VII",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -9043,8 +9043,8 @@
   {
     "level": 9,
     "name": "Mordenkainen's Disjunction",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -9061,8 +9061,8 @@
   {
     "level": 9,
     "name": "Power Word, Kill",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -9079,8 +9079,8 @@
   {
     "level": 9,
     "name": "Prismatic Sphere",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -9097,8 +9097,8 @@
   {
     "level": 9,
     "name": "Programmed Amnesia",
-    "class": "Wizard",
     "school": "Enchantment",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -9115,8 +9115,8 @@
   {
     "level": 9,
     "name": "Shape Change",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -9133,8 +9133,8 @@
   {
     "level": 9,
     "name": "Sphere of Ultimate Destruction",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -9151,8 +9151,8 @@
   {
     "level": 9,
     "name": "Stabilize",
-    "class": "Wizard",
     "school": "Abjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -9169,8 +9169,8 @@
   {
     "level": 9,
     "name": "Temporal Stasis",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -9187,8 +9187,8 @@
   {
     "level": 9,
     "name": "Time Stop",
-    "class": "Wizard",
     "school": "Alteration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -9205,8 +9205,8 @@
   {
     "level": 9,
     "name": "Wail of the Banshee",
-    "class": "Wizard",
     "school": "Necromancy",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": true,
@@ -9223,8 +9223,8 @@
   {
     "level": 9,
     "name": "Weird",
-    "class": "Wizard",
     "school": "Illusion",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -9241,8 +9241,8 @@
   {
     "level": 9,
     "name": "Wildfire",
-    "class": "Wizard",
     "school": "Evocation",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
@@ -9259,8 +9259,8 @@
   {
     "level": 9,
     "name": "Wildwind",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": true,
     "material": false,
@@ -9277,8 +9277,8 @@
   {
     "level": 9,
     "name": "Wish",
-    "class": "Wizard",
     "school": "Conjuration",
+    "class": "Wizard",
     "verbal": true,
     "somatic": false,
     "material": false,
