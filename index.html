@@ -8,7 +8,7 @@
     <body style="background-color:rgb(24, 26, 27)">
         <div id="viewportWrapper">
             <div id="headerWrapper">
-                <div id="filterWrapper">
+                <div id="filterWrapper" oncontextmenu="return false">
                     <table>
                         <tr>
                             <td class="nameCell">Class</td>
@@ -20,14 +20,14 @@
                                     </tr></tbody></table>
                                     <table class="filterTable" id="specialistTable"><tbody><tr>
                                         <td class="nameCell">Specialist</td>
-                                        <td><button class="styledButton classButton" value=0 id="Abjurer">Abjurer</button></td>
-                                        <td><button class="styledButton classButton" value=0 id="Conjurer">Conjurer</button></td>
-                                        <td><button class="styledButton classButton" value=0 id="Diviner">Diviner</button></td>
-                                        <td><button class="styledButton classButton" value=0 id="Enchanter">Enchanter</button></td>
-                                        <td><button class="styledButton classButton" value=0 id="Illusionist">Illusionist</button></td>
-                                        <td><button class="styledButton classButton" value=0 id="Invoker">Invoker</button></td>
-                                        <td><button class="styledButton classButton" value=0 id="Necromancer">Necromancer</button></td>
-                                        <td><button class="styledButton classButton" value=0 id="Transmuter">Transmuter</button></td>
+                                        <td><button class="styledButton specialistButton" data-index="0" value=0 id="Abjurer">Abjurer</button></td>
+                                        <td><button class="styledButton specialistButton" data-index="1" value=0 id="Conjurer">Conjurer</button></td>
+                                        <td><button class="styledButton specialistButton" data-index="2" value=0 id="Diviner">Diviner</button></td>
+                                        <td><button class="styledButton specialistButton" data-index="3" value=0 id="Enchanter">Enchanter</button></td>
+                                        <td><button class="styledButton specialistButton" data-index="4" value=0 id="Illusionist">Illusionist</button></td>
+                                        <td><button class="styledButton specialistButton" data-index="5" value=0 id="Invoker">Invoker</button></td>
+                                        <td><button class="styledButton specialistButton" data-index="6" value=0 id="Necromancer">Necromancer</button></td>
+                                        <td><button class="styledButton specialistButton" data-index="7" value=0 id="Transmuter">Transmuter</button></td>
                                     </tr></tbody></table>
                                 </div>
                             </td>
@@ -37,15 +37,15 @@
                             <td>
                                 <div>
                                     <table class="filterTable" id="lvlTable"><tbody><tr>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton1">Level 1</button></td>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton2">Level 2</button></td>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton3">Level 3</button></td>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton4">Level 4</button></td>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton5">Level 5</button></td>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton6">Level 6</button></td>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton7">Level 7</button></td>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton8">Level 8</button></td>
-                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton9">Level 9</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton1">1</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton2">2</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton3">3</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton4">4</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton5">5</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton6">6</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton7">7</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton8">8</button></td>
+                                        <td><button class="styledButton lvlButton" value=0 id="lvlButton9">9</button></td>
                                     </tr></tbody></table>
                                     <table class="filterTable" id="schoolTable"><tbody><tr>
                                         <td class="nameCell">School</td>
@@ -92,6 +92,44 @@
                                     <td><button class="styledButton sphereButton" value=0 id="War">War</button></td>
                                     <td><button class="styledButton sphereButton" value=0 id="Wards">Wards</button></td>
                                     <td><button class="styledButton sphereButton" value=0 id="Weather">Weather</button></td>
+                                </tr></tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="nameCell">God</td>
+                            <td>
+                                <table class="filterTable" id="godTable"><tbody><tr>
+                                    <td><button class="styledButton godButton" value=0 data-index="0" id="Astair">Astair</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="1" id="Martha">Martha</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="2" id="Voraci">Voraci</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="3" id="Malkis">Malkis</button></td>
+                                    <td class="nameCell">&#10074</td>
+                                    <td><button class="styledButton godButton" value=0 data-index="4" id="Tempos">Tempos</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="5" id="Nadinis">Nadinis</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="6" id="Felumbra">Felumbra</button></td>
+                                    <td class="nameCell">&#10074</td>
+                                    <td><button class="styledButton godButton" value=0 data-index="7" id="Illumis">Illumis</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="8" id="Relkor">Relkor</button></td>
+                                    <td class="nameCell">&#10074</td>
+                                    <td><button class="styledButton godButton" value=0 data-index="9" id="Agepa">Agepa</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="10" id="Aaris">Aaris</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="11" id="Bellum">Bellum</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="12" id="Chis">Chis</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="13" id="Mathis/Safia">Mathis/Safia</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="14" id="Efra">Efra</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="15" id="Jexel">Jexel</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="16" id="Matrigal">Matrigal</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="17" id="Nerual">Nerual</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="18" id="Ponos">Ponos</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="19" id="Quantarious">Quantarious</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="20" id="Reluna">Reluna</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="21" id="Sayor">Sayor</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="22" id="Solt">Solt</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="23" id="Terrasa">Terrasa</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="24" id="Terrin">Terrin</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="25" id="Velmontarious">Velmontarious</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="26" id="Velthara">Velthara</button></td>
+                                    <td><button class="styledButton godButton" value=0 data-index="27" id="Womaatoar">Womaatoar</button></td>
                                 </tr></tbody></table>
                             </td>
                         </tr>

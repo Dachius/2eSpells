@@ -25,7 +25,7 @@ async function spellTable(){
     });
 
     table = new Tabulator("#list", {
-        data:jsonData, //assign data to table
+        data:jsonData, // Assign data to table
         height:"100%",
         layout:"fitData",
         columns:[
@@ -39,11 +39,12 @@ async function spellTable(){
     table.on("rowClick", function(e, row){drawInfoBox(e, row)});
 }
 
-//Draw info box
+// Draw info box
 function drawInfoBox(e, row){
     var data = row.getData();
     document.getElementById("Name").innerHTML = data.name;
 
+    // Level, School, Sphere
     var sphereString = "";
     var spheres = data.spheres;
     if(spheres != null){
@@ -53,14 +54,16 @@ function drawInfoBox(e, row){
         }
         sphereString += (spheres[spheres.length - 1] + "]");
     }
-    
 
     document.getElementById("Level&School&Sphere").innerHTML = "Level " + data.level + " " + data.school + sphereString;
+
+    // Various
     document.getElementById("CastingTime").innerHTML = "<strong>Casting Time:</strong> " + data.castingTime;
     document.getElementById("Range").innerHTML = "<strong>Range:</strong> " + data.range;
     document.getElementById("AOE").innerHTML = "<strong>Area:</strong> " + data.aoe;
     document.getElementById("Save").innerHTML = "<strong>Save:</strong> " + data.save;
-    //Components
+
+    // Components
     var componentString = "<strong>Components:</strong> ";
     if(data.verbal){
         componentString += "V";
@@ -80,16 +83,18 @@ function drawInfoBox(e, row){
     if(data.materials != ""){
         componentString += " (" + data.materials + ")"
     }
+
     document.getElementById("Components").innerHTML = componentString;
-    //End Components
-    //Duration
+
+    // Duration
     duration = document.getElementById("Duration");
     duration.style.borderBottom = "2px solid #d29a38"
     duration.innerHTML = "<strong>Duration:</strong> " + data.duration;
-    //End Duration
+
     document.getElementById("Description").innerText = data.description;
 }
 
+// Javascript % doesn't work as desired with negative numbers.
 function mod(n, m){
     return ((n % m) + m) % m;
 }
@@ -98,95 +103,306 @@ function mod(n, m){
 var buttonColorArray = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(138, 26, 27)"];
 
 // Sphere Gray/Light-Blue/Blue colors
-var sphereColorArray = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(92, 141, 184)"];
+var sphereColorArray = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(147, 168, 184)"];
 
 // Name Filter
 var nameFilter = document.getElementById("nameFilter");
 nameFilter.addEventListener("keyup", updateFilter);
 
-// class button listeners
+// Class button listeners
 var classButtons = document.getElementsByClassName("classButton");
 for(var i = 0; i < classButtons.length; i++){
     classButtons[i].addEventListener("click", function(){
-        this.value++;
-        this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColorArray[this.value];
-        updateFilter();
+        leftClickBinary(this);
     });
 
     classButtons[i].addEventListener("contextmenu", function(e){
+        rightClickBinary(e, this);
+    });
+}
+
+// Specialist button listeners
+// These buttons activate several other buttons and have semi-complicated logic.
+// They generally don't act as their own filter, simply activating other filters.
+var specialistButtons = document.getElementsByClassName("specialistButton");
+for(var i = 0; i < specialistButtons.length; i++){
+    specialistButtons[i].addEventListener("click", function(){
+        this.value++;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColorArray[this.value];
+
+        specialistUpdate(this);
+    });
+
+    specialistButtons[i].addEventListener("contextmenu", function(e){
         e.preventDefault();
         this.value--;
         this.value = mod(this.value, 2);
         this.style.backgroundColor = buttonColorArray[this.value];
-        updateFilter();
+
+        specialistUpdate(this);
     });
 }
 
-// specialist button listeners
+function specialistUpdate(element){
 
+    var index = element.getAttribute("data-index");
 
-// lvl button listeners
+    // Unset specialist buttons
+    for(var i = 0; i < specialistButtons.length; i++){
+        if(i != index){
+            specialistButtons[i].value = 0;
+            specialistButtons[i].style.backgroundColor = buttonColorArray[0];
+        }
+    }
+
+    // Unset sphere buttons
+    for(var i = 0; i < sphereButtons.length; i++){
+        sphereButtons[i].value = 0;
+        sphereButtons[i].style.backgroundColor = buttonColorArray[0];
+    }
+
+    // Unset god buttons
+    for(var i = 0; i < godButtons.length; i++){
+        godButtons[i].value = 0;
+        godButtons[i].style.backgroundColor = buttonColorArray[0];
+    }
+    
+    if(element.value == 0){
+        // Unset class
+        classButtons[0].value = 0;
+        classButtons[0].style.backgroundColor = buttonColorArray[0];
+        classButtons[1].value = 0;
+        classButtons[1].style.backgroundColor = buttonColorArray[0];
+
+        for(var i = 0; i < schoolButtons.length; i++){
+            schoolButtons[i].value = 0;
+            schoolButtons[i].style.backgroundColor = buttonColorArray[0];
+        }
+    }
+    else if(element.value == 1){
+        // Set class to wizard
+        classButtons[0].value = 0;
+        classButtons[0].style.backgroundColor = buttonColorArray[0];
+        classButtons[1].value = 1;
+        classButtons[1].style.backgroundColor = buttonColorArray[1];
+
+        // 0 = don't care, 1 = include, 2 = exclude
+        // Abjuration/Alteration/Conjuration/Divination/Enchantment/Evocation/Illusion/Necromancy
+        var specialistFilterArray = [
+            [0, 2, 0, 0, 0, 0, 2, 0], // Abjurer
+            [0, 0, 0, 2, 0, 2, 0, 0], // Conjurer
+            [0, 0, 2, 0, 0, 0, 0, 0], // Diviner
+            [0, 0, 0, 0, 0, 2, 0, 2], // Enchanter
+            [2, 0, 0, 0, 0, 2, 0, 2], // Illusionist
+            [0, 0, 2, 0, 2, 0, 0, 0], // Invoker
+            [0, 0, 0, 0, 2, 0, 2, 0], // Necromancer
+            [2, 0, 0, 0, 0, 0, 0, 2]  // Transmuter
+        ];
+
+        for(var i = 0; i < schoolButtons.length; i++){
+            schoolButtons[i].value = specialistFilterArray[index][i];
+            schoolButtons[i].style.backgroundColor = buttonColorArray[schoolButtons[i].value];
+        }
+    }
+    
+    updateFilter();
+}
+
+// Lvl button listeners
 var lvlButtons = document.getElementsByClassName("lvlButton");
 for(var i = 0; i < lvlButtons.length; i++){
     lvlButtons[i].addEventListener("click", function(){
-        this.value++;
-        this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColorArray[this.value];
-        updateFilter();
+        leftClickBinary(this);
     });
 
     lvlButtons[i].addEventListener("contextmenu", function(e){
+        rightClickBinary(e, this);
+    });
+}
+
+// School button listeners
+var schoolButtons = document.getElementsByClassName("schoolButton");
+for(var i = 0; i < schoolButtons.length; i++){
+    schoolButtons[i].addEventListener("click", function(){
+        leftClickTrinary(this);
+    });
+
+    schoolButtons[i].addEventListener("contextmenu", function(e){
+        rightClickTrinary(e, this);
+    });
+}
+
+// Sphere button listeners
+var sphereButtons = document.getElementsByClassName("sphereButton");
+for(var i = 0; i < sphereButtons.length; i++){
+    sphereButtons[i].addEventListener("click", function(){
+        leftClickGradient(this);
+    });
+
+    sphereButtons[i].addEventListener("contextmenu", function(e){
+        rightClickGradient(e, this);
+    });
+}
+
+// God button listeners
+// These buttons activate several other buttons and have semi-complicated logic.
+var godButtons = document.getElementsByClassName("godButton");
+for(var i = 0; i < godButtons.length; i++){
+    godButtons[i].addEventListener("click", function(){
+        this.value++;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColorArray[this.value];
+        
+        godUpdate(this);
+    });
+
+    godButtons[i].addEventListener("contextmenu", function(e){
         e.preventDefault();
         this.value--;
         this.value = mod(this.value, 2);
         this.style.backgroundColor = buttonColorArray[this.value];
-        updateFilter();
+        
+        godUpdate(this);
     });
 }
 
-// school button listeners
-var schoolButtons = document.getElementsByClassName("schoolButton");
-for(var i = 0; i < schoolButtons.length; i++){
-    schoolButtons[i].addEventListener("click", function(){
-        this.value++;
-        this.value = mod(this.value, 3);
-        this.style.backgroundColor = buttonColorArray[this.value];
-        updateFilter();
-    });
+function godUpdate(element){
+    var index = element.getAttribute("data-index");
 
-    schoolButtons[i].addEventListener("contextmenu", function(e){
-        e.preventDefault();
-        this.value--;
-        this.value = mod(this.value, 3);
-        this.style.backgroundColor = buttonColorArray[this.value];
-        updateFilter();
-    });
+    // Unset god buttons
+    for(var i = 0; i < godButtons.length; i++){
+        if(i != index){
+            godButtons[i].value = 0;
+            godButtons[i].style.backgroundColor = buttonColorArray[0];
+        }
+    }
+
+    // Unset school buttons
+    for(var i = 0; i < schoolButtons.length; i++){
+        schoolButtons[i].value = 0;
+        schoolButtons[i].style.backgroundColor = buttonColorArray[0];
+    }
+
+    // Unset specialist buttons
+    for(var i = 0; i < specialistButtons.length; i++){
+        specialistButtons[i].value = 0;
+        specialistButtons[i].style.backgroundColor = buttonColorArray[0];
+    }
+    
+    if(element.value == 0){
+        // Unset class
+        classButtons[0].value = 0;
+        classButtons[0].style.backgroundColor = buttonColorArray[0];
+        classButtons[1].value = 0;
+        classButtons[1].style.backgroundColor = buttonColorArray[0];
+
+        for(var i = 0; i < sphereButtons.length; i++){
+            sphereButtons[i].value = 0;
+            sphereButtons[i].style.backgroundColor = buttonColorArray[0];
+        }
+    }
+    else if(element.value == 1){
+        // Set class to cleric
+        classButtons[0].value = 1;
+        classButtons[0].style.backgroundColor = buttonColorArray[1];
+        classButtons[1].value = 0;
+        classButtons[1].style.backgroundColor = buttonColorArray[0];
+
+        // 0 = don't care, 1 = major, 2 = minor
+        // All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
+        var specialistFilterArray = [
+            [1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 1, 1, 2, 1, 0, 2, 2, 0, 1, 0, 0, 2, 2, 0], // Astair
+            [1, 1, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 2], // Martha
+            [1, 0, 1, 2, 1, 1, 0, 2, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0], // Voraci
+            [1, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 2, 0, 1, 0, 1, 0, 0, 1, 0, 0], // Malkis -
+            [1, 0, 1, 0, 0, 0, 0, 2, 1, 1, 1, 1, 0, 2, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1], // Tempos
+            [1, 1, 1, 0, 0, 2, 2, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 2, 1, 0, 1, 0, 0, 0, 1], // Nadinis
+            [1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1], // Felumbra -
+            [1, 1, 1, 0, 0, 0, 2, 0, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1], // Illumis
+            [1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1], // Relkor -
+            [1, 1, 0, 0, 0, 1, 0, 2, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 1], // Agepa
+            [1, 0, 1, 1, 0, 0, 0, 1, 2, 2, 2, 2, 1, 1, 1, 0, 0, 2, 1, 0, 0, 1, 0, 0, 0, 0, 1], // Aaris
+            [1, 0, 0, 2, 2, 1, 0, 1, 0, 0, 0, 0, 2, 1, 2, 1, 2, 0, 1, 0, 0, 0, 0, 1, 1, 0, 1], // Bellum
+            [1, 2, 0, 0, 1, 0, 0, 2, 1, 1, 1, 1, 0, 1, 0, 1, 0, 2, 1, 0, 0, 1, 1, 0, 0, 2, 0], // Chis
+            [1, 2, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 2, 0, 0, 1, 0, 0, 0, 0, 1, 1, 2, 0, 2, 0], // Dorbaff/Guam
+            [1, 1, 1, 0, 1, 0, 1, 2, 2, 2, 2, 2, 0, 0, 2, 1, 1, 1, 0, 0, 2, 1, 0, 0, 0, 0, 0], // Efra
+            [1, 2, 0, 1, 1, 0, 0, 2, 2, 2, 2, 2, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0], // Jexel
+            [1, 0, 1, 0, 2, 2, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 2, 1, 0], // Matrigal
+            [1, 2, 0, 2, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 2, 1, 0, 1, 0, 0, 1, 0, 1, 0], // Nerual
+            [1, 0, 1, 0, 1, 1, 0, 2, 1, 1, 1, 1, 0, 0, 2, 1, 0, 0, 2, 1, 0, 1, 0, 0, 1, 0, 0], // Ponos
+            [1, 0, 1, 0, 0, 2, 2, 1, 2, 2, 2, 2, 0, 0, 1, 0, 1, 0, 2, 0, 0, 1, 0, 1, 0, 1, 1], // Quantarious
+            [1, 0, 1, 1, 1, 1, 0, 2, 0, 0, 0, 0, 2, 1, 1, 0, 0, 0, 2, 0, 0, 1, 0, 2, 2, 0, 1], // Reluna
+            [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0], // Sayor
+            [1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1], // Solt
+            [1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 2, 2, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1], // Terrasa
+            [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 2, 0, 2, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1], // Terrin
+            [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 0, 0, 0, 0, 0], // Velmontarious
+            [1, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 2, 0, 1, 0, 2, 2, 1, 0, 2, 1, 0, 0, 0, 0], // Velthara
+            [1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0, 1, 0], // Womaatoar
+        ];
+
+        for(var i = 0; i < sphereButtons.length; i++){
+            sphereButtons[i].value = specialistFilterArray[index][i];
+            sphereButtons[i].style.backgroundColor = sphereColorArray[sphereButtons[i].value];
+        }
+    }
+    
+    updateFilter();
 }
 
-// sphere button listeners
-var sphereButtons = document.getElementsByClassName("sphereButton");
-for(var i = 0; i < sphereButtons.length; i++){
-    sphereButtons[i].addEventListener("click", function(){
-        this.value++;
-        this.value = mod(this.value, 3);
-        this.style.backgroundColor = sphereColorArray[this.value];
-        updateFilter();
-    });
-
-    sphereButtons[i].addEventListener("contextmenu", function(e){
-        e.preventDefault();
-        this.value--;
-        this.value = mod(this.value, 3);
-        this.style.backgroundColor = sphereColorArray[this.value];
-        updateFilter();
-    });
+// gray, blue
+function leftClickBinary(element){
+    element.value++;
+    element.value = mod(element.value, 2);
+    element.style.backgroundColor = buttonColorArray[element.value];
+    updateFilter();
 }
 
+function rightClickBinary(e, element){
+    e.preventDefault();
+    element.value--;
+    element.value = mod(element.value, 2);
+    element.style.backgroundColor = buttonColorArray[element.value];
+    updateFilter();
+}
+
+// gray, blue, red
+function leftClickTrinary(element){
+    element.value++;
+    element.value = mod(element.value, 3);
+    element.style.backgroundColor = buttonColorArray[element.value];
+    updateFilter();
+}
+function rightClickTrinary(e, element){
+    e.preventDefault();
+    element.value--;
+    element.value = mod(element.value, 3);
+    element.style.backgroundColor = buttonColorArray[element.value];
+    updateFilter();
+}
+
+// gray, blue, light blue
+function leftClickGradient(element){
+    element.value++;
+    element.value = mod(element.value, 3);
+    element.style.backgroundColor = sphereColorArray[element.value];
+    updateFilter();
+}
+function rightClickGradient(e, element){
+    e.preventDefault();
+    element.value--;
+    element.value = mod(element.value, 3);
+    element.style.backgroundColor = sphereColorArray[element.value];
+    updateFilter();
+}
+
+// Vestigial?
 function updateFilter(){
     table.setFilter(customFilter);
 }
 
+// Filter logic
 function customFilter(data){
     // Filter by name
     if(!data.name.toLowerCase().includes(nameFilter.value.toLowerCase())){
@@ -234,7 +450,13 @@ function customFilter(data){
             }
         }
         else if(schoolButtons[i].value == 2){
-            if(data.school == schoolButtons[i].id){
+            // Allow school of "minor divination" for conjurers.
+            // Really? Conjurers get divination spells up to... level 4? 
+            // That's like 75% of divination spells!
+            if(specialistButtons[1].value == 1 && data.school == "Divination" && data.level <= 4){
+                passes = true;
+            }
+            else if(data.school == schoolButtons[i].id){
                 return false;
             }
         }

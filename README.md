@@ -1,2 +1,2 @@
 # 2eSpells
-Sort 2e spells
+Koibu version of AD&D 2e spell sorter.

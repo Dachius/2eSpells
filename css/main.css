@@ -12,6 +12,9 @@
     overflow:auto;
     border-bottom: 2px solid #d29a38;
 }
+#filterWrapper {
+    user-select: none;
+}
 .nameCell {
     font-size: 18px;
     color: #d29a38;
@@ -35,10 +38,6 @@
 #schoolTable {
     display: inline-block;
     vertical-align: top;
-}
-#sphereTable {
-    /* display: inline-block;
-    vertical-align: top; */
 }
 #contentWrapper {
     position: relative;
