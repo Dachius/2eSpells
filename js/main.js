@@ -199,7 +199,7 @@ function specialistUpdate(element){
         classButtons[0].style.backgroundColor = buttonColorArray[0];
         classButtons[1].value = 1;
         classButtons[1].style.backgroundColor = buttonColorArray[1];
-
+        
         for(var i = 0; i < schoolButtons.length; i++){
             schoolButtons[i].value = specialistFilterArray[index][i];
             schoolButtons[i].style.backgroundColor = buttonColorArray[schoolButtons[i].value];
@@ -269,7 +269,7 @@ for(var i = 0; i < godButtons.length; i++){
 
 // 0 = don't care, 1 = major, 2 = minor
 // All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
-var specialistFilterArray = [
+var godFilterArray = [
     [1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 1, 1, 2, 1, 0, 2, 2, 0, 1, 0, 0, 2, 2, 0], // Astair
     [1, 1, 0, 0, 0, 2, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 2], // Martha
     [1, 0, 1, 2, 1, 1, 0, 2, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0], // Voraci
@@ -343,7 +343,7 @@ function godUpdate(element){
         classButtons[1].style.backgroundColor = buttonColorArray[0];
 
         for(var i = 0; i < sphereButtons.length; i++){
-            sphereButtons[i].value = specialistFilterArray[index][i];
+            sphereButtons[i].value = godFilterArray[index][i];
             sphereButtons[i].style.backgroundColor = sphereColorArray[sphereButtons[i].value];
         }
     }
