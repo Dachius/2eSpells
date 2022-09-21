@@ -55,12 +55,12 @@ function drawInfoBox(e, row){
         sphereString += (spheres[spheres.length - 1] + "]");
     }
 
-    document.getElementById("Level&School&Sphere").innerHTML = "Level " + data.level + " " + data.school + sphereString;
+    document.getElementById("Level&School&Sphere").innerHTML = "Level " + data.level + " " + data.school + sphereString + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
 
     // Various
-    document.getElementById("CastingTime").innerHTML = "<strong>Casting Time:</strong> " + data.castingTime;
+    document.getElementById("CastingTime").innerHTML = "<strong>Casting Time:</strong> " + data.castingTime + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
     document.getElementById("Range").innerHTML = "<strong>Range:</strong> " + data.range;
-    document.getElementById("AOE").innerHTML = "<strong>Area:</strong> " + data.aoe;
+    document.getElementById("AOE").innerHTML = "<strong>Area:</strong> " + data.aoe + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
     document.getElementById("Save").innerHTML = "<strong>Save:</strong> " + data.save;
 
     // Components
@@ -84,14 +84,14 @@ function drawInfoBox(e, row){
         componentString += " (" + data.materials + ")"
     }
 
-    document.getElementById("Components").innerHTML = componentString;
+    document.getElementById("Components").innerHTML = componentString + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
 
     // Duration
-    duration = document.getElementById("Duration");
-    duration.style.borderBottom = "2px solid #d29a38"
-    duration.innerHTML = "<strong>Duration:</strong> " + data.duration;
+    document.getElementById("Duration").innerHTML = "<strong>Duration:</strong> " + data.duration;
 
-    document.getElementById("Description").innerText = data.description;
+    description = document.getElementById("Description");
+    description.style.borderTop = "2px solid #d29a38"
+    description.innerText = data.description;
 }
 
 // Javascript % doesn't work as desired with negative numbers.
@@ -297,7 +297,7 @@ var godFilterArray = [
     [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 2, 0, 2, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1], // Terrin
     [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 0, 0, 0, 0, 0], // Velmontarious
     [1, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 2, 0, 1, 0, 2, 2, 1, 0, 2, 1, 0, 0, 0, 0], // Velthara
-    [1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0, 1, 0], // Womaatoar
+    [1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0, 1, 0]  // Womaatoar
 ];
 
 function godUpdate(element){
