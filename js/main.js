@@ -12,14 +12,11 @@ async function spellTable(){
     let jsonData = wizardData.concat(clericData).sort(function(a, b){
         if(a.level != b.level){
             return a.level - b.level;
-        }
-        if(a.name != b.name){
+        } else if(a.name != b.name){
             return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
-        }
-        if(a.school != b.school){
+        } else if(a.school != b.school){
             return a.school.localeCompare(b.school)
-        }
-        if(a.class != b.class){
+        } else if(a.class != b.class){
             return (a.class.localeCompare(b.class));
         }
     });
@@ -42,7 +39,9 @@ async function spellTable(){
 // Draw info box
 function drawInfoBox(e, row){
     var data = row.getData();
+
     document.getElementById("Name").innerHTML = data.name;
+    document.getElementById("Source").innerHTML = "[" + data.source + "]";
 
     // Level, School, Sphere
     var sphereString = "";
@@ -50,14 +49,14 @@ function drawInfoBox(e, row){
     if(spheres != null){
         sphereString += " ["
         for(var i = 0; i < spheres.length - 1; i++){
-            sphereString += (spheres[i] + ", ")
+            sphereString += (spheres[i] + ", ");
         }
         sphereString += (spheres[spheres.length - 1] + "]");
     }
 
     document.getElementById("Level&School&Sphere").innerHTML = "Level " + data.level + " " + data.school + sphereString + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
 
-    // Various
+    // Casting time, Range, AOE, Save
     document.getElementById("CastingTime").innerHTML = "<strong>Casting Time:</strong> " + data.castingTime + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
     document.getElementById("Range").innerHTML = "<strong>Range:</strong> " + data.range;
     document.getElementById("AOE").innerHTML = "<strong>Area:</strong> " + data.aoe + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
@@ -84,7 +83,7 @@ function drawInfoBox(e, row){
         componentString += " (" + data.materials + ")"
     }
 
-    document.getElementById("Components").innerHTML = componentString + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+    document.getElementById("Components").innerHTML = componentString + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";;
 
     // Duration
     document.getElementById("Duration").innerHTML = "<strong>Duration:</strong> " + data.duration;
@@ -122,8 +121,6 @@ for(var i = 0; i < classButtons.length; i++){
 }
 
 // Specialist button listeners
-// These buttons activate several other buttons and have semi-complicated logic.
-// They generally don't act as their own filter, simply activating other filters.
 var specialistButtons = document.getElementsByClassName("specialistButton");
 for(var i = 0; i < specialistButtons.length; i++){
     specialistButtons[i].addEventListener("click", function(){
@@ -141,6 +138,63 @@ for(var i = 0; i < specialistButtons.length; i++){
         this.style.backgroundColor = buttonColorArray[this.value];
 
         specialistUpdate(this);
+    });
+}
+
+// Lvl button listeners
+var lvlButtons = document.getElementsByClassName("lvlButton");
+for(var i = 0; i < lvlButtons.length; i++){
+    lvlButtons[i].addEventListener("click", function(){
+        leftClickBinary(this);
+    });
+
+    lvlButtons[i].addEventListener("contextmenu", function(e){
+        rightClickBinary(e, this);
+    });
+}
+
+// School button listeners
+var schoolButtons = document.getElementsByClassName("schoolButton");
+for(var i = 0; i < schoolButtons.length; i++){
+    schoolButtons[i].addEventListener("click", function(){
+        leftClickTrinary(this);
+    });
+
+    schoolButtons[i].addEventListener("contextmenu", function(e){
+        rightClickTrinary(e, this);
+    });
+}
+
+// Sphere button listeners
+var sphereButtons = document.getElementsByClassName("sphereButton");
+for(var i = 0; i < sphereButtons.length; i++){
+    sphereButtons[i].addEventListener("click", function(){
+        leftClickGradient(this);
+    });
+
+    sphereButtons[i].addEventListener("contextmenu", function(e){
+        rightClickGradient(e, this);
+    });
+}
+
+// God button listeners
+var godButtons = document.getElementsByClassName("godButton");
+for(var i = 0; i < godButtons.length; i++){
+    godButtons[i].addEventListener("click", function(){
+        this.value++;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColorArray[this.value];
+        
+        godUpdate(this);
+    });
+
+    godButtons[i].addEventListener("contextmenu", function(e){
+        e.preventDefault();
+        this.value--;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColorArray[this.value];
+        
+        godUpdate(this);
     });
 }
 
@@ -181,10 +235,11 @@ function specialistUpdate(element){
         godButtons[i].style.backgroundColor = buttonColorArray[0];
     }
     
+    classButtons[0].value = 0;
+    classButtons[0].style.backgroundColor = buttonColorArray[0];
+
     if(element.value == 0){
         // Unset class
-        classButtons[0].value = 0;
-        classButtons[0].style.backgroundColor = buttonColorArray[0];
         classButtons[1].value = 0;
         classButtons[1].style.backgroundColor = buttonColorArray[0];
 
@@ -195,8 +250,6 @@ function specialistUpdate(element){
     }
     else if(element.value == 1){
         // Set class to wizard
-        classButtons[0].value = 0;
-        classButtons[0].style.backgroundColor = buttonColorArray[0];
         classButtons[1].value = 1;
         classButtons[1].style.backgroundColor = buttonColorArray[1];
         
@@ -207,64 +260,6 @@ function specialistUpdate(element){
     }
     
     updateFilter();
-}
-
-// Lvl button listeners
-var lvlButtons = document.getElementsByClassName("lvlButton");
-for(var i = 0; i < lvlButtons.length; i++){
-    lvlButtons[i].addEventListener("click", function(){
-        leftClickBinary(this);
-    });
-
-    lvlButtons[i].addEventListener("contextmenu", function(e){
-        rightClickBinary(e, this);
-    });
-}
-
-// School button listeners
-var schoolButtons = document.getElementsByClassName("schoolButton");
-for(var i = 0; i < schoolButtons.length; i++){
-    schoolButtons[i].addEventListener("click", function(){
-        leftClickTrinary(this);
-    });
-
-    schoolButtons[i].addEventListener("contextmenu", function(e){
-        rightClickTrinary(e, this);
-    });
-}
-
-// Sphere button listeners
-var sphereButtons = document.getElementsByClassName("sphereButton");
-for(var i = 0; i < sphereButtons.length; i++){
-    sphereButtons[i].addEventListener("click", function(){
-        leftClickGradient(this);
-    });
-
-    sphereButtons[i].addEventListener("contextmenu", function(e){
-        rightClickGradient(e, this);
-    });
-}
-
-// God button listeners
-// These buttons activate several other buttons and have semi-complicated logic.
-var godButtons = document.getElementsByClassName("godButton");
-for(var i = 0; i < godButtons.length; i++){
-    godButtons[i].addEventListener("click", function(){
-        this.value++;
-        this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColorArray[this.value];
-        
-        godUpdate(this);
-    });
-
-    godButtons[i].addEventListener("contextmenu", function(e){
-        e.preventDefault();
-        this.value--;
-        this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColorArray[this.value];
-        
-        godUpdate(this);
-    });
 }
 
 // 0 = don't care, 1 = major, 2 = minor
@@ -297,7 +292,12 @@ var godFilterArray = [
     [1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 2, 0, 2, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1], // Terrin
     [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 0, 0, 0, 0, 0], // Velmontarious
     [1, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 2, 0, 1, 0, 2, 2, 1, 0, 2, 1, 0, 0, 0, 0], // Velthara
-    [1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0, 1, 0]  // Womaatoar
+    [1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0, 1, 0], // Womaatoar
+
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Khorne
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Tzeentch
+    [1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 0], // Nurgle
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Slaanesh -
 ];
 
 function godUpdate(element){
@@ -323,24 +323,22 @@ function godUpdate(element){
         specialistButtons[i].style.backgroundColor = buttonColorArray[0];
     }
     
+    classButtons[1].value = 0;
+    classButtons[1].style.backgroundColor = buttonColorArray[0];
+
     if(element.value == 0){
         // Unset class
         classButtons[0].value = 0;
         classButtons[0].style.backgroundColor = buttonColorArray[0];
-        classButtons[1].value = 0;
-        classButtons[1].style.backgroundColor = buttonColorArray[0];
 
         for(var i = 0; i < sphereButtons.length; i++){
             sphereButtons[i].value = 0;
             sphereButtons[i].style.backgroundColor = buttonColorArray[0];
         }
-    }
-    else if(element.value == 1){
+    } else if(element.value == 1){
         // Set class to cleric
         classButtons[0].value = 1;
         classButtons[0].style.backgroundColor = buttonColorArray[1];
-        classButtons[1].value = 0;
-        classButtons[1].style.backgroundColor = buttonColorArray[0];
 
         for(var i = 0; i < sphereButtons.length; i++){
             sphereButtons[i].value = godFilterArray[index][i];
@@ -410,8 +408,7 @@ function customFilter(data){
     }
 
     // Filter by class
-    let passes = false;
-    let blank = true;
+    let passes = false, blank = true;
     for(var i = 0; i < classButtons.length; i++){
         if(classButtons[i].value == 1){
             blank = false;
@@ -420,13 +417,11 @@ function customFilter(data){
             }
         }
     }
-    if(!passes && !blank){
-        return false;
-    }
+
+    if(!passes && !blank) return false;
 
     // Filter by level
-    passes = false;
-    blank = true;
+    passes = false, blank = true;
     for(var i = 0; i < lvlButtons.length; i++){
         if(lvlButtons[i].value == 1){
             blank = false;
@@ -435,24 +430,19 @@ function customFilter(data){
             }
         }
     }
-    if(!passes && !blank){
-        return false;
-    }
+
+    if(!passes && !blank) return false;
 
     // Filter by school
-    passes = false;
-    blank = true;
+    passes = false, blank = true;
     for(var i = 0; i < schoolButtons.length; i++){
         if(schoolButtons[i].value == 1){
             blank = false;
             if(data.school == schoolButtons[i].id){
                 passes = true;
             }
-        }
-        else if(schoolButtons[i].value == 2){
+        } else if(schoolButtons[i].value == 2){
             // Allow school of "minor divination" for conjurers.
-            // Really? Conjurers get divination spells up to... level 4? 
-            // That's like 75% of divination spells!
             if(specialistButtons[1].value == 1 && data.school == "Divination" && data.level <= 4){
                 passes = true;
             }
@@ -461,13 +451,11 @@ function customFilter(data){
             }
         }
     }
-    if(!passes && !blank){
-        return false;
-    }
 
-    //Filter by sphere
-    passes = false;
-    blank = true;
+    if(!passes && !blank) return false;
+
+    // Filter by sphere
+    passes = false, blank = true;
     for(var i = 0; i < sphereButtons.length; i++){
         if(sphereButtons[i].value == 1){
             blank = false;
@@ -478,8 +466,7 @@ function customFilter(data){
                     }
                 }
             }
-        }
-        else if(sphereButtons[i].value == 2){
+        } else if(sphereButtons[i].value == 2){
             blank = false;
             if(data.spheres != null){
                 for(var j = 0; j < data.spheres.length; j++){
@@ -490,9 +477,8 @@ function customFilter(data){
             }
         }
     }
-    if(!passes && !blank){
-        return false;
-    }
+
+    if(!passes && !blank) return false;
 
     // If subfilters pass, let through filter
     return true;
