@@ -1,5 +1,9 @@
 :root {
     color-scheme: dark;
+    --gold: #d29a38;
+    --gray: rgb(187, 187, 187);
+    --blue: rgb(105, 166, 213);
+    --dark-gray: rgb(24, 26, 27);
 }
 #viewportWrapper {
     position: relative;
@@ -10,15 +14,15 @@
     margin: 1% 2% 0 2%;
     max-height: 20vh;
     overflow:auto;
-    border-bottom: 2px solid #d29a38;
+    border-bottom: 2px solid var(--gold);
 }
 #filterWrapper {
     user-select: none;
 }
 .nameCell {
     font-size: 18px;
-    color: #d29a38;
-    font-family: times new roman,serif;
+    color: var(--gold);
+    font-family: times, serif;
     font-variant: small-caps;
     font-weight: 500;
     text-align:right;
@@ -75,10 +79,10 @@
     align-items: center;
 }
 .infoData{
-    color:rgb(187, 187, 187);
+    color: var(--gray);
 }
 #Name {
-    color: #d29a38;
+    color: var(--gold);
     font-size: 1.8em;
     font-family: times, serif;
     font-variant: small-caps;
@@ -86,14 +90,14 @@
     margin-right: 10px;
 }
 #Source {
-    color: rgb(105, 166, 213);
+    color: var(--blue);
     font-size: 1.8em;
     font-family: times, serif;
     font-variant: small-caps;
     font-weight: 500;
 }
 .styledButton {
-    background-color: rgb(24, 26, 27);
+    background-color: var(--dark-gray);
     border: none;
     color: white;
     padding: 4px;

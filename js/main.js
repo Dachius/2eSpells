@@ -38,6 +38,7 @@ async function spellTable(){
 
 // Draw info box
 function drawInfoBox(e, row){
+    var spacing = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
     var data = row.getData();
 
     document.getElementById("Name").innerHTML = data.name;
@@ -54,12 +55,12 @@ function drawInfoBox(e, row){
         sphereString += (spheres[spheres.length - 1] + "]");
     }
 
-    document.getElementById("Level&School&Sphere").innerHTML = "Level " + data.level + " " + data.school + sphereString + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+    document.getElementById("Level&School&Sphere").innerHTML = "Level " + data.level + " " + data.school + sphereString + spacing;
 
     // Casting time, Range, AOE, Save
-    document.getElementById("CastingTime").innerHTML = "<strong>Casting Time:</strong> " + data.castingTime + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+    document.getElementById("CastingTime").innerHTML = "<strong>Casting Time:</strong> " + data.castingTime + spacing;
     document.getElementById("Range").innerHTML = "<strong>Range:</strong> " + data.range;
-    document.getElementById("AOE").innerHTML = "<strong>Area:</strong> " + data.aoe + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+    document.getElementById("AOE").innerHTML = "<strong>Area:</strong> " + data.aoe + spacing;
     document.getElementById("Save").innerHTML = "<strong>Save:</strong> " + data.save;
 
     // Components
@@ -80,17 +81,29 @@ function drawInfoBox(e, row){
         componentString += "M";
     }
     if(data.materials != ""){
-        componentString += " (" + data.materials + ")"
+        componentString += " (" + data.materials + ")";
     }
 
-    document.getElementById("Components").innerHTML = componentString + "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";;
+    document.getElementById("Components").innerHTML = componentString + spacing;
 
     // Duration
     document.getElementById("Duration").innerHTML = "<strong>Duration:</strong> " + data.duration;
 
+    // Description
     description = document.getElementById("Description");
-    description.style.borderTop = "2px solid #d29a38"
+    description.style.borderTop = "2px solid #d29a38";
     description.innerText = data.description;
+
+    // Errata/Rulings
+    if(data.errata != null){
+        errata = document.getElementById("Errata");
+        errata.style.borderTop = "2px solid #d29a38";
+        errata.innerHTML = "<strong>Errata: </strong> " + data.errata.replaceAll("\n", "<br>");
+    } else{
+        errata = document.getElementById("Errata");
+        errata.style.borderTop = null;
+        errata.innerText = null;
+    }
 }
 
 // Javascript % doesn't work as desired with negative numbers.
