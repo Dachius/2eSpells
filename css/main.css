@@ -46,13 +46,13 @@
 #contentWrapper {
     position: relative;
     margin: 1% 0 2% 2%;
-    height: 75vh;
+    height: 73vh;
 }
 #listWrapper {
     display: inline-block;
     vertical-align: top;
     max-width: 30%;
-    height: 75vh;
+    height: 100%;
 }
 #list {
     max-width: 100%;
@@ -62,7 +62,7 @@
     vertical-align: top;
     width: 65%;
     margin-left: 2%;
-    height: 75vh;
+    height: 75%;
     overflow-y: auto;
 }
 #nameFilter {
