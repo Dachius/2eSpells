@@ -10,9 +10,7 @@
 }
 #headerWrapper {
     position: relative;
-    width: 94%;
     margin: 1% 2% 0 2%;
-    max-height: 20vh;
     overflow: auto;
     border-bottom: 2px solid var(--gold);
 }
@@ -45,33 +43,26 @@
 }
 #contentWrapper {
     position: relative;
-    margin: 1% 0 2% 2%;
+    margin: 1% 2% 1% 2%;
     height: 73vh;
 }
 #listWrapper {
     display: inline-block;
     vertical-align: top;
-    max-width: 30%;
     height: 100%;
 }
-#list {
-    max-width: 100%;
+#tableWrapper { 
+    height: 95%;
 }
 #infoWrapper {
     display: inline-block;
-    vertical-align: top;
-    width: 65%;
-    margin-left: 2%;
+    max-width: calc(98% - 430px);
+    margin-left: 1%;
     height: 100%;
     overflow-y: auto;
 }
 #nameFilter {
     width: 98%;
-}
-.infoTable {
-    border-spacing: 20vw, 0;
-    width: 100%;
-    height: 100%;
 }
 .infoHeader{
     display: flex;
