@@ -56,7 +56,7 @@
 }
 #infoWrapper {
     display: inline-block;
-    max-width: calc(98% - 430px);
+    max-width: calc(96% - 430px);
     margin-left: 1%;
     height: 100%;
     overflow-y: auto;
