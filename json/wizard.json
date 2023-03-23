@@ -5644,7 +5644,7 @@
   },
 
   {
-    "level": 4,
+    "level": 5,
     "name": "Spectral Sentry",
     "school": "Abjuration",
     "class": "Wizard",
@@ -5659,7 +5659,7 @@
     "save": "None",
     "damage": "",
     "description": "When cast, a spectral sentry is summoned into being. The sentry is composed of a whitish misty vapor that resembles a watchful soldier clad in chain mail with a spear, sword, axe, or mace. The sentry is telepathically linked to the caster and will warn them (including a brief mental image) of any unusual activity within their range of sight. The wizard is woken, if asleep, up anytime the sentry reports back. The sentry has 18 perception and is never distracted, however it only warns of unusual activity. Any target that enters the area warded by the sentry (not just seen by the sentry) may be attacked at the wizard's discretion.\n\n\nA spectral sentry cast in city street at night would begin to alert the wizard as people woke up and started walking around town, but as people moving through the streets become the norm, the sentry stops reporting them. A sentry placed in the woods would probably be reporting back to the wizard fairly often as wildlife moves through the area.\n\nThe sentry fights as a warrior equal to 1/2 the wizard's level (rounded down).\n\nThe sentry can be dispelled at will as long as the mental connection between the two is established.",
-    "source": "PHB"
+    "source": "Koibu"
   },
 
   {
