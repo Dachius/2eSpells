@@ -1576,7 +1576,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell enchants a weapon that is being forged to be especially brutal when wielded in combat. The weapon must be of exquisite quality (minimum cost of 50,000 copper) and be in the forging process when the spell is cast. On a natural attack roll of 18, 19, or 20, roll a d10 to determine critical effects.\n\n\n1-4: Bleed | The target takes 1 damage per round until the wound is healed/bandaged.\n\n5-7: Stun | The target is stunned for 1 round.\n\n8-9: Maim | Roll for an arm or leg hit (50/50 chance). If an arm is hit, -4 to hit and half attack rate. If a leg is hit, -4 AC and half move. Lasts for 1d4 rounds.\n\n10: Roll for 2 more effects. Effects can stack.",
-    "source": "PHB"
+    "source": "Koibu"
   },
 
   {
