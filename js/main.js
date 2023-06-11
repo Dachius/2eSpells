@@ -1,7 +1,6 @@
 // Make table
 var table;
 spellTable();
-
 async function spellTable(){
     const wizard = await fetch('json/wizard.json')
     let wizardData = await wizard.json();
@@ -15,7 +14,7 @@ async function spellTable(){
         } else if(a.name != b.name){
             return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
         } else if(a.school != b.school){
-            return a.school.localeCompare(b.school)
+            return a.school.localeCompare(b.school);
         } else if(a.class != b.class){
             return (a.class.localeCompare(b.class));
         }
@@ -111,35 +110,55 @@ function mod(n, m){
     return ((n % m) + m) % m;
 }
 
+// Generating HTML
+
+// Add button to element.
+function appendButton(base, type, text){
+    const button = document.createElement("button");
+    button.appendChild(document.createTextNode(text));
+    button.id = text;
+    button.classList.add(type);
+    button.classList.add("styledButton");
+    base.appendChild(button);
+
+    return button;
+}
+
+// Add cell to row.
+function appendCell(row, type, text){
+    const td = row.insertCell();
+    td.classList.add(type);
+    td.appendChild(document.createTextNode(text));
+}
+
 // Gray/Blue/Red colors
-var buttonColorArray = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(138, 26, 27)"];
+var buttonColors = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(138, 26, 27)"];
 
 // Sphere Gray/Light-Blue/Blue colors
-var sphereColorArray = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(147, 168, 184)"];
+var sphereColors = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(147, 168, 184)"];
 
-// Name Filter
-var nameFilter = document.getElementById("nameFilter");
-nameFilter.addEventListener("keyup", updateFilter);
+// Name filter
+document.getElementById("name-filter").addEventListener("keyup", updateFilter);
 
 // Class button listeners
 var classButtons = document.getElementsByClassName("classButton");
 for(var i = 0; i < classButtons.length; i++){
-    classButtons[i].addEventListener("click", function(){
-        leftClickBinary(this);
-    });
-
-    classButtons[i].addEventListener("contextmenu", function(e){
-        rightClickBinary(e, this);
-    });
+    classButtons[i].addEventListener("click", function(){ leftClickBinary(this) });
+    classButtons[i].addEventListener("contextmenu", function(e){ rightClickBinary(e, this) });
 }
 
-// Specialist button listeners
-var specialistButtons = document.getElementsByClassName("specialistButton");
-for(var i = 0; i < specialistButtons.length; i++){
+// Specialist buttons
+var specialistButtons = [];
+var specialistNames = ["Abjurer", "Conjurer", "Diviner", "Enchanter", "Illusionist", "Invoker", "Necromancer", "Transmuter"];
+var tr = document.getElementById("specialist-table").insertRow();
+appendCell(tr, "nameCell", "Specialist");
+for(let i = 0; i < specialistNames.length; i++){
+    specialistButtons[i] = appendButton(tr.insertCell(), "specialistButton", specialistNames[i])
+
     specialistButtons[i].addEventListener("click", function(){
         this.value++;
         this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColorArray[this.value];
+        this.style.backgroundColor = buttonColors[this.value];
 
         specialistUpdate(this);
     });
@@ -148,66 +167,9 @@ for(var i = 0; i < specialistButtons.length; i++){
         e.preventDefault();
         this.value--;
         this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColorArray[this.value];
+        this.style.backgroundColor = buttonColors[this.value];
 
         specialistUpdate(this);
-    });
-}
-
-// Lvl button listeners
-var lvlButtons = document.getElementsByClassName("lvlButton");
-for(var i = 0; i < lvlButtons.length; i++){
-    lvlButtons[i].addEventListener("click", function(){
-        leftClickBinary(this);
-    });
-
-    lvlButtons[i].addEventListener("contextmenu", function(e){
-        rightClickBinary(e, this);
-    });
-}
-
-// School button listeners
-var schoolButtons = document.getElementsByClassName("schoolButton");
-for(var i = 0; i < schoolButtons.length; i++){
-    schoolButtons[i].addEventListener("click", function(){
-        leftClickTrinary(this);
-    });
-
-    schoolButtons[i].addEventListener("contextmenu", function(e){
-        rightClickTrinary(e, this);
-    });
-}
-
-// Sphere button listeners
-var sphereButtons = document.getElementsByClassName("sphereButton");
-for(var i = 0; i < sphereButtons.length; i++){
-    sphereButtons[i].addEventListener("click", function(){
-        leftClickGradient(this);
-    });
-
-    sphereButtons[i].addEventListener("contextmenu", function(e){
-        rightClickGradient(e, this);
-    });
-}
-
-// God button listeners
-var godButtons = document.getElementsByClassName("godButton");
-for(var i = 0; i < godButtons.length; i++){
-    godButtons[i].addEventListener("click", function(){
-        this.value++;
-        this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColorArray[this.value];
-        
-        godUpdate(this);
-    });
-
-    godButtons[i].addEventListener("contextmenu", function(e){
-        e.preventDefault();
-        this.value--;
-        this.value = mod(this.value, 2);
-        this.style.backgroundColor = buttonColorArray[this.value];
-        
-        godUpdate(this);
     });
 }
 
@@ -225,54 +187,90 @@ var specialistFilterArray = [
 ];
 
 function specialistUpdate(element){
+    value = element.value;
+    clearButtons();
+    setButton(element, buttonColors, value);
+    setButton(classButtons[1], buttonColors, value);
 
-    var index = element.getAttribute("data-index");
-
-    // Unset specialist buttons
-    for(var i = 0; i < specialistButtons.length; i++){
-        if(i != index){
-            specialistButtons[i].value = 0;
-            specialistButtons[i].style.backgroundColor = buttonColorArray[0];
-        }
-    }
-
-    // Unset sphere buttons
-    for(var i = 0; i < sphereButtons.length; i++){
-        sphereButtons[i].value = 0;
-        sphereButtons[i].style.backgroundColor = buttonColorArray[0];
-    }
-
-    // Unset god buttons
-    for(var i = 0; i < godButtons.length; i++){
-        godButtons[i].value = 0;
-        godButtons[i].style.backgroundColor = buttonColorArray[0];
-    }
-    
-    classButtons[0].value = 0;
-    classButtons[0].style.backgroundColor = buttonColorArray[0];
-
-    if(element.value == 0){
-        // Unset class
-        classButtons[1].value = 0;
-        classButtons[1].style.backgroundColor = buttonColorArray[0];
-
-        for(var i = 0; i < schoolButtons.length; i++){
-            schoolButtons[i].value = 0;
-            schoolButtons[i].style.backgroundColor = buttonColorArray[0];
-        }
-    }
-    else if(element.value == 1){
-        // Set class to wizard
-        classButtons[1].value = 1;
-        classButtons[1].style.backgroundColor = buttonColorArray[1];
-        
-        for(var i = 0; i < schoolButtons.length; i++){
+    var index = element.parentNode.cellIndex - 1;
+    if(value == 1){
+        for(let i = 0; i < schoolButtons.length; i++){
             schoolButtons[i].value = specialistFilterArray[index][i];
-            schoolButtons[i].style.backgroundColor = buttonColorArray[schoolButtons[i].value];
+            schoolButtons[i].style.backgroundColor = buttonColors[schoolButtons[i].value];
         }
     }
     
     updateFilter();
+}
+
+// Level buttons
+var lvlButtons = [];
+tr = document.getElementById("lvl-table").insertRow();
+for(let i = 1; i <= 9; i++){
+    lvlButtons[i - 1] = appendButton(tr.insertCell(), "lvlButton", i);
+    
+    lvlButtons[i - 1].addEventListener("click", function(){ leftClickBinary(this) });
+    lvlButtons[i - 1].addEventListener("contextmenu", function(e){ rightClickBinary(e, this) });
+}
+
+// School buttons
+var schoolButtons = [];
+var schoolNames = ["Abjuration", "Alteration", "Conjuration", "Divination", "Enchantment", "Evocation", "Illusion", "Necromancy"];
+tr = document.getElementById("school-table").insertRow();
+appendCell(tr, "nameCell", "School");
+for(let i = 0; i < schoolNames.length; i++){
+    schoolButtons[i] = appendButton(tr.insertCell(), "schoolButton", schoolNames[i]);
+
+    schoolButtons[i].addEventListener("click", function(){ leftClickTrinary(this) });
+    schoolButtons[i].addEventListener("contextmenu", function(e){ rightClickTrinary(e, this) });
+}
+
+// Sphere buttons
+var sphereNames = ["All", "Animal", "Astral", "Chaos", "Charm", "Combat", "Creation", "Divination", "Air", "Earth", "Fire", "Water", "Guardian", "Healing", "Law", "Necromantic", "Numbers", "Plant", "Protection", "Summoning", "Sun", "Thought", "Time", "Travelers", "War", "Wards", "Weather"];
+tr = document.getElementById("sphere-table").insertRow();
+for(let i = 0; i < sphereNames.length; i++){
+    appendButton(tr.insertCell(), "sphereButton", sphereNames[i]);
+}
+
+// Sphere button listeners
+var sphereButtons = document.getElementsByClassName("sphereButton");
+for(var i = 0; i < sphereButtons.length; i++){
+    sphereButtons[i].addEventListener("click", function(){ leftClickGradient(this) });
+    sphereButtons[i].addEventListener("contextmenu", function(e){ rightClickGradient(e, this) });
+}
+
+// God buttons
+var godNames = ["Astair", "Martha", "Voraci", "Malkis", "Tempos", "Nadinis", "Felumbra", "Illumis", "Relkor", "Agepa", "Aaris", "Bellum", "Chis", "Mathis/Safia", "Efra", "Jexel", "Matrigal", "Nerual", "Ponos", "Quantarious", "Reluna", "Sayor", "Solt", "Terrasa", "Terrin", "Velmontarious", "Velthara", "Womaatoar", "Khorne", "Tzeentch", "Nurgle", "Slaanesh", "Emperor"];
+
+tr = document.getElementById("koibu-table").insertRow();
+for(let i = 0; i < 28; i++){
+    appendButton(tr.insertCell(), "godButton", godNames[i]);
+}
+
+// tr = document.getElementById("warhammer-table").insertRow();
+// for(let i = 28; i < 33; i++){
+//     appendButton(tr.insertCell(), "godButton", godNames[i]);
+// }
+
+// God button listeners
+var godButtons = document.getElementsByClassName("godButton");
+for(var i = 0; i < godButtons.length; i++){
+    godButtons[i].addEventListener("click", function(){
+        this.value++;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColors[this.value];
+        
+        godUpdate(this);
+    });
+
+    godButtons[i].addEventListener("contextmenu", function(e){
+        e.preventDefault();
+        this.value--;
+        this.value = mod(this.value, 2);
+        this.style.backgroundColor = buttonColors[this.value];
+        
+        godUpdate(this);
+    });
 }
 
 // 0 = don't care, 1 = major, 2 = minor
@@ -307,68 +305,56 @@ var godFilterArray = [
     [1, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 2, 0, 1, 0, 2, 2, 1, 0, 2, 1, 0, 0, 0, 0], // Velthara
     [1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0, 1, 0], // Womaatoar
 
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Khorne
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Tzeentch
-    [1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 0], // Nurgle
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Slaanesh -
-    [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 2, 0], // Emperor
-
+    // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Khorne
+    // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Tzeentch
+    // [1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 0], // Nurgle
+    // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Slaanesh -
+    // [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 2, 0], // Emperor
 ];
 
 function godUpdate(element){
-    var index = element.getAttribute("data-index");
+    value = element.value;
+    clearButtons();
+    setButton(element, buttonColors, value);
+    setButton(classButtons[0], buttonColors, value);
 
-    // Unset god buttons
-    for(var i = 0; i < godButtons.length; i++){
-        if(i != index){
-            godButtons[i].value = 0;
-            godButtons[i].style.backgroundColor = buttonColorArray[0];
-        }
-    }
-
-    // Unset school buttons
-    for(var i = 0; i < schoolButtons.length; i++){
-        schoolButtons[i].value = 0;
-        schoolButtons[i].style.backgroundColor = buttonColorArray[0];
-    }
-
-    // Unset specialist buttons
-    for(var i = 0; i < specialistButtons.length; i++){
-        specialistButtons[i].value = 0;
-        specialistButtons[i].style.backgroundColor = buttonColorArray[0];
-    }
-    
-    classButtons[1].value = 0;
-    classButtons[1].style.backgroundColor = buttonColorArray[0];
-
-    if(element.value == 0){
-        // Unset class
-        classButtons[0].value = 0;
-        classButtons[0].style.backgroundColor = buttonColorArray[0];
-
-        for(var i = 0; i < sphereButtons.length; i++){
-            sphereButtons[i].value = 0;
-            sphereButtons[i].style.backgroundColor = buttonColorArray[0];
-        }
-    } else if(element.value == 1){
-        // Set class to cleric
-        classButtons[0].value = 1;
-        classButtons[0].style.backgroundColor = buttonColorArray[1];
-
+    var index = godNames.indexOf(element.id);
+    if(value == 1){
         for(var i = 0; i < sphereButtons.length; i++){
             sphereButtons[i].value = godFilterArray[index][i];
-            sphereButtons[i].style.backgroundColor = sphereColorArray[sphereButtons[i].value];
+            sphereButtons[i].style.backgroundColor = sphereColors[sphereButtons[i].value];
         }
     }
     
     updateFilter();
 }
 
+// Button updates
+
+function setButton(button, colors, value){
+    button.value = value;
+    button.style.backgroundColor = colors[value];
+}
+
+function setButtons(buttons, colors, value){
+    for(let i = 0; i < buttons.length; i++){
+        setButton(buttons[i], colors, value);
+    }
+}
+
+function clearButtons(){
+    setButtons(specialistButtons, buttonColors, 0);
+    setButtons(sphereButtons, sphereColors, 0);
+    setButtons(godButtons, buttonColors, 0);
+    setButtons(classButtons, buttonColors, 0);
+    setButtons(schoolButtons, buttonColors, 0);
+}
+
 // gray, blue
 function leftClickBinary(element){
     element.value++;
     element.value = mod(element.value, 2);
-    element.style.backgroundColor = buttonColorArray[element.value];
+    element.style.backgroundColor = buttonColors[element.value];
     updateFilter();
 }
 
@@ -376,7 +362,7 @@ function rightClickBinary(e, element){
     e.preventDefault();
     element.value--;
     element.value = mod(element.value, 2);
-    element.style.backgroundColor = buttonColorArray[element.value];
+    element.style.backgroundColor = buttonColors[element.value];
     updateFilter();
 }
 
@@ -384,14 +370,14 @@ function rightClickBinary(e, element){
 function leftClickTrinary(element){
     element.value++;
     element.value = mod(element.value, 3);
-    element.style.backgroundColor = buttonColorArray[element.value];
+    element.style.backgroundColor = buttonColors[element.value];
     updateFilter();
 }
 function rightClickTrinary(e, element){
     e.preventDefault();
     element.value--;
     element.value = mod(element.value, 3);
-    element.style.backgroundColor = buttonColorArray[element.value];
+    element.style.backgroundColor = buttonColors[element.value];
     updateFilter();
 }
 
@@ -399,75 +385,57 @@ function rightClickTrinary(e, element){
 function leftClickGradient(element){
     element.value++;
     element.value = mod(element.value, 3);
-    element.style.backgroundColor = sphereColorArray[element.value];
+    element.style.backgroundColor = sphereColors[element.value];
     updateFilter();
 }
 function rightClickGradient(e, element){
     e.preventDefault();
     element.value--;
     element.value = mod(element.value, 3);
-    element.style.backgroundColor = sphereColorArray[element.value];
+    element.style.backgroundColor = sphereColors[element.value];
     updateFilter();
 }
 
-// Vestigial?
+// Filter stuff
+
 function updateFilter(){
     table.setFilter(customFilter);
 }
 
-// Filter logic
 function customFilter(data){
+
     // Filter by name
-    if(!data.name.toLowerCase().includes(nameFilter.value.toLowerCase())){
-        return false;
-    }
+    if(!data.name.toLowerCase().includes(document.getElementById("name-filter").value.toLowerCase())) return false;
 
     // Filter by class
-    let passes = false, blank = true;
-    for(var i = 0; i < classButtons.length; i++){
-        if(classButtons[i].value == 1){
-            blank = false;
-            if(data.class == classButtons[i].id){
-                passes = true;
-            }
-        }
-    }
+    let passes = true;
+    for(var i = 0; i < classButtons.length; i++)
+        if(classButtons[i].value == 1 && (passes = data.class == classButtons[i].id)) break;
 
-    if(!passes && !blank) return false;
+    if(!passes) return false;
 
     // Filter by level
-    passes = false, blank = true;
-    for(var i = 0; i < lvlButtons.length; i++){
-        if(lvlButtons[i].value == 1){
-            blank = false;
-            if(data.level == (i + 1)){
-                passes = true;
-            }
-        }
-    }
+    for(var i = 0; i < lvlButtons.length; i++)
+        if(lvlButtons[i].value == 1 && (passes = data.level == i + 1)) break;
 
-    if(!passes && !blank) return false;
+    if(!passes) return false;
 
     // Filter by school
-    passes = false, blank = true;
     for(var i = 0; i < schoolButtons.length; i++){
         if(schoolButtons[i].value == 1){
-            blank = false;
-            if(data.school == schoolButtons[i].id){
-                passes = true;
-            }
+            if(passes = (data.school == schoolNames[i])) break;
         } else if(schoolButtons[i].value == 2){
             // Allow school of "minor divination" for conjurers.
             if(specialistButtons[1].value == 1 && data.school == "Divination" && data.level <= 4){
                 passes = true;
-            }
-            else if(data.school == schoolButtons[i].id){
+                break;
+            } else if(data.school == schoolNames[i]){
                 return false;
             }
         }
     }
 
-    if(!passes && !blank) return false;
+    if(!passes) return false;
 
     // Filter by sphere
     passes = false, blank = true;
@@ -476,7 +444,7 @@ function customFilter(data){
             blank = false;
             if(data.spheres != null){
                 for(var j = 0; j < data.spheres.length; j++){
-                    if(data.spheres[j] == sphereButtons[i].id){
+                    if(data.spheres[j] == sphereNames[i]){
                         passes = true;
                     }
                 }
@@ -485,7 +453,7 @@ function customFilter(data){
             blank = false;
             if(data.spheres != null){
                 for(var j = 0; j < data.spheres.length; j++){
-                    if(data.spheres[j] == sphereButtons[i].id && data.level <= 3){
+                    if(data.spheres[j] == sphereNames[i] && data.level <= 3){
                         passes = true;
                     }
                 }
