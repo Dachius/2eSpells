@@ -240,11 +240,16 @@ for(var i = 0; i < sphereButtons.length; i++){
 }
 
 // God buttons
-var godNames = ["Astair", "Martha", "Voraci", "Malkis", "Tempos", "Nadinis", "Felumbra", "Illumis", "Relkor", "Agepa", "Aaris", "Bellum", "Chis", "Mathis/Safia", "Efra", "Jexel", "Matrigal", "Nerual", "Ponos", "Quantarious", "Reluna", "Sayor", "Solt", "Terrasa", "Terrin", "Velmontarious", "Velthara", "Womaatoar", "Khorne", "Tzeentch", "Nurgle", "Slaanesh", "Emperor"];
+var godNames = ["Astair", "Martha", "Voraci", "Malkis", "Tempos", "Nadinis", "Felumbra", "Illumis", "Relkor", "Agepa", "Aaris", "Bellum", "Chis", "Mathis/Safia", "Efra", "Jexel", "Matrigal", "Nerual", "Ponos", "Quantarious", "Reluna", "Sayor", "Solt", "Terrasa", "Terrin", "Velmontarious", "Velthara", "Womaatoar", "Electricity"];
 
 tr = document.getElementById("koibu-table").insertRow();
 for(let i = 0; i < 28; i++){
     appendButton(tr.insertCell(), "godButton", godNames[i]);
+}
+
+tr = document.getElementById("science-table").insertRow();
+for(let i = 28; i < 29; i++){
+    appendButton(tr.insertCell(), "godButton", godNames[i])
 }
 
 // tr = document.getElementById("warhammer-table").insertRow();
@@ -304,6 +309,8 @@ var godFilterArray = [
     [1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 2, 1, 0, 0, 0, 0, 0], // Velmontarious
     [1, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 2, 0, 1, 0, 2, 2, 1, 0, 2, 1, 0, 0, 0, 0], // Velthara
     [1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0, 1, 0], // Womaatoar
+
+    [0, 0, 0, 1, 0, 1, 2, 2, 1, 1, 2, 0, 0, 2, 0, 1, 2, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1] // Electricity
 
     // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Khorne
     // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Tzeentch
