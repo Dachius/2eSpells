@@ -203,6 +203,19 @@ function specialistUpdate(element){
     updateFilter();
 }
 
+// Source buttons
+var sourceButtons = [];
+var sourceNames = ["PHB", "ToM", "S&M", "Koibu", "Divan"];
+tr = document.getElementById("source-table").insertRow();
+appendCell(tr, "nameCell", "Source");
+for(let i = 0; i < sourceNames.length; i++){
+    sourceButtons[i] = appendButton(tr.insertCell(), "sourceButton", sourceNames[i]);
+
+    sourceButtons[i].addEventListener("click", function(){ leftClickTrinary(this) });
+    sourceButtons[i].addEventListener("contextmenu", function(e){ rightClickTrinary(e, this) });
+}
+
+
 // Level buttons
 var lvlButtons = [];
 tr = document.getElementById("lvl-table").insertRow();
@@ -251,11 +264,6 @@ tr = document.getElementById("science-table").insertRow();
 for(let i = 28; i < 29; i++){
     appendButton(tr.insertCell(), "godButton", godNames[i])
 }
-
-// tr = document.getElementById("warhammer-table").insertRow();
-// for(let i = 28; i < 33; i++){
-//     appendButton(tr.insertCell(), "godButton", godNames[i]);
-// }
 
 // God button listeners
 var godButtons = document.getElementsByClassName("godButton");
@@ -418,6 +426,18 @@ function customFilter(data){
     let passes = true;
     for(var i = 0; i < classButtons.length; i++)
         if(classButtons[i].value == 1 && (passes = data.class == classButtons[i].id)) break;
+
+    if(!passes) return false;
+
+
+    // Filter by source
+    for(var i = 0; i < sourceButtons.length; i++){
+        if(sourceButtons[i].value == 1){
+            if(passes = (data.source == sourceNames[i])) break;
+        } else if(sourceButtons[i].value == 2){
+            if(data.source == sourceNames[i]) return false;
+        }
+    }
 
     if(!passes) return false;
 

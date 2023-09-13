@@ -3536,7 +3536,7 @@
     "save": "None",
     "damage": "",
     "description": "This spell imbues a weapon with a greater bless spell, granting +1 to hit and saves as per the bless spell, lasting for 1 week per caster level.\n\n\nThis spell does not stack with bless or aid.\n\nThe leather used must be harvested by the cleric and be of superior quality, and must be integrated into the weapon somehow: e.g. wrapped in the handle. ",
-    "source": "???"
+    "source": "Zweihard"
   },
 
   {
@@ -3656,7 +3656,7 @@
     "save": "None",
     "damage": "",
     "description": "When this spell is cast, a narrow shaft of light shines down upon the priest, making him immune to the effects of natural cold (such as a blizzard) and granting him a +3 bonus to saving throws vs. magical cold (such as a white dragon's breath weapon).\n\nFor each level of the priest above 7th, an additional beam of light may be created to protect another creature, who must be standing within 3' of the priest. Thus, a 10th-level priest could protect four other creatures in a 3' radius.",
-    "source": "Tom"
+    "source": "ToM"
   },
 
   {
@@ -4855,7 +4855,7 @@
     "save": "None",
     "damage": "",
     "description": "While using this spell, the priest can command a flame to leave its source of fuel and move at his direction. The flame is magically preserved at the intensity it possessed when animated and does not weaken or fail even if it has nothing to burn. The priest can affect any natural fire within range, but magical fires (including breath weapons) can only be animated and controlled on a roll of 11 or higher on a d20, ",
-    "source": "S7M"
+    "source": "S&M"
   },
 
   {
