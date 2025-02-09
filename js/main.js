@@ -1,42 +1,42 @@
 // Make table
 var table;
 spellTable();
-async function spellTable(){
-    const wizard = await fetch('json/wizard.json')
+async function spellTable() {
+    const wizard = await fetch('json/wizard.json');
     let wizardData = await wizard.json();
-    const cleric = await fetch('json/cleric.json')
+    const cleric = await fetch('json/cleric.json');
     let clericData = await cleric.json();
 
     // Determines default sort (i.e. initial sort and base for header sorts)
-    let jsonData = wizardData.concat(clericData).sort(function(a, b){
-        if(a.level != b.level){
+    let jsonData = wizardData.concat(clericData).sort(function (a, b) {
+        if (a.level != b.level) {
             return a.level - b.level;
-        } else if(a.name != b.name){
+        } else if (a.name != b.name) {
             return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
-        } else if(a.school != b.school){
+        } else if (a.school != b.school) {
             return a.school.localeCompare(b.school);
-        } else if(a.class != b.class){
+        } else if (a.class != b.class) {
             return (a.class.localeCompare(b.class));
         }
     });
 
     table = new Tabulator("#list", {
-        data:jsonData, // Assign data to table
-        height:"100%",
-        layout:"fitData",
-        columns:[
-            {title:"Lvl", field:"level", sorter:"number"},
-            {title:"Name", field:"name", sorter:"alphanum"},
-            {title:"School", field:"school", sorter:"alphanum"},
-            {title:"Class", field:"class", sorter:"alphanum"}
+        data: jsonData, // Assign data to table
+        height: "100%",
+        layout: "fitData",
+        columns: [
+            { title: "Lvl", field: "level", sorter: "number" },
+            { title: "Name", field: "name", sorter: "alphanum" },
+            { title: "School", field: "school", sorter: "alphanum" },
+            { title: "Class", field: "class", sorter: "alphanum" }
         ]
     });
-    
-    table.on("rowClick", function(e, row){drawInfoBox(e, row)});
+
+    table.on("rowClick", function (e, row) { drawInfoBox(e, row) });
 }
 
 // Draw info box
-function drawInfoBox(e, row){
+function drawInfoBox(e, row) {
     var spacing = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
     var data = row.getData();
 
@@ -46,9 +46,9 @@ function drawInfoBox(e, row){
     // Level, School, Sphere
     var sphereString = "";
     var spheres = data.spheres;
-    if(spheres != null){
+    if (spheres != null) {
         sphereString += " ["
-        for(var i = 0; i < spheres.length - 1; i++){
+        for (var i = 0; i < spheres.length - 1; i++) {
             sphereString += (spheres[i] + ", ");
         }
         sphereString += (spheres[spheres.length - 1] + "]");
@@ -64,22 +64,22 @@ function drawInfoBox(e, row){
 
     // Components
     var componentString = "<strong>Components:</strong> ";
-    if(data.verbal){
+    if (data.verbal) {
         componentString += "V";
-        if(data.somatic || data.material){
+        if (data.somatic || data.material) {
             componentString += ", ";
         }
     }
-    if(data.somatic){
+    if (data.somatic) {
         componentString += "S";
-        if(data.material){
+        if (data.material) {
             componentString += ", ";
         }
     }
-    if(data.material){
+    if (data.material) {
         componentString += "M";
     }
-    if(data.materials != ""){
+    if (data.materials != "") {
         componentString += " (" + data.materials + ")";
     }
 
@@ -94,11 +94,11 @@ function drawInfoBox(e, row){
     description.innerText = data.description;
 
     // Errata/Rulings
-    if(data.errata != null){
+    if (data.errata != null) {
         errata = document.getElementById("Errata");
         errata.style.borderTop = "2px solid #d29a38";
         errata.innerHTML = "<strong>Errata: </strong> " + data.errata.replaceAll("\n", "<br>");
-    } else{
+    } else {
         errata = document.getElementById("Errata");
         errata.style.borderTop = null;
         errata.innerText = null;
@@ -106,14 +106,14 @@ function drawInfoBox(e, row){
 }
 
 // Javascript % doesn't work as desired with negative numbers.
-function mod(n, m){
+function mod(n, m) {
     return ((n % m) + m) % m;
 }
 
 // Generating HTML
 
 // Add button to element.
-function appendButton(base, type, text){
+function appendButton(base, type, text) {
     const button = document.createElement("button");
     button.appendChild(document.createTextNode(text));
     button.id = text;
@@ -125,7 +125,7 @@ function appendButton(base, type, text){
 }
 
 // Add cell to row.
-function appendCell(row, type, text){
+function appendCell(row, type, text) {
     const td = row.insertCell();
     td.classList.add(type);
     td.appendChild(document.createTextNode(text));
@@ -142,9 +142,9 @@ document.getElementById("name-filter").addEventListener("keyup", updateFilter);
 
 // Class button listeners
 var classButtons = document.getElementsByClassName("classButton");
-for(var i = 0; i < classButtons.length; i++){
-    classButtons[i].addEventListener("click", function(){ leftClickBinary(this) });
-    classButtons[i].addEventListener("contextmenu", function(e){ rightClickBinary(e, this) });
+for (var i = 0; i < classButtons.length; i++) {
+    classButtons[i].addEventListener("click", function () { leftClickBinary(this) });
+    classButtons[i].addEventListener("contextmenu", function (e) { rightClickBinary(e, this) });
 }
 
 // Specialist buttons
@@ -152,10 +152,10 @@ var specialistButtons = [];
 var specialistNames = ["Abjurer", "Conjurer", "Diviner", "Enchanter", "Illusionist", "Invoker", "Necromancer", "Transmuter"];
 var tr = document.getElementById("specialist-table").insertRow();
 appendCell(tr, "nameCell", "Specialist");
-for(let i = 0; i < specialistNames.length; i++){
+for (let i = 0; i < specialistNames.length; i++) {
     specialistButtons[i] = appendButton(tr.insertCell(), "specialistButton", specialistNames[i])
 
-    specialistButtons[i].addEventListener("click", function(){
+    specialistButtons[i].addEventListener("click", function () {
         this.value++;
         this.value = mod(this.value, 2);
         this.style.backgroundColor = buttonColors[this.value];
@@ -163,7 +163,7 @@ for(let i = 0; i < specialistNames.length; i++){
         specialistUpdate(this);
     });
 
-    specialistButtons[i].addEventListener("contextmenu", function(e){
+    specialistButtons[i].addEventListener("contextmenu", function (e) {
         e.preventDefault();
         this.value--;
         this.value = mod(this.value, 2);
@@ -186,20 +186,20 @@ var specialistFilterArray = [
     [2, 0, 0, 0, 0, 0, 0, 2]  // Transmuter
 ];
 
-function specialistUpdate(element){
+function specialistUpdate(element) {
     value = element.value;
     clearButtons();
     setButton(element, buttonColors, value);
     setButton(classButtons[1], buttonColors, value);
 
     var index = element.parentNode.cellIndex - 1;
-    if(value == 1){
-        for(let i = 0; i < schoolButtons.length; i++){
+    if (value == 1) {
+        for (let i = 0; i < schoolButtons.length; i++) {
             schoolButtons[i].value = specialistFilterArray[index][i];
             schoolButtons[i].style.backgroundColor = buttonColors[schoolButtons[i].value];
         }
     }
-    
+
     updateFilter();
 }
 
@@ -208,22 +208,22 @@ var sourceButtons = [];
 var sourceNames = ["PHB", "ToM", "S&M", "Koibu", "Divan"];
 tr = document.getElementById("source-table").insertRow();
 appendCell(tr, "nameCell", "Source");
-for(let i = 0; i < sourceNames.length; i++){
+for (let i = 0; i < sourceNames.length; i++) {
     sourceButtons[i] = appendButton(tr.insertCell(), "sourceButton", sourceNames[i]);
 
-    sourceButtons[i].addEventListener("click", function(){ leftClickTrinary(this) });
-    sourceButtons[i].addEventListener("contextmenu", function(e){ rightClickTrinary(e, this) });
+    sourceButtons[i].addEventListener("click", function () { leftClickTrinary(this) });
+    sourceButtons[i].addEventListener("contextmenu", function (e) { rightClickTrinary(e, this) });
 }
 
 
 // Level buttons
 var lvlButtons = [];
 tr = document.getElementById("lvl-table").insertRow();
-for(let i = 1; i <= 9; i++){
+for (let i = 1; i <= 9; i++) {
     lvlButtons[i - 1] = appendButton(tr.insertCell(), "lvlButton", i);
-    
-    lvlButtons[i - 1].addEventListener("click", function(){ leftClickBinary(this) });
-    lvlButtons[i - 1].addEventListener("contextmenu", function(e){ rightClickBinary(e, this) });
+
+    lvlButtons[i - 1].addEventListener("click", function () { leftClickBinary(this) });
+    lvlButtons[i - 1].addEventListener("contextmenu", function (e) { rightClickBinary(e, this) });
 }
 
 // School buttons
@@ -231,57 +231,57 @@ var schoolButtons = [];
 var schoolNames = ["Abjuration", "Alteration", "Conjuration", "Divination", "Enchantment", "Evocation", "Illusion", "Necromancy"];
 tr = document.getElementById("school-table").insertRow();
 appendCell(tr, "nameCell", "School");
-for(let i = 0; i < schoolNames.length; i++){
+for (let i = 0; i < schoolNames.length; i++) {
     schoolButtons[i] = appendButton(tr.insertCell(), "schoolButton", schoolNames[i]);
 
-    schoolButtons[i].addEventListener("click", function(){ leftClickTrinary(this) });
-    schoolButtons[i].addEventListener("contextmenu", function(e){ rightClickTrinary(e, this) });
+    schoolButtons[i].addEventListener("click", function () { leftClickTrinary(this) });
+    schoolButtons[i].addEventListener("contextmenu", function (e) { rightClickTrinary(e, this) });
 }
 
 // Sphere buttons
 var sphereNames = ["All", "Animal", "Astral", "Chaos", "Charm", "Combat", "Creation", "Divination", "Air", "Earth", "Fire", "Water", "Guardian", "Healing", "Law", "Necromantic", "Numbers", "Plant", "Protection", "Summoning", "Sun", "Thought", "Time", "Travelers", "War", "Wards", "Weather"];
 tr = document.getElementById("sphere-table").insertRow();
-for(let i = 0; i < sphereNames.length; i++){
+for (let i = 0; i < sphereNames.length; i++) {
     appendButton(tr.insertCell(), "sphereButton", sphereNames[i]);
 }
 
 // Sphere button listeners
 var sphereButtons = document.getElementsByClassName("sphereButton");
-for(var i = 0; i < sphereButtons.length; i++){
-    sphereButtons[i].addEventListener("click", function(){ leftClickGradient(this) });
-    sphereButtons[i].addEventListener("contextmenu", function(e){ rightClickGradient(e, this) });
+for (var i = 0; i < sphereButtons.length; i++) {
+    sphereButtons[i].addEventListener("click", function () { leftClickGradient(this) });
+    sphereButtons[i].addEventListener("contextmenu", function (e) { rightClickGradient(e, this) });
 }
 
 // God buttons
 var godNames = ["Astair", "Martha", "Voraci", "Malkis", "Tempos", "Nadinis", "Felumbra", "Illumis", "Relkor", "Agepa", "Aaris", "Bellum", "Chis", "Mathis/Safia", "Efra", "Jexel", "Matrigal", "Nerual", "Ponos", "Quantarious", "Reluna", "Sayor", "Solt", "Terrasa", "Terrin", "Velmontarious", "Velthara", "Womaatoar", "Electricity"];
 
 tr = document.getElementById("koibu-table").insertRow();
-for(let i = 0; i < 28; i++){
+for (let i = 0; i < 28; i++) {
     appendButton(tr.insertCell(), "godButton", godNames[i]);
 }
 
 tr = document.getElementById("science-table").insertRow();
-for(let i = 28; i < 29; i++){
+for (let i = 28; i < 29; i++) {
     appendButton(tr.insertCell(), "godButton", godNames[i])
 }
 
 // God button listeners
 var godButtons = document.getElementsByClassName("godButton");
-for(var i = 0; i < godButtons.length; i++){
-    godButtons[i].addEventListener("click", function(){
+for (var i = 0; i < godButtons.length; i++) {
+    godButtons[i].addEventListener("click", function () {
         this.value++;
         this.value = mod(this.value, 2);
         this.style.backgroundColor = buttonColors[this.value];
-        
+
         godUpdate(this);
     });
 
-    godButtons[i].addEventListener("contextmenu", function(e){
+    godButtons[i].addEventListener("contextmenu", function (e) {
         e.preventDefault();
         this.value--;
         this.value = mod(this.value, 2);
         this.style.backgroundColor = buttonColors[this.value];
-        
+
         godUpdate(this);
     });
 }
@@ -327,37 +327,37 @@ var godFilterArray = [
     // [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 2, 0], // Emperor
 ];
 
-function godUpdate(element){
+function godUpdate(element) {
     value = element.value;
     clearButtons();
     setButton(element, buttonColors, value);
     setButton(classButtons[0], buttonColors, value);
 
     var index = godNames.indexOf(element.id);
-    if(value == 1){
-        for(var i = 0; i < sphereButtons.length; i++){
+    if (value == 1) {
+        for (var i = 0; i < sphereButtons.length; i++) {
             sphereButtons[i].value = godFilterArray[index][i];
             sphereButtons[i].style.backgroundColor = sphereColors[sphereButtons[i].value];
         }
     }
-    
+
     updateFilter();
 }
 
 // Button updates
 
-function setButton(button, colors, value){
+function setButton(button, colors, value) {
     button.value = value;
     button.style.backgroundColor = colors[value];
 }
 
-function setButtons(buttons, colors, value){
-    for(let i = 0; i < buttons.length; i++){
+function setButtons(buttons, colors, value) {
+    for (let i = 0; i < buttons.length; i++) {
         setButton(buttons[i], colors, value);
     }
 }
 
-function clearButtons(){
+function clearButtons() {
     setButtons(specialistButtons, buttonColors, 0);
     setButtons(sphereButtons, sphereColors, 0);
     setButtons(godButtons, buttonColors, 0);
@@ -366,14 +366,14 @@ function clearButtons(){
 }
 
 // gray, blue
-function leftClickBinary(element){
+function leftClickBinary(element) {
     element.value++;
     element.value = mod(element.value, 2);
     element.style.backgroundColor = buttonColors[element.value];
     updateFilter();
 }
 
-function rightClickBinary(e, element){
+function rightClickBinary(e, element) {
     e.preventDefault();
     element.value--;
     element.value = mod(element.value, 2);
@@ -382,13 +382,13 @@ function rightClickBinary(e, element){
 }
 
 // gray, blue, red
-function leftClickTrinary(element){
+function leftClickTrinary(element) {
     element.value++;
     element.value = mod(element.value, 3);
     element.style.backgroundColor = buttonColors[element.value];
     updateFilter();
 }
-function rightClickTrinary(e, element){
+function rightClickTrinary(e, element) {
     e.preventDefault();
     element.value--;
     element.value = mod(element.value, 3);
@@ -397,13 +397,13 @@ function rightClickTrinary(e, element){
 }
 
 // gray, blue, light blue
-function leftClickGradient(element){
+function leftClickGradient(element) {
     element.value++;
     element.value = mod(element.value, 3);
     element.style.backgroundColor = sphereColors[element.value];
     updateFilter();
 }
-function rightClickGradient(e, element){
+function rightClickGradient(e, element) {
     e.preventDefault();
     element.value--;
     element.value = mod(element.value, 3);
@@ -413,74 +413,74 @@ function rightClickGradient(e, element){
 
 // Filter stuff
 
-function updateFilter(){
+function updateFilter() {
     table.setFilter(customFilter);
 }
 
-function customFilter(data){
+function customFilter(data) {
 
     // Filter by name
-    if(!data.name.toLowerCase().includes(document.getElementById("name-filter").value.toLowerCase())) return false;
+    if (!data.name.toLowerCase().includes(document.getElementById("name-filter").value.toLowerCase())) return false;
 
     // Filter by class
     let passes = true;
-    for(var i = 0; i < classButtons.length; i++)
-        if(classButtons[i].value == 1 && (passes = data.class == classButtons[i].id)) break;
+    for (var i = 0; i < classButtons.length; i++)
+        if (classButtons[i].value == 1 && (passes = data.class == classButtons[i].id)) break;
 
-    if(!passes) return false;
+    if (!passes) return false;
 
 
     // Filter by source
-    for(var i = 0; i < sourceButtons.length; i++){
-        if(sourceButtons[i].value == 1){
-            if(passes = (data.source == sourceNames[i])) break;
-        } else if(sourceButtons[i].value == 2){
-            if(data.source == sourceNames[i]) return false;
+    for (var i = 0; i < sourceButtons.length; i++) {
+        if (sourceButtons[i].value == 1) {
+            if (passes = (data.source == sourceNames[i])) break;
+        } else if (sourceButtons[i].value == 2) {
+            if (data.source == sourceNames[i]) return false;
         }
     }
 
-    if(!passes) return false;
+    if (!passes) return false;
 
     // Filter by level
-    for(var i = 0; i < lvlButtons.length; i++)
-        if(lvlButtons[i].value == 1 && (passes = data.level == i + 1)) break;
+    for (var i = 0; i < lvlButtons.length; i++)
+        if (lvlButtons[i].value == 1 && (passes = data.level == i + 1)) break;
 
-    if(!passes) return false;
+    if (!passes) return false;
 
     // Filter by school
-    for(var i = 0; i < schoolButtons.length; i++){
-        if(schoolButtons[i].value == 1){
-            if(passes = (data.school == schoolNames[i])) break;
-        } else if(schoolButtons[i].value == 2){
+    for (var i = 0; i < schoolButtons.length; i++) {
+        if (schoolButtons[i].value == 1) {
+            if (passes = (data.school == schoolNames[i])) break;
+        } else if (schoolButtons[i].value == 2) {
             // Allow school of "minor divination" for conjurers.
-            if(specialistButtons[1].value == 1 && data.school == "Divination" && data.level <= 4){
+            if (specialistButtons[1].value == 1 && data.school == "Divination" && data.level <= 4) {
                 passes = true;
                 break;
-            } else if(data.school == schoolNames[i]){
+            } else if (data.school == schoolNames[i]) {
                 return false;
             }
         }
     }
 
-    if(!passes) return false;
+    if (!passes) return false;
 
     // Filter by sphere
     passes = false, blank = true;
-    for(var i = 0; i < sphereButtons.length; i++){
-        if(sphereButtons[i].value == 1){
+    for (var i = 0; i < sphereButtons.length; i++) {
+        if (sphereButtons[i].value == 1) {
             blank = false;
-            if(data.spheres != null){
-                for(var j = 0; j < data.spheres.length; j++){
-                    if(data.spheres[j] == sphereNames[i]){
+            if (data.spheres != null) {
+                for (var j = 0; j < data.spheres.length; j++) {
+                    if (data.spheres[j] == sphereNames[i]) {
                         passes = true;
                     }
                 }
             }
-        } else if(sphereButtons[i].value == 2){
+        } else if (sphereButtons[i].value == 2) {
             blank = false;
-            if(data.spheres != null){
-                for(var j = 0; j < data.spheres.length; j++){
-                    if(data.spheres[j] == sphereNames[i] && data.level <= 3){
+            if (data.spheres != null) {
+                for (var j = 0; j < data.spheres.length; j++) {
+                    if (data.spheres[j] == sphereNames[i] && data.level <= 3) {
                         passes = true;
                     }
                 }
@@ -488,7 +488,7 @@ function customFilter(data){
         }
     }
 
-    if(!passes && !blank) return false;
+    if (!passes && !blank) return false;
 
     // If subfilters pass, let through filter
     return true;
