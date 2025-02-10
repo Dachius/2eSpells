@@ -5,6 +5,9 @@
     --blue: rgb(105, 166, 213);
     --dark-gray: rgb(24, 26, 27);
 }
+body {
+    background-color:--dark-gray;
+}
 #viewportWrapper {
     position: relative;
 }
