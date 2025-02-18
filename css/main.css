@@ -6,7 +6,7 @@
     --dark-gray: rgb(24, 26, 27);
 }
 body {
-    background-color:--dark-gray;
+    background-color:var(--dark-gray);
 }
 #viewportWrapper {
     position: relative;
@@ -95,7 +95,9 @@ body {
     font-weight: 500;
 }
 .styledButton {
-    background-color: var(--dark-gray);
+    background:inherit;
+    /* background-color: var(--dark-gray); */
+    box-shadow:none;
     border: none;
     color: white;
     padding: 4px;
