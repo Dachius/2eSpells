@@ -358,7 +358,7 @@
     "save": "None",
     "damage": "",
     "description": "When the detect magic spell is cast, the wizard detects magical radiations in a path 10 feet wide and up to 60 feet long, in the direction he is facing. The intensity of the magic can be determined (dim, faint, moderate, strong, overwhelming), and the wizard has a 10% chance per level to recognize if a certain type of magic (alteration, conjuration, etc.) is present. The caster can turn, scanning a 60-degree arc per round. \n\nA stone wall of one foot or more thickness, solid metal of one inch thickness, or a yard or more of solid wood blocks the spell. Magical areas, multiple types of magic, or strong local magical emanations may confuse or conceal weaker radiations. \nNote that this spell does not reveal the presence of good or evil, or reveal alignment. Other-planar creatures are not necessarily magical.",
-    "source": "Koibu"
+    "source": "PHB"
   },
 
   {
@@ -377,7 +377,7 @@
     "save": "1/2",
     "damage": "",
     "description": "This spell causes the dust of crystals to resonate with magical auras. The dust will react when sprinkled on magical items, giving them a soft yellow glow for the duration of the spell.\n\n\nAlternatively, the dust may be inhaled by any creature whose eyes (pupil, iris, and whites) will glow bright yellow and be able to see the auras of magical items and effects. When used in this way, the range of the vision is 30', and the vision is blocked by any amount of stone or metal, or an inch of wood or dirt. Unlike other versions of this spell, the creatures need not concentrate to see these auras. Once the spell runs its course, the subject (if the dust was inhaled) is rendered blind for 1 minute, and semi blind for 1 minute after that. Semi blind effects are similar to those of poor lighting.\n\nThe caster may enchant as much dust as they can hold in their hands. A 2\" crystal will create 2 doses, which is enough dust to cover a 10x10 area. Large creatures need 3 doses, huge need 10, gargantuan need 30. Small creatures need 1/3, tiny need 1/10. The crystal must already be in dust form before the spell is cast.",
-    "source": "PHB"
+    "source": "Koibu"
   },
 
   {
