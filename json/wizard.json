@@ -209,7 +209,7 @@
   },
 
   {
-    "level": 3,
+    "level": 1,
     "name": "Charm Person",
     "school": "Enchantment",
     "class": "Wizard",
@@ -224,8 +224,7 @@
     "save": "Negate",
     "damage": "",
     "description": "This spell affects any single person it is cast upon. The term person includes any bipedal human, demihuman, or humanoid of man-size or smaller, such as brownies, dryads, dwarves, elves, gnolls, gnomes, goblins, half-elves, halflings, half-orcs, hobgoblins, humans, kobolds, lizard men, nixies, orcs, pixies, sprites, troglodytes, and others. Thus, a 10th-level fighter could be charmed, but an ogre could not.\n\nThe person receives a saving throw vs. spell to avoid the effect, with any adjustment due to Wisdom (see Table 5). If the person receives damage from the caster group in the same round the charm is cast an additional bonus of +1 per hit point of damage received is added to the victim's saving throw.\nIf the spell recipient fails his saving throw, he regards the caster as a trusted friend and ally to be heeded and protected. The spell does not enable the caster to control the charmed creature as if it were an automaton, but any word or action of the caster is viewed in the most favorable way. \nThus, a charmed person would not obey suicide command, but he might believe the caster if assured that the only chance to save the caster's life is for the person to hold back an on rushing red dragon for \"just a round or two.\" Note also that the spell does not endow the caster with linguistic capabilities beyond those he normally possesses (i.e., he must speak the victim's language to communicate his commands).\nThe duration of the spell is a function of the charmed person's Intelligence and is tied to the saving throw. The spell may be broken if a successful saving throw is rolled, and this saving throw is checked on a periodic basis, according to the creature's Intelligence (see the following table). If the caster harms, or attempts to harm, the charmed person by some overt action, or if a dispel magic spell is successfully cast upon the charmed person, the charm spell is broken.\nIf two or more charm effects simultaneously affect a creature, the result is decided by the DM. This could range from one effect being clearly dominant, to the subject being torn by conflicting desires, to new saving throws that could negate both spells.\nNote that the subject has full memory of the events that took place while he was charmed.\n\nTime Between Checks for Intelligence Score of 3 or less: 3 months\nTime Between Checks for Intelligence Score of 4 to 6: 2 months\nTime Between Checks for Intelligence Score of 7 to 9: 1 month\nTime Between Checks for Intelligence Score of 10 to 12: 3 weeks\nTime Between Checks for Intelligence Score of 13 to 14: 2 weeks\nTime Between Checks for Intelligence Score of 15 to 16: 1 weeks\nTime Between Checks for Intelligence Score of 17: 3 days\nTime Between Checks for Intelligence Score of 18: 2 days\nTime Between Checks for Intelligence Score of 19 or more: 1 days\n\nNote: The period between checks is the time period during which the check occurs. When to roll the check during this time is determined (randomly or by selection) by the DM. The roll is made secretly.",
-    "source": "PHB",
-    "errata": "Charm person has been changed to a level 3 spell."
+    "source": "PHB"
   },
 
   {
