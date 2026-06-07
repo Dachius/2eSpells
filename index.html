@@ -1,85 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <title>2e Spell List</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="icon" type="image/x-icon" href="/images/icon2.png">
-        <link href="tabulator/css/tabulator_midnight.css" rel="stylesheet">
-    </head>
-    <body>
-        <div id="viewportWrapper">
-            <div id="headerWrapper">
-                <div id="filterWrapper" oncontextmenu="return false">
-                    <table>
-                        <tr>
-                            <td class="nameCell">Class</td>
-                            <td>
-                                <div>
-                                    <table class="filterTable" id="classTable">
-                                        <tbody>
-                                            <tr>
-                                                <td><button class="styledButton classButton" id="Cleric">Cleric</button></td>
-                                                <td><button class="styledButton classButton" id="Wizard">Wizard</button></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <table class="filterTable" id="specialist-table"></table>
-                                    <table class="filterTable" id="source-table"></table>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="nameCell">Level</td>
-                            <td>
-                                <div>
-                                    <table class="filterTable" id="lvl-table"></table>
-                                    <table class="filterTable" id="school-table"></table>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="nameCell">Sphere</td>
-                            <td><table class="filterTable" id="sphere-table"></table></td>
-                        </tr>
-                        <tr>
-                            <td class="nameCell">Koibu</td>
-                            <td><table class="filterTable" id="koibu-table"></table></td>
-                        </tr>
-                        <tr>
-                            <td class="nameCell">Science</td>
-                            <td><table class="filterTable" id="science-table"></table></td>
-                        </tr>
-                    </table>
+  <head>
+    <title>2e Spell List</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="/images/icon2.png" />
+    <link href="tabulator/css/tabulator_midnight.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="viewportWrapper">
+      <div id="headerWrapper">
+        <div id="filterWrapper" oncontextmenu="return false;">
+          <table>
+            <tr>
+              <td class="nameCell">Class</td>
+              <td>
+                <div>
+                  <table class="filterTable" id="classTable">
+                    <tbody>
+                      <tr>
+                        <td>
+                          <button class="styledButton classButton" id="Cleric">
+                            Cleric
+                          </button>
+                        </td>
+                        <td>
+                          <button class="styledButton classButton" id="Wizard">
+                            Wizard
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table class="filterTable" id="specialist-table"></table>
+                  <table class="filterTable" id="source-table"></table>
                 </div>
-
-            </div>
-            <div id="contentWrapper">
-                <div id="listWrapper">
-                    <input id="name-filter" type="text" placeholder="Search by Name">
-                    <div id="tableWrapper">
-                        <div id="list"></div>
-                    </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="nameCell">Level</td>
+              <td>
+                <div>
+                  <table class="filterTable" id="lvl-table"></table>
+                  <table class="filterTable" id="school-table"></table>
                 </div>
-                <div id="infoWrapper">
-                    <div class="infoHeader">
-                        <div id="Name"></div>
-                        <div id="Source"></div>
-                    </div>
-                    <table id="infoTable">
-                        <tbody>
-                            <tr><td style="width:0px; white-space: nowrap" class="infoData" id="Level&School&Sphere"></td></tr>
-                            <tr><td style="width:0px; white-space: nowrap" class="infoData" id="CastingTime"></td><td class="infoData" id="Range"></td></tr>
-                            <tr><td style="width:0px; white-space: nowrap" class="infoData" id="AOE"></td><td class="infoData" id="Save"></td></tr>
-                            <tr><td style="width:0px; white-space: nowrap" class="infoData" id="Components"></td><td class="infoData" id="Duration"></td></tr>
-                            <tr><td class="infoData" colspan="2" id="Description"></td></tr>
-                            <tr><td class="infoData" colspan="2" id="Errata"></td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="nameCell">Sphere</td>
+              <td><table class="filterTable" id="sphere-table"></table></td>
+            </tr>
+            <tr>
+              <td class="nameCell">Koibu</td>
+              <td><table class="filterTable" id="koibu-table"></table></td>
+            </tr>
+            <tr>
+              <td class="nameCell">Science</td>
+              <td><table class="filterTable" id="science-table"></table></td>
+            </tr>
+          </table>
         </div>
-    </body>
+      </div>
+      <div id="contentWrapper">
+        <div id="listWrapper">
+          <input id="name-filter" type="text" placeholder="Search by Name" />
+          <div id="tableWrapper">
+            <div id="list"></div>
+          </div>
+        </div>
+        <div id="infoWrapper">
+          <div class="infoHeader">
+            <div id="Name"></div>
+            <div id="Source"></div>
+          </div>
+          <table id="infoTable">
+            <tbody>
+              <tr>
+                <td
+                  style="width: 0px; white-space: nowrap"
+                  class="infoData"
+                  id="Level&School&Sphere"
+                ></td>
+              </tr>
+              <tr>
+                <td
+                  style="width: 0px; white-space: nowrap"
+                  class="infoData"
+                  id="CastingTime"
+                ></td>
+                <td class="infoData" id="Range"></td>
+              </tr>
+              <tr>
+                <td
+                  style="width: 0px; white-space: nowrap"
+                  class="infoData"
+                  id="AOE"
+                ></td>
+                <td class="infoData" id="Save"></td>
+              </tr>
+              <tr>
+                <td
+                  style="width: 0px; white-space: nowrap"
+                  class="infoData"
+                  id="Components"
+                ></td>
+                <td class="infoData" id="Duration"></td>
+              </tr>
+              <tr>
+                <td class="infoData" colspan="2" id="Description"></td>
+              </tr>
+              <tr>
+                <td class="infoData" colspan="2" id="Errata"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
 
-    <script type="text/javascript" src="tabulator/js/tabulator.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="tabulator/js/tabulator.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </html>
+

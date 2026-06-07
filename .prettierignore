@@ -1,0 +1,5 @@
+# vendored library (dies in phase 3)
+tabulator/
+
+# spell data — machine-shaped, keep diffs/blame quiet
+json/

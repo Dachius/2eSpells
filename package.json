@@ -1,0 +1,10 @@
+{
+  "name": "2espells",
+  "private": true,
+  "description": "AD&D 2e spell list — static site; npm is used only for dev tooling",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0"
+  }
+}
