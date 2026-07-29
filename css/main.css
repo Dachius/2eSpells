@@ -5,71 +5,58 @@
   --blue: rgb(105, 166, 213);
   --dark-gray: rgb(24, 26, 27);
 }
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: var(--dark-gray);
+  margin: 0;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
-#viewportWrapper {
+#header {
   position: relative;
-}
-#headerWrapper {
-  position: relative;
-  margin: 1% 2% 0 2%;
-  overflow: auto;
+  margin: 1% 1% 1% 1%;
   border-bottom: 2px solid var(--gold);
+  flex: none;
 }
-#filterWrapper {
+#filter {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.5rem 0.75rem;
   user-select: none;
 }
-.nameCell {
-  font-size: 18px;
+.label {
+  font-size: 0.75rem;
   color: var(--gold);
   font-family: times, serif;
   font-variant: small-caps;
   font-weight: 500;
   text-align: right;
+  margin: 0;
 }
-#classTable {
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+#content {
+  margin: 1% 1% 1% 2%;
+  display: flex;
+  min-height: 0;
+}
+#spell-select {
+  flex: none;
+}
+#spell-info {
   display: inline-block;
-  vertical-align: top;
-}
-#specialist-table {
-  display: inline-block;
-  vertical-align: top;
-}
-#source-table {
-  display: inline-block;
-  vertical-align: top;
-}
-#lvl-table {
-  display: inline-block;
-  vertical-align: top;
-}
-#school-table {
-  display: inline-block;
-  vertical-align: top;
-}
-#contentWrapper {
-  position: relative;
-  margin: 1% 2% 1% 2%;
-  height: 73vh;
-}
-#listWrapper {
-  display: inline-block;
-  vertical-align: top;
-  height: 100%;
-}
-#tableWrapper {
-  height: 95%;
-}
-#infoWrapper {
-  display: inline-block;
-  max-width: calc(96% - 430px);
+  flex: 1;
   margin-left: 1%;
   height: 100%;
-  overflow-y: auto;
 }
 #name-filter {
-  width: 98%;
+  width: 100%;
 }
 .infoHeader {
   display: flex;
@@ -79,7 +66,7 @@ body {
 .infoData {
   color: var(--gray);
 }
-#Name {
+#spell-info-name {
   color: var(--gold);
   font-size: 1.8em;
   font-family: times, serif;
@@ -87,7 +74,7 @@ body {
   font-weight: 500;
   margin-right: 10px;
 }
-#Source {
+#spell-info-source {
   color: var(--blue);
   font-size: 1.8em;
   font-family: times, serif;
@@ -100,14 +87,13 @@ body {
   box-shadow: none;
   border: none;
   color: white;
-  padding: 4px;
+  padding: 1px 6px;
   text-align: center;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.5rem;
   border-radius: 3px;
 }
 .styledButton:active {
   transform: scale(0.98);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
-

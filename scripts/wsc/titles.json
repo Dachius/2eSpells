@@ -1,0 +1,9457 @@
+[
+{
+"title": "Abi-Dalzim's Horrid Wilting (Wizard Spell)",
+"name": "Abi-Dalzim's Horrid Wilting",
+"listLevel": 8
+},
+{
+"title": "Absorption (Wizard Spell)",
+"name": "Absorption",
+"listLevel": 9
+},
+{
+"title": "Accelerate Animal Growth (Wizard Spell)",
+"name": "Accelerate Animal Growth",
+"listLevel": 5
+},
+{
+"title": "Accelerate Lifeline (Wizard Spell)",
+"name": "Accelerate Lifeline",
+"listLevel": 8
+},
+{
+"title": "Accelerate Metabolism (Wizard Spell)",
+"name": "Accelerate Metabolism",
+"listLevel": 6
+},
+{
+"title": "Accelerate Plant Growth (Wizard Spell)",
+"name": "Accelerate Plant Growth",
+"listLevel": 2
+},
+{
+"title": "Accuracy (Wizard Spell)",
+"name": "Accuracy",
+"listLevel": 1
+},
+{
+"title": "Acid Bolt (Wizard Spell)",
+"name": "Acid Bolt",
+"listLevel": 4
+},
+{
+"title": "Acid Bolt - Drow (Wizard Spell)",
+"name": "Acid Bolt - Drow",
+"listLevel": 4
+},
+{
+"title": "Acid Lash (Wizard Spell)",
+"name": "Acid Lash",
+"listLevel": 3
+},
+{
+"title": "Acid Rain (Wizard Spell)",
+"name": "Acid Rain",
+"listLevel": 6
+},
+{
+"title": "Acid Storm (Wizard Spell)",
+"name": "Acid Storm",
+"listLevel": 7
+},
+{
+"title": "Adhesion (Wizard Spell)",
+"name": "Adhesion",
+"listLevel": 1
+},
+{
+"title": "Advanced Illusion (Wizard Spell)",
+"name": "Advanced Illusion",
+"listLevel": 5
+},
+{
+"title": "Aerial Acceleration (Wizard Spell)",
+"name": "Aerial Acceleration",
+"listLevel": 2
+},
+{
+"title": "Affect Normal Fires (Wizard Spell)",
+"name": "Affect Normal Fires",
+"listLevel": 1
+},
+{
+"title": "Afterclap (Wizard Spell)",
+"name": "Afterclap",
+"listLevel": 8
+},
+{
+"title": "Agannazar's Scorcher (Wizard Spell)",
+"name": "Agannazar's Scorcher",
+"listLevel": 2
+},
+{
+"title": "Age Animal (Wizard Spell)",
+"name": "Age Animal",
+"listLevel": 6
+},
+{
+"title": "Age to Destruction (Wizard Spell)",
+"name": "Age to Destruction",
+"listLevel": 3
+},
+{
+"title": "Agra's Ambush (Wizard Spell)",
+"name": "Agra's Ambush",
+"listLevel": 2
+},
+{
+"title": "Aiming at the Target (Wizard Spell)",
+"name": "Aiming at the Target",
+"listLevel": 5
+},
+{
+"title": "Air Spiral (Wizard Spell)",
+"name": "Air Spiral",
+"listLevel": 8
+},
+{
+"title": "Airball (Wizard Spell)",
+"name": "Airball",
+"listLevel": 8
+},
+{
+"title": "Airboat (Wizard Spell)",
+"name": "Airboat",
+"listLevel": 8
+},
+{
+"title": "Airbolt (Wizard Spell)",
+"name": "Airbolt",
+"listLevel": 3
+},
+{
+"title": "Airsphere (Wizard Spell)",
+"name": "Airsphere",
+"listLevel": 3
+},
+{
+"title": "Airy Water (Wizard Spell)",
+"name": "Airy Water",
+"listLevel": 5
+},
+{
+"title": "Alacrity (Wizard Spell)",
+"name": "Alacrity",
+"listLevel": 3
+},
+{
+"title": "Alahandra's Questing Call (Wizard Spell)",
+"name": "Alahandra's Questing Call",
+"listLevel": 3
+},
+{
+"title": "Alamanther's Return (Wizard Spell)",
+"name": "Alamanther's Return",
+"listLevel": 9
+},
+{
+"title": "Alamir's Fundamental Breakdown (Wizard Spell)",
+"name": "Alamir's Fundamental Breakdown",
+"listLevel": 3
+},
+{
+"title": "Alarm (Wizard Spell)",
+"name": "Alarm",
+"listLevel": 1
+},
+{
+"title": "Algarth's Embattlement (Wizard Spell)",
+"name": "Algarth's Embattlement",
+"listLevel": 9
+},
+{
+"title": "Allisandro's Binding Curse (Wizard Spell)",
+"name": "Allisandro's Binding Curse",
+"listLevel": 9
+},
+{
+"title": "Alter Beast (Wizard Spell)",
+"name": "Alter Beast",
+"listLevel": 8
+},
+{
+"title": "Alter Dream (Wizard Spell)",
+"name": "Alter Dream",
+"listLevel": 6
+},
+{
+"title": "Alter Instrument (Wizard Spell)",
+"name": "Alter Instrument",
+"listLevel": 1
+},
+{
+"title": "Alter Normal Winds (Wizard Spell)",
+"name": "Alter Normal Winds",
+"listLevel": 1
+},
+{
+"title": "Alter Reality (Wizard Spell)",
+"name": "Alter Reality",
+"listLevel": 7
+},
+{
+"title": "Alter Self (Wizard Spell)",
+"name": "Alter Self",
+"listLevel": 2
+},
+{
+"title": "Alustriel's Banner (Wizard Spell)",
+"name": "Alustriel's Banner",
+"listLevel": 2
+},
+{
+"title": "Alustriel's Fang (Wizard Spell)",
+"name": "Alustriel's Fang",
+"listLevel": 2
+},
+{
+"title": "Alustriel's Improved Mantle (Wizard Spell)",
+"name": "Alustriel's Improved Mantle",
+"listLevel": 7
+},
+{
+"title": "Alustriel's Mantle (Wizard Spell)",
+"name": "Alustriel's Mantle",
+"listLevel": 4
+},
+{
+"title": "Alustriel's Sword of Stars (Wizard Spell)",
+"name": "Alustriel's Sword of Stars",
+"listLevel": 7
+},
+{
+"title": "Alvira's Stasis Shell (Wizard Spell)",
+"name": "Alvira's Stasis Shell",
+"listLevel": 6
+},
+{
+"title": "Alyssindra's Summons (Wizard Spell)",
+"name": "Alyssindra's Summons",
+"listLevel": 9
+},
+{
+"title": "Ambush (Wizard Spell)",
+"name": "Ambush",
+"listLevel": 2
+},
+{
+"title": "Amorphous Blob (Wizard Spell)",
+"name": "Amorphous Blob",
+"listLevel": 7
+},
+{
+"title": "Amplify (Wizard Spell)",
+"name": "Amplify",
+"listLevel": 1
+},
+{
+"title": "Analyze Device (Wizard Spell)",
+"name": "Analyze Device",
+"listLevel": 3
+},
+{
+"title": "Analyze Dweomer (Wizard Spell)",
+"name": "Analyze Dweomer",
+"listLevel": 8
+},
+{
+"title": "Andrui's Baneful Backfire (Wizard Spell)",
+"name": "Andrui's Baneful Backfire",
+"listLevel": 5
+},
+{
+"title": "Anesthesia (Wizard Spell)",
+"name": "Anesthesia",
+"listLevel": 5
+},
+{
+"title": "Animal Companion (Wizard Spell)",
+"name": "Animal Companion",
+"listLevel": 2
+},
+{
+"title": "Animal Growth (Wizard Spell)",
+"name": "Animal Growth",
+"listLevel": 5
+},
+{
+"title": "Animal Magnetism (Wizard Spell)",
+"name": "Animal Magnetism",
+"listLevel": 4
+},
+{
+"title": "Animal Nonaggression (Wizard Spell)",
+"name": "Animal Nonaggression",
+"listLevel": 1
+},
+{
+"title": "Animal Sanctuary (Wizard Spell)",
+"name": "Animal Sanctuary",
+"listLevel": 1
+},
+{
+"title": "Animate Blood (Wizard Spell)",
+"name": "Animate Blood",
+"listLevel": 6
+},
+{
+"title": "Animate Dead (Wizard Spell)",
+"name": "Animate Dead",
+"listLevel": 5
+},
+{
+"title": "Animate Dead Animals (Wizard Spell)",
+"name": "Animate Dead Animals",
+"listLevel": 1
+},
+{
+"title": "Animate Dead Monster (Wizard Spell)",
+"name": "Animate Dead Monster",
+"listLevel": 6
+},
+{
+"title": "Animate Dread Warrior (Wizard Spell)",
+"name": "Animate Dread Warrior",
+"listLevel": 6
+},
+{
+"title": "Animate Fire (Wizard Spell)",
+"name": "Animate Fire",
+"listLevel": 3
+},
+{
+"title": "Animate Skeletons (Wizard Spell)",
+"name": "Animate Skeletons",
+"listLevel": 2
+},
+{
+"title": "Animate Water (Wizard Spell)",
+"name": "Animate Water",
+"listLevel": 2
+},
+{
+"title": "Animate Wood (Wizard Spell)",
+"name": "Animate Wood",
+"listLevel": 1
+},
+{
+"title": "Animate Zombies (Wizard Spell)",
+"name": "Animate Zombies",
+"listLevel": 3
+},
+{
+"title": "Anticipation (Wizard Spell)",
+"name": "Anticipation",
+"listLevel": 7
+},
+{
+"title": "Anti-Magic Aura (Wizard Spell)",
+"name": "Anti-Magic Aura",
+"listLevel": 6
+},
+{
+"title": "Anti-Magic Shell (Wizard Spell)",
+"name": "Anti-Magic Shell",
+"listLevel": 6
+},
+{
+"title": "Antipathy-Sympathy (Wizard Spell)",
+"name": "Antipathy-Sympathy",
+"listLevel": 8
+},
+{
+"title": "Apparition (Wizard Spell)",
+"name": "Apparition",
+"listLevel": 2
+},
+{
+"title": "Arachnophobia (Wizard Spell)",
+"name": "Arachnophobia",
+"listLevel": 3
+},
+{
+"title": "Arcane Runes (Wizard Spell)",
+"name": "Arcane Runes",
+"listLevel": 4
+},
+{
+"title": "Archveult's Skybolt (Wizard Spell)",
+"name": "Archveult's Skybolt",
+"listLevel": 6
+},
+{
+"title": "Argaster's Cloak of Shadows (Wizard Spell)",
+"name": "Argaster's Cloak of Shadows",
+"listLevel": 4
+},
+{
+"title": "Armor (Wizard Spell)",
+"name": "Armor",
+"listLevel": 1
+},
+{
+"title": "Army (Wizard Spell)",
+"name": "Army",
+"listLevel": 9
+},
+{
+"title": "Arnvid's Unseen Limb (Wizard Spell)",
+"name": "Arnvid's Unseen Limb",
+"listLevel": 4
+},
+{
+"title": "Arrow of Bone (Wizard Spell)",
+"name": "Arrow of Bone",
+"listLevel": 6
+},
+{
+"title": "Arrowflight (Wizard Spell)",
+"name": "Arrowflight",
+"listLevel": 1
+},
+{
+"title": "Articus's Devolutionary Warrior (Wizard Spell)",
+"name": "Articus's Devolutionary Warrior",
+"listLevel": 5
+},
+{
+"title": "Articus's Melee Manager (Wizard Spell)",
+"name": "Articus's Melee Manager",
+"listLevel": 3
+},
+{
+"title": "Aryeric's Cloak of Protection (Wizard Spell)",
+"name": "Aryeric's Cloak of Protection",
+"listLevel": 4
+},
+{
+"title": "Assist (Wizard Spell)",
+"name": "Assist",
+"listLevel": 3
+},
+{
+"title": "Astral Spell (Wizard Spell)",
+"name": "Astral Spell",
+"listLevel": 9
+},
+{
+"title": "Attract Ghoul (Wizard Spell)",
+"name": "Attract Ghoul",
+"listLevel": 2
+},
+{
+"title": "Audible Glamer (Wizard Spell)",
+"name": "Audible Glamer",
+"listLevel": 1
+},
+{
+"title": "Augment Undead (Wizard Spell)",
+"name": "Augment Undead",
+"listLevel": 3
+},
+{
+"title": "Augmentation I (Wizard Spell)",
+"name": "Augmentation I",
+"listLevel": 3
+},
+{
+"title": "Augmentation II (Wizard Spell)",
+"name": "Augmentation II",
+"listLevel": 6
+},
+{
+"title": "Aunty's Bath (Wizard Spell)",
+"name": "Aunty's Bath",
+"listLevel": 1
+},
+{
+"title": "Aura (Wizard Spell)",
+"name": "Aura",
+"listLevel": 6
+},
+{
+"title": "Aura of Terror (Wizard Spell)",
+"name": "Aura of Terror",
+"listLevel": 2
+},
+{
+"title": "Avert Evil Eye (Wizard Spell)",
+"name": "Avert Evil Eye",
+"listLevel": 1
+},
+{
+"title": "Avissar's Bane (Wizard Spell)",
+"name": "Avissar's Bane",
+"listLevel": 9
+},
+{
+"title": "Avissar's Flaming Weapon (Wizard Spell)",
+"name": "Avissar's Flaming Weapon",
+"listLevel": 8
+},
+{
+"title": "Avoidance (Wizard Spell)",
+"name": "Avoidance",
+"listLevel": 5
+},
+{
+"title": "Awaken Intelligence (Wizard Spell)",
+"name": "Awaken Intelligence",
+"listLevel": 4
+},
+{
+"title": "Backlash - Drow (Wizard Spell)",
+"name": "Backlash - Drow",
+"listLevel": 4
+},
+{
+"title": "Balance (Wizard Spell)",
+"name": "Balance",
+"listLevel": 1
+},
+{
+"title": "Ball Lightning (Wizard Spell)",
+"name": "Ball Lightning",
+"listLevel": 3
+},
+{
+"title": "Ballant's Stonesplit (Wizard Spell)",
+"name": "Ballant's Stonesplit",
+"listLevel": 6
+},
+{
+"title": "Ballant's Stonestrength (Wizard Spell)",
+"name": "Ballant's Stonestrength",
+"listLevel": 5
+},
+{
+"title": "Balliard's Rejuvenating Touch (Wizard Spell)",
+"name": "Balliard's Rejuvenating Touch",
+"listLevel": 2
+},
+{
+"title": "Bands of Ice (Wizard Spell)",
+"name": "Bands of Ice",
+"listLevel": 4
+},
+{
+"title": "Bands of Sirellyn (Wizard Spell)",
+"name": "Bands of Sirellyn",
+"listLevel": 3
+},
+{
+"title": "Banish Dazzle (Wizard Spell)",
+"name": "Banish Dazzle",
+"listLevel": 2
+},
+{
+"title": "Banishment (Wizard Spell)",
+"name": "Banishment",
+"listLevel": 7
+},
+{
+"title": "Bargain (Wizard Spell)",
+"name": "Bargain",
+"listLevel": 4
+},
+{
+"title": "Barrier Reaver (Wizard Spell)",
+"name": "Barrier Reaver",
+"listLevel": 6
+},
+{
+"title": "Basilisk Glare (Wizard Spell)",
+"name": "Basilisk Glare",
+"listLevel": 7
+},
+{
+"title": "Basket Trick (Wizard Spell)",
+"name": "Basket Trick",
+"listLevel": 3
+},
+{
+"title": "Battering Ram (Wizard Spell)",
+"name": "Battering Ram",
+"listLevel": 2
+},
+{
+"title": "Battlecurse (Wizard Spell)",
+"name": "Battlecurse",
+"listLevel": 3
+},
+{
+"title": "Belsham's Mace (Wizard Spell)",
+"name": "Belsham's Mace",
+"listLevel": 2
+},
+{
+"title": "Beltyn's Burning Blood (Wizard Spell)",
+"name": "Beltyn's Burning Blood",
+"listLevel": 4
+},
+{
+"title": "Bendal's Swoop (Wizard Spell)",
+"name": "Bendal's Swoop",
+"listLevel": 2
+},
+{
+"title": "Bestow Enchantment (Wizard Spell)",
+"name": "Bestow Enchantment",
+"listLevel": 5
+},
+{
+"title": "Bewilder (Wizard Spell)",
+"name": "Bewilder",
+"listLevel": 3
+},
+{
+"title": "Bigby's Battering Gauntlet (Wizard Spell)",
+"name": "Bigby's Battering Gauntlet",
+"listLevel": 4
+},
+{
+"title": "Bigby's Besieging Bolt (Wizard Spell)",
+"name": "Bigby's Besieging Bolt",
+"listLevel": 6
+},
+{
+"title": "Bigby's Bookworm Bane (Wizard Spell)",
+"name": "Bigby's Bookworm Bane",
+"listLevel": 1
+},
+{
+"title": "Bigby's Clenched Fist (Wizard Spell)",
+"name": "Bigby's Clenched Fist",
+"listLevel": 8
+},
+{
+"title": "Bigby's Construction Crew (Wizard Spell)",
+"name": "Bigby's Construction Crew",
+"listLevel": 4
+},
+{
+"title": "Bigby's Crushing Hand (Wizard Spell)",
+"name": "Bigby's Crushing Hand",
+"listLevel": 9
+},
+{
+"title": "Bigby's Dexterous Digits (Wizard Spell)",
+"name": "Bigby's Dexterous Digits",
+"listLevel": 2
+},
+{
+"title": "Bigby's Fantastic Fencers (Wizard Spell)",
+"name": "Bigby's Fantastic Fencers",
+"listLevel": 5
+},
+{
+"title": "Bigby's Feeling Fingers (Wizard Spell)",
+"name": "Bigby's Feeling Fingers",
+"listLevel": 1
+},
+{
+"title": "Bigby's Force Sculpture (Wizard Spell)",
+"name": "Bigby's Force Sculpture",
+"listLevel": 4
+},
+{
+"title": "Bigby's Forceful Hand (Wizard Spell)",
+"name": "Bigby's Forceful Hand",
+"listLevel": 6
+},
+{
+"title": "Bigby's Grasping Hand (Wizard Spell)",
+"name": "Bigby's Grasping Hand",
+"listLevel": 7
+},
+{
+"title": "Bigby's Interposing Hand (Wizard Spell)",
+"name": "Bigby's Interposing Hand",
+"listLevel": 5
+},
+{
+"title": "Bigby's Most Excellent Force Sculpture (Wizard Spell)",
+"name": "Bigby's Most Excellent Force Sculpture",
+"listLevel": 8
+},
+{
+"title": "Bigby's Pugnacious Pugilist (Wizard Spell)",
+"name": "Bigby's Pugnacious Pugilist",
+"listLevel": 3
+},
+{
+"title": "Bigby's Silencing Hand (Wizard Spell)",
+"name": "Bigby's Silencing Hand",
+"listLevel": 2
+},
+{
+"title": "Bigby's Strangling Grip (Wizard Spell)",
+"name": "Bigby's Strangling Grip",
+"listLevel": 5
+},
+{
+"title": "Bigby's Superior Force Sculpture (Wizard Spell)",
+"name": "Bigby's Superior Force Sculpture",
+"listLevel": 5
+},
+{
+"title": "Bind (Wizard Spell)",
+"name": "Bind",
+"listLevel": 2
+},
+{
+"title": "Bind Undead (Wizard Spell)",
+"name": "Bind Undead",
+"listLevel": 5
+},
+{
+"title": "Binding (Wizard Spell)",
+"name": "Binding",
+"listLevel": 8
+},
+{
+"title": "Blacklight (Wizard Spell)",
+"name": "Blacklight",
+"listLevel": 3
+},
+{
+"title": "Blackmantle (Wizard Spell)",
+"name": "Blackmantle",
+"listLevel": 6
+},
+{
+"title": "Blacksphere (Wizard Spell)",
+"name": "Blacksphere",
+"listLevel": 4
+},
+{
+"title": "Blackstaff (Wizard Spell)",
+"name": "Blackstaff",
+"listLevel": 8
+},
+{
+"title": "Blacksteel (Wizard Spell)",
+"name": "Blacksteel",
+"listLevel": 1
+},
+{
+"title": "Blackthorns (Wizard Spell)",
+"name": "Blackthorns",
+"listLevel": 1
+},
+{
+"title": "Blade in the Soul (Wizard Spell)",
+"name": "Blade in the Soul",
+"listLevel": 9
+},
+{
+"title": "Blade of Doom (Wizard Spell)",
+"name": "Blade of Doom",
+"listLevel": 6
+},
+{
+"title": "Bladeleap (Wizard Spell)",
+"name": "Bladeleap",
+"listLevel": 2
+},
+{
+"title": "Bladethirst (Wizard Spell)",
+"name": "Bladethirst",
+"listLevel": 2
+},
+{
+"title": "Blandness (Wizard Spell)",
+"name": "Blandness",
+"listLevel": 2
+},
+{
+"title": "Blastbones (Wizard Spell)",
+"name": "Blastbones",
+"listLevel": 2
+},
+{
+"title": "Blending (Wizard Spell)",
+"name": "Blending",
+"listLevel": 6
+},
+{
+"title": "Blindness (Wizard Spell)",
+"name": "Blindness",
+"listLevel": 2
+},
+{
+"title": "Blink (Wizard Spell)",
+"name": "Blink",
+"listLevel": 3
+},
+{
+"title": "Block Advancement (Wizard Spell)",
+"name": "Block Advancement",
+"listLevel": 8
+},
+{
+"title": "Blood Drain (Wizard Spell)",
+"name": "Blood Drain",
+"listLevel": 9
+},
+{
+"title": "Blood Lightning (Wizard Spell)",
+"name": "Blood Lightning",
+"listLevel": 4
+},
+{
+"title": "Bloodbridge (Wizard Spell)",
+"name": "Bloodbridge",
+"listLevel": 2
+},
+{
+"title": "Bloodglass (Wizard Spell)",
+"name": "Bloodglass",
+"listLevel": 2
+},
+{
+"title": "Bloodline Corruption (Wizard Spell)",
+"name": "Bloodline Corruption",
+"listLevel": 9
+},
+{
+"title": "Bloodstars (Wizard Spell)",
+"name": "Bloodstars",
+"listLevel": 7
+},
+{
+"title": "Bloodstone's Frightful Joining (Wizard Spell)",
+"name": "Bloodstone's Frightful Joining",
+"listLevel": 7
+},
+{
+"title": "Bloodstone's Spectral Steed (Wizard Spell)",
+"name": "Bloodstone's Spectral Steed",
+"listLevel": 6
+},
+{
+"title": "Bloom (Wizard Spell)",
+"name": "Bloom",
+"listLevel": 1
+},
+{
+"title": "Blur (Wizard Spell)",
+"name": "Blur",
+"listLevel": 2
+},
+{
+"title": "Body Link (Wizard Spell)",
+"name": "Body Link",
+"listLevel": 8
+},
+{
+"title": "Body Outside Body (Wizard Spell)",
+"name": "Body Outside Body",
+"listLevel": 7
+},
+{
+"title": "Bone Blade (Wizard Spell)",
+"name": "Bone Blade",
+"listLevel": 8
+},
+{
+"title": "Bone Club (Wizard Spell)",
+"name": "Bone Club",
+"listLevel": 3
+},
+{
+"title": "Bone Dance (Wizard Spell)",
+"name": "Bone Dance",
+"listLevel": 3
+},
+{
+"title": "Bone Form (Wizard Spell)",
+"name": "Bone Form",
+"listLevel": 4
+},
+{
+"title": "Bone Growth (Wizard Spell)",
+"name": "Bone Growth",
+"listLevel": 5
+},
+{
+"title": "Bone Javelin (Wizard Spell)",
+"name": "Bone Javelin",
+"listLevel": 7
+},
+{
+"title": "Bone Knit (Wizard Spell)",
+"name": "Bone Knit",
+"listLevel": 3
+},
+{
+"title": "Bone Seize (Wizard Spell)",
+"name": "Bone Seize",
+"listLevel": 4
+},
+{
+"title": "Boneiron (Wizard Spell)",
+"name": "Boneiron",
+"listLevel": 2
+},
+{
+"title": "Bones of the Earth (Wizard Spell)",
+"name": "Bones of the Earth",
+"listLevel": 6
+},
+{
+"title": "Bonewood (Wizard Spell)",
+"name": "Bonewood",
+"listLevel": 2
+},
+{
+"title": "Bowgentle's Fleeting Journey (Wizard Spell)",
+"name": "Bowgentle's Fleeting Journey",
+"listLevel": 5
+},
+{
+"title": "Brain Spider (Wizard Spell)",
+"name": "Brain Spider",
+"listLevel": 8
+},
+{
+"title": "Brainblaze (Wizard Spell)",
+"name": "Brainblaze",
+"listLevel": 9
+},
+{
+"title": "Brainkill (Wizard Spell)",
+"name": "Brainkill",
+"listLevel": 4
+},
+{
+"title": "Brannart's Acidic Grip (Wizard Spell)",
+"name": "Brannart's Acidic Grip",
+"listLevel": 3
+},
+{
+"title": "Breach Defenses (Wizard Spell)",
+"name": "Breach Defenses",
+"listLevel": 6
+},
+{
+"title": "Breath of Bewilderment (Wizard Spell)",
+"name": "Breath of Bewilderment",
+"listLevel": 2
+},
+{
+"title": "Brightsong (Wizard Spell)",
+"name": "Brightsong",
+"listLevel": 6
+},
+{
+"title": "Bubble Breath (Wizard Spell)",
+"name": "Bubble Breath",
+"listLevel": 4
+},
+{
+"title": "Bubka's Superior Identification (Wizard Spell)",
+"name": "Bubka's Superior Identification",
+"listLevel": 5
+},
+{
+"title": "Bug (Wizard Spell)",
+"name": "Bug",
+"listLevel": 7
+},
+{
+"title": "Bugman's Mug (Wizard Spell)",
+"name": "Bugman's Mug",
+"listLevel": 1
+},
+{
+"title": "Burn Path (Wizard Spell)",
+"name": "Burn Path",
+"listLevel": 8
+},
+{
+"title": "Burning Hands (Wizard Spell)",
+"name": "Burning Hands",
+"listLevel": 1
+},
+{
+"title": "Burning Sands (Wizard Spell)",
+"name": "Burning Sands",
+"listLevel": 1
+},
+{
+"title": "Cacofiend (Wizard Spell)",
+"name": "Cacofiend",
+"listLevel": 7
+},
+{
+"title": "Caddelyn's Catastrophe (Wizard Spell)",
+"name": "Caddelyn's Catastrophe",
+"listLevel": 5
+},
+{
+"title": "Calder's Starry Sky (Wizard Spell)",
+"name": "Calder's Starry Sky",
+"listLevel": 2
+},
+{
+"title": "Caligarde's Claw (Wizard Spell)",
+"name": "Caligarde's Claw",
+"listLevel": 4
+},
+{
+"title": "Call - Wu Jen (Wizard Spell)",
+"name": "Call - Wu Jen",
+"listLevel": 8
+},
+{
+"title": "Call Society (Wizard Spell)",
+"name": "Call Society",
+"listLevel": 2
+},
+{
+"title": "Call Spirit (Wizard Spell)",
+"name": "Call Spirit",
+"listLevel": 7
+},
+{
+"title": "Call Undead (Wizard Spell)",
+"name": "Call Undead",
+"listLevel": 3
+},
+{
+"title": "Callistram's Gondola (Wizard Spell)",
+"name": "Callistram's Gondola",
+"listLevel": 3
+},
+{
+"title": "Calm - Witch (Wizard Spell)",
+"name": "Calm - Witch",
+"listLevel": 3
+},
+{
+"title": "Calm Water (Wizard Spell)",
+"name": "Calm Water",
+"listLevel": 5
+},
+{
+"title": "Calm Wind - Lvl 5 (Wizard Spell)",
+"name": "Calm Wind - Lvl 5",
+"listLevel": 5
+},
+{
+"title": "Candletrick (Wizard Spell)",
+"name": "Candletrick",
+"listLevel": 2
+},
+{
+"title": "Cantrip (Wizard Spell)",
+"name": "Cantrip",
+"listLevel": 1
+},
+{
+"title": "Capacitor (Wizard Spell)",
+"name": "Capacitor",
+"listLevel": 6
+},
+{
+"title": "Cat's Grace (Wizard Spell)",
+"name": "Cat's Grace",
+"listLevel": 2
+},
+{
+"title": "Catapult (Wizard Spell)",
+"name": "Catapult",
+"listLevel": 1
+},
+{
+"title": "Cathala's Compulsion (Wizard Spell)",
+"name": "Cathala's Compulsion",
+"listLevel": 6
+},
+{
+"title": "Cause Blindness or Deafness (Wizard Spell)",
+"name": "Cause Blindness or Deafness",
+"listLevel": 3
+},
+{
+"title": "Cause Critical Wounds (Wizard Spell)",
+"name": "Cause Critical Wounds",
+"listLevel": 5
+},
+{
+"title": "Cause Disease (Wizard Spell)",
+"name": "Cause Disease",
+"listLevel": 3
+},
+{
+"title": "Cause Light Wounds (Wizard Spell)",
+"name": "Cause Light Wounds",
+"listLevel": 1
+},
+{
+"title": "Cause Serious Wounds (Wizard Spell)",
+"name": "Cause Serious Wounds",
+"listLevel": 4
+},
+{
+"title": "Cervate's Summoning (Wizard Spell)",
+"name": "Cervate's Summoning",
+"listLevel": 3
+},
+{
+"title": "Chain Contingency (Wizard Spell)",
+"name": "Chain Contingency",
+"listLevel": 9
+},
+{
+"title": "Chain Lightning (Wizard Spell)",
+"name": "Chain Lightning",
+"listLevel": 6
+},
+{
+"title": "Chameleon (Wizard Spell)",
+"name": "Chameleon",
+"listLevel": 1
+},
+{
+"title": "Change Form (Wizard Spell)",
+"name": "Change Form",
+"listLevel": 8
+},
+{
+"title": "Change Self (Wizard Spell)",
+"name": "Change Self",
+"listLevel": 1
+},
+{
+"title": "Chant of the Red Wizards (Wizard Spell)",
+"name": "Chant of the Red Wizards",
+"listLevel": 3
+},
+{
+"title": "Chaos (Wizard Spell)",
+"name": "Chaos",
+"listLevel": 5
+},
+{
+"title": "Charge (Wizard Spell)",
+"name": "Charge",
+"listLevel": 2
+},
+{
+"title": "Charm Animals (Wizard Spell)",
+"name": "Charm Animals",
+"listLevel": 5
+},
+{
+"title": "Charm Man I (Wizard Spell)",
+"name": "Charm Man I",
+"listLevel": 2
+},
+{
+"title": "Charm Man II (Wizard Spell)",
+"name": "Charm Man II",
+"listLevel": 3
+},
+{
+"title": "Charm Man III (Wizard Spell)",
+"name": "Charm Man III",
+"listLevel": 4
+},
+{
+"title": "Charm Monster (Wizard Spell)",
+"name": "Charm Monster",
+"listLevel": 4
+},
+{
+"title": "Charm Person (Wizard Spell)",
+"name": "Charm Person",
+"listLevel": 1
+},
+{
+"title": "Charm Plants (Wizard Spell)",
+"name": "Charm Plants",
+"listLevel": 1
+},
+{
+"title": "Charm Undead (Wizard Spell)",
+"name": "Charm Undead",
+"listLevel": 4
+},
+{
+"title": "Chastise (Wizard Spell)",
+"name": "Chastise",
+"listLevel": 4
+},
+{
+"title": "Chill Fire (Wizard Spell)",
+"name": "Chill Fire",
+"listLevel": 3
+},
+{
+"title": "Chill Touch (Wizard Spell)",
+"name": "Chill Touch",
+"listLevel": 1
+},
+{
+"title": "Choke (Wizard Spell)",
+"name": "Choke",
+"listLevel": 2
+},
+{
+"title": "Chromatic Blade - Lvl 5 (Wizard Spell)",
+"name": "Chromatic Blade - Lvl 5",
+"listLevel": 5
+},
+{
+"title": "Chromatic Orb (Wizard Spell)",
+"name": "Chromatic Orb",
+"listLevel": 1
+},
+{
+"title": "Circle of Blindness (Wizard Spell)",
+"name": "Circle of Blindness",
+"listLevel": 8
+},
+{
+"title": "Circle of Flame (Wizard Spell)",
+"name": "Circle of Flame",
+"listLevel": 2
+},
+{
+"title": "Circle of Protection (Wizard Spell)",
+"name": "Circle of Protection",
+"listLevel": 7
+},
+{
+"title": "Clairaudience (Wizard Spell)",
+"name": "Clairaudience",
+"listLevel": 3
+},
+{
+"title": "Clairvoyance (Wizard Spell)",
+"name": "Clairvoyance",
+"listLevel": 3
+},
+{
+"title": "Claws of the Umber Hulk (Wizard Spell)",
+"name": "Claws of the Umber Hulk",
+"listLevel": 6
+},
+{
+"title": "Cleanse Water (Wizard Spell)",
+"name": "Cleanse Water",
+"listLevel": 8
+},
+{
+"title": "Cloak from Undead (Wizard Spell)",
+"name": "Cloak from Undead",
+"listLevel": 2
+},
+{
+"title": "Cloak of Adeamozs (Wizard Spell)",
+"name": "Cloak of Adeamozs",
+"listLevel": 3
+},
+{
+"title": "Cloak of Warding (Wizard Spell)",
+"name": "Cloak of Warding",
+"listLevel": 3
+},
+{
+"title": "Cloak Undead (Wizard Spell)",
+"name": "Cloak Undead",
+"listLevel": 2
+},
+{
+"title": "Clone (Wizard Spell)",
+"name": "Clone",
+"listLevel": 8
+},
+{
+"title": "Clone Animal (Wizard Spell)",
+"name": "Clone Animal",
+"listLevel": 6
+},
+{
+"title": "Close Path (Wizard Spell)",
+"name": "Close Path",
+"listLevel": 3
+},
+{
+"title": "Cloud Ladder (Wizard Spell)",
+"name": "Cloud Ladder",
+"listLevel": 1
+},
+{
+"title": "Cloud Trapeze (Wizard Spell)",
+"name": "Cloud Trapeze",
+"listLevel": 8
+},
+{
+"title": "Cloudburst (Wizard Spell)",
+"name": "Cloudburst",
+"listLevel": 3
+},
+{
+"title": "Cloudkill (Wizard Spell)",
+"name": "Cloudkill",
+"listLevel": 5
+},
+{
+"title": "Collapse Portal (Wizard Spell)",
+"name": "Collapse Portal",
+"listLevel": 8
+},
+{
+"title": "Color (Wizard Spell)",
+"name": "Color",
+"listLevel": 1
+},
+{
+"title": "Color Blindness (Wizard Spell)",
+"name": "Color Blindness",
+"listLevel": 1
+},
+{
+"title": "Color Spray (Wizard Spell)",
+"name": "Color Spray",
+"listLevel": 1
+},
+{
+"title": "Combine (Wizard Spell)",
+"name": "Combine",
+"listLevel": 9
+},
+{
+"title": "Comfort (Wizard Spell)",
+"name": "Comfort",
+"listLevel": 3
+},
+{
+"title": "Command Dragon (Wizard Spell)",
+"name": "Command Dragon",
+"listLevel": 5
+},
+{
+"title": "Command Element (Wizard Spell)",
+"name": "Command Element",
+"listLevel": 7
+},
+{
+"title": "Command Undead (Wizard Spell)",
+"name": "Command Undead",
+"listLevel": 1
+},
+{
+"title": "Command Water Spirits (Wizard Spell)",
+"name": "Command Water Spirits",
+"listLevel": 6
+},
+{
+"title": "Commune with Greater Spirit (Wizard Spell)",
+"name": "Commune with Greater Spirit",
+"listLevel": 7
+},
+{
+"title": "Commune with Lesser Spirit (Wizard Spell)",
+"name": "Commune with Lesser Spirit",
+"listLevel": 3
+},
+{
+"title": "Compass (Wizard Spell)",
+"name": "Compass",
+"listLevel": 1
+},
+{
+"title": "Compose Mind (Wizard Spell)",
+"name": "Compose Mind",
+"listLevel": 2
+},
+{
+"title": "Comprehend Languages (Wizard Spell)",
+"name": "Comprehend Languages",
+"listLevel": 1
+},
+{
+"title": "Conceal Temporal Anomaly (Wizard Spell)",
+"name": "Conceal Temporal Anomaly",
+"listLevel": 6
+},
+{
+"title": "Cone of Cold (Wizard Spell)",
+"name": "Cone of Cold",
+"listLevel": 5
+},
+{
+"title": "Confer (Wizard Spell)",
+"name": "Confer",
+"listLevel": 9
+},
+{
+"title": "Conflagration (Wizard Spell)",
+"name": "Conflagration",
+"listLevel": 9
+},
+{
+"title": "Confusion (Wizard Spell)",
+"name": "Confusion",
+"listLevel": 4
+},
+{
+"title": "Conjure Animals (Wizard Spell)",
+"name": "Conjure Animals",
+"listLevel": 6
+},
+{
+"title": "Conjure Dream Object (Wizard Spell)",
+"name": "Conjure Dream Object",
+"listLevel": 4
+},
+{
+"title": "Conjure Elemental (Wizard Spell)",
+"name": "Conjure Elemental",
+"listLevel": 5
+},
+{
+"title": "Conjure Elemental-Kin (Wizard Spell)",
+"name": "Conjure Elemental-Kin",
+"listLevel": 4
+},
+{
+"title": "Conjure Greater Elemental (Wizard Spell)",
+"name": "Conjure Greater Elemental",
+"listLevel": 7
+},
+{
+"title": "Conjure Greater Elemental - Athas (Wizard Spell)",
+"name": "Conjure Greater Elemental - Athas",
+"listLevel": 7
+},
+{
+"title": "Conjure Nightmare (Wizard Spell)",
+"name": "Conjure Nightmare",
+"listLevel": 5
+},
+{
+"title": "Conjure Sand Lion (Wizard Spell)",
+"name": "Conjure Sand Lion",
+"listLevel": 4
+},
+{
+"title": "Conjure Spell Component (Wizard Spell)",
+"name": "Conjure Spell Component",
+"listLevel": 1
+},
+{
+"title": "Conquer Self (Wizard Spell)",
+"name": "Conquer Self",
+"listLevel": 9
+},
+{
+"title": "Consume Knowledge (Wizard Spell)",
+"name": "Consume Knowledge",
+"listLevel": 7
+},
+{
+"title": "Contact Other Plane (Wizard Spell)",
+"name": "Contact Other Plane",
+"listLevel": 5
+},
+{
+"title": "Contagion (Wizard Spell)",
+"name": "Contagion",
+"listLevel": 4
+},
+{
+"title": "Contingency (Wizard Spell)",
+"name": "Contingency",
+"listLevel": 6
+},
+{
+"title": "Continual Light (Wizard Spell)",
+"name": "Continual Light",
+"listLevel": 2
+},
+{
+"title": "Control Fluid (Wizard Spell)",
+"name": "Control Fluid",
+"listLevel": 4
+},
+{
+"title": "Control Lycanthrope (Wizard Spell)",
+"name": "Control Lycanthrope",
+"listLevel": 7
+},
+{
+"title": "Control Undead (Wizard Spell)",
+"name": "Control Undead",
+"listLevel": 7
+},
+{
+"title": "Control Undead - Witch (Wizard Spell)",
+"name": "Control Undead - Witch",
+"listLevel": 5
+},
+{
+"title": "Control Vapor (Wizard Spell)",
+"name": "Control Vapor",
+"listLevel": 1
+},
+{
+"title": "Control Weather (Wizard Spell)",
+"name": "Control Weather",
+"listLevel": 6
+},
+{
+"title": "Converse with Sea Creatures (Wizard Spell)",
+"name": "Converse with Sea Creatures",
+"listLevel": 3
+},
+{
+"title": "Cook (Wizard Spell)",
+"name": "Cook",
+"listLevel": 4
+},
+{
+"title": "Cool Strength (Wizard Spell)",
+"name": "Cool Strength",
+"listLevel": 1
+},
+{
+"title": "Copy (Wizard Spell)",
+"name": "Copy",
+"listLevel": 1
+},
+{
+"title": "Corpse Host (Wizard Spell)",
+"name": "Corpse Host",
+"listLevel": 6
+},
+{
+"title": "Corpse Link (Wizard Spell)",
+"name": "Corpse Link",
+"listLevel": 1
+},
+{
+"title": "Corpse Visage (Wizard Spell)",
+"name": "Corpse Visage",
+"listLevel": 1
+},
+{
+"title": "Corpse Whisper (Wizard Spell)",
+"name": "Corpse Whisper",
+"listLevel": 4
+},
+{
+"title": "Corpselight (Wizard Spell)",
+"name": "Corpselight",
+"listLevel": 1
+},
+{
+"title": "Corruption (Wizard Spell)",
+"name": "Corruption",
+"listLevel": 2
+},
+{
+"title": "Counterspell Immunity (Wizard Spell)",
+"name": "Counterspell Immunity",
+"listLevel": 4
+},
+{
+"title": "Create Atmosphere (Wizard Spell)",
+"name": "Create Atmosphere",
+"listLevel": 8
+},
+{
+"title": "Create Crypt Thing (Wizard Spell)",
+"name": "Create Crypt Thing",
+"listLevel": 7
+},
+{
+"title": "Create Darkenbeast (Wizard Spell)",
+"name": "Create Darkenbeast",
+"listLevel": 4
+},
+{
+"title": "Create Death Tyrant - Beholder (Wizard Spell)",
+"name": "Create Death Tyrant - Beholder",
+"listLevel": 8
+},
+{
+"title": "Create Death Tyrant (Wizard Spell)",
+"name": "Create Death Tyrant",
+"listLevel": 9
+},
+{
+"title": "Create Major Helm (Wizard Spell)",
+"name": "Create Major Helm",
+"listLevel": 7
+},
+{
+"title": "Create Minion (Wizard Spell)",
+"name": "Create Minion",
+"listLevel": 9
+},
+{
+"title": "Create Minor Helm (Wizard Spell)",
+"name": "Create Minor Helm",
+"listLevel": 6
+},
+{
+"title": "Create Mythal (Wizard Spell)",
+"name": "Create Mythal",
+"listLevel": 10
+},
+{
+"title": "Create Portal (Wizard Spell)",
+"name": "Create Portal",
+"listLevel": 5
+},
+{
+"title": "Create Shade (Wizard Spell)",
+"name": "Create Shade",
+"listLevel": 9
+},
+{
+"title": "Create Shade - Al-Qadim (Wizard Spell)",
+"name": "Create Shade - Al-Qadim",
+"listLevel": 7
+},
+{
+"title": "Create Slipgate (Wizard Spell)",
+"name": "Create Slipgate",
+"listLevel": 5
+},
+{
+"title": "Create Soundstaff (Wizard Spell)",
+"name": "Create Soundstaff",
+"listLevel": 7
+},
+{
+"title": "Create Spectral Wizard (Wizard Spell)",
+"name": "Create Spectral Wizard",
+"listLevel": 8
+},
+{
+"title": "Create Talisman of Hishna (Wizard Spell)",
+"name": "Create Talisman of Hishna",
+"listLevel": 5
+},
+{
+"title": "Create Talisman of Pluma (Wizard Spell)",
+"name": "Create Talisman of Pluma",
+"listLevel": 5
+},
+{
+"title": "Create Tree of Life (Wizard Spell)",
+"name": "Create Tree of Life",
+"listLevel": 8
+},
+{
+"title": "Create Watchghost (Wizard Spell)",
+"name": "Create Watchghost",
+"listLevel": 8
+},
+{
+"title": "Create Water (Wizard Spell)",
+"name": "Create Water",
+"listLevel": 2
+},
+{
+"title": "Create Water - Al-Qadim (Wizard Spell)",
+"name": "Create Water - Al-Qadim",
+"listLevel": 9
+},
+{
+"title": "Creeping Darkness (Wizard Spell)",
+"name": "Creeping Darkness",
+"listLevel": 5
+},
+{
+"title": "Crimson Scourge (Wizard Spell)",
+"name": "Crimson Scourge",
+"listLevel": 5
+},
+{
+"title": "Crystalbrittle (Wizard Spell)",
+"name": "Crystalbrittle",
+"listLevel": 9
+},
+{
+"title": "Cubehopper (Wizard Spell)",
+"name": "Cubehopper",
+"listLevel": 6
+},
+{
+"title": "Curse of Forgetfulness (Wizard Spell)",
+"name": "Curse of Forgetfulness",
+"listLevel": 7
+},
+{
+"title": "Curse of Lycanthropy (Wizard Spell)",
+"name": "Curse of Lycanthropy",
+"listLevel": 6
+},
+{
+"title": "Curse of the Gypsies (Wizard Spell)",
+"name": "Curse of the Gypsies",
+"listLevel": 3
+},
+{
+"title": "Curse Tablet (Wizard Spell)",
+"name": "Curse Tablet",
+"listLevel": 3
+},
+{
+"title": "Cyclone Chariot (Wizard Spell)",
+"name": "Cyclone Chariot",
+"listLevel": 7
+},
+{
+"title": "Daltim's Fiery Protector (Wizard Spell)",
+"name": "Daltim's Fiery Protector",
+"listLevel": 5
+},
+{
+"title": "Daltim's Flaming Fist (Wizard Spell)",
+"name": "Daltim's Flaming Fist",
+"listLevel": 4
+},
+{
+"title": "Daltim's Proof Against Fire (Wizard Spell)",
+"name": "Daltim's Proof Against Fire",
+"listLevel": 7
+},
+{
+"title": "Dance Macabre (Wizard Spell)",
+"name": "Dance Macabre",
+"listLevel": 1
+},
+{
+"title": "Dancing Blade (Wizard Spell)",
+"name": "Dancing Blade",
+"listLevel": 4
+},
+{
+"title": "Dancing Lights (Wizard Spell)",
+"name": "Dancing Lights",
+"listLevel": 2
+},
+{
+"title": "Dancing Shadows (Wizard Spell)",
+"name": "Dancing Shadows",
+"listLevel": 2
+},
+{
+"title": "Dark Mirror (Wizard Spell)",
+"name": "Dark Mirror",
+"listLevel": 2
+},
+{
+"title": "Darkness, 15' Radius (Wizard Spell)",
+"name": "Darkness, 15' Radius",
+"listLevel": 2
+},
+{
+"title": "Darkning Bolt (Wizard Spell)",
+"name": "Darkning Bolt",
+"listLevel": 4
+},
+{
+"title": "Darksense (Wizard Spell)",
+"name": "Darksense",
+"listLevel": 3
+},
+{
+"title": "Darsson's Cooling Breeze (Wizard Spell)",
+"name": "Darsson's Cooling Breeze",
+"listLevel": 2
+},
+{
+"title": "Darsson's Eye in the Sky (Wizard Spell)",
+"name": "Darsson's Eye in the Sky",
+"listLevel": 4
+},
+{
+"title": "Darsson's Fiery Cube (Wizard Spell)",
+"name": "Darsson's Fiery Cube",
+"listLevel": 2
+},
+{
+"title": "Darsson's Music Box (Wizard Spell)",
+"name": "Darsson's Music Box",
+"listLevel": 5
+},
+{
+"title": "Darsson's Potion (Wizard Spell)",
+"name": "Darsson's Potion",
+"listLevel": 4
+},
+{
+"title": "Dauntra's Cloak (Wizard Spell)",
+"name": "Dauntra's Cloak",
+"listLevel": 6
+},
+{
+"title": "Dead Man's Eyes (Wizard Spell)",
+"name": "Dead Man's Eyes",
+"listLevel": 6
+},
+{
+"title": "Deafness (Wizard Spell)",
+"name": "Deafness",
+"listLevel": 2
+},
+{
+"title": "Death Armor (Wizard Spell)",
+"name": "Death Armor",
+"listLevel": 2
+},
+{
+"title": "Death Fog (Wizard Spell)",
+"name": "Death Fog",
+"listLevel": 6
+},
+{
+"title": "Death Link (Wizard Spell)",
+"name": "Death Link",
+"listLevel": 8
+},
+{
+"title": "Death Recall (Wizard Spell)",
+"name": "Death Recall",
+"listLevel": 2
+},
+{
+"title": "Death Sight (Wizard Spell)",
+"name": "Death Sight",
+"listLevel": 3
+},
+{
+"title": "Death Smoke (Wizard Spell)",
+"name": "Death Smoke",
+"listLevel": 5
+},
+{
+"title": "Death Spell (Wizard Spell)",
+"name": "Death Spell",
+"listLevel": 6
+},
+{
+"title": "Death Talisman (Wizard Spell)",
+"name": "Death Talisman",
+"listLevel": 3
+},
+{
+"title": "Death Ward (Wizard Spell)",
+"name": "Death Ward",
+"listLevel": 9
+},
+{
+"title": "Death's Door (Wizard Spell)",
+"name": "Death's Door",
+"listLevel": 4
+},
+{
+"title": "Deathmaster's Vial (Wizard Spell)",
+"name": "Deathmaster's Vial",
+"listLevel": 5
+},
+{
+"title": "Deathshroud (Wizard Spell)",
+"name": "Deathshroud",
+"listLevel": 8
+},
+{
+"title": "Decastave (Wizard Spell)",
+"name": "Decastave",
+"listLevel": 2
+},
+{
+"title": "Deep Delve (Wizard Spell)",
+"name": "Deep Delve",
+"listLevel": 8
+},
+{
+"title": "Deepen Shadows (Wizard Spell)",
+"name": "Deepen Shadows",
+"listLevel": 2
+},
+{
+"title": "Deeppockets (Wizard Spell)",
+"name": "Deeppockets",
+"listLevel": 2
+},
+{
+"title": "Defoliate (Wizard Spell)",
+"name": "Defoliate",
+"listLevel": 8
+},
+{
+"title": "DeGras's Pilfering Fingers (Wizard Spell)",
+"name": "DeGras's Pilfering Fingers",
+"listLevel": 2
+},
+{
+"title": "Delay Death (Wizard Spell)",
+"name": "Delay Death",
+"listLevel": 3
+},
+{
+"title": "Delay Image (Wizard Spell)",
+"name": "Delay Image",
+"listLevel": 1
+},
+{
+"title": "Delayed Blast Fireball (Wizard Spell)",
+"name": "Delayed Blast Fireball",
+"listLevel": 7
+},
+{
+"title": "Delayed Magic Missile (Wizard Spell)",
+"name": "Delayed Magic Missile",
+"listLevel": 4
+},
+{
+"title": "Delude (Wizard Spell)",
+"name": "Delude",
+"listLevel": 3
+},
+{
+"title": "Demand (Wizard Spell)",
+"name": "Demand",
+"listLevel": 8
+},
+{
+"title": "Demi-Shadow Magic (Wizard Spell)",
+"name": "Demi-Shadow Magic",
+"listLevel": 6
+},
+{
+"title": "Demi-Shadow Monsters (Wizard Spell)",
+"name": "Demi-Shadow Monsters",
+"listLevel": 5
+},
+{
+"title": "Deny Cold/Deny Fire (Wizard Spell)",
+"name": "Deny Cold/Deny Fire",
+"listLevel": 2
+},
+{
+"title": "Deplete Cinnabryl (Wizard Spell)",
+"name": "Deplete Cinnabryl",
+"listLevel": 6
+},
+{
+"title": "Depth Warning (Wizard Spell)",
+"name": "Depth Warning",
+"listLevel": 2
+},
+{
+"title": "Descent into Madness (Wizard Spell)",
+"name": "Descent into Madness",
+"listLevel": 7
+},
+{
+"title": "Desert Fist (Wizard Spell)",
+"name": "Desert Fist",
+"listLevel": 5
+},
+{
+"title": "Despair (Wizard Spell)",
+"name": "Despair",
+"listLevel": 4
+},
+{
+"title": "Destroy Undead (Wizard Spell)",
+"name": "Destroy Undead",
+"listLevel": 4
+},
+{
+"title": "Destroy Major Helm (Wizard Spell)",
+"name": "Destroy Major Helm",
+"listLevel": 9
+},
+{
+"title": "Destroy Minor Helm (Wizard Spell)",
+"name": "Destroy Minor Helm",
+"listLevel": 8
+},
+{
+"title": "Detect Disease (Wizard Spell)",
+"name": "Detect Disease",
+"listLevel": 1
+},
+{
+"title": "Detect Evil (Wizard Spell)",
+"name": "Detect Evil",
+"listLevel": 2
+},
+{
+"title": "Detect Illusion (Wizard Spell)",
+"name": "Detect Illusion",
+"listLevel": 1
+},
+{
+"title": "Detect Invisibility (Wizard Spell)",
+"name": "Detect Invisibility",
+"listLevel": 2
+},
+{
+"title": "Detect Life (Wizard Spell)",
+"name": "Detect Life",
+"listLevel": 2
+},
+{
+"title": "Detect Life - Alhoon (Wizard Spell)",
+"name": "Detect Life - Alhoon",
+"listLevel": 1
+},
+{
+"title": "Detect Lycanthrope (Wizard Spell)",
+"name": "Detect Lycanthrope",
+"listLevel": 2
+},
+{
+"title": "Detect Lycanthrope - Gypsy (Wizard Spell)",
+"name": "Detect Lycanthrope - Gypsy",
+"listLevel": 3
+},
+{
+"title": "Detect Magic (Wizard Spell)",
+"name": "Detect Magic",
+"listLevel": 1
+},
+{
+"title": "Detect Metals and Minerals (Wizard Spell)",
+"name": "Detect Metals and Minerals",
+"listLevel": 1
+},
+{
+"title": "Detect Phase (Wizard Spell)",
+"name": "Detect Phase",
+"listLevel": 1
+},
+{
+"title": "Detect Psionics (Wizard Spell)",
+"name": "Detect Psionics",
+"listLevel": 2
+},
+{
+"title": "Detect Scrying (Wizard Spell)",
+"name": "Detect Scrying",
+"listLevel": 4
+},
+{
+"title": "Detect Secret Passages and Portals (Wizard Spell)",
+"name": "Detect Secret Passages and Portals",
+"listLevel": 1
+},
+{
+"title": "Detect Shapechanger (Wizard Spell)",
+"name": "Detect Shapechanger",
+"listLevel": 3
+},
+{
+"title": "Detect Temporal Anomaly (Wizard Spell)",
+"name": "Detect Temporal Anomaly",
+"listLevel": 1
+},
+{
+"title": "Detect the Living (Wizard Spell)",
+"name": "Detect the Living",
+"listLevel": 3
+},
+{
+"title": "Detect Undead (Wizard Spell)",
+"name": "Detect Undead",
+"listLevel": 1
+},
+{
+"title": "Detho's Delirium (Wizard Spell)",
+"name": "Detho's Delirium",
+"listLevel": 1
+},
+{
+"title": "Diary (Wizard Spell)",
+"name": "Diary",
+"listLevel": 2
+},
+{
+"title": "Dictation (Wizard Spell)",
+"name": "Dictation",
+"listLevel": 1
+},
+{
+"title": "Dig (Wizard Spell)",
+"name": "Dig",
+"listLevel": 4
+},
+{
+"title": "Dilation I (Wizard Spell)",
+"name": "Dilation I",
+"listLevel": 4
+},
+{
+"title": "Dilation II (Wizard Spell)",
+"name": "Dilation II",
+"listLevel": 6
+},
+{
+"title": "Dimension Door (Wizard Spell)",
+"name": "Dimension Door",
+"listLevel": 4
+},
+{
+"title": "Dimensional Blade (Wizard Spell)",
+"name": "Dimensional Blade",
+"listLevel": 6
+},
+{
+"title": "Dire Charm (Wizard Spell)",
+"name": "Dire Charm",
+"listLevel": 3
+},
+{
+"title": "Disable Helm (Wizard Spell)",
+"name": "Disable Helm",
+"listLevel": 6
+},
+{
+"title": "Disarm (Wizard Spell)",
+"name": "Disarm",
+"listLevel": 1
+},
+{
+"title": "Discern (Wizard Spell)",
+"name": "Discern",
+"listLevel": 7
+},
+{
+"title": "Disguise (Wizard Spell)",
+"name": "Disguise",
+"listLevel": 4
+},
+{
+"title": "Disguise - Hishna (Wizard Spell)",
+"name": "Disguise - Hishna",
+"listLevel": 1
+},
+{
+"title": "Disguise - Wu Jen (Wizard Spell)",
+"name": "Disguise - Wu Jen",
+"listLevel": 3
+},
+{
+"title": "Disguise Bloodline (Wizard Spell)",
+"name": "Disguise Bloodline",
+"listLevel": 5
+},
+{
+"title": "Disguise Undead (Wizard Spell)",
+"name": "Disguise Undead",
+"listLevel": 5
+},
+{
+"title": "Disintegrate (Wizard Spell)",
+"name": "Disintegrate",
+"listLevel": 6
+},
+{
+"title": "Dismind (Wizard Spell)",
+"name": "Dismind",
+"listLevel": 9
+},
+{
+"title": "Dismissal (Wizard Spell)",
+"name": "Dismissal",
+"listLevel": 5
+},
+{
+"title": "Dispel Enchantment (Wizard Spell)",
+"name": "Dispel Enchantment",
+"listLevel": 8
+},
+{
+"title": "Dispel Exhaustion (Wizard Spell)",
+"name": "Dispel Exhaustion",
+"listLevel": 5
+},
+{
+"title": "Dispel Fog (Wizard Spell)",
+"name": "Dispel Fog",
+"listLevel": 3
+},
+{
+"title": "Dispel Illusion (Wizard Spell)",
+"name": "Dispel Illusion",
+"listLevel": 4
+},
+{
+"title": "Dispel Magic (Wizard Spell)",
+"name": "Dispel Magic",
+"listLevel": 3
+},
+{
+"title": "Dispel Mirage (Wizard Spell)",
+"name": "Dispel Mirage",
+"listLevel": 3
+},
+{
+"title": "Dispel Silence (Wizard Spell)",
+"name": "Dispel Silence",
+"listLevel": 3
+},
+{
+"title": "Displace Self (Wizard Spell)",
+"name": "Displace Self",
+"listLevel": 2
+},
+{
+"title": "Disrupt Dominion (Wizard Spell)",
+"name": "Disrupt Dominion",
+"listLevel": 8
+},
+{
+"title": "Disrupt Undead (Wizard Spell)",
+"name": "Disrupt Undead",
+"listLevel": 4
+},
+{
+"title": "Disruption (Wizard Spell)",
+"name": "Disruption",
+"listLevel": 9
+},
+{
+"title": "Dissipate Vapor (Wizard Spell)",
+"name": "Dissipate Vapor",
+"listLevel": 3
+},
+{
+"title": "Distance Distortion (Wizard Spell)",
+"name": "Distance Distortion",
+"listLevel": 5
+},
+{
+"title": "Distant Diary (Wizard Spell)",
+"name": "Distant Diary",
+"listLevel": 4
+},
+{
+"title": "Distort (Wizard Spell)",
+"name": "Distort",
+"listLevel": 1
+},
+{
+"title": "Distort Life I (Wizard Spell)",
+"name": "Distort Life I",
+"listLevel": 4
+},
+{
+"title": "Distort Life II (Wizard Spell)",
+"name": "Distort Life II",
+"listLevel": 5
+},
+{
+"title": "Distort Life III (Wizard Spell)",
+"name": "Distort Life III",
+"listLevel": 6
+},
+{
+"title": "Distraction (Wizard Spell)",
+"name": "Distraction",
+"listLevel": 3
+},
+{
+"title": "Divination Enhancement (Wizard Spell)",
+"name": "Divination Enhancement",
+"listLevel": 4
+},
+{
+"title": "Divining Rod (Wizard Spell)",
+"name": "Divining Rod",
+"listLevel": 1
+},
+{
+"title": "Dolent's Helm (Wizard Spell)",
+"name": "Dolent's Helm",
+"listLevel": 1
+},
+{
+"title": "Dolor (Wizard Spell)",
+"name": "Dolor",
+"listLevel": 5
+},
+{
+"title": "Domination (Wizard Spell)",
+"name": "Domination",
+"listLevel": 5
+},
+{
+"title": "Doom Legion (Wizard Spell)",
+"name": "Doom Legion",
+"listLevel": 7
+},
+{
+"title": "Double Dweomer (Wizard Spell)",
+"name": "Double Dweomer",
+"listLevel": 7
+},
+{
+"title": "Double Steel (Wizard Spell)",
+"name": "Double Steel",
+"listLevel": 6
+},
+{
+"title": "Double Undead (Wizard Spell)",
+"name": "Double Undead",
+"listLevel": 3
+},
+{
+"title": "Dragon Breath (Wizard Spell)",
+"name": "Dragon Breath",
+"listLevel": 7
+},
+{
+"title": "Dragon Scales (Wizard Spell)",
+"name": "Dragon Scales",
+"listLevel": 6
+},
+{
+"title": "Dragonshape (Wizard Spell)",
+"name": "Dragonshape",
+"listLevel": 9
+},
+{
+"title": "Drawmij's Adventurer's Luck (Wizard Spell)",
+"name": "Drawmij's Adventurer's Luck",
+"listLevel": 2
+},
+{
+"title": "Drawmij's Beast of Burden (Wizard Spell)",
+"name": "Drawmij's Beast of Burden",
+"listLevel": 1
+},
+{
+"title": "Drawmij's Beneficent Polymorph (Wizard Spell)",
+"name": "Drawmij's Beneficent Polymorph",
+"listLevel": 6
+},
+{
+"title": "Drawmij's Breath of Life (Wizard Spell)",
+"name": "Drawmij's Breath of Life",
+"listLevel": 2
+},
+{
+"title": "Drawmij's Flying Feat (Wizard Spell)",
+"name": "Drawmij's Flying Feat",
+"listLevel": 5
+},
+{
+"title": "Drawmij's Handy Timepiece (Wizard Spell)",
+"name": "Drawmij's Handy Timepiece",
+"listLevel": 4
+},
+{
+"title": "Drawmij's Instant Exit (Wizard Spell)",
+"name": "Drawmij's Instant Exit",
+"listLevel": 4
+},
+{
+"title": "Drawmij's Instant Summons (Wizard Spell)",
+"name": "Drawmij's Instant Summons",
+"listLevel": 7
+},
+{
+"title": "Drawmij's Iron Sack (Wizard Spell)",
+"name": "Drawmij's Iron Sack",
+"listLevel": 3
+},
+{
+"title": "Drawmij's Light Step (Wizard Spell)",
+"name": "Drawmij's Light Step",
+"listLevel": 1
+},
+{
+"title": "Drawmij's Marvelous Shield (Wizard Spell)",
+"name": "Drawmij's Marvelous Shield",
+"listLevel": 3
+},
+{
+"title": "Drawmij's Merciful Metamorphosis (Wizard Spell)",
+"name": "Drawmij's Merciful Metamorphosis",
+"listLevel": 6
+},
+{
+"title": "Drawmij's Protection from Non-Magical Gas (Wizard Spell)",
+"name": "Drawmij's Protection from Non-Magical Gas",
+"listLevel": 4
+},
+{
+"title": "Drawmij's Scent Mask (Wizard Spell)",
+"name": "Drawmij's Scent Mask",
+"listLevel": 2
+},
+{
+"title": "Drawmij's Swift Mount (Wizard Spell)",
+"name": "Drawmij's Swift Mount",
+"listLevel": 2
+},
+{
+"title": "Drawmij's Tool Box (Wizard Spell)",
+"name": "Drawmij's Tool Box",
+"listLevel": 4
+},
+{
+"title": "Dread Whisper (Wizard Spell)",
+"name": "Dread Whisper",
+"listLevel": 4
+},
+{
+"title": "Dream (Wizard Spell)",
+"name": "Dream",
+"listLevel": 5
+},
+{
+"title": "Dream Globe (Wizard Spell)",
+"name": "Dream Globe",
+"listLevel": 5
+},
+{
+"title": "Dream Vision (Wizard Spell)",
+"name": "Dream Vision",
+"listLevel": 4
+},
+{
+"title": "Drenal's Amok Needles (Wizard Spell)",
+"name": "Drenal's Amok Needles",
+"listLevel": 3
+},
+{
+"title": "Drenal's Annoying Poke (Wizard Spell)",
+"name": "Drenal's Annoying Poke",
+"listLevel": 2
+},
+{
+"title": "Drenal's Distraction (Wizard Spell)",
+"name": "Drenal's Distraction",
+"listLevel": 2
+},
+{
+"title": "Drenal's Dry Ink (Wizard Spell)",
+"name": "Drenal's Dry Ink",
+"listLevel": 2
+},
+{
+"title": "Drenal's Eyesore (Wizard Spell)",
+"name": "Drenal's Eyesore",
+"listLevel": 3
+},
+{
+"title": "Drenal's Sound Barrier (Wizard Spell)",
+"name": "Drenal's Sound Barrier",
+"listLevel": 4
+},
+{
+"title": "Drenal's Stone Flame (Wizard Spell)",
+"name": "Drenal's Stone Flame",
+"listLevel": 2
+},
+{
+"title": "Drowsy Insects (Wizard Spell)",
+"name": "Drowsy Insects",
+"listLevel": 1
+},
+{
+"title": "Due North (Wizard Spell)",
+"name": "Due North",
+"listLevel": 2
+},
+{
+"title": "Duhlark's Animerge (Wizard Spell)",
+"name": "Duhlark's Animerge",
+"listLevel": 6
+},
+{
+"title": "Duhlark's Glasstrike (Wizard Spell)",
+"name": "Duhlark's Glasstrike",
+"listLevel": 6
+},
+{
+"title": "Duhlark's Glasstrike Trap (Wizard Spell)",
+"name": "Duhlark's Glasstrike Trap",
+"listLevel": 6
+},
+{
+"title": "Duhlark's Long Reach (Wizard Spell)",
+"name": "Duhlark's Long Reach",
+"listLevel": 4
+},
+{
+"title": "Duo-Dimension (Wizard Spell)",
+"name": "Duo-Dimension",
+"listLevel": 7
+},
+{
+"title": "Duplicate (Wizard Spell)",
+"name": "Duplicate",
+"listLevel": 4
+},
+{
+"title": "Dust Curtain (Wizard Spell)",
+"name": "Dust Curtain",
+"listLevel": 2
+},
+{
+"title": "Dusts of Death (Wizard Spell)",
+"name": "Dusts of Death",
+"listLevel": 6
+},
+{
+"title": "Dweomerdeny (Wizard Spell)",
+"name": "Dweomerdeny",
+"listLevel": 8
+},
+{
+"title": "Eagle Vision (Wizard Spell)",
+"name": "Eagle Vision",
+"listLevel": 3
+},
+{
+"title": "Ebony Hand (Wizard Spell)",
+"name": "Ebony Hand",
+"listLevel": 2
+},
+{
+"title": "Echoes (Wizard Spell)",
+"name": "Echoes",
+"listLevel": 2
+},
+{
+"title": "Electric Bow (Wizard Spell)",
+"name": "Electric Bow",
+"listLevel": 7
+},
+{
+"title": "Electrical Wards (Wizard Spell)",
+"name": "Electrical Wards",
+"listLevel": 4
+},
+{
+"title": "Elemental Aura (Wizard Spell)",
+"name": "Elemental Aura",
+"listLevel": 9
+},
+{
+"title": "Elemental Burst (Wizard Spell)",
+"name": "Elemental Burst",
+"listLevel": 1
+},
+{
+"title": "Elemental Control (Wizard Spell)",
+"name": "Elemental Control",
+"listLevel": 4
+},
+{
+"title": "Elemental Form (Wizard Spell)",
+"name": "Elemental Form",
+"listLevel": 4
+},
+{
+"title": "Elemental Guide (Wizard Spell)",
+"name": "Elemental Guide",
+"listLevel": 2
+},
+{
+"title": "Elemental Servant (Wizard Spell)",
+"name": "Elemental Servant",
+"listLevel": 7
+},
+{
+"title": "Elemental Transmogrification (Wizard Spell)",
+"name": "Elemental Transmogrification",
+"listLevel": 8
+},
+{
+"title": "Elemental Turning (Wizard Spell)",
+"name": "Elemental Turning",
+"listLevel": 4
+},
+{
+"title": "Elminster's Effulgent Epuration (Wizard Spell)",
+"name": "Elminster's Effulgent Epuration",
+"listLevel": 9
+},
+{
+"title": "Elminster's Evasion (Wizard Spell)",
+"name": "Elminster's Evasion",
+"listLevel": 9
+},
+{
+"title": "Elminster's Multiple Mouths (Wizard Spell)",
+"name": "Elminster's Multiple Mouths",
+"listLevel": 3
+},
+{
+"title": "Elonia's Glamer (Wizard Spell)",
+"name": "Elonia's Glamer",
+"listLevel": 2
+},
+{
+"title": "Elude Blow (Wizard Spell)",
+"name": "Elude Blow",
+"listLevel": 4
+},
+{
+"title": "Embalm (Wizard Spell)",
+"name": "Embalm",
+"listLevel": 2
+},
+{
+"title": "Emotion (Wizard Spell)",
+"name": "Emotion",
+"listLevel": 4
+},
+{
+"title": "Empathic Control (Wizard Spell)",
+"name": "Empathic Control",
+"listLevel": 2
+},
+{
+"title": "Empathic Link (Wizard Spell)",
+"name": "Empathic Link",
+"listLevel": 3
+},
+{
+"title": "Empathic Seizure (Wizard Spell)",
+"name": "Empathic Seizure",
+"listLevel": 1
+},
+{
+"title": "Empathic Wound Transfer (Wizard Spell)",
+"name": "Empathic Wound Transfer",
+"listLevel": 4
+},
+{
+"title": "Empathy (Wizard Spell)",
+"name": "Empathy",
+"listLevel": 1
+},
+{
+"title": "Enchant an Item (Wizard Spell)",
+"name": "Enchant an Item",
+"listLevel": 6
+},
+{
+"title": "Enchanted Blade (Wizard Spell)",
+"name": "Enchanted Blade",
+"listLevel": 2
+},
+{
+"title": "Enchanted Torch (Wizard Spell)",
+"name": "Enchanted Torch",
+"listLevel": 3
+},
+{
+"title": "Enchanted Weapon (Wizard Spell)",
+"name": "Enchanted Weapon",
+"listLevel": 4
+},
+{
+"title": "Encrypt (Wizard Spell)",
+"name": "Encrypt",
+"listLevel": 4
+},
+{
+"title": "Endless Slumber (Wizard Spell)",
+"name": "Endless Slumber",
+"listLevel": 8
+},
+{
+"title": "Energy Drain (Wizard Spell)",
+"name": "Energy Drain",
+"listLevel": 9
+},
+{
+"title": "Energy Transformation (Wizard Spell)",
+"name": "Energy Transformation",
+"listLevel": 6
+},
+{
+"title": "Enervation (Wizard Spell)",
+"name": "Enervation",
+"listLevel": 4
+},
+{
+"title": "Enhance (Wizard Spell)",
+"name": "Enhance",
+"listLevel": 8
+},
+{
+"title": "Enhance Blood Ability (Wizard Spell)",
+"name": "Enhance Blood Ability",
+"listLevel": 3
+},
+{
+"title": "Enhance Fire Creature (Wizard Spell)",
+"name": "Enhance Fire Creature",
+"listLevel": 4
+},
+{
+"title": "Enhance Maneuverability (Wizard Spell)",
+"name": "Enhance Maneuverability",
+"listLevel": 5
+},
+{
+"title": "Enhance Plant (Wizard Spell)",
+"name": "Enhance Plant",
+"listLevel": 5
+},
+{
+"title": "Enhance Rating (Wizard Spell)",
+"name": "Enhance Rating",
+"listLevel": 3
+},
+{
+"title": "Enhanced Empathy (Wizard Spell)",
+"name": "Enhanced Empathy",
+"listLevel": 7
+},
+{
+"title": "Enhanced Olfaction (Wizard Spell)",
+"name": "Enhanced Olfaction",
+"listLevel": 2
+},
+{
+"title": "Enlarge (Wizard Spell)",
+"name": "Enlarge",
+"listLevel": 1
+},
+{
+"title": "Enlarge Desert Creature (Wizard Spell)",
+"name": "Enlarge Desert Creature",
+"listLevel": 2
+},
+{
+"title": "Ensnarement (Wizard Spell)",
+"name": "Ensnarement",
+"listLevel": 6
+},
+{
+"title": "Enter Dream (Wizard Spell)",
+"name": "Enter Dream",
+"listLevel": 2
+},
+{
+"title": "Entomb (Wizard Spell)",
+"name": "Entomb",
+"listLevel": 3
+},
+{
+"title": "Erase (Wizard Spell)",
+"name": "Erase",
+"listLevel": 1
+},
+{
+"title": "Erdlu Claw (Wizard Spell)",
+"name": "Erdlu Claw",
+"listLevel": 1
+},
+{
+"title": "Erdlu Egg (Wizard Spell)",
+"name": "Erdlu Egg",
+"listLevel": 5
+},
+{
+"title": "Erdlu Hide (Wizard Spell)",
+"name": "Erdlu Hide",
+"listLevel": 5
+},
+{
+"title": "Erik's Quills (Wizard Spell)",
+"name": "Erik's Quills",
+"listLevel": 3
+},
+{
+"title": "ESP (Wizard Spell)",
+"name": "ESP",
+"listLevel": 2
+},
+{
+"title": "ESP - Witch (Wizard Spell)",
+"name": "ESP - Witch",
+"listLevel": 2
+},
+{
+"title": "Estate Transference (Wizard Spell)",
+"name": "Estate Transference",
+"listLevel": 9
+},
+{
+"title": "Etherealness (Wizard Spell)",
+"name": "Etherealness",
+"listLevel": 6
+},
+{
+"title": "Evard's Black Tentacles (Wizard Spell)",
+"name": "Evard's Black Tentacles",
+"listLevel": 4
+},
+{
+"title": "Everlasting Fire (Wizard Spell)",
+"name": "Everlasting Fire",
+"listLevel": 4
+},
+{
+"title": "Everpresent Record (Wizard Spell)",
+"name": "Everpresent Record",
+"listLevel": 4
+},
+{
+"title": "Everwatching Skull (Wizard Spell)",
+"name": "Everwatching Skull",
+"listLevel": 2
+},
+{
+"title": "Evolve (Wizard Spell)",
+"name": "Evolve",
+"listLevel": 8
+},
+{
+"title": "Exalted Eye (Wizard Spell)",
+"name": "Exalted Eye",
+"listLevel": 7
+},
+{
+"title": "Exchange Wounds (Wizard Spell)",
+"name": "Exchange Wounds",
+"listLevel": 8
+},
+{
+"title": "Expeditious Retreat (Wizard Spell)",
+"name": "Expeditious Retreat",
+"listLevel": 1
+},
+{
+"title": "Explosive Runes (Wizard Spell)",
+"name": "Explosive Runes",
+"listLevel": 3
+},
+{
+"title": "Extension I (Wizard Spell)",
+"name": "Extension I",
+"listLevel": 4
+},
+{
+"title": "Extension II (Wizard Spell)",
+"name": "Extension II",
+"listLevel": 5
+},
+{
+"title": "Extension III (Wizard Spell)",
+"name": "Extension III",
+"listLevel": 6
+},
+{
+"title": "Exterminate (Wizard Spell)",
+"name": "Exterminate",
+"listLevel": 1
+},
+{
+"title": "Eye of Mystra (Wizard Spell)",
+"name": "Eye of Mystra",
+"listLevel": 9
+},
+{
+"title": "Eye of Power (Wizard Spell)",
+"name": "Eye of Power",
+"listLevel": 9
+},
+{
+"title": "Eyebite (Wizard Spell)",
+"name": "Eyebite",
+"listLevel": 6
+},
+{
+"title": "Eyefire (Wizard Spell)",
+"name": "Eyefire",
+"listLevel": 5
+},
+{
+"title": "Eyes of the Undead (Wizard Spell)",
+"name": "Eyes of the Undead",
+"listLevel": 4
+},
+{
+"title": "Fabricate (Wizard Spell)",
+"name": "Fabricate",
+"listLevel": 5
+},
+{
+"title": "Fabricate - Wu Jen (Wizard Spell)",
+"name": "Fabricate - Wu Jen",
+"listLevel": 3
+},
+{
+"title": "Face (Wizard Spell)",
+"name": "Face",
+"listLevel": 3
+},
+{
+"title": "Facet (Wizard Spell)",
+"name": "Facet",
+"listLevel": 5
+},
+{
+"title": "Falling Wall (Wizard Spell)",
+"name": "Falling Wall",
+"listLevel": 2
+},
+{
+"title": "Fallion's Fabulous Fireball (Wizard Spell)",
+"name": "Fallion's Fabulous Fireball",
+"listLevel": 5
+},
+{
+"title": "False Face (Wizard Spell)",
+"name": "False Face",
+"listLevel": 3
+},
+{
+"title": "False Tracks (Wizard Spell)",
+"name": "False Tracks",
+"listLevel": 1
+},
+{
+"title": "False Vision (Wizard Spell)",
+"name": "False Vision",
+"listLevel": 1
+},
+{
+"title": "Familiar Enhancer I (Wizard Spell)",
+"name": "Familiar Enhancer I",
+"listLevel": 2
+},
+{
+"title": "Familiar Enhancer II (Wizard Spell)",
+"name": "Familiar Enhancer II",
+"listLevel": 3
+},
+{
+"title": "Familiar Enhancer III (Wizard Spell)",
+"name": "Familiar Enhancer III",
+"listLevel": 4
+},
+{
+"title": "Familiar Enhancer IV (Wizard Spell)",
+"name": "Familiar Enhancer IV",
+"listLevel": 5
+},
+{
+"title": "Familiar Enhancer V (Wizard Spell)",
+"name": "Familiar Enhancer V",
+"listLevel": 6
+},
+{
+"title": "Familiar Enhancer VI (Wizard Spell)",
+"name": "Familiar Enhancer VI",
+"listLevel": 7
+},
+{
+"title": "Familiar Enhancer VII (Wizard Spell)",
+"name": "Familiar Enhancer VII",
+"listLevel": 8
+},
+{
+"title": "Familiar Enhancer VIII (Wizard Spell)",
+"name": "Familiar Enhancer VIII",
+"listLevel": 9
+},
+{
+"title": "Far Reaching I (Wizard Spell)",
+"name": "Far Reaching I",
+"listLevel": 3
+},
+{
+"title": "Far Reaching II (Wizard Spell)",
+"name": "Far Reaching II",
+"listLevel": 4
+},
+{
+"title": "Far Reaching III (Wizard Spell)",
+"name": "Far Reaching III",
+"listLevel": 5
+},
+{
+"title": "Farscry (Wizard Spell)",
+"name": "Farscry",
+"listLevel": 5
+},
+{
+"title": "Farseer (Wizard Spell)",
+"name": "Farseer",
+"listLevel": 1
+},
+{
+"title": "Farspeaker (Wizard Spell)",
+"name": "Farspeaker",
+"listLevel": 3
+},
+{
+"title": "Fascinate (Wizard Spell)",
+"name": "Fascinate",
+"listLevel": 2
+},
+{
+"title": "Fear (Wizard Spell)",
+"name": "Fear",
+"listLevel": 4
+},
+{
+"title": "Fear Aura (Wizard Spell)",
+"name": "Fear Aura",
+"listLevel": 5
+},
+{
+"title": "Fear Ward (Wizard Spell)",
+"name": "Fear Ward",
+"listLevel": 8
+},
+{
+"title": "Fearfire (Wizard Spell)",
+"name": "Fearfire",
+"listLevel": 3
+},
+{
+"title": "Feather Fall (Wizard Spell)",
+"name": "Feather Fall",
+"listLevel": 1
+},
+{
+"title": "Feather Float (Wizard Spell)",
+"name": "Feather Float",
+"listLevel": 1
+},
+{
+"title": "Feeblemind (Wizard Spell)",
+"name": "Feeblemind",
+"listLevel": 5
+},
+{
+"title": "Feign Death (Wizard Spell)",
+"name": "Feign Death",
+"listLevel": 3
+},
+{
+"title": "Feign Destruction (Wizard Spell)",
+"name": "Feign Destruction",
+"listLevel": 4
+},
+{
+"title": "Feign Undead (Wizard Spell)",
+"name": "Feign Undead",
+"listLevel": 5
+},
+{
+"title": "Fellblade (Wizard Spell)",
+"name": "Fellblade",
+"listLevel": 6
+},
+{
+"title": "Fiendform (Wizard Spell)",
+"name": "Fiendform",
+"listLevel": 5
+},
+{
+"title": "Fiery Eyes (Wizard Spell)",
+"name": "Fiery Eyes",
+"listLevel": 1
+},
+{
+"title": "Fiery Fists (Wizard Spell)",
+"name": "Fiery Fists",
+"listLevel": 3
+},
+{
+"title": "Filter (Wizard Spell)",
+"name": "Filter",
+"listLevel": 2
+},
+{
+"title": "Filth's Bane (Wizard Spell)",
+"name": "Filth's Bane",
+"listLevel": 1
+},
+{
+"title": "Find Familiar (Wizard Spell)",
+"name": "Find Familiar",
+"listLevel": 1
+},
+{
+"title": "Find Familiar - Dragon (Wizard Spell)",
+"name": "Find Familiar - Dragon",
+"listLevel": 3
+},
+{
+"title": "Find Familiar - Necromancer (Wizard Spell)",
+"name": "Find Familiar - Necromancer",
+"listLevel": 2
+},
+{
+"title": "Find Person (Wizard Spell)",
+"name": "Find Person",
+"listLevel": 4
+},
+{
+"title": "Find the Path (Wizard Spell)",
+"name": "Find the Path",
+"listLevel": 7
+},
+{
+"title": "Find Treasure (Wizard Spell)",
+"name": "Find Treasure",
+"listLevel": 4
+},
+{
+"title": "Find Water (Wizard Spell)",
+"name": "Find Water",
+"listLevel": 3
+},
+{
+"title": "Finding the Center (Wizard Spell)",
+"name": "Finding the Center",
+"listLevel": 8
+},
+{
+"title": "Finger of Death (Wizard Spell)",
+"name": "Finger of Death",
+"listLevel": 7
+},
+{
+"title": "Fire Arrows (Wizard Spell)",
+"name": "Fire Arrows",
+"listLevel": 2
+},
+{
+"title": "Fire Aura (Wizard Spell)",
+"name": "Fire Aura",
+"listLevel": 4
+},
+{
+"title": "Fire Breath (Wizard Spell)",
+"name": "Fire Breath",
+"listLevel": 5
+},
+{
+"title": "Fire Burst (Wizard Spell)",
+"name": "Fire Burst",
+"listLevel": 1
+},
+{
+"title": "Fire Charm (Wizard Spell)",
+"name": "Fire Charm",
+"listLevel": 4
+},
+{
+"title": "Fire Enchantment (Wizard Spell)",
+"name": "Fire Enchantment",
+"listLevel": 4
+},
+{
+"title": "Fire Eyes (Wizard Spell)",
+"name": "Fire Eyes",
+"listLevel": 6
+},
+{
+"title": "Fire Phantom (Wizard Spell)",
+"name": "Fire Phantom",
+"listLevel": 3
+},
+{
+"title": "Fire Quill (Wizard Spell)",
+"name": "Fire Quill",
+"listLevel": 1
+},
+{
+"title": "Fire Rain (Wizard Spell)",
+"name": "Fire Rain",
+"listLevel": 3
+},
+{
+"title": "Fire Shield (Wizard Spell)",
+"name": "Fire Shield",
+"listLevel": 4
+},
+{
+"title": "Fire Shuriken (Wizard Spell)",
+"name": "Fire Shuriken",
+"listLevel": 2
+},
+{
+"title": "Fire Track (Wizard Spell)",
+"name": "Fire Track",
+"listLevel": 8
+},
+{
+"title": "Fire Trap (Wizard Spell)",
+"name": "Fire Trap",
+"listLevel": 4
+},
+{
+"title": "Fire Truth (Wizard Spell)",
+"name": "Fire Truth",
+"listLevel": 1
+},
+{
+"title": "Fire Wake (Wizard Spell)",
+"name": "Fire Wake",
+"listLevel": 4
+},
+{
+"title": "Fireball (Wizard Spell)",
+"name": "Fireball",
+"listLevel": 3
+},
+{
+"title": "Firebrand (Wizard Spell)",
+"name": "Firebrand",
+"listLevel": 4
+},
+{
+"title": "Fireproof (Wizard Spell)",
+"name": "Fireproof",
+"listLevel": 2
+},
+{
+"title": "Firestaff (Wizard Spell)",
+"name": "Firestaff",
+"listLevel": 2
+},
+{
+"title": "Firewater (Wizard Spell)",
+"name": "Firewater",
+"listLevel": 1
+},
+{
+"title": "First Strike (Wizard Spell)",
+"name": "First Strike",
+"listLevel": 2
+},
+{
+"title": "Fist of Stone (Wizard Spell)",
+"name": "Fist of Stone",
+"listLevel": 1
+},
+{
+"title": "Fist of the Adder (Wizard Spell)",
+"name": "Fist of the Adder",
+"listLevel": 2
+},
+{
+"title": "Fistandantilus's Firequench (Wizard Spell)",
+"name": "Fistandantilus's Firequench",
+"listLevel": 4
+},
+{
+"title": "Flame Arrow (Wizard Spell)",
+"name": "Flame Arrow",
+"listLevel": 3
+},
+{
+"title": "Flame Chase (Wizard Spell)",
+"name": "Flame Chase",
+"listLevel": 7
+},
+{
+"title": "Flame of Justice (Wizard Spell)",
+"name": "Flame of Justice",
+"listLevel": 6
+},
+{
+"title": "Flame Ray (Wizard Spell)",
+"name": "Flame Ray",
+"listLevel": 2
+},
+{
+"title": "Flameproof (Wizard Spell)",
+"name": "Flameproof",
+"listLevel": 6
+},
+{
+"title": "Flamespin (Wizard Spell)",
+"name": "Flamespin",
+"listLevel": 1
+},
+{
+"title": "Flaming Sphere (Wizard Spell)",
+"name": "Flaming Sphere",
+"listLevel": 2
+},
+{
+"title": "Flamsterd's Flamestrike (Wizard Spell)",
+"name": "Flamsterd's Flamestrike",
+"listLevel": 4
+},
+{
+"title": "Flann's Finery (Wizard Spell)",
+"name": "Flann's Finery",
+"listLevel": 2
+},
+{
+"title": "Flare (Wizard Spell)",
+"name": "Flare",
+"listLevel": 1
+},
+{
+"title": "Flash (Wizard Spell)",
+"name": "Flash",
+"listLevel": 2
+},
+{
+"title": "Flashlight (Wizard Spell)",
+"name": "Flashlight",
+"listLevel": 1
+},
+{
+"title": "Fleet Feet (Wizard Spell)",
+"name": "Fleet Feet",
+"listLevel": 3
+},
+{
+"title": "Flesh Mirage (Wizard Spell)",
+"name": "Flesh Mirage",
+"listLevel": 5
+},
+{
+"title": "Flesh to Air (Wizard Spell)",
+"name": "Flesh to Air",
+"listLevel": 4
+},
+{
+"title": "Fleshshiver (Wizard Spell)",
+"name": "Fleshshiver",
+"listLevel": 5
+},
+{
+"title": "Flexible Force Field (Wizard Spell)",
+"name": "Flexible Force Field",
+"listLevel": 5
+},
+{
+"title": "Flicker (Wizard Spell)",
+"name": "Flicker",
+"listLevel": 1
+},
+{
+"title": "Float (Wizard Spell)",
+"name": "Float",
+"listLevel": 1
+},
+{
+"title": "Fly (Wizard Spell)",
+"name": "Fly",
+"listLevel": 3
+},
+{
+"title": "Flyfield (Wizard Spell)",
+"name": "Flyfield",
+"listLevel": 5
+},
+{
+"title": "Flying Fist (Wizard Spell)",
+"name": "Flying Fist",
+"listLevel": 2
+},
+{
+"title": "Flying Jambiya (Wizard Spell)",
+"name": "Flying Jambiya",
+"listLevel": 2
+},
+{
+"title": "Fog Cloud (Wizard Spell)",
+"name": "Fog Cloud",
+"listLevel": 2
+},
+{
+"title": "Fools' Gold (Wizard Spell)",
+"name": "Fools' Gold",
+"listLevel": 2
+},
+{
+"title": "Force Shapechange (Wizard Spell)",
+"name": "Force Shapechange",
+"listLevel": 5
+},
+{
+"title": "Forcecage (Wizard Spell)",
+"name": "Forcecage",
+"listLevel": 7
+},
+{
+"title": "Forcewave (Wizard Spell)",
+"name": "Forcewave",
+"listLevel": 2
+},
+{
+"title": "Foresight (Wizard Spell)",
+"name": "Foresight",
+"listLevel": 9
+},
+{
+"title": "Forest's Fiery Constrictor (Wizard Spell)",
+"name": "Forest's Fiery Constrictor",
+"listLevel": 6
+},
+{
+"title": "Forget (Wizard Spell)",
+"name": "Forget",
+"listLevel": 2
+},
+{
+"title": "Friends (Wizard Spell)",
+"name": "Friends",
+"listLevel": 1
+},
+{
+"title": "Frost Fingers (Wizard Spell)",
+"name": "Frost Fingers",
+"listLevel": 1
+},
+{
+"title": "Frost Shroud (Wizard Spell)",
+"name": "Frost Shroud",
+"listLevel": 1
+},
+{
+"title": "Frostfire (Wizard Spell)",
+"name": "Frostfire",
+"listLevel": 2
+},
+{
+"title": "Fumble (Wizard Spell)",
+"name": "Fumble",
+"listLevel": 4
+},
+{
+"title": "Galathar's Gnostic Chain (Wizard Spell)",
+"name": "Galathar's Gnostic Chain",
+"listLevel": 4
+},
+{
+"title": "Galkyn's Bolt (Wizard Spell)",
+"name": "Galkyn's Bolt",
+"listLevel": 4
+},
+{
+"title": "Gamalon's Fiery Backlash (Wizard Spell)",
+"name": "Gamalon's Fiery Backlash",
+"listLevel": 3
+},
+{
+"title": "Gambler's Luck (Wizard Spell)",
+"name": "Gambler's Luck",
+"listLevel": 6
+},
+{
+"title": "Gaseous Form - Lvl 4 (Wizard Spell)",
+"name": "Gaseous Form - Lvl 4",
+"listLevel": 4
+},
+{
+"title": "Gate (Wizard Spell)",
+"name": "Gate",
+"listLevel": 9
+},
+{
+"title": "Gate Seal (Wizard Spell)",
+"name": "Gate Seal",
+"listLevel": 3
+},
+{
+"title": "Gate Ward (Wizard Spell)",
+"name": "Gate Ward",
+"listLevel": 2
+},
+{
+"title": "Gateway (Wizard Spell)",
+"name": "Gateway",
+"listLevel": 8
+},
+{
+"title": "Gauntlet (Wizard Spell)",
+"name": "Gauntlet",
+"listLevel": 1
+},
+{
+"title": "Gauntlet of Teeth (Wizard Spell)",
+"name": "Gauntlet of Teeth",
+"listLevel": 6
+},
+{
+"title": "Gaze Reflection (Wizard Spell)",
+"name": "Gaze Reflection",
+"listLevel": 1
+},
+{
+"title": "Geas (Wizard Spell)",
+"name": "Geas",
+"listLevel": 6
+},
+{
+"title": "Geirdorn's Grappling Grasp (Wizard Spell)",
+"name": "Geirdorn's Grappling Grasp",
+"listLevel": 4
+},
+{
+"title": "Gemidan's Icicle (Wizard Spell)",
+"name": "Gemidan's Icicle",
+"listLevel": 1
+},
+{
+"title": "Gemidan's Paralytic Missile (Wizard Spell)",
+"name": "Gemidan's Paralytic Missile",
+"listLevel": 2
+},
+{
+"title": "Gemjump (Wizard Spell)",
+"name": "Gemjump",
+"listLevel": 7
+},
+{
+"title": "Genie Contract (Wizard Spell)",
+"name": "Genie Contract",
+"listLevel": 4
+},
+{
+"title": "Ghast Creation (Wizard Spell)",
+"name": "Ghast Creation",
+"listLevel": 5
+},
+{
+"title": "Ghastly Hands (Wizard Spell)",
+"name": "Ghastly Hands",
+"listLevel": 3
+},
+{
+"title": "Ghelkyn's Wounding (Wizard Spell)",
+"name": "Ghelkyn's Wounding",
+"listLevel": 4
+},
+{
+"title": "Ghost Armor (Wizard Spell)",
+"name": "Ghost Armor",
+"listLevel": 3
+},
+{
+"title": "Ghost Blade (Wizard Spell)",
+"name": "Ghost Blade",
+"listLevel": 2
+},
+{
+"title": "Ghost Light (Wizard Spell)",
+"name": "Ghost Light",
+"listLevel": 1
+},
+{
+"title": "Ghost Pipes (Wizard Spell)",
+"name": "Ghost Pipes",
+"listLevel": 2
+},
+{
+"title": "Ghost Rigging (Wizard Spell)",
+"name": "Ghost Rigging",
+"listLevel": 4
+},
+{
+"title": "Ghostgrail (Wizard Spell)",
+"name": "Ghostgrail",
+"listLevel": 6
+},
+{
+"title": "Ghostharp (Wizard Spell)",
+"name": "Ghostharp",
+"listLevel": 1
+},
+{
+"title": "Ghoul Gauntlet (Wizard Spell)",
+"name": "Ghoul Gauntlet",
+"listLevel": 6
+},
+{
+"title": "Ghoul Lattice (Wizard Spell)",
+"name": "Ghoul Lattice",
+"listLevel": 8
+},
+{
+"title": "Ghoul Touch (Wizard Spell)",
+"name": "Ghoul Touch",
+"listLevel": 2
+},
+{
+"title": "Giant Fur (Wizard Spell)",
+"name": "Giant Fur",
+"listLevel": 1
+},
+{
+"title": "Giant Size (Wizard Spell)",
+"name": "Giant Size",
+"listLevel": 8
+},
+{
+"title": "Glassee (Wizard Spell)",
+"name": "Glassee",
+"listLevel": 6
+},
+{
+"title": "Glassteel (Wizard Spell)",
+"name": "Glassteel",
+"listLevel": 8
+},
+{
+"title": "Glitterdust (Wizard Spell)",
+"name": "Glitterdust",
+"listLevel": 2
+},
+{
+"title": "Globe of Invulnerability (Wizard Spell)",
+"name": "Globe of Invulnerability",
+"listLevel": 6
+},
+{
+"title": "Gloom (Wizard Spell)",
+"name": "Gloom",
+"listLevel": 4
+},
+{
+"title": "Glorious Transmutation (Wizard Spell)",
+"name": "Glorious Transmutation",
+"listLevel": 9
+},
+{
+"title": "Graft (Wizard Spell)",
+"name": "Graft",
+"listLevel": 6
+},
+{
+"title": "Graft Flesh (Wizard Spell)",
+"name": "Graft Flesh",
+"listLevel": 5
+},
+{
+"title": "Graft Item (Wizard Spell)",
+"name": "Graft Item",
+"listLevel": 8
+},
+{
+"title": "Graft Limb (Wizard Spell)",
+"name": "Graft Limb",
+"listLevel": 8
+},
+{
+"title": "Grease (Wizard Spell)",
+"name": "Grease",
+"listLevel": 1
+},
+{
+"title": "Grease Slick (Wizard Spell)",
+"name": "Grease Slick",
+"listLevel": 3
+},
+{
+"title": "Great Shout (Wizard Spell)",
+"name": "Great Shout",
+"listLevel": 8
+},
+{
+"title": "Greater Detect Undead (Wizard Spell)",
+"name": "Greater Detect Undead",
+"listLevel": 2
+},
+{
+"title": "Greater Malison (Wizard Spell)",
+"name": "Greater Malison",
+"listLevel": 4
+},
+{
+"title": "Greater Sign of Sealing (Wizard Spell)",
+"name": "Greater Sign of Sealing",
+"listLevel": 6
+},
+{
+"title": "Greater Spelldream (Wizard Spell)",
+"name": "Greater Spelldream",
+"listLevel": 6
+},
+{
+"title": "Gregori's Awareness (Wizard Spell)",
+"name": "Gregori's Awareness",
+"listLevel": 4
+},
+{
+"title": "Gregori's Shadow (Wizard Spell)",
+"name": "Gregori's Shadow",
+"listLevel": 6
+},
+{
+"title": "Gregori's Spell Damper (Wizard Spell)",
+"name": "Gregori's Spell Damper",
+"listLevel": 6
+},
+{
+"title": "Grimwald's Graymantle - Lvl 5 (Wizard Spell)",
+"name": "Grimwald's Graymantle - Lvl 5",
+"listLevel": 5
+},
+{
+"title": "Ground Fog (Wizard Spell)",
+"name": "Ground Fog",
+"listLevel": 3
+},
+{
+"title": "Guardian Mantle (Wizard Spell)",
+"name": "Guardian Mantle",
+"listLevel": 7
+},
+{
+"title": "Guards and Wards (Wizard Spell)",
+"name": "Guards and Wards",
+"listLevel": 6
+},
+{
+"title": "Guise of the Yak-Man (Wizard Spell)",
+"name": "Guise of the Yak-Man",
+"listLevel": 5
+},
+{
+"title": "Gunther's Kaleidoscopic Strike (Wizard Spell)",
+"name": "Gunther's Kaleidoscopic Strike",
+"listLevel": 8
+},
+{
+"title": "Gust of Wind (Wizard Spell)",
+"name": "Gust of Wind",
+"listLevel": 3
+},
+{
+"title": "Haelyn's Bow (Wizard Spell)",
+"name": "Haelyn's Bow",
+"listLevel": 3
+},
+{
+"title": "Hail of Stone (Wizard Spell)",
+"name": "Hail of Stone",
+"listLevel": 1
+},
+{
+"title": "Hailcone (Wizard Spell)",
+"name": "Hailcone",
+"listLevel": 4
+},
+{
+"title": "Hair (Wizard Spell)",
+"name": "Hair",
+"listLevel": 1
+},
+{
+"title": "Halaster's Grappling Hand (Wizard Spell)",
+"name": "Halaster's Grappling Hand",
+"listLevel": 5
+},
+{
+"title": "Hallucinatory Terrain (Wizard Spell)",
+"name": "Hallucinatory Terrain",
+"listLevel": 4
+},
+{
+"title": "Halo of Eyes (Wizard Spell)",
+"name": "Halo of Eyes",
+"listLevel": 4
+},
+{
+"title": "Handfangs (Wizard Spell)",
+"name": "Handfangs",
+"listLevel": 4
+},
+{
+"title": "Harm (Wizard Spell)",
+"name": "Harm",
+"listLevel": 7
+},
+{
+"title": "Haste (Wizard Spell)",
+"name": "Haste",
+"listLevel": 3
+},
+{
+"title": "Hasten Growth (Wizard Spell)",
+"name": "Hasten Growth",
+"listLevel": 5
+},
+{
+"title": "Hatch the Stone from the Egg (Wizard Spell)",
+"name": "Hatch the Stone from the Egg",
+"listLevel": 7
+},
+{
+"title": "Healing Dream (Wizard Spell)",
+"name": "Healing Dream",
+"listLevel": 3
+},
+{
+"title": "Healing Touch (Wizard Spell)",
+"name": "Healing Touch",
+"listLevel": 3
+},
+{
+"title": "Heart of Stone (Wizard Spell)",
+"name": "Heart of Stone",
+"listLevel": 8
+},
+{
+"title": "Heartcall (Wizard Spell)",
+"name": "Heartcall",
+"listLevel": 3
+},
+{
+"title": "Heat Mirage (Wizard Spell)",
+"name": "Heat Mirage",
+"listLevel": 5
+},
+{
+"title": "Hedge Enchantment (Wizard Spell)",
+"name": "Hedge Enchantment",
+"listLevel": 5
+},
+{
+"title": "Hide Heart (Wizard Spell)",
+"name": "Hide Heart",
+"listLevel": 8
+},
+{
+"title": "Hiding Place (Wizard Spell)",
+"name": "Hiding Place",
+"listLevel": 4
+},
+{
+"title": "Hissing Sand (Wizard Spell)",
+"name": "Hissing Sand",
+"listLevel": 3
+},
+{
+"title": "Hold Giant (Wizard Spell)",
+"name": "Hold Giant",
+"listLevel": 4
+},
+{
+"title": "Hold Golem (Wizard Spell)",
+"name": "Hold Golem",
+"listLevel": 7
+},
+{
+"title": "Hold Monster (Wizard Spell)",
+"name": "Hold Monster",
+"listLevel": 5
+},
+{
+"title": "Hold Person (Wizard Spell)",
+"name": "Hold Person",
+"listLevel": 3
+},
+{
+"title": "Hold Portal (Wizard Spell)",
+"name": "Hold Portal",
+"listLevel": 1
+},
+{
+"title": "Hold Portal Open (Wizard Spell)",
+"name": "Hold Portal Open",
+"listLevel": 2
+},
+{
+"title": "Hold Undead (Wizard Spell)",
+"name": "Hold Undead",
+"listLevel": 3
+},
+{
+"title": "Hold Vapor (Wizard Spell)",
+"name": "Hold Vapor",
+"listLevel": 3
+},
+{
+"title": "Homunculus Shield (Wizard Spell)",
+"name": "Homunculus Shield",
+"listLevel": 8
+},
+{
+"title": "Honor Mark (Wizard Spell)",
+"name": "Honor Mark",
+"listLevel": 1
+},
+{
+"title": "Hover (Wizard Spell)",
+"name": "Hover",
+"listLevel": 3
+},
+{
+"title": "Hovering Skull (Wizard Spell)",
+"name": "Hovering Skull",
+"listLevel": 3
+},
+{
+"title": "Howl of Pandemonium (Wizard Spell)",
+"name": "Howl of Pandemonium",
+"listLevel": 6
+},
+{
+"title": "Howling Chain (Wizard Spell)",
+"name": "Howling Chain",
+"listLevel": 6
+},
+{
+"title": "Howling Horror (Wizard Spell)",
+"name": "Howling Horror",
+"listLevel": 7
+},
+{
+"title": "Hypnotic Pattern (Wizard Spell)",
+"name": "Hypnotic Pattern",
+"listLevel": 2
+},
+{
+"title": "Hypnotism (Wizard Spell)",
+"name": "Hypnotism",
+"listLevel": 1
+},
+{
+"title": "Ice Blight (Wizard Spell)",
+"name": "Ice Blight",
+"listLevel": 7
+},
+{
+"title": "Ice Knife (Wizard Spell)",
+"name": "Ice Knife",
+"listLevel": 2
+},
+{
+"title": "Ice Storm (Wizard Spell)",
+"name": "Ice Storm",
+"listLevel": 4
+},
+{
+"title": "Icelance (Wizard Spell)",
+"name": "Icelance",
+"listLevel": 3
+},
+{
+"title": "Identify (Wizard Spell)",
+"name": "Identify",
+"listLevel": 1
+},
+{
+"title": "Identify Species (Wizard Spell)",
+"name": "Identify Species",
+"listLevel": 3
+},
+{
+"title": "Identify Tighmaevril (Wizard Spell)",
+"name": "Identify Tighmaevril",
+"listLevel": 4
+},
+{
+"title": "Illusionary Script (Wizard Spell)",
+"name": "Illusionary Script",
+"listLevel": 3
+},
+{
+"title": "Illusionary Wall (Wizard Spell)",
+"name": "Illusionary Wall",
+"listLevel": 4
+},
+{
+"title": "Ilyykur's Mantle (Wizard Spell)",
+"name": "Ilyykur's Mantle",
+"listLevel": 4
+},
+{
+"title": "Imbue Undead with Spell Ability (Wizard Spell)",
+"name": "Imbue Undead with Spell Ability",
+"listLevel": 6
+},
+{
+"title": "Immunity to Poison and Disease (Wizard Spell)",
+"name": "Immunity to Poison and Disease",
+"listLevel": 5
+},
+{
+"title": "Immunity to Undeath (Wizard Spell)",
+"name": "Immunity to Undeath",
+"listLevel": 9
+},
+{
+"title": "Immurk's Distraction (Wizard Spell)",
+"name": "Immurk's Distraction",
+"listLevel": 2
+},
+{
+"title": "Impersonation (Wizard Spell)",
+"name": "Impersonation",
+"listLevel": 6
+},
+{
+"title": "Imprisonment (Wizard Spell)",
+"name": "Imprisonment",
+"listLevel": 9
+},
+{
+"title": "Improved Armor (Wizard Spell)",
+"name": "Improved Armor",
+"listLevel": 4
+},
+{
+"title": "Improved Blink (Wizard Spell)",
+"name": "Improved Blink",
+"listLevel": 5
+},
+{
+"title": "Improved Chill Touch (Wizard Spell)",
+"name": "Improved Chill Touch",
+"listLevel": 2
+},
+{
+"title": "Improved Haste (Wizard Spell)",
+"name": "Improved Haste",
+"listLevel": 6
+},
+{
+"title": "Improved Invisibility (Wizard Spell)",
+"name": "Improved Invisibility",
+"listLevel": 4
+},
+{
+"title": "Improved Magic Missile (Wizard Spell)",
+"name": "Improved Magic Missile",
+"listLevel": 3
+},
+{
+"title": "Improved Phantasmal Force (Wizard Spell)",
+"name": "Improved Phantasmal Force",
+"listLevel": 2
+},
+{
+"title": "Improved Skull Watch (Wizard Spell)",
+"name": "Improved Skull Watch",
+"listLevel": 5
+},
+{
+"title": "Improved Slow (Wizard Spell)",
+"name": "Improved Slow",
+"listLevel": 6
+},
+{
+"title": "Improved Strength (Wizard Spell)",
+"name": "Improved Strength",
+"listLevel": 4
+},
+{
+"title": "Improved Vampiric Touch (Wizard Spell)",
+"name": "Improved Vampiric Touch",
+"listLevel": 4
+},
+{
+"title": "Improved Whispering Wind (Wizard Spell)",
+"name": "Improved Whispering Wind",
+"listLevel": 3
+},
+{
+"title": "Incendiary Cloud (Wizard Spell)",
+"name": "Incendiary Cloud",
+"listLevel": 8
+},
+{
+"title": "Incendiary Entrapment (Wizard Spell)",
+"name": "Incendiary Entrapment",
+"listLevel": 7
+},
+{
+"title": "Infratorch (Wizard Spell)",
+"name": "Infratorch",
+"listLevel": 2
+},
+{
+"title": "Infravision (Wizard Spell)",
+"name": "Infravision",
+"listLevel": 3
+},
+{
+"title": "Insatiable Thirst (Wizard Spell)",
+"name": "Insatiable Thirst",
+"listLevel": 2
+},
+{
+"title": "Inscribe (Wizard Spell)",
+"name": "Inscribe",
+"listLevel": 6
+},
+{
+"title": "Insect Sight (Wizard Spell)",
+"name": "Insect Sight",
+"listLevel": 5
+},
+{
+"title": "Instant Regeneration (Wizard Spell)",
+"name": "Instant Regeneration",
+"listLevel": 9
+},
+{
+"title": "Insulation (Wizard Spell)",
+"name": "Insulation",
+"listLevel": 1
+},
+{
+"title": "Intensify Nature (Wizard Spell)",
+"name": "Intensify Nature",
+"listLevel": 9
+},
+{
+"title": "Intensify Summoning (Wizard Spell)",
+"name": "Intensify Summoning",
+"listLevel": 7
+},
+{
+"title": "Internal Fire (Wizard Spell)",
+"name": "Internal Fire",
+"listLevel": 9
+},
+{
+"title": "Interruptible Light (Wizard Spell)",
+"name": "Interruptible Light",
+"listLevel": 3
+},
+{
+"title": "Invisibility (Wizard Spell)",
+"name": "Invisibility",
+"listLevel": 2
+},
+{
+"title": "Invisibility, 10' Radius (Wizard Spell)",
+"name": "Invisibility, 10' Radius",
+"listLevel": 3
+},
+{
+"title": "Invisible Mail (Wizard Spell)",
+"name": "Invisible Mail",
+"listLevel": 3
+},
+{
+"title": "Invisible Stalker (Wizard Spell)",
+"name": "Invisible Stalker",
+"listLevel": 6
+},
+{
+"title": "Invulnerability to Magical Weapons (Wizard Spell)",
+"name": "Invulnerability to Magical Weapons",
+"listLevel": 6
+},
+{
+"title": "Invulnerability to Normal Weapons (Wizard Spell)",
+"name": "Invulnerability to Normal Weapons",
+"listLevel": 5
+},
+{
+"title": "Iron Body (Wizard Spell)",
+"name": "Iron Body",
+"listLevel": 8
+},
+{
+"title": "Iron Kimono (Wizard Spell)",
+"name": "Iron Kimono",
+"listLevel": 3
+},
+{
+"title": "Iron Maiden (Wizard Spell)",
+"name": "Iron Maiden",
+"listLevel": 4
+},
+{
+"title": "Iron Mind (Wizard Spell)",
+"name": "Iron Mind",
+"listLevel": 3
+},
+{
+"title": "Ironguard (Wizard Spell)",
+"name": "Ironguard",
+"listLevel": 5
+},
+{
+"title": "Ironwood (Wizard Spell)",
+"name": "Ironwood",
+"listLevel": 5
+},
+{
+"title": "Irritation (Wizard Spell)",
+"name": "Irritation",
+"listLevel": 2
+},
+{
+"title": "Isolate Templar (Wizard Spell)",
+"name": "Isolate Templar",
+"listLevel": 6
+},
+{
+"title": "Isolde's Answer (Wizard Spell)",
+"name": "Isolde's Answer",
+"listLevel": 3
+},
+{
+"title": "Item (Wizard Spell)",
+"name": "Item",
+"listLevel": 3
+},
+{
+"title": "Item Protector (Wizard Spell)",
+"name": "Item Protector",
+"listLevel": 7
+},
+{
+"title": "Item Supercharger (Wizard Spell)",
+"name": "Item Supercharger",
+"listLevel": 8
+},
+{
+"title": "Itembane (Wizard Spell)",
+"name": "Itembane",
+"listLevel": 6
+},
+{
+"title": "Ivy's Irresistible Scent (Wizard Spell)",
+"name": "Ivy's Irresistible Scent",
+"listLevel": 4
+},
+{
+"title": "Jackal Ward (Wizard Spell)",
+"name": "Jackal Ward",
+"listLevel": 4
+},
+{
+"title": "Jaggar's Strengthened Bastion (Wizard Spell)",
+"name": "Jaggar's Strengthened Bastion",
+"listLevel": 5
+},
+{
+"title": "Jalartan's Miraculum (Wizard Spell)",
+"name": "Jalartan's Miraculum",
+"listLevel": 3
+},
+{
+"title": "Janga's Jewel (Wizard Spell)",
+"name": "Janga's Jewel",
+"listLevel": 7
+},
+{
+"title": "Jest (Wizard Spell)",
+"name": "Jest",
+"listLevel": 4
+},
+{
+"title": "Jester's Jest (Wizard Spell)",
+"name": "Jester's Jest",
+"listLevel": 2
+},
+{
+"title": "Jhanifer's Deliquescence (Wizard Spell)",
+"name": "Jhanifer's Deliquescence",
+"listLevel": 5
+},
+{
+"title": "Jonstal's Double Wizardry (Wizard Spell)",
+"name": "Jonstal's Double Wizardry",
+"listLevel": 5
+},
+{
+"title": "Jonstal's Improved Double Wizardry (Wizard Spell)",
+"name": "Jonstal's Improved Double Wizardry",
+"listLevel": 6
+},
+{
+"title": "Juggernaut (Wizard Spell)",
+"name": "Juggernaut",
+"listLevel": 9
+},
+{
+"title": "Juggle (Wizard Spell)",
+"name": "Juggle",
+"listLevel": 4
+},
+{
+"title": "Jump (Wizard Spell)",
+"name": "Jump",
+"listLevel": 1
+},
+{
+"title": "Kank Shell (Wizard Spell)",
+"name": "Kank Shell",
+"listLevel": 5
+},
+{
+"title": "Khazid's Procurement (Wizard Spell)",
+"name": "Khazid's Procurement",
+"listLevel": 5
+},
+{
+"title": "Khelben's Blackstaff (Wizard Spell)",
+"name": "Khelben's Blackstaff",
+"listLevel": 8
+},
+{
+"title": "Khelben's Dweomerdoom (Wizard Spell)",
+"name": "Khelben's Dweomerdoom",
+"listLevel": 9
+},
+{
+"title": "Khelben's Suspended Silence (Wizard Spell)",
+"name": "Khelben's Suspended Silence",
+"listLevel": 3
+},
+{
+"title": "Khelben's Warding Whip (Wizard Spell)",
+"name": "Khelben's Warding Whip",
+"listLevel": 7
+},
+{
+"title": "Khinasi Trade Tongue (Wizard Spell)",
+"name": "Khinasi Trade Tongue",
+"listLevel": 1
+},
+{
+"title": "Kiss of Night's Guardian (Wizard Spell)",
+"name": "Kiss of Night's Guardian",
+"listLevel": 9
+},
+{
+"title": "Knock (Wizard Spell)",
+"name": "Knock",
+"listLevel": 2
+},
+{
+"title": "Knoslira's Crypt (Wizard Spell)",
+"name": "Knoslira's Crypt",
+"listLevel": 5
+},
+{
+"title": "Know Alignment (Wizard Spell)",
+"name": "Know Alignment",
+"listLevel": 2
+},
+{
+"title": "Know Bloodline Derivation (Wizard Spell)",
+"name": "Know Bloodline Derivation",
+"listLevel": 1
+},
+{
+"title": "Know Bloodline Strength (Wizard Spell)",
+"name": "Know Bloodline Strength",
+"listLevel": 1
+},
+{
+"title": "Know Cerilian Origin (Wizard Spell)",
+"name": "Know Cerilian Origin",
+"listLevel": 1
+},
+{
+"title": "Know Faction (Wizard Spell)",
+"name": "Know Faction",
+"listLevel": 1
+},
+{
+"title": "Know History (Wizard Spell)",
+"name": "Know History",
+"listLevel": 1
+},
+{
+"title": "Know Path of Magic (Wizard Spell)",
+"name": "Know Path of Magic",
+"listLevel": 4
+},
+{
+"title": "Know School (Wizard Spell)",
+"name": "Know School",
+"listLevel": 1
+},
+{
+"title": "Know Value (Wizard Spell)",
+"name": "Know Value",
+"listLevel": 5
+},
+{
+"title": "Know Weight (Wizard Spell)",
+"name": "Know Weight",
+"listLevel": 1
+},
+{
+"title": "Laeral's Aqueous Column (Wizard Spell)",
+"name": "Laeral's Aqueous Column",
+"listLevel": 4
+},
+{
+"title": "Laeral's Crowning Touch (Wizard Spell)",
+"name": "Laeral's Crowning Touch",
+"listLevel": 9
+},
+{
+"title": "Laeral's Cutting Hand (Wizard Spell)",
+"name": "Laeral's Cutting Hand",
+"listLevel": 2
+},
+{
+"title": "Laeral's Dancing Dweomer (Wizard Spell)",
+"name": "Laeral's Dancing Dweomer",
+"listLevel": 3
+},
+{
+"title": "Laeral's Dancing Whip (Wizard Spell)",
+"name": "Laeral's Dancing Whip",
+"listLevel": 1
+},
+{
+"title": "Laeral's Disrobement (Wizard Spell)",
+"name": "Laeral's Disrobement",
+"listLevel": 5
+},
+{
+"title": "Laeral's Gesture (Wizard Spell)",
+"name": "Laeral's Gesture",
+"listLevel": 4
+},
+{
+"title": "Laeral's Invisible Blade (Wizard Spell)",
+"name": "Laeral's Invisible Blade",
+"listLevel": 8
+},
+{
+"title": "Laeral's Raging Griffon (Wizard Spell)",
+"name": "Laeral's Raging Griffon",
+"listLevel": 3
+},
+{
+"title": "Lance of Disruption (Wizard Spell)",
+"name": "Lance of Disruption",
+"listLevel": 3
+},
+{
+"title": "Lapis Bonds (Wizard Spell)",
+"name": "Lapis Bonds",
+"listLevel": 5
+},
+{
+"title": "Lapse (Wizard Spell)",
+"name": "Lapse",
+"listLevel": 4
+},
+{
+"title": "Lasting Breath (Wizard Spell)",
+"name": "Lasting Breath",
+"listLevel": 1
+},
+{
+"title": "Legend Lore (Wizard Spell)",
+"name": "Legend Lore",
+"listLevel": 6
+},
+{
+"title": "Leomund's Hidden Lodge (Wizard Spell)",
+"name": "Leomund's Hidden Lodge",
+"listLevel": 5
+},
+{
+"title": "Leomund's Lamentable Belaborment (Wizard Spell)",
+"name": "Leomund's Lamentable Belaborment",
+"listLevel": 5
+},
+{
+"title": "Leomund's Secret Chest (Wizard Spell)",
+"name": "Leomund's Secret Chest",
+"listLevel": 5
+},
+{
+"title": "Leomund's Secure Shelter (Wizard Spell)",
+"name": "Leomund's Secure Shelter",
+"listLevel": 4
+},
+{
+"title": "Leomund's Tiny Hut (Wizard Spell)",
+"name": "Leomund's Tiny Hut",
+"listLevel": 3
+},
+{
+"title": "Leomund's Trap (Wizard Spell)",
+"name": "Leomund's Trap",
+"listLevel": 2
+},
+{
+"title": "Lessen Gravity (Wizard Spell)",
+"name": "Lessen Gravity",
+"listLevel": 3
+},
+{
+"title": "Lesser Geas (Wizard Spell)",
+"name": "Lesser Geas",
+"listLevel": 4
+},
+{
+"title": "Lesser Sign of Sealing (Wizard Spell)",
+"name": "Lesser Sign of Sealing",
+"listLevel": 3
+},
+{
+"title": "Lesser Spelldream (Wizard Spell)",
+"name": "Lesser Spelldream",
+"listLevel": 4
+},
+{
+"title": "Levitate (Wizard Spell)",
+"name": "Levitate",
+"listLevel": 2
+},
+{
+"title": "Lich Armor (Wizard Spell)",
+"name": "Lich Armor",
+"listLevel": 4
+},
+{
+"title": "Lich Touch (Wizard Spell)",
+"name": "Lich Touch",
+"listLevel": 4
+},
+{
+"title": "Life Bolt (Wizard Spell)",
+"name": "Life Bolt",
+"listLevel": 4
+},
+{
+"title": "Life Field (Wizard Spell)",
+"name": "Life Field",
+"listLevel": 4
+},
+{
+"title": "Life Force Exchange (Wizard Spell)",
+"name": "Life Force Exchange",
+"listLevel": 9
+},
+{
+"title": "Life Force Transfer (Wizard Spell)",
+"name": "Life Force Transfer",
+"listLevel": 8
+},
+{
+"title": "Life Force Transfer - Lvl 4 (Wizard Spell)",
+"name": "Life Force Transfer - Lvl 4",
+"listLevel": 4
+},
+{
+"title": "Life Sounding (Wizard Spell)",
+"name": "Life Sounding",
+"listLevel": 2
+},
+{
+"title": "Life Tether (Wizard Spell)",
+"name": "Life Tether",
+"listLevel": 3
+},
+{
+"title": "Life Water (Wizard Spell)",
+"name": "Life Water",
+"listLevel": 9
+},
+{
+"title": "Lifeblend (Wizard Spell)",
+"name": "Lifeblend",
+"listLevel": 9
+},
+{
+"title": "Lifeproof (Wizard Spell)",
+"name": "Lifeproof",
+"listLevel": 7
+},
+{
+"title": "Light (Wizard Spell)",
+"name": "Light",
+"listLevel": 1
+},
+{
+"title": "Lightning Bolt (Wizard Spell)",
+"name": "Lightning Bolt",
+"listLevel": 3
+},
+{
+"title": "Lightning Bug (Wizard Spell)",
+"name": "Lightning Bug",
+"listLevel": 1
+},
+{
+"title": "Lightning Curtain (Wizard Spell)",
+"name": "Lightning Curtain",
+"listLevel": 5
+},
+{
+"title": "Lightning Lash (Wizard Spell)",
+"name": "Lightning Lash",
+"listLevel": 5
+},
+{
+"title": "Lightning Reflection - Lvl 5 (Wizard Spell)",
+"name": "Lightning Reflection",
+"listLevel": 5
+},
+{
+"title": "Lightning Ring (Wizard Spell)",
+"name": "Lightning Ring",
+"listLevel": 8
+},
+{
+"title": "Lightning Rod (Wizard Spell)",
+"name": "Lightning Rod",
+"listLevel": 3
+},
+{
+"title": "Lightning Rod - Polyhedron (Wizard Spell)",
+"name": "Lightning Rod - Polyhedron",
+"listLevel": 6
+},
+{
+"title": "Lightning Shield (Wizard Spell)",
+"name": "Lightning Shield",
+"listLevel": 4
+},
+{
+"title": "Lightning Storm (Wizard Spell)",
+"name": "Lightning Storm",
+"listLevel": 8
+},
+{
+"title": "Lightning Strike (Wizard Spell)",
+"name": "Lightning Strike",
+"listLevel": 2
+},
+{
+"title": "Lightningcloak (Wizard Spell)",
+"name": "Lightningcloak",
+"listLevel": 6
+},
+{
+"title": "Limited Wish (Wizard Spell)",
+"name": "Limited Wish",
+"listLevel": 7
+},
+{
+"title": "Liquid Earth (Wizard Spell)",
+"name": "Liquid Earth",
+"listLevel": 5
+},
+{
+"title": "Liquid Orb (Wizard Spell)",
+"name": "Liquid Orb",
+"listLevel": 1
+},
+{
+"title": "Little Bird (Wizard Spell)",
+"name": "Little Bird",
+"listLevel": 1
+},
+{
+"title": "Living Link (Wizard Spell)",
+"name": "Living Link",
+"listLevel": 1
+},
+{
+"title": "Locate Creature (Wizard Spell)",
+"name": "Locate Creature",
+"listLevel": 4
+},
+{
+"title": "Locate Object (Wizard Spell)",
+"name": "Locate Object",
+"listLevel": 2
+},
+{
+"title": "Locate Portal (Wizard Spell)",
+"name": "Locate Portal",
+"listLevel": 2
+},
+{
+"title": "Locate Remains (Wizard Spell)",
+"name": "Locate Remains",
+"listLevel": 1
+},
+{
+"title": "Lorloveim's Creeping Shadow (Wizard Spell)",
+"name": "Lorloveim's Creeping Shadow",
+"listLevel": 3
+},
+{
+"title": "Lorloveim's Shadowy Transformation (Wizard Spell)",
+"name": "Lorloveim's Shadowy Transformation",
+"listLevel": 6
+},
+{
+"title": "Love (Wizard Spell)",
+"name": "Love",
+"listLevel": 7
+},
+{
+"title": "Love Charm (Wizard Spell)",
+"name": "Love Charm",
+"listLevel": 3
+},
+{
+"title": "Lower Resistance (Wizard Spell)",
+"name": "Lower Resistance",
+"listLevel": 5
+},
+{
+"title": "Lower Water (Wizard Spell)",
+"name": "Lower Water",
+"listLevel": 6
+},
+{
+"title": "Lubricity (Wizard Spell)",
+"name": "Lubricity",
+"listLevel": 3
+},
+{
+"title": "Lullaby (Wizard Spell)",
+"name": "Lullaby",
+"listLevel": 7
+},
+{
+"title": "Lysander's Bladestorm (Wizard Spell)",
+"name": "Lysander's Bladestorm",
+"listLevel": 7
+},
+{
+"title": "Lysander's Kaleidoscope (Wizard Spell)",
+"name": "Lysander's Kaleidoscope",
+"listLevel": 3
+},
+{
+"title": "Maelstrom (Wizard Spell)",
+"name": "Maelstrom",
+"listLevel": 9
+},
+{
+"title": "Mage Tunnel (Wizard Spell)",
+"name": "Mage Tunnel",
+"listLevel": 9
+},
+{
+"title": "Magic Drain (Wizard Spell)",
+"name": "Magic Drain",
+"listLevel": 8
+},
+{
+"title": "Magic Ear (Wizard Spell)",
+"name": "Magic Ear",
+"listLevel": 2
+},
+{
+"title": "Magic Fist (Wizard Spell)",
+"name": "Magic Fist",
+"listLevel": 1
+},
+{
+"title": "Magic Jar (Wizard Spell)",
+"name": "Magic Jar",
+"listLevel": 5
+},
+{
+"title": "Magic Manager (Wizard Spell)",
+"name": "Magic Manager",
+"listLevel": 6
+},
+{
+"title": "Magic Mirror (Wizard Spell)",
+"name": "Magic Mirror",
+"listLevel": 4
+},
+{
+"title": "Magic Missile (Wizard Spell)",
+"name": "Magic Missile",
+"listLevel": 1
+},
+{
+"title": "Magic Missile Reflection (Wizard Spell)",
+"name": "Magic Missile Reflection",
+"listLevel": 2
+},
+{
+"title": "Magic Mouth (Wizard Spell)",
+"name": "Magic Mouth",
+"listLevel": 2
+},
+{
+"title": "Magic Staff (Wizard Spell)",
+"name": "Magic Staff",
+"listLevel": 5
+},
+{
+"title": "Magical Susceptibility (Wizard Spell)",
+"name": "Magical Susceptibility",
+"listLevel": 6
+},
+{
+"title": "Magnetism (Wizard Spell)",
+"name": "Magnetism",
+"listLevel": 3
+},
+{
+"title": "Mailed Might (Wizard Spell)",
+"name": "Mailed Might",
+"listLevel": 3
+},
+{
+"title": "Maintain (Wizard Spell)",
+"name": "Maintain",
+"listLevel": 6
+},
+{
+"title": "Major Cloak (Wizard Spell)",
+"name": "Major Cloak",
+"listLevel": 9
+},
+{
+"title": "Major Creation (Wizard Spell)",
+"name": "Major Creation",
+"listLevel": 5
+},
+{
+"title": "Major Domination (Wizard Spell)",
+"name": "Major Domination",
+"listLevel": 7
+},
+{
+"title": "Major Paradox (Wizard Spell)",
+"name": "Major Paradox",
+"listLevel": 9
+},
+{
+"title": "Maladweomer (Wizard Spell)",
+"name": "Maladweomer",
+"listLevel": 3
+},
+{
+"title": "Malec-Keth's Flame Fist (Wizard Spell)",
+"name": "Malec-Keth's Flame Fist",
+"listLevel": 7
+},
+{
+"title": "Malraz's Dramatic Death (Wizard Spell)",
+"name": "Malraz's Dramatic Death",
+"listLevel": 7
+},
+{
+"title": "Manor's Mind Vision (Wizard Spell)",
+"name": "Manor's Mind Vision",
+"listLevel": 7
+},
+{
+"title": "Manor's Mindsight (Wizard Spell)",
+"name": "Manor's Mindsight",
+"listLevel": 5
+},
+{
+"title": "Manshoon's Xorn Talons (Wizard Spell)",
+"name": "Manshoon's Xorn Talons",
+"listLevel": 5
+},
+{
+"title": "Manyjaws (Wizard Spell)",
+"name": "Manyjaws",
+"listLevel": 3
+},
+{
+"title": "March (Wizard Spell)",
+"name": "March",
+"listLevel": 1
+},
+{
+"title": "Mask of Death (Wizard Spell)",
+"name": "Mask of Death",
+"listLevel": 4
+},
+{
+"title": "Mask Bloodline (Wizard Spell)",
+"name": "Mask Bloodline",
+"listLevel": 2
+},
+{
+"title": "Mass (Wizard Spell)",
+"name": "Mass",
+"listLevel": 5
+},
+{
+"title": "Mass Blindness (Wizard Spell)",
+"name": "Mass Blindness",
+"listLevel": 9
+},
+{
+"title": "Mass Charm (Wizard Spell)",
+"name": "Mass Charm",
+"listLevel": 8
+},
+{
+"title": "Mass Contagion (Wizard Spell)",
+"name": "Mass Contagion",
+"listLevel": 5
+},
+{
+"title": "Mass Domination (Wizard Spell)",
+"name": "Mass Domination",
+"listLevel": 9
+},
+{
+"title": "Mass Invisibility (Wizard Spell)",
+"name": "Mass Invisibility",
+"listLevel": 7
+},
+{
+"title": "Mass Jump (Wizard Spell)",
+"name": "Mass Jump",
+"listLevel": 2
+},
+{
+"title": "Mass Mounts (Wizard Spell)",
+"name": "Mass Mounts",
+"listLevel": 5
+},
+{
+"title": "Mass Polymorph (Wizard Spell)",
+"name": "Mass Polymorph",
+"listLevel": 8
+},
+{
+"title": "Mass Suggestion (Wizard Spell)",
+"name": "Mass Suggestion",
+"listLevel": 6
+},
+{
+"title": "Mass Teleport (Wizard Spell)",
+"name": "Mass Teleport",
+"listLevel": 7
+},
+{
+"title": "Mass Teleport Without Error (Wizard Spell)",
+"name": "Mass Teleport Without Error",
+"listLevel": 8
+},
+{
+"title": "Massmorph (Wizard Spell)",
+"name": "Massmorph",
+"listLevel": 4
+},
+{
+"title": "Master Undead (Wizard Spell)",
+"name": "Master Undead",
+"listLevel": 9
+},
+{
+"title": "Material (Wizard Spell)",
+"name": "Material",
+"listLevel": 3
+},
+{
+"title": "Maw of Chaos (Wizard Spell)",
+"name": "Maw of Chaos",
+"listLevel": 9
+},
+{
+"title": "Maximilian's Earthen Grasp (Wizard Spell)",
+"name": "Maximilian's Earthen Grasp",
+"listLevel": 2
+},
+{
+"title": "Maximilian's Stony Grasp (Wizard Spell)",
+"name": "Maximilian's Stony Grasp",
+"listLevel": 3
+},
+{
+"title": "Maze (Wizard Spell)",
+"name": "Maze",
+"listLevel": 8
+},
+{
+"title": "Measure Cinnabryl (Wizard Spell)",
+"name": "Measure Cinnabryl",
+"listLevel": 2
+},
+{
+"title": "Mechanical Disruption (Wizard Spell)",
+"name": "Mechanical Disruption",
+"listLevel": 4
+},
+{
+"title": "Melf's Acid Arrow (Wizard Spell)",
+"name": "Melf's Acid Arrow",
+"listLevel": 2
+},
+{
+"title": "Melf's Minute Meteors (Wizard Spell)",
+"name": "Melf's Minute Meteors",
+"listLevel": 3
+},
+{
+"title": "Melisander's Harp (Wizard Spell)",
+"name": "Melisander's Harp",
+"listLevel": 5
+},
+{
+"title": "Mellix's Fire Mouth (Wizard Spell)",
+"name": "Mellix's Fire Mouth",
+"listLevel": 3
+},
+{
+"title": "Melt (Wizard Spell)",
+"name": "Melt",
+"listLevel": 1
+},
+{
+"title": "Melt Metal (Wizard Spell)",
+"name": "Melt Metal",
+"listLevel": 4
+},
+{
+"title": "Memory (Wizard Spell)",
+"name": "Memory",
+"listLevel": 3
+},
+{
+"title": "Mempter's Barrier (Wizard Spell)",
+"name": "Mempter's Barrier",
+"listLevel": 6
+},
+{
+"title": "Mending (Wizard Spell)",
+"name": "Mending",
+"listLevel": 1
+},
+{
+"title": "Mental Block (Wizard Spell)",
+"name": "Mental Block",
+"listLevel": 3
+},
+{
+"title": "Mental Transport (Wizard Spell)",
+"name": "Mental Transport",
+"listLevel": 3
+},
+{
+"title": "Merald's Murderous Mist (Wizard Spell)",
+"name": "Merald's Murderous Mist",
+"listLevel": 4
+},
+{
+"title": "Message (Wizard Spell)",
+"name": "Message",
+"listLevel": 1
+},
+{
+"title": "Metal Skin (Wizard Spell)",
+"name": "Metal Skin",
+"listLevel": 5
+},
+{
+"title": "Metal to Rust (Wizard Spell)",
+"name": "Metal to Rust",
+"listLevel": 6
+},
+{
+"title": "Metamorphose Liquids (Wizard Spell)",
+"name": "Metamorphose Liquids",
+"listLevel": 1
+},
+{
+"title": "Meteor Swarm (Wizard Spell)",
+"name": "Meteor Swarm",
+"listLevel": 9
+},
+{
+"title": "Mimic Blood Ability (Wizard Spell)",
+"name": "Mimic Blood Ability",
+"listLevel": 4
+},
+{
+"title": "Mimic Mortal (Wizard Spell)",
+"name": "Mimic Mortal",
+"listLevel": 4
+},
+{
+"title": "Mimicry (Wizard Spell)",
+"name": "Mimicry",
+"listLevel": 2
+},
+{
+"title": "Mind Blank (Wizard Spell)",
+"name": "Mind Blank",
+"listLevel": 8
+},
+{
+"title": "Mind Control Invisibility (Wizard Spell)",
+"name": "Mind Control Invisibility",
+"listLevel": 5
+},
+{
+"title": "Mind Fog (Wizard Spell)",
+"name": "Mind Fog",
+"listLevel": 5
+},
+{
+"title": "Mindspin (Wizard Spell)",
+"name": "Mindspin",
+"listLevel": 7
+},
+{
+"title": "Minor Creation (Wizard Spell)",
+"name": "Minor Creation",
+"listLevel": 4
+},
+{
+"title": "Minor Globe of Invulnerability (Wizard Spell)",
+"name": "Minor Globe of Invulnerability",
+"listLevel": 4
+},
+{
+"title": "Minor Malison (Wizard Spell)",
+"name": "Minor Malison",
+"listLevel": 3
+},
+{
+"title": "Minor Paradox (Wizard Spell)",
+"name": "Minor Paradox",
+"listLevel": 3
+},
+{
+"title": "Minor Spell Turning (Wizard Spell)",
+"name": "Minor Spell Turning",
+"listLevel": 4
+},
+{
+"title": "Mirage Arcana (Wizard Spell)",
+"name": "Mirage Arcana",
+"listLevel": 6
+},
+{
+"title": "Mirage Wall (Wizard Spell)",
+"name": "Mirage Wall",
+"listLevel": 4
+},
+{
+"title": "Mirror Image (Wizard Spell)",
+"name": "Mirror Image",
+"listLevel": 2
+},
+{
+"title": "Misdirection (Wizard Spell)",
+"name": "Misdirection",
+"listLevel": 2
+},
+{
+"title": "Misfortune - Lvl 2 (Wizard Spell)",
+"name": "Misfortune - Lvl 2",
+"listLevel": 2
+},
+{
+"title": "Mislead (Wizard Spell)",
+"name": "Mislead",
+"listLevel": 6
+},
+{
+"title": "Missile Mastery (Wizard Spell)",
+"name": "Missile Mastery",
+"listLevel": 4
+},
+{
+"title": "Mist Magic (Wizard Spell)",
+"name": "Mist Magic",
+"listLevel": 2
+},
+{
+"title": "Misty Summons (Wizard Spell)",
+"name": "Misty Summons",
+"listLevel": 7
+},
+{
+"title": "Monster Summoning I (Wizard Spell)",
+"name": "Monster Summoning I",
+"listLevel": 3
+},
+{
+"title": "Monster Summoning II (Wizard Spell)",
+"name": "Monster Summoning II",
+"listLevel": 4
+},
+{
+"title": "Monster Summoning III (Wizard Spell)",
+"name": "Monster Summoning III",
+"listLevel": 5
+},
+{
+"title": "Monster Summoning IV (Wizard Spell)",
+"name": "Monster Summoning IV",
+"listLevel": 6
+},
+{
+"title": "Monster Summoning V (Wizard Spell)",
+"name": "Monster Summoning V",
+"listLevel": 7
+},
+{
+"title": "Monster Summoning VI (Wizard Spell)",
+"name": "Monster Summoning VI",
+"listLevel": 8
+},
+{
+"title": "Monster Summoning VII (Wizard Spell)",
+"name": "Monster Summoning VII",
+"listLevel": 9
+},
+{
+"title": "Moon Rune (Wizard Spell)",
+"name": "Moon Rune",
+"listLevel": 2
+},
+{
+"title": "Mooncloak (Wizard Spell)",
+"name": "Mooncloak",
+"listLevel": 5
+},
+{
+"title": "Moonglow (Wizard Spell)",
+"name": "Moonglow",
+"listLevel": 1
+},
+{
+"title": "Moonglow Symbol (Wizard Spell)",
+"name": "Moonglow Symbol",
+"listLevel": 3
+},
+{
+"title": "Mordenkainen's Celerity (Wizard Spell)",
+"name": "Mordenkainen's Celerity",
+"listLevel": 4
+},
+{
+"title": "Mordenkainen's Defense Against Lycanthropes (Wizard Spell)",
+"name": "Mordenkainen's Defense Against Lycanthropes",
+"listLevel": 3
+},
+{
+"title": "Mordenkainen's Defense Against Nonmagical Reptiles and Amphibians (Wizard Spell)",
+"name": "Mordenkainen's Defense Against Nonmagical Reptiles and Amphibians",
+"listLevel": 3
+},
+{
+"title": "Mordenkainen's Disjunction (Wizard Spell)",
+"name": "Mordenkainen's Disjunction",
+"listLevel": 9
+},
+{
+"title": "Mordenkainen's Electric Arc (Wizard Spell)",
+"name": "Mordenkainen's Electric Arc",
+"listLevel": 4
+},
+{
+"title": "Mordenkainen's Encompassing Vision (Wizard Spell)",
+"name": "Mordenkainen's Encompassing Vision",
+"listLevel": 2
+},
+{
+"title": "Mordenkainen's Faithful Hound (Wizard Spell)",
+"name": "Mordenkainen's Faithful Hound",
+"listLevel": 5
+},
+{
+"title": "Mordenkainen's Faithful Phantom Defenders (Wizard Spell)",
+"name": "Mordenkainen's Faithful Phantom Defenders",
+"listLevel": 5
+},
+{
+"title": "Mordenkainen's Faithful Phantom Guardian (Wizard Spell)",
+"name": "Mordenkainen's Faithful Phantom Guardian",
+"listLevel": 6
+},
+{
+"title": "Mordenkainen's Faithful Phantom Shield-Maidens (Wizard Spell)",
+"name": "Mordenkainen's Faithful Phantom Shield-Maidens",
+"listLevel": 4
+},
+{
+"title": "Mordenkainen's Force Missiles (Wizard Spell)",
+"name": "Mordenkainen's Force Missiles",
+"listLevel": 4
+},
+{
+"title": "Mordenkainen's Involuntary Wizardry (Wizard Spell)",
+"name": "Mordenkainen's Involuntary Wizardry",
+"listLevel": 5
+},
+{
+"title": "Mordenkainen's Lucubration (Wizard Spell)",
+"name": "Mordenkainen's Lucubration",
+"listLevel": 6
+},
+{
+"title": "Mordenkainen's Magnificent Mansion (Wizard Spell)",
+"name": "Mordenkainen's Magnificent Mansion",
+"listLevel": 7
+},
+{
+"title": "Mordenkainen's Penultimate Cogitation (Wizard Spell)",
+"name": "Mordenkainen's Penultimate Cogitation",
+"listLevel": 7
+},
+{
+"title": "Mordenkainen's Private Sanctum (Wizard Spell)",
+"name": "Mordenkainen's Private Sanctum",
+"listLevel": 5
+},
+{
+"title": "Mordenkainen's Protection from Avians (Wizard Spell)",
+"name": "Mordenkainen's Protection from Avians",
+"listLevel": 1
+},
+{
+"title": "Mordenkainen's Protection from Insects and Arachnids (Wizard Spell)",
+"name": "Mordenkainen's Protection from Insects and Arachnids",
+"listLevel": 3
+},
+{
+"title": "Mordenkainen's Protection from Slime (Wizard Spell)",
+"name": "Mordenkainen's Protection from Slime",
+"listLevel": 4
+},
+{
+"title": "Mordenkainen's Sword (Wizard Spell)",
+"name": "Mordenkainen's Sword",
+"listLevel": 7
+},
+{
+"title": "Morgannaver's Sting (Wizard Spell)",
+"name": "Morgannaver's Sting",
+"listLevel": 5
+},
+{
+"title": "Morphail's Unholy Blessing (Wizard Spell)",
+"name": "Morphail's Unholy Blessing",
+"listLevel": 5
+},
+{
+"title": "Motion (Wizard Spell)",
+"name": "Motion",
+"listLevel": 5
+},
+{
+"title": "Mount (Wizard Spell)",
+"name": "Mount",
+"listLevel": 1
+},
+{
+"title": "Mouse (Wizard Spell)",
+"name": "Mouse",
+"listLevel": 2
+},
+{
+"title": "Move Dune (Wizard Spell)",
+"name": "Move Dune",
+"listLevel": 5
+},
+{
+"title": "Move Earth (Wizard Spell)",
+"name": "Move Earth",
+"listLevel": 6
+},
+{
+"title": "Move Sand (Wizard Spell)",
+"name": "Move Sand",
+"listLevel": 1
+},
+{
+"title": "Muirara's Map (Wizard Spell)",
+"name": "Muirara's Map",
+"listLevel": 5
+},
+{
+"title": "Multi-Lock (Wizard Spell)",
+"name": "Multi-Lock",
+"listLevel": 6
+},
+{
+"title": "Mummy Production (Wizard Spell)",
+"name": "Mummy Production",
+"listLevel": 5
+},
+{
+"title": "Mummy Touch (Wizard Spell)",
+"name": "Mummy Touch",
+"listLevel": 3
+},
+{
+"title": "Murdock's Feathery Flyer (Wizard Spell)",
+"name": "Murdock's Feathery Flyer",
+"listLevel": 1
+},
+{
+"title": "Murlynd's Ogre (Wizard Spell)",
+"name": "Murlynd's Ogre",
+"listLevel": 4
+},
+{
+"title": "Murlynd's Void (Wizard Spell)",
+"name": "Murlynd's Void",
+"listLevel": 6
+},
+{
+"title": "Murmuring Masses (Wizard Spell)",
+"name": "Murmuring Masses",
+"listLevel": 2
+},
+{
+"title": "Mycontil's Last Resort (Wizard Spell)",
+"name": "Mycontil's Last Resort",
+"listLevel": 9
+},
+{
+"title": "Mylsibis's Arcane Contention (Wizard Spell)",
+"name": "Mylsibis's Arcane Contention",
+"listLevel": 9
+},
+{
+"title": "Mystic Writing (Wizard Spell)",
+"name": "Mystic Writing",
+"listLevel": 2
+},
+{
+"title": "Nautical Ball Lightning (Wizard Spell)",
+"name": "Nautical Ball Lightning",
+"listLevel": 4
+},
+{
+"title": "Nautical Ironwood (Wizard Spell)",
+"name": "Nautical Ironwood",
+"listLevel": 3
+},
+{
+"title": "Nchaser's Glowing Globe (Wizard Spell)",
+"name": "Nchaser's Glowing Globe",
+"listLevel": 3
+},
+{
+"title": "Negative Plane Protection (Wizard Spell)",
+"name": "Negative Plane Protection",
+"listLevel": 7
+},
+{
+"title": "Nemicron's Transference (Wizard Spell)",
+"name": "Nemicron's Transference",
+"listLevel": 5
+},
+{
+"title": "Nerve Dance (Wizard Spell)",
+"name": "Nerve Dance",
+"listLevel": 7
+},
+{
+"title": "Net (Wizard Spell)",
+"name": "Net",
+"listLevel": 2
+},
+{
+"title": "Net of Stars (Wizard Spell)",
+"name": "Net of Stars",
+"listLevel": 8
+},
+{
+"title": "Neutralize Components (Wizard Spell)",
+"name": "Neutralize Components",
+"listLevel": 4
+},
+{
+"title": "Neutralize Gas (Wizard Spell)",
+"name": "Neutralize Gas",
+"listLevel": 7
+},
+{
+"title": "Neverending Nightmares (Wizard Spell)",
+"name": "Neverending Nightmares",
+"listLevel": 4
+},
+{
+"title": "Night's Jambiya (Wizard Spell)",
+"name": "Night's Jambiya",
+"listLevel": 3
+},
+{
+"title": "Nightscar (Wizard Spell)",
+"name": "Nightscar",
+"listLevel": 3
+},
+{
+"title": "Nimodes' Major Delousing (Wizard Spell)",
+"name": "Nimodes' Major Delousing",
+"listLevel": 2
+},
+{
+"title": "Nimodes' Unseen Butler (Wizard Spell)",
+"name": "Nimodes' Unseen Butler",
+"listLevel": 2
+},
+{
+"title": "Non-Detection (Wizard Spell)",
+"name": "Non-Detection",
+"listLevel": 3
+},
+{
+"title": "Normal Aura (Wizard Spell)",
+"name": "Normal Aura",
+"listLevel": 1
+},
+{
+"title": "Nulathoe's Ninemen (Wizard Spell)",
+"name": "Nulathoe's Ninemen",
+"listLevel": 5
+},
+{
+"title": "Numbness (Wizard Spell)",
+"name": "Numbness",
+"listLevel": 3
+},
+{
+"title": "Nystul's Blacklight Burst (Wizard Spell)",
+"name": "Nystul's Blacklight Burst",
+"listLevel": 4
+},
+{
+"title": "Nystul's Blackmote (Wizard Spell)",
+"name": "Nystul's Blackmote",
+"listLevel": 2
+},
+{
+"title": "Nystul's Blazing Beam (Wizard Spell)",
+"name": "Nystul's Blazing Beam",
+"listLevel": 2
+},
+{
+"title": "Nystul's Crystal Dagger (Wizard Spell)",
+"name": "Nystul's Crystal Dagger",
+"listLevel": 2
+},
+{
+"title": "Nystul's Crystal Dirk (Wizard Spell)",
+"name": "Nystul's Crystal Dirk",
+"listLevel": 3
+},
+{
+"title": "Nystul's Dancing Werelight (Wizard Spell)",
+"name": "Nystul's Dancing Werelight",
+"listLevel": 1
+},
+{
+"title": "Nystul's Enveloping Darkness (Wizard Spell)",
+"name": "Nystul's Enveloping Darkness",
+"listLevel": 5
+},
+{
+"title": "Nystul's Expeditious Fire Extinguisher (Wizard Spell)",
+"name": "Nystul's Expeditious Fire Extinguisher",
+"listLevel": 3
+},
+{
+"title": "Nystul's Flash (Wizard Spell)",
+"name": "Nystul's Flash",
+"listLevel": 1
+},
+{
+"title": "Nystul's Golden Revelation (Wizard Spell)",
+"name": "Nystul's Golden Revelation",
+"listLevel": 3
+},
+{
+"title": "Nystul's Grue Conjuration (Wizard Spell)",
+"name": "Nystul's Grue Conjuration",
+"listLevel": 4
+},
+{
+"title": "Nystul's Lightburst (Wizard Spell)",
+"name": "Nystul's Lightburst",
+"listLevel": 4
+},
+{
+"title": "Nystul's Magical Aura (Wizard Spell)",
+"name": "Nystul's Magical Aura",
+"listLevel": 1
+},
+{
+"title": "Nystul's Radiant Arch (Wizard Spell)",
+"name": "Nystul's Radiant Arch",
+"listLevel": 5
+},
+{
+"title": "Nystul's Radiant Baton (Wizard Spell)",
+"name": "Nystul's Radiant Baton",
+"listLevel": 3
+},
+{
+"title": "Oathbinding (Wizard Spell)",
+"name": "Oathbinding",
+"listLevel": 5
+},
+{
+"title": "Obedience (Wizard Spell)",
+"name": "Obedience",
+"listLevel": 7
+},
+{
+"title": "Obold's Brightness (Wizard Spell)",
+"name": "Obold's Brightness",
+"listLevel": 6
+},
+{
+"title": "Odeen's Impenetrable Lock (Wizard Spell)",
+"name": "Odeen's Impenetrable Lock",
+"listLevel": 4
+},
+{
+"title": "Odeen's Magic Cloud (Wizard Spell)",
+"name": "Odeen's Magic Cloud",
+"listLevel": 2
+},
+{
+"title": "Odeen's Magic Tailor (Wizard Spell)",
+"name": "Odeen's Magic Tailor",
+"listLevel": 1
+},
+{
+"title": "Odeen's Secret Word (Wizard Spell)",
+"name": "Odeen's Secret Word",
+"listLevel": 3
+},
+{
+"title": "Odeen's Sounding Stick (Wizard Spell)",
+"name": "Odeen's Sounding Stick",
+"listLevel": 2
+},
+{
+"title": "Oilskin (Wizard Spell)",
+"name": "Oilskin",
+"listLevel": 1
+},
+{
+"title": "Omen (Wizard Spell)",
+"name": "Omen",
+"listLevel": 2
+},
+{
+"title": "One-Way Lock (Wizard Spell)",
+"name": "One-Way Lock",
+"listLevel": 3
+},
+{
+"title": "Ongeldyn's Fist (Wizard Spell)",
+"name": "Ongeldyn's Fist",
+"listLevel": 7
+},
+{
+"title": "Open the Living (Wizard Spell)",
+"name": "Open the Living",
+"listLevel": 5
+},
+{
+"title": "Othnal's Spectral Dagger (Wizard Spell)",
+"name": "Othnal's Spectral Dagger",
+"listLevel": 4
+},
+{
+"title": "Otiluke's Acid Cloud (Wizard Spell)",
+"name": "Otiluke's Acid Cloud",
+"listLevel": 3
+},
+{
+"title": "Otiluke's Boiling Oil Bath (Wizard Spell)",
+"name": "Otiluke's Boiling Oil Bath",
+"listLevel": 2
+},
+{
+"title": "Otiluke's Bubbling Buoyancy (Wizard Spell)",
+"name": "Otiluke's Bubbling Buoyancy",
+"listLevel": 1
+},
+{
+"title": "Otiluke's Death Screen (Wizard Spell)",
+"name": "Otiluke's Death Screen",
+"listLevel": 7
+},
+{
+"title": "Otiluke's Diamond Screen (Wizard Spell)",
+"name": "Otiluke's Diamond Screen",
+"listLevel": 6
+},
+{
+"title": "Otiluke's Dispelling Screen (Wizard Spell)",
+"name": "Otiluke's Dispelling Screen",
+"listLevel": 4
+},
+{
+"title": "Otiluke's Electrical Screen (Wizard Spell)",
+"name": "Otiluke's Electrical Screen",
+"listLevel": 5
+},
+{
+"title": "Otiluke's Excruciating Screen (Wizard Spell)",
+"name": "Otiluke's Excruciating Screen",
+"listLevel": 6
+},
+{
+"title": "Otiluke's Fire and Ice (Wizard Spell)",
+"name": "Otiluke's Fire and Ice",
+"listLevel": 7
+},
+{
+"title": "Otiluke's Force Umbrella (Wizard Spell)",
+"name": "Otiluke's Force Umbrella",
+"listLevel": 3
+},
+{
+"title": "Otiluke's Freezing Sphere (Wizard Spell)",
+"name": "Otiluke's Freezing Sphere",
+"listLevel": 6
+},
+{
+"title": "Otiluke's Orb of Containment (Wizard Spell)",
+"name": "Otiluke's Orb of Containment",
+"listLevel": 6
+},
+{
+"title": "Otiluke's Polar Screen (Wizard Spell)",
+"name": "Otiluke's Polar Screen",
+"listLevel": 5
+},
+{
+"title": "Otiluke's Radiant Screen (Wizard Spell)",
+"name": "Otiluke's Radiant Screen",
+"listLevel": 5
+},
+{
+"title": "Otiluke's Resilient Sphere (Wizard Spell)",
+"name": "Otiluke's Resilient Sphere",
+"listLevel": 4
+},
+{
+"title": "Otiluke's Siege Sphere (Wizard Spell)",
+"name": "Otiluke's Siege Sphere",
+"listLevel": 7
+},
+{
+"title": "Otiluke's Smoky Sphere (Wizard Spell)",
+"name": "Otiluke's Smoky Sphere",
+"listLevel": 1
+},
+{
+"title": "Otiluke's Steaming Sphere (Wizard Spell)",
+"name": "Otiluke's Steaming Sphere",
+"listLevel": 4
+},
+{
+"title": "Otiluke's Telekinetic Sphere (Wizard Spell)",
+"name": "Otiluke's Telekinetic Sphere",
+"listLevel": 8
+},
+{
+"title": "Ottar's Mask (Wizard Spell)",
+"name": "Ottar's Mask",
+"listLevel": 4
+},
+{
+"title": "Otto's Chime of Release (Wizard Spell)",
+"name": "Otto's Chime of Release",
+"listLevel": 1
+},
+{
+"title": "Otto's Crystal Rhythms (Wizard Spell)",
+"name": "Otto's Crystal Rhythms",
+"listLevel": 3
+},
+{
+"title": "Otto's Drums of Despair (Wizard Spell)",
+"name": "Otto's Drums of Despair",
+"listLevel": 4
+},
+{
+"title": "Otto's Gong of Isolation (Wizard Spell)",
+"name": "Otto's Gong of Isolation",
+"listLevel": 5
+},
+{
+"title": "Otto's Irresistible Dance (Wizard Spell)",
+"name": "Otto's Irresistible Dance",
+"listLevel": 8
+},
+{
+"title": "Otto's Silver Tongue (Wizard Spell)",
+"name": "Otto's Silver Tongue",
+"listLevel": 4
+},
+{
+"title": "Otto's Soothing Vibrations (Wizard Spell)",
+"name": "Otto's Soothing Vibrations",
+"listLevel": 2
+},
+{
+"title": "Otto's Sure-Footed Shuffle (Wizard Spell)",
+"name": "Otto's Sure-Footed Shuffle",
+"listLevel": 3
+},
+{
+"title": "Otto's Tin Soldiers (Wizard Spell)",
+"name": "Otto's Tin Soldiers",
+"listLevel": 4
+},
+{
+"title": "Otto's Tonal Attack (Wizard Spell)",
+"name": "Otto's Tonal Attack",
+"listLevel": 4
+},
+{
+"title": "Otto's Tones of Forgetfulness (Wizard Spell)",
+"name": "Otto's Tones of Forgetfulness",
+"listLevel": 2
+},
+{
+"title": "Otto's Warding Tones (Wizard Spell)",
+"name": "Otto's Warding Tones",
+"listLevel": 4
+},
+{
+"title": "Ozone Cloud (Wizard Spell)",
+"name": "Ozone Cloud",
+"listLevel": 5
+},
+{
+"title": "Pain (Wizard Spell)",
+"name": "Pain",
+"listLevel": 6
+},
+{
+"title": "Pain Touch (Wizard Spell)",
+"name": "Pain Touch",
+"listLevel": 3
+},
+{
+"title": "Paradox (Wizard Spell)",
+"name": "Paradox",
+"listLevel": 6
+},
+{
+"title": "Paralyzation (Wizard Spell)",
+"name": "Paralyzation",
+"listLevel": 3
+},
+{
+"title": "Paralyzing Touch (Wizard Spell)",
+"name": "Paralyzing Touch",
+"listLevel": 3
+},
+{
+"title": "Part Sand (Wizard Spell)",
+"name": "Part Sand",
+"listLevel": 6
+},
+{
+"title": "Part Water (Wizard Spell)",
+"name": "Part Water",
+"listLevel": 6
+},
+{
+"title": "Passwall (Wizard Spell)",
+"name": "Passwall",
+"listLevel": 5
+},
+{
+"title": "Past Life (Wizard Spell)",
+"name": "Past Life",
+"listLevel": 2
+},
+{
+"title": "Permanency (Wizard Spell)",
+"name": "Permanency",
+"listLevel": 8
+},
+{
+"title": "Permanent Illusion (Wizard Spell)",
+"name": "Permanent Illusion",
+"listLevel": 6
+},
+{
+"title": "Persistence (Wizard Spell)",
+"name": "Persistence",
+"listLevel": 7
+},
+{
+"title": "Persona of Death (Wizard Spell)",
+"name": "Persona of Death",
+"listLevel": 5
+},
+{
+"title": "Petrify Wood (Wizard Spell)",
+"name": "Petrify Wood",
+"listLevel": 1
+},
+{
+"title": "Petrifying Gaze (Wizard Spell)",
+"name": "Petrifying Gaze",
+"listLevel": 7
+},
+{
+"title": "Phantasamorph (Wizard Spell)",
+"name": "Phantasamorph",
+"listLevel": 4
+},
+{
+"title": "Phantasmagoria (Wizard Spell)",
+"name": "Phantasmagoria",
+"listLevel": 6
+},
+{
+"title": "Phantasmal Force (Wizard Spell)",
+"name": "Phantasmal Force",
+"listLevel": 1
+},
+{
+"title": "Phantasmal Killer (Wizard Spell)",
+"name": "Phantasmal Killer",
+"listLevel": 4
+},
+{
+"title": "Phantom Armor (Wizard Spell)",
+"name": "Phantom Armor",
+"listLevel": 1
+},
+{
+"title": "Phantom Blade (Wizard Spell)",
+"name": "Phantom Blade",
+"listLevel": 5
+},
+{
+"title": "Phantom Steed (Wizard Spell)",
+"name": "Phantom Steed",
+"listLevel": 3
+},
+{
+"title": "Phantom Wind (Wizard Spell)",
+"name": "Phantom Wind",
+"listLevel": 3
+},
+{
+"title": "Phase Door (Wizard Spell)",
+"name": "Phase Door",
+"listLevel": 7
+},
+{
+"title": "Phase Trap (Wizard Spell)",
+"name": "Phase Trap",
+"listLevel": 4
+},
+{
+"title": "Phezult's Sleep of Ages (Wizard Spell)",
+"name": "Phezult's Sleep of Ages",
+"listLevel": 9
+},
+{
+"title": "Physical Invisibility (Wizard Spell)",
+"name": "Physical Invisibility",
+"listLevel": 5
+},
+{
+"title": "Pierce Any Shield (Wizard Spell)",
+"name": "Pierce Any Shield",
+"listLevel": 9
+},
+{
+"title": "Pierce Magic Resistance (Wizard Spell)",
+"name": "Pierce Magic Resistance",
+"listLevel": 5
+},
+{
+"title": "Pilfer Dweomer (Wizard Spell)",
+"name": "Pilfer Dweomer",
+"listLevel": 5
+},
+{
+"title": "Pillar of Sand (Wizard Spell)",
+"name": "Pillar of Sand",
+"listLevel": 2
+},
+{
+"title": "Plague (Wizard Spell)",
+"name": "Plague",
+"listLevel": 4
+},
+{
+"title": "Planar Call (Wizard Spell)",
+"name": "Planar Call",
+"listLevel": 9
+},
+{
+"title": "Planar Door (Wizard Spell)",
+"name": "Planar Door",
+"listLevel": 7
+},
+{
+"title": "Plant Death (Wizard Spell)",
+"name": "Plant Death",
+"listLevel": 4
+},
+{
+"title": "Plant Entrapment (Wizard Spell)",
+"name": "Plant Entrapment",
+"listLevel": 3
+},
+{
+"title": "Plant Growth (Wizard Spell)",
+"name": "Plant Growth",
+"listLevel": 4
+},
+{
+"title": "Poison (Wizard Spell)",
+"name": "Poison",
+"listLevel": 4
+},
+{
+"title": "Polymorph Any Object (Wizard Spell)",
+"name": "Polymorph Any Object",
+"listLevel": 8
+},
+{
+"title": "Polymorph Other (Wizard Spell)",
+"name": "Polymorph Other",
+"listLevel": 4
+},
+{
+"title": "Polymorph Self (Wizard Spell)",
+"name": "Polymorph Self",
+"listLevel": 4
+},
+{
+"title": "Portrait (Wizard Spell)",
+"name": "Portrait",
+"listLevel": 2
+},
+{
+"title": "Power Word, Banishment (Wizard Spell)",
+"name": "Power Word, Banishment",
+"listLevel": 9
+},
+{
+"title": "Power Word, Blind (Wizard Spell)",
+"name": "Power Word, Blind",
+"listLevel": 8
+},
+{
+"title": "Power Word, Kill (Wizard Spell)",
+"name": "Power Word, Kill",
+"listLevel": 9
+},
+{
+"title": "Power Word, Liquefy (Wizard Spell)",
+"name": "Power Word, Liquefy",
+"listLevel": 9
+},
+{
+"title": "Power Word, Silence (Wizard Spell)",
+"name": "Power Word, Silence",
+"listLevel": 6
+},
+{
+"title": "Power Word, Stun (Wizard Spell)",
+"name": "Power Word, Stun",
+"listLevel": 7
+},
+{
+"title": "Precipitation (Wizard Spell)",
+"name": "Precipitation",
+"listLevel": 1
+},
+{
+"title": "Precognitive Sense (Wizard Spell)",
+"name": "Precognitive Sense",
+"listLevel": 1
+},
+{
+"title": "Prepare Enchantment (Wizard Spell)",
+"name": "Prepare Enchantment",
+"listLevel": 6
+},
+{
+"title": "Preservation (Wizard Spell)",
+"name": "Preservation",
+"listLevel": 2
+},
+{
+"title": "Preserve (Wizard Spell)",
+"name": "Preserve",
+"listLevel": 2
+},
+{
+"title": "Preserve Dead (Wizard Spell)",
+"name": "Preserve Dead",
+"listLevel": 1
+},
+{
+"title": "Preserve from Decay (Wizard Spell)",
+"name": "Preserve from Decay",
+"listLevel": 2
+},
+{
+"title": "Preserve Wood (Wizard Spell)",
+"name": "Preserve Wood",
+"listLevel": 3
+},
+{
+"title": "Presper's Double Wizardry (Wizard Spell)",
+"name": "Presper's Double Wizardry",
+"listLevel": 8
+},
+{
+"title": "Presper's Moonbow (Wizard Spell)",
+"name": "Presper's Moonbow",
+"listLevel": 5
+},
+{
+"title": "Prestidigitation (Wizard Spell)",
+"name": "Prestidigitation",
+"listLevel": 1
+},
+{
+"title": "Prismal's Handy Mirror (Wizard Spell)",
+"name": "Prismal's Handy Mirror",
+"listLevel": 4
+},
+{
+"title": "Prismal's Pictograph (Wizard Spell)",
+"name": "Prismal's Pictograph",
+"listLevel": 4
+},
+{
+"title": "Prismal's Revenge (Wizard Spell)",
+"name": "Prismal's Revenge",
+"listLevel": 7
+},
+{
+"title": "Prismal's Reversal (Wizard Spell)",
+"name": "Prismal's Reversal",
+"listLevel": 7
+},
+{
+"title": "Prismal's Wormhole (Wizard Spell)",
+"name": "Prismal's Wormhole",
+"listLevel": 8
+},
+{
+"title": "Prismatic Eye (Wizard Spell)",
+"name": "Prismatic Eye",
+"listLevel": 6
+},
+{
+"title": "Prismatic Sphere (Wizard Spell)",
+"name": "Prismatic Sphere",
+"listLevel": 9
+},
+{
+"title": "Prismatic Spray (Wizard Spell)",
+"name": "Prismatic Spray",
+"listLevel": 7
+},
+{
+"title": "Prismatic Wall (Wizard Spell)",
+"name": "Prismatic Wall",
+"listLevel": 8
+},
+{
+"title": "Programmed Amnesia (Wizard Spell)",
+"name": "Programmed Amnesia",
+"listLevel": 9
+},
+{
+"title": "Programmed Glamer (Wizard Spell)",
+"name": "Programmed Glamer",
+"listLevel": 4
+},
+{
+"title": "Programmed Illusion (Wizard Spell)",
+"name": "Programmed Illusion",
+"listLevel": 6
+},
+{
+"title": "Project Image (Wizard Spell)",
+"name": "Project Image",
+"listLevel": 6
+},
+{
+"title": "Projected Magnification (Wizard Spell)",
+"name": "Projected Magnification",
+"listLevel": 2
+},
+{
+"title": "Proof from Teleportation (Wizard Spell)",
+"name": "Proof from Teleportation",
+"listLevel": 3
+},
+{
+"title": "Proofing versus Combustion (Wizard Spell)",
+"name": "Proofing versus Combustion",
+"listLevel": 5
+},
+{
+"title": "Prophecy (Wizard Spell)",
+"name": "Prophecy",
+"listLevel": 4
+},
+{
+"title": "Protection from Acid (Wizard Spell)",
+"name": "Protection from Acid",
+"listLevel": 5
+},
+{
+"title": "Protection from Amorphs (Wizard Spell)",
+"name": "Protection from Amorphs",
+"listLevel": 3
+},
+{
+"title": "Protection from Birds (Wizard Spell)",
+"name": "Protection from Birds",
+"listLevel": 2
+},
+{
+"title": "Protection from Cantrips (Wizard Spell)",
+"name": "Protection from Cantrips",
+"listLevel": 2
+},
+{
+"title": "Protection from Charm (Wizard Spell)",
+"name": "Protection from Charm",
+"listLevel": 2
+},
+{
+"title": "Protection from Cold (Wizard Spell)",
+"name": "Protection from Cold",
+"listLevel": 3
+},
+{
+"title": "Protection from Cold, 15' Radius (Wizard Spell)",
+"name": "Protection from Cold, 15' Radius",
+"listLevel": 5
+},
+{
+"title": "Protection from Electricity (Wizard Spell)",
+"name": "Protection from Electricity",
+"listLevel": 4
+},
+{
+"title": "Protection from Electricity, 10' Radius (Wizard Spell)",
+"name": "Protection from Electricity, 10' Radius",
+"listLevel": 6
+},
+{
+"title": "Protection from Elementals, 10' Radius (Wizard Spell)",
+"name": "Protection from Elementals, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Evil (Wizard Spell)",
+"name": "Protection from Evil",
+"listLevel": 1
+},
+{
+"title": "Protection from Evil, 10' Radius (Wizard Spell)",
+"name": "Protection from Evil, 10' Radius",
+"listLevel": 3
+},
+{
+"title": "Protection from Fiends, 10' Radius (Wizard Spell)",
+"name": "Protection from Fiends, 10' Radius",
+"listLevel": 5
+},
+{
+"title": "Protection from Fire (Wizard Spell)",
+"name": "Protection from Fire",
+"listLevel": 3
+},
+{
+"title": "Protection from Fire, 15' Radius (Wizard Spell)",
+"name": "Protection from Fire, 15' Radius",
+"listLevel": 5
+},
+{
+"title": "Protection from Gas, 5' Radius (Wizard Spell)",
+"name": "Protection from Gas, 5' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Hunger and Thirst - Lvl 7 (Wizard Spell)",
+"name": "Protection from Hunger and Thirst - Lvl 7",
+"listLevel": 7
+},
+{
+"title": "Protection from Illusions (Wizard Spell)",
+"name": "Protection from Illusions",
+"listLevel": 3
+},
+{
+"title": "Protection from Illusions, 10' Radius (Wizard Spell)",
+"name": "Protection from Illusions, 10' Radius",
+"listLevel": 5
+},
+{
+"title": "Protection from Lycanthropes, 10' Radius (Wizard Spell)",
+"name": "Protection from Lycanthropes, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Magical Blunt Weapons (Wizard Spell)",
+"name": "Protection from Magical Blunt Weapons",
+"listLevel": 3
+},
+{
+"title": "Protection from Magical Edged Weapons (Wizard Spell)",
+"name": "Protection from Magical Edged Weapons",
+"listLevel": 3
+},
+{
+"title": "Protection from Magical Missiles (Wizard Spell)",
+"name": "Protection from Magical Missiles",
+"listLevel": 3
+},
+{
+"title": "Protection from Magical Traps (Wizard Spell)",
+"name": "Protection from Magical Traps",
+"listLevel": 3
+},
+{
+"title": "Protection from Mechanical Traps (Wizard Spell)",
+"name": "Protection from Mechanical Traps",
+"listLevel": 2
+},
+{
+"title": "Protection from Normal Blunt Weapons (Wizard Spell)",
+"name": "Protection from Normal Blunt Weapons",
+"listLevel": 3
+},
+{
+"title": "Protection from Normal Edged Weapons (Wizard Spell)",
+"name": "Protection from Normal Edged Weapons",
+"listLevel": 3
+},
+{
+"title": "Protection from Normal Missiles (Wizard Spell)",
+"name": "Protection from Normal Missiles",
+"listLevel": 3
+},
+{
+"title": "Protection from Notice (Wizard Spell)",
+"name": "Protection from Notice",
+"listLevel": 5
+},
+{
+"title": "Protection from Paralysis (Wizard Spell)",
+"name": "Protection from Paralysis",
+"listLevel": 2
+},
+{
+"title": "Protection from Petrification, 10' Radius (Wizard Spell)",
+"name": "Protection from Petrification, 10' Radius",
+"listLevel": 5
+},
+{
+"title": "Protection from Plants (Wizard Spell)",
+"name": "Protection from Plants",
+"listLevel": 2
+},
+{
+"title": "Protection from Plants, 10' Radius (Wizard Spell)",
+"name": "Protection from Plants, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Poison (Wizard Spell)",
+"name": "Protection from Poison",
+"listLevel": 2
+},
+{
+"title": "Protection from Poison - Red Wizard (Wizard Spell)",
+"name": "Protection from Poison - Red Wizard",
+"listLevel": 2
+},
+{
+"title": "Protection from Possession, 10' Radius (Wizard Spell)",
+"name": "Protection from Possession, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from the Elements (Wizard Spell)",
+"name": "Protection from the Elements",
+"listLevel": 4
+},
+{
+"title": "Protection from Time (Wizard Spell)",
+"name": "Protection from Time",
+"listLevel": 8
+},
+{
+"title": "Protection from Traps, 5' Radius (Wizard Spell)",
+"name": "Protection from Traps, 5' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Undead, 5' Radius (Wizard Spell)",
+"name": "Protection from Undead, 5' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Vermin (Wizard Spell)",
+"name": "Protection from Vermin",
+"listLevel": 1
+},
+{
+"title": "Protective Amulet (Wizard Spell)",
+"name": "Protective Amulet",
+"listLevel": 1
+},
+{
+"title": "Prying Eyes (Wizard Spell)",
+"name": "Prying Eyes",
+"listLevel": 5
+},
+{
+"title": "Psionic Dampener (Wizard Spell)",
+"name": "Psionic Dampener",
+"listLevel": 4
+},
+{
+"title": "Psionic Tracer (Wizard Spell)",
+"name": "Psionic Tracer",
+"listLevel": 4
+},
+{
+"title": "Psychic Drain (Wizard Spell)",
+"name": "Psychic Drain",
+"listLevel": 6
+},
+{
+"title": "Psychic Protection (Wizard Spell)",
+"name": "Psychic Protection",
+"listLevel": 4
+},
+{
+"title": "Psychic Reversal (Wizard Spell)",
+"name": "Psychic Reversal",
+"listLevel": 6
+},
+{
+"title": "Push (Wizard Spell)",
+"name": "Push",
+"listLevel": 1
+},
+{
+"title": "Putrefaction (Wizard Spell)",
+"name": "Putrefaction",
+"listLevel": 3
+},
+{
+"title": "Pyrotechnics (Wizard Spell)",
+"name": "Pyrotechnics",
+"listLevel": 2
+},
+{
+"title": "Quell (Wizard Spell)",
+"name": "Quell",
+"listLevel": 4
+},
+{
+"title": "Quimby's Enchanting Gourmet (Wizard Spell)",
+"name": "Quimby's Enchanting Gourmet",
+"listLevel": 2
+},
+{
+"title": "Rain of Blood (Wizard Spell)",
+"name": "Rain of Blood",
+"listLevel": 2
+},
+{
+"title": "Rain of Terror (Wizard Spell)",
+"name": "Rain of Terror",
+"listLevel": 4
+},
+{
+"title": "Rainbow Pattern (Wizard Spell)",
+"name": "Rainbow Pattern",
+"listLevel": 4
+},
+{
+"title": "Rainbow Shield (Wizard Spell)",
+"name": "Rainbow Shield",
+"listLevel": 4
+},
+{
+"title": "Rainfire (Wizard Spell)",
+"name": "Rainfire",
+"listLevel": 2
+},
+{
+"title": "Ramael's Cyclical Light (Wizard Spell)",
+"name": "Ramael's Cyclical Light",
+"listLevel": 4
+},
+{
+"title": "Random's Commodious Pocket (Wizard Spell)",
+"name": "Random's Commodious Pocket",
+"listLevel": 3
+},
+{
+"title": "Ranike Cloud (Wizard Spell)",
+"name": "Ranike Cloud",
+"listLevel": 3
+},
+{
+"title": "Rapid Reflexive Response (Wizard Spell)",
+"name": "Rapid Reflexive Response",
+"listLevel": 5
+},
+{
+"title": "Rary's Aptitude Appropriator (Wizard Spell)",
+"name": "Rary's Aptitude Appropriator",
+"listLevel": 2
+},
+{
+"title": "Rary's Empathic Perception (Wizard Spell)",
+"name": "Rary's Empathic Perception",
+"listLevel": 1
+},
+{
+"title": "Rary's Memory Alteration (Wizard Spell)",
+"name": "Rary's Memory Alteration",
+"listLevel": 4
+},
+{
+"title": "Rary's Mind Scan (Wizard Spell)",
+"name": "Rary's Mind Scan",
+"listLevel": 4
+},
+{
+"title": "Rary's Mind Shield (Wizard Spell)",
+"name": "Rary's Mind Shield",
+"listLevel": 5
+},
+{
+"title": "Rary's Mnemonic Enhancer (Wizard Spell)",
+"name": "Rary's Mnemonic Enhancer",
+"listLevel": 4
+},
+{
+"title": "Rary's Plane Truth (Wizard Spell)",
+"name": "Rary's Plane Truth",
+"listLevel": 7
+},
+{
+"title": "Rary's Protection from Scrying (Wizard Spell)",
+"name": "Rary's Protection from Scrying",
+"listLevel": 6
+},
+{
+"title": "Rary's Replay (Wizard Spell)",
+"name": "Rary's Replay",
+"listLevel": 5
+},
+{
+"title": "Rary's Spell Enhancer (Wizard Spell)",
+"name": "Rary's Spell Enhancer",
+"listLevel": 4
+},
+{
+"title": "Rary's Superior Spell Enhancer (Wizard Spell)",
+"name": "Rary's Superior Spell Enhancer",
+"listLevel": 5
+},
+{
+"title": "Rary's Telepathic Bond (Wizard Spell)",
+"name": "Rary's Telepathic Bond",
+"listLevel": 5
+},
+{
+"title": "Rary's Urgent Utterance (Wizard Spell)",
+"name": "Rary's Urgent Utterance",
+"listLevel": 6
+},
+{
+"title": "Rastor's Mystical Spy (Wizard Spell)",
+"name": "Rastor's Mystical Spy",
+"listLevel": 4
+},
+{
+"title": "Ray of Enfeeblement (Wizard Spell)",
+"name": "Ray of Enfeeblement",
+"listLevel": 2
+},
+{
+"title": "Ray of Fatigue (Wizard Spell)",
+"name": "Ray of Fatigue",
+"listLevel": 1
+},
+{
+"title": "Ray of Oblivion (Wizard Spell)",
+"name": "Ray of Oblivion",
+"listLevel": 4
+},
+{
+"title": "Ray of Ondovir (Wizard Spell)",
+"name": "Ray of Ondovir",
+"listLevel": 2
+},
+{
+"title": "Ray of Paralysis (Wizard Spell)",
+"name": "Ray of Paralysis",
+"listLevel": 3
+},
+{
+"title": "Raze (Wizard Spell)",
+"name": "Raze",
+"listLevel": 4
+},
+{
+"title": "Read Arcane Runes (Wizard Spell)",
+"name": "Read Arcane Runes",
+"listLevel": 4
+},
+{
+"title": "Read Illusionist Magic (Wizard Spell)",
+"name": "Read Illusionist Magic",
+"listLevel": 1
+},
+{
+"title": "Read Magic (Wizard Spell)",
+"name": "Read Magic",
+"listLevel": 1
+},
+{
+"title": "Read Object (Wizard Spell)",
+"name": "Read Object",
+"listLevel": 5
+},
+{
+"title": "Reanimation (Wizard Spell)",
+"name": "Reanimation",
+"listLevel": 7
+},
+{
+"title": "Rebinding (Wizard Spell)",
+"name": "Rebinding",
+"listLevel": 7
+},
+{
+"title": "Recharge (Wizard Spell)",
+"name": "Recharge",
+"listLevel": 6
+},
+{
+"title": "Reconnect (Wizard Spell)",
+"name": "Reconnect",
+"listLevel": 5
+},
+{
+"title": "Reconstruction (Wizard Spell)",
+"name": "Reconstruction",
+"listLevel": 6
+},
+{
+"title": "Reflection (Wizard Spell)",
+"name": "Reflection",
+"listLevel": 5
+},
+{
+"title": "Reflection - Witch (Wizard Spell)",
+"name": "Reflection - Witch",
+"listLevel": 9
+},
+{
+"title": "Reflectorum Arcana (Wizard Spell)",
+"name": "Reflectorum Arcana",
+"listLevel": 5
+},
+{
+"title": "Regenerate Self (Wizard Spell)",
+"name": "Regenerate Self",
+"listLevel": 1
+},
+{
+"title": "Reincarnation (Wizard Spell)",
+"name": "Reincarnation",
+"listLevel": 6
+},
+{
+"title": "Rejuvenate (Wizard Spell)",
+"name": "Rejuvenate",
+"listLevel": 5
+},
+{
+"title": "Release Weapon (Wizard Spell)",
+"name": "Release Weapon",
+"listLevel": 1
+},
+{
+"title": "Remove Curse (Wizard Spell)",
+"name": "Remove Curse",
+"listLevel": 4
+},
+{
+"title": "Remove Disease (Wizard Spell)",
+"name": "Remove Disease",
+"listLevel": 2
+},
+{
+"title": "Remove Smell (Wizard Spell)",
+"name": "Remove Smell",
+"listLevel": 3
+},
+{
+"title": "Repel Undead (Wizard Spell)",
+"name": "Repel Undead",
+"listLevel": 7
+},
+{
+"title": "Repulse Metal (Wizard Spell)",
+"name": "Repulse Metal",
+"listLevel": 4
+},
+{
+"title": "Repulsion (Wizard Spell)",
+"name": "Repulsion",
+"listLevel": 6
+},
+{
+"title": "Resist Magic (Wizard Spell)",
+"name": "Resist Magic",
+"listLevel": 7
+},
+{
+"title": "Resist Turning (Wizard Spell)",
+"name": "Resist Turning",
+"listLevel": 2
+},
+{
+"title": "Return to Sand (Wizard Spell)",
+"name": "Return to Sand",
+"listLevel": 7
+},
+{
+"title": "Reveal Invisible (Wizard Spell)",
+"name": "Reveal Invisible",
+"listLevel": 3
+},
+{
+"title": "Reveal Magic (Wizard Spell)",
+"name": "Reveal Magic",
+"listLevel": 1
+},
+{
+"title": "Revelation (Wizard Spell)",
+"name": "Revelation",
+"listLevel": 6
+},
+{
+"title": "Revelation of Auras (Wizard Spell)",
+"name": "Revelation of Auras",
+"listLevel": 5
+},
+{
+"title": "Revenance (Wizard Spell)",
+"name": "Revenance",
+"listLevel": 3
+},
+{
+"title": "Reverse Flow (Wizard Spell)",
+"name": "Reverse Flow",
+"listLevel": 4
+},
+{
+"title": "Reverse Fossilization (Wizard Spell)",
+"name": "Reverse Fossilization",
+"listLevel": 3
+},
+{
+"title": "Reverse Gravity (Wizard Spell)",
+"name": "Reverse Gravity",
+"listLevel": 7
+},
+{
+"title": "Reverse Teleport (Wizard Spell)",
+"name": "Reverse Teleport",
+"listLevel": 8
+},
+{
+"title": "Ride the Wind (Wizard Spell)",
+"name": "Ride the Wind",
+"listLevel": 2
+},
+{
+"title": "Ring of Disintegration (Wizard Spell)",
+"name": "Ring of Disintegration",
+"listLevel": 6
+},
+{
+"title": "Ring of Swords (Wizard Spell)",
+"name": "Ring of Swords",
+"listLevel": 9
+},
+{
+"title": "Ringweave (Wizard Spell)",
+"name": "Ringweave",
+"listLevel": 9
+},
+{
+"title": "Rip (Wizard Spell)",
+"name": "Rip",
+"listLevel": 5
+},
+{
+"title": "Rising Colossus (Wizard Spell)",
+"name": "Rising Colossus",
+"listLevel": 8
+},
+{
+"title": "Ritual of Twaining (Wizard Spell)",
+"name": "Ritual of Twaining",
+"listLevel": 4
+},
+{
+"title": "River of Sand (Wizard Spell)",
+"name": "River of Sand",
+"listLevel": 8
+},
+{
+"title": "Rodbane (Wizard Spell)",
+"name": "Rodbane",
+"listLevel": 7
+},
+{
+"title": "Rope Trick (Wizard Spell)",
+"name": "Rope Trick",
+"listLevel": 2
+},
+{
+"title": "Ruby Ray of Reversal (Wizard Spell)",
+"name": "Ruby Ray of Reversal",
+"listLevel": 7
+},
+{
+"title": "Run - Lvl 1 (Wizard Spell)",
+"name": "Run - Lvl 1",
+"listLevel": 1
+},
+{
+"title": "Ruornil's Tracks (Wizard Spell)",
+"name": "Ruornil's Tracks",
+"listLevel": 2
+},
+{
+"title": "Rusting Grasp (Wizard Spell)",
+"name": "Rusting Grasp",
+"listLevel": 5
+},
+{
+"title": "Sacremon's Acid Wit (Wizard Spell)",
+"name": "Sacremon's Acid Wit",
+"listLevel": 5
+},
+{
+"title": "Safe Fall (Wizard Spell)",
+"name": "Safe Fall",
+"listLevel": 2
+},
+{
+"title": "Safeguarding (Wizard Spell)",
+"name": "Safeguarding",
+"listLevel": 5
+},
+{
+"title": "Salamander's Seismic Seizure (Wizard Spell)",
+"name": "Salamander's Seismic Seizure",
+"listLevel": 6
+},
+{
+"title": "Sand Form (Wizard Spell)",
+"name": "Sand Form",
+"listLevel": 9
+},
+{
+"title": "Sand Gems (Wizard Spell)",
+"name": "Sand Gems",
+"listLevel": 7
+},
+{
+"title": "Sand Healing (Wizard Spell)",
+"name": "Sand Healing",
+"listLevel": 4
+},
+{
+"title": "Sand Jambiya (Wizard Spell)",
+"name": "Sand Jambiya",
+"listLevel": 1
+},
+{
+"title": "Sand Seal (Wizard Spell)",
+"name": "Sand Seal",
+"listLevel": 3
+},
+{
+"title": "Sand Shadow (Wizard Spell)",
+"name": "Sand Shadow",
+"listLevel": 2
+},
+{
+"title": "Sand Shroud (Wizard Spell)",
+"name": "Sand Shroud",
+"listLevel": 6
+},
+{
+"title": "Sand Slumber (Wizard Spell)",
+"name": "Sand Slumber",
+"listLevel": 1
+},
+{
+"title": "Sand Sword (Wizard Spell)",
+"name": "Sand Sword",
+"listLevel": 3
+},
+{
+"title": "Sand Tools (Wizard Spell)",
+"name": "Sand Tools",
+"listLevel": 3
+},
+{
+"title": "Sand Whisper (Wizard Spell)",
+"name": "Sand Whisper",
+"listLevel": 1
+},
+{
+"title": "Sand Worm (Wizard Spell)",
+"name": "Sand Worm",
+"listLevel": 8
+},
+{
+"title": "Sandcone (Wizard Spell)",
+"name": "Sandcone",
+"listLevel": 4
+},
+{
+"title": "Sands of Time (Wizard Spell)",
+"name": "Sands of Time",
+"listLevel": 7
+},
+{
+"title": "Sandspray (Wizard Spell)",
+"name": "Sandspray",
+"listLevel": 3
+},
+{
+"title": "Sandswallow (Wizard Spell)",
+"name": "Sandswallow",
+"listLevel": 9
+},
+{
+"title": "Sargasso (Wizard Spell)",
+"name": "Sargasso",
+"listLevel": 4
+},
+{
+"title": "Sathrah's Ingenious Recollection (Wizard Spell)",
+"name": "Sathrah's Ingenious Recollection",
+"listLevel": 9
+},
+{
+"title": "Scalding Spout (Wizard Spell)",
+"name": "Scalding Spout",
+"listLevel": 3
+},
+{
+"title": "Scapegoat (Wizard Spell)",
+"name": "Scapegoat",
+"listLevel": 4
+},
+{
+"title": "Scare (Wizard Spell)",
+"name": "Scare",
+"listLevel": 2
+},
+{
+"title": "Scatterspray (Wizard Spell)",
+"name": "Scatterspray",
+"listLevel": 1
+},
+{
+"title": "Scintillating Sphere (Wizard Spell)",
+"name": "Scintillating Sphere",
+"listLevel": 3
+},
+{
+"title": "Screen (Wizard Spell)",
+"name": "Screen",
+"listLevel": 8
+},
+{
+"title": "Scry (Wizard Spell)",
+"name": "Scry",
+"listLevel": 3
+},
+{
+"title": "Sculpt Features (Wizard Spell)",
+"name": "Sculpt Features",
+"listLevel": 3
+},
+{
+"title": "Sea Sight (Wizard Spell)",
+"name": "Sea Sight",
+"listLevel": 1
+},
+{
+"title": "Seal Mouth (Wizard Spell)",
+"name": "Seal Mouth",
+"listLevel": 2
+},
+{
+"title": "Seal Path (Wizard Spell)",
+"name": "Seal Path",
+"listLevel": 5
+},
+{
+"title": "Searing Serpent (Wizard Spell)",
+"name": "Searing Serpent",
+"listLevel": 3
+},
+{
+"title": "Secret Page (Wizard Spell)",
+"name": "Secret Page",
+"listLevel": 3
+},
+{
+"title": "Secret Signs (Wizard Spell)",
+"name": "Secret Signs",
+"listLevel": 1
+},
+{
+"title": "Secure (Wizard Spell)",
+"name": "Secure",
+"listLevel": 5
+},
+{
+"title": "See Through Other Eyes (Wizard Spell)",
+"name": "See Through Other Eyes",
+"listLevel": 2
+},
+{
+"title": "Seek Teleporter (Wizard Spell)",
+"name": "Seek Teleporter",
+"listLevel": 6
+},
+{
+"title": "Seeming (Wizard Spell)",
+"name": "Seeming",
+"listLevel": 5
+},
+{
+"title": "Seizure (Wizard Spell)",
+"name": "Seizure",
+"listLevel": 6
+},
+{
+"title": "Semipermanency (Wizard Spell)",
+"name": "Semipermanency",
+"listLevel": 7
+},
+{
+"title": "Sending (Wizard Spell)",
+"name": "Sending",
+"listLevel": 5
+},
+{
+"title": "Sense Shifting (Wizard Spell)",
+"name": "Sense Shifting",
+"listLevel": 2
+},
+{
+"title": "Sense Treason (Wizard Spell)",
+"name": "Sense Treason",
+"listLevel": 6
+},
+{
+"title": "Sepia Snake Sigil (Wizard Spell)",
+"name": "Sepia Snake Sigil",
+"listLevel": 3
+},
+{
+"title": "Sequester (Wizard Spell)",
+"name": "Sequester",
+"listLevel": 7
+},
+{
+"title": "Serpent Missile (Wizard Spell)",
+"name": "Serpent Missile",
+"listLevel": 1
+},
+{
+"title": "Serrel's Confining Sphere (Wizard Spell)",
+"name": "Serrel's Confining Sphere",
+"listLevel": 6
+},
+{
+"title": "Serrel's Guardian (Wizard Spell)",
+"name": "Serrel's Guardian",
+"listLevel": 3
+},
+{
+"title": "Serrel's Major Enchantment (Wizard Spell)",
+"name": "Serrel's Major Enchantment",
+"listLevel": 5
+},
+{
+"title": "Serrel's Minor Enchantment (Wizard Spell)",
+"name": "Serrel's Minor Enchantment",
+"listLevel": 3
+},
+{
+"title": "Serten's Spell Immunity (Wizard Spell)",
+"name": "Serten's Spell Immunity",
+"listLevel": 8
+},
+{
+"title": "Servant Horde (Wizard Spell)",
+"name": "Servant Horde",
+"listLevel": 5
+},
+{
+"title": "Seven-Eyes (Wizard Spell)",
+"name": "Seven-Eyes",
+"listLevel": 7
+},
+{
+"title": "Sever Lifeline (Wizard Spell)",
+"name": "Sever Lifeline",
+"listLevel": 9
+},
+{
+"title": "Shades (Wizard Spell)",
+"name": "Shades",
+"listLevel": 6
+},
+{
+"title": "Shadow Blink (Wizard Spell)",
+"name": "Shadow Blink",
+"listLevel": 3
+},
+{
+"title": "Shadow Bolt (Wizard Spell)",
+"name": "Shadow Bolt",
+"listLevel": 3
+},
+{
+"title": "Shadow Burst (Wizard Spell)",
+"name": "Shadow Burst",
+"listLevel": 2
+},
+{
+"title": "Shadow Cloak (Wizard Spell)",
+"name": "Shadow Cloak",
+"listLevel": 3
+},
+{
+"title": "Shadow Dance (Wizard Spell)",
+"name": "Shadow Dance",
+"listLevel": 4
+},
+{
+"title": "Shadow Door (Wizard Spell)",
+"name": "Shadow Door",
+"listLevel": 5
+},
+{
+"title": "Shadow Form (Wizard Spell)",
+"name": "Shadow Form",
+"listLevel": 8
+},
+{
+"title": "Shadow Gauntlet (Wizard Spell)",
+"name": "Shadow Gauntlet",
+"listLevel": 6
+},
+{
+"title": "Shadow Hand (Wizard Spell)",
+"name": "Shadow Hand",
+"listLevel": 5
+},
+{
+"title": "Shadow Head (Wizard Spell)",
+"name": "Shadow Head",
+"listLevel": 5
+},
+{
+"title": "Shadow Magic (Wizard Spell)",
+"name": "Shadow Magic",
+"listLevel": 5
+},
+{
+"title": "Shadow Monsters (Wizard Spell)",
+"name": "Shadow Monsters",
+"listLevel": 4
+},
+{
+"title": "Shadow Play (Wizard Spell)",
+"name": "Shadow Play",
+"listLevel": 5
+},
+{
+"title": "Shadow Skeleton (Wizard Spell)",
+"name": "Shadow Skeleton",
+"listLevel": 4
+},
+{
+"title": "Shadow Speak (Wizard Spell)",
+"name": "Shadow Speak",
+"listLevel": 6
+},
+{
+"title": "Shadow Summoning (Wizard Spell)",
+"name": "Shadow Summoning",
+"listLevel": 4
+},
+{
+"title": "Shadow Walk (Wizard Spell)",
+"name": "Shadow Walk",
+"listLevel": 7
+},
+{
+"title": "Shadowcat (Wizard Spell)",
+"name": "Shadowcat",
+"listLevel": 7
+},
+{
+"title": "Shadowshield (Wizard Spell)",
+"name": "Shadowshield",
+"listLevel": 4
+},
+{
+"title": "Shadowsteal (Wizard Spell)",
+"name": "Shadowsteal",
+"listLevel": 6
+},
+{
+"title": "Shadowstrike (Wizard Spell)",
+"name": "Shadowstrike",
+"listLevel": 4
+},
+{
+"title": "Shaefpaete's Shadowy Distinction (Wizard Spell)",
+"name": "Shaefpaete's Shadowy Distinction",
+"listLevel": 4
+},
+{
+"title": "Shandaril's Tracer (Wizard Spell)",
+"name": "Shandaril's Tracer",
+"listLevel": 5
+},
+{
+"title": "Shape Change (Wizard Spell)",
+"name": "Shape Change",
+"listLevel": 9
+},
+{
+"title": "Shark Bolt (Wizard Spell)",
+"name": "Shark Bolt",
+"listLevel": 2
+},
+{
+"title": "Sharpen (Wizard Spell)",
+"name": "Sharpen",
+"listLevel": 1
+},
+{
+"title": "Shatter (Wizard Spell)",
+"name": "Shatter",
+"listLevel": 2
+},
+{
+"title": "Shatterhull (Wizard Spell)",
+"name": "Shatterhull",
+"listLevel": 4
+},
+{
+"title": "Shayn's Infallible Identification (Wizard Spell)",
+"name": "Shayn's Infallible Identification",
+"listLevel": 4
+},
+{
+"title": "Shield (Wizard Spell)",
+"name": "Shield",
+"listLevel": 1
+},
+{
+"title": "Shield of Winds (Wizard Spell)",
+"name": "Shield of Winds",
+"listLevel": 5
+},
+{
+"title": "Ship Invisibility (Wizard Spell)",
+"name": "Ship Invisibility",
+"listLevel": 4
+},
+{
+"title": "Ship of Fools (Wizard Spell)",
+"name": "Ship of Fools",
+"listLevel": 6
+},
+{
+"title": "Shipshock (Wizard Spell)",
+"name": "Shipshock",
+"listLevel": 5
+},
+{
+"title": "Shock Shield (Wizard Spell)",
+"name": "Shock Shield",
+"listLevel": 5
+},
+{
+"title": "Shocking Grasp (Wizard Spell)",
+"name": "Shocking Grasp",
+"listLevel": 1
+},
+{
+"title": "Shoondal's Seeking (Wizard Spell)",
+"name": "Shoondal's Seeking",
+"listLevel": 5
+},
+{
+"title": "Shooting Stars (Wizard Spell)",
+"name": "Shooting Stars",
+"listLevel": 8
+},
+{
+"title": "Shout (Wizard Spell)",
+"name": "Shout",
+"listLevel": 4
+},
+{
+"title": "Shroud of Flame (Wizard Spell)",
+"name": "Shroud of Flame",
+"listLevel": 5
+},
+{
+"title": "Sidhelien Bow (Wizard Spell)",
+"name": "Sidhelien Bow",
+"listLevel": 1
+},
+{
+"title": "Sidhelien Mien (Wizard Spell)",
+"name": "Sidhelien Mien",
+"listLevel": 6
+},
+{
+"title": "Sighing Chain (Wizard Spell)",
+"name": "Sighing Chain",
+"listLevel": 5
+},
+{
+"title": "Signature Sigil (Wizard Spell)",
+"name": "Signature Sigil",
+"listLevel": 2
+},
+{
+"title": "Silent Alarm (Wizard Spell)",
+"name": "Silent Alarm",
+"listLevel": 5
+},
+{
+"title": "Simbul's Skeletal Deliquescence (Wizard Spell)",
+"name": "Simbul's Skeletal Deliquescence",
+"listLevel": 8
+},
+{
+"title": "Simbul's Spell Sequencer (Wizard Spell)",
+"name": "Simbul's Spell Sequencer",
+"listLevel": 7
+},
+{
+"title": "Simbul's Spell Supremacy (Wizard Spell)",
+"name": "Simbul's Spell Supremacy",
+"listLevel": 7
+},
+{
+"title": "Simbul's Spell Trigger (Wizard Spell)",
+"name": "Simbul's Spell Trigger",
+"listLevel": 9
+},
+{
+"title": "Simbul's Synostodweomer (Wizard Spell)",
+"name": "Simbul's Synostodweomer",
+"listLevel": 7
+},
+{
+"title": "Simulacrum (Wizard Spell)",
+"name": "Simulacrum",
+"listLevel": 7
+},
+{
+"title": "Simulate Skill (Wizard Spell)",
+"name": "Simulate Skill",
+"listLevel": 8
+},
+{
+"title": "Sinister Cantrip (Wizard Spell)",
+"name": "Sinister Cantrip",
+"listLevel": 2
+},
+{
+"title": "Sinister Surroundings (Wizard Spell)",
+"name": "Sinister Surroundings",
+"listLevel": 5
+},
+{
+"title": "Sink (Wizard Spell)",
+"name": "Sink",
+"listLevel": 8
+},
+{
+"title": "Sinuous Horrors (Wizard Spell)",
+"name": "Sinuous Horrors",
+"listLevel": 4
+},
+{
+"title": "Skeletal Bride (Wizard Spell)",
+"name": "Skeletal Bride",
+"listLevel": 6
+},
+{
+"title": "Skeletal Hand (Wizard Spell)",
+"name": "Skeletal Hand",
+"listLevel": 3
+},
+{
+"title": "Skeletal Hands (Wizard Spell)",
+"name": "Skeletal Hands",
+"listLevel": 2
+},
+{
+"title": "Skull Watch (Wizard Spell)",
+"name": "Skull Watch",
+"listLevel": 3
+},
+{
+"title": "Skulltrap (Wizard Spell)",
+"name": "Skulltrap",
+"listLevel": 3
+},
+{
+"title": "Skycastle (Wizard Spell)",
+"name": "Skycastle",
+"listLevel": 9
+},
+{
+"title": "Skyhook (Wizard Spell)",
+"name": "Skyhook",
+"listLevel": 2
+},
+{
+"title": "Skywrite (Wizard Spell)",
+"name": "Skywrite",
+"listLevel": 3
+},
+{
+"title": "Sleep (Wizard Spell)",
+"name": "Sleep",
+"listLevel": 1
+},
+{
+"title": "Sleep of Horror (Wizard Spell)",
+"name": "Sleep of Horror",
+"listLevel": 3
+},
+{
+"title": "Sleepless Curse (Wizard Spell)",
+"name": "Sleepless Curse",
+"listLevel": 5
+},
+{
+"title": "Sleepwalking (Wizard Spell)",
+"name": "Sleepwalking",
+"listLevel": 4
+},
+{
+"title": "Slingstar (Wizard Spell)",
+"name": "Slingstar",
+"listLevel": 1
+},
+{
+"title": "Slow (Wizard Spell)",
+"name": "Slow",
+"listLevel": 3
+},
+{
+"title": "Slow Metabolism (Wizard Spell)",
+"name": "Slow Metabolism",
+"listLevel": 1
+},
+{
+"title": "Slow Mutation (Wizard Spell)",
+"name": "Slow Mutation",
+"listLevel": 5
+},
+{
+"title": "Slowspell (Wizard Spell)",
+"name": "Slowspell",
+"listLevel": 2
+},
+{
+"title": "Slowspell, 10' Radius (Wizard Spell)",
+"name": "Slowspell, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Slumber (Wizard Spell)",
+"name": "Slumber",
+"listLevel": 3
+},
+{
+"title": "Slumberward (Wizard Spell)",
+"name": "Slumberward",
+"listLevel": 2
+},
+{
+"title": "Smelting (Wizard Spell)",
+"name": "Smelting",
+"listLevel": 2
+},
+{
+"title": "Smoke Shape (Wizard Spell)",
+"name": "Smoke Shape",
+"listLevel": 2
+},
+{
+"title": "Smoke Screen (Wizard Spell)",
+"name": "Smoke Screen",
+"listLevel": 2
+},
+{
+"title": "Smoky Form (Wizard Spell)",
+"name": "Smoky Form",
+"listLevel": 2
+},
+{
+"title": "Snapping Teeth (Wizard Spell)",
+"name": "Snapping Teeth",
+"listLevel": 3
+},
+{
+"title": "Snilloc's Major Missile (Wizard Spell)",
+"name": "Snilloc's Major Missile",
+"listLevel": 5
+},
+{
+"title": "Snilloc's Snowball (Wizard Spell)",
+"name": "Snilloc's Snowball",
+"listLevel": 1
+},
+{
+"title": "Snilloc's Snowball Swarm (Wizard Spell)",
+"name": "Snilloc's Snowball Swarm",
+"listLevel": 2
+},
+{
+"title": "Solid Fog (Wizard Spell)",
+"name": "Solid Fog",
+"listLevel": 4
+},
+{
+"title": "Solvent of Corrosion (Wizard Spell)",
+"name": "Solvent of Corrosion",
+"listLevel": 3
+},
+{
+"title": "Soothe the Beast (Wizard Spell)",
+"name": "Soothe the Beast",
+"listLevel": 1
+},
+{
+"title": "Sorcerous Scribe (Wizard Spell)",
+"name": "Sorcerous Scribe",
+"listLevel": 1
+},
+{
+"title": "Soul Anchor (Wizard Spell)",
+"name": "Soul Anchor",
+"listLevel": 5
+},
+{
+"title": "Spark Burst (Wizard Spell)",
+"name": "Spark Burst",
+"listLevel": 4
+},
+{
+"title": "Spark Shower (Wizard Spell)",
+"name": "Spark Shower",
+"listLevel": 2
+},
+{
+"title": "Spawn Heritage (Wizard Spell)",
+"name": "Spawn Heritage",
+"listLevel": 2
+},
+{
+"title": "Speak with Dead (Wizard Spell)",
+"name": "Speak with Dead",
+"listLevel": 2
+},
+{
+"title": "Speak with Dead - Wu Jen (Wizard Spell)",
+"name": "Speak with Dead - Wu Jen",
+"listLevel": 6
+},
+{
+"title": "Special Effects (Wizard Spell)",
+"name": "Special Effects",
+"listLevel": 4
+},
+{
+"title": "Spectral Ears (Wizard Spell)",
+"name": "Spectral Ears",
+"listLevel": 1
+},
+{
+"title": "Spectral Eyes (Wizard Spell)",
+"name": "Spectral Eyes",
+"listLevel": 2
+},
+{
+"title": "Spectral Force (Wizard Spell)",
+"name": "Spectral Force",
+"listLevel": 3
+},
+{
+"title": "Spectral Guard - Lvl 6 (Wizard Spell)",
+"name": "Spectral Guard - Lvl 6",
+"listLevel": 6
+},
+{
+"title": "Spectral Hand (Wizard Spell)",
+"name": "Spectral Hand",
+"listLevel": 2
+},
+{
+"title": "Spectral Voice (Wizard Spell)",
+"name": "Spectral Voice",
+"listLevel": 1
+},
+{
+"title": "Spectral Wings (Wizard Spell)",
+"name": "Spectral Wings",
+"listLevel": 4
+},
+{
+"title": "Speed (Wizard Spell)",
+"name": "Speed",
+"listLevel": 2
+},
+{
+"title": "Spell Engine (Wizard Spell)",
+"name": "Spell Engine",
+"listLevel": 8
+},
+{
+"title": "Spell Immunity (Wizard Spell)",
+"name": "Spell Immunity",
+"listLevel": 5
+},
+{
+"title": "Spell Invulnerability (Wizard Spell)",
+"name": "Spell Invulnerability",
+"listLevel": 9
+},
+{
+"title": "Spell Mirror (Wizard Spell)",
+"name": "Spell Mirror",
+"listLevel": 6
+},
+{
+"title": "Spell Reflection (Wizard Spell)",
+"name": "Spell Reflection",
+"listLevel": 6
+},
+{
+"title": "Spell Sense (Wizard Spell)",
+"name": "Spell Sense",
+"listLevel": 3
+},
+{
+"title": "Spell Shield (Wizard Spell)",
+"name": "Spell Shield",
+"listLevel": 5
+},
+{
+"title": "Spell Turning (Wizard Spell)",
+"name": "Spell Turning",
+"listLevel": 7
+},
+{
+"title": "Spellcaster (Wizard Spell)",
+"name": "Spellcaster",
+"listLevel": 8
+},
+{
+"title": "Spelldoor (Wizard Spell)",
+"name": "Spelldoor",
+"listLevel": 8
+},
+{
+"title": "Spellstorm (Wizard Spell)",
+"name": "Spellstorm",
+"listLevel": 9
+},
+{
+"title": "Spellstrike (Wizard Spell)",
+"name": "Spellstrike",
+"listLevel": 9
+},
+{
+"title": "Spelltouch - Lvl 4 (Wizard Spell)",
+"name": "Spelltouch - Lvl 4",
+"listLevel": 4
+},
+{
+"title": "Spelltrap (Wizard Spell)",
+"name": "Spelltrap",
+"listLevel": 7
+},
+{
+"title": "Spendelard's Chaser (Wizard Spell)",
+"name": "Spendelard's Chaser",
+"listLevel": 4
+},
+{
+"title": "Sphere of Eyes (Wizard Spell)",
+"name": "Sphere of Eyes",
+"listLevel": 4
+},
+{
+"title": "Sphere of Ultimate Destruction (Wizard Spell)",
+"name": "Sphere of Ultimate Destruction",
+"listLevel": 9
+},
+{
+"title": "Sphere of Wonder (Wizard Spell)",
+"name": "Sphere of Wonder",
+"listLevel": 9
+},
+{
+"title": "Spider Climb (Wizard Spell)",
+"name": "Spider Climb",
+"listLevel": 1
+},
+{
+"title": "Spider Strand (Wizard Spell)",
+"name": "Spider Strand",
+"listLevel": 4
+},
+{
+"title": "Spirit Armor (Wizard Spell)",
+"name": "Spirit Armor",
+"listLevel": 3
+},
+{
+"title": "Spirit Self (Wizard Spell)",
+"name": "Spirit Self",
+"listLevel": 5
+},
+{
+"title": "Spirit Servant (Wizard Spell)",
+"name": "Spirit Servant",
+"listLevel": 1
+},
+{
+"title": "Spirit Wrack (Wizard Spell)",
+"name": "Spirit Wrack",
+"listLevel": 6
+},
+{
+"title": "Spoil Holy Water (Wizard Spell)",
+"name": "Spoil Holy Water",
+"listLevel": 1
+},
+{
+"title": "Spook (Wizard Spell)",
+"name": "Spook",
+"listLevel": 1
+},
+{
+"title": "Sprites (Wizard Spell)",
+"name": "Sprites",
+"listLevel": 7
+},
+{
+"title": "Squaring the Circle (Wizard Spell)",
+"name": "Squaring the Circle",
+"listLevel": 3
+},
+{
+"title": "Staffspell (Wizard Spell)",
+"name": "Staffspell",
+"listLevel": 3
+},
+{
+"title": "Stairway (Wizard Spell)",
+"name": "Stairway",
+"listLevel": 2
+},
+{
+"title": "Starharp (Wizard Spell)",
+"name": "Starharp",
+"listLevel": 6
+},
+{
+"title": "Stasis Clone (Wizard Spell)",
+"name": "Stasis Clone",
+"listLevel": 9
+},
+{
+"title": "Static Field (Wizard Spell)",
+"name": "Static Field",
+"listLevel": 6
+},
+{
+"title": "Statue (Wizard Spell)",
+"name": "Statue",
+"listLevel": 7
+},
+{
+"title": "Statue - Wu Jen (Wizard Spell)",
+"name": "Statue - Wu Jen",
+"listLevel": 3
+},
+{
+"title": "Statue Form (Wizard Spell)",
+"name": "Statue Form",
+"listLevel": 8
+},
+{
+"title": "Steal Enchantment (Wizard Spell)",
+"name": "Steal Enchantment",
+"listLevel": 7
+},
+{
+"title": "Stealspell (Wizard Spell)",
+"name": "Stealspell",
+"listLevel": 7
+},
+{
+"title": "Stealth (Wizard Spell)",
+"name": "Stealth",
+"listLevel": 2
+},
+{
+"title": "Stealweb (Wizard Spell)",
+"name": "Stealweb",
+"listLevel": 5
+},
+{
+"title": "Steam Blast (Wizard Spell)",
+"name": "Steam Blast",
+"listLevel": 3
+},
+{
+"title": "Steam Breath (Wizard Spell)",
+"name": "Steam Breath",
+"listLevel": 3
+},
+{
+"title": "Steeldance (Wizard Spell)",
+"name": "Steeldance",
+"listLevel": 3
+},
+{
+"title": "Stench of Death (Wizard Spell)",
+"name": "Stench of Death",
+"listLevel": 3
+},
+{
+"title": "Still Water (Wizard Spell)",
+"name": "Still Water",
+"listLevel": 1
+},
+{
+"title": "Stinking Cloud (Wizard Spell)",
+"name": "Stinking Cloud",
+"listLevel": 2
+},
+{
+"title": "Stone Drill (Wizard Spell)",
+"name": "Stone Drill",
+"listLevel": 5
+},
+{
+"title": "Stone Hull (Wizard Spell)",
+"name": "Stone Hull",
+"listLevel": 3
+},
+{
+"title": "Stone Shape (Wizard Spell)",
+"name": "Stone Shape",
+"listLevel": 5
+},
+{
+"title": "Stone Sleep (Wizard Spell)",
+"name": "Stone Sleep",
+"listLevel": 2
+},
+{
+"title": "Stone Tell (Wizard Spell)",
+"name": "Stone Tell",
+"listLevel": 7
+},
+{
+"title": "Stone to Flesh (Wizard Spell)",
+"name": "Stone to Flesh",
+"listLevel": 6
+},
+{
+"title": "Stoneiron (Wizard Spell)",
+"name": "Stoneiron",
+"listLevel": 3
+},
+{
+"title": "Stoneskin (Wizard Spell)",
+"name": "Stoneskin",
+"listLevel": 4
+},
+{
+"title": "Storm (Wizard Spell)",
+"name": "Storm",
+"listLevel": 8
+},
+{
+"title": "Storm's Frozen Moment (Wizard Spell)",
+"name": "Storm's Frozen Moment",
+"listLevel": 1
+},
+{
+"title": "Storm's Spell Thrust (Wizard Spell)",
+"name": "Storm's Spell Thrust",
+"listLevel": 5
+},
+{
+"title": "Storm's Swordfire (Wizard Spell)",
+"name": "Storm's Swordfire",
+"listLevel": 3
+},
+{
+"title": "Strahd's Baneful Attractor (Wizard Spell)",
+"name": "Strahd's Baneful Attractor",
+"listLevel": 2
+},
+{
+"title": "Strahd's Frightful Joining (Wizard Spell)",
+"name": "Strahd's Frightful Joining",
+"listLevel": 7
+},
+{
+"title": "Strahd's Malefic Meld (Wizard Spell)",
+"name": "Strahd's Malefic Meld",
+"listLevel": 5
+},
+{
+"title": "Strength (Wizard Spell)",
+"name": "Strength",
+"listLevel": 2
+},
+{
+"title": "Strengthen Water Creature (Wizard Spell)",
+"name": "Strengthen Water Creature",
+"listLevel": 4
+},
+{
+"title": "Succor (Wizard Spell)",
+"name": "Succor",
+"listLevel": 9
+},
+{
+"title": "Suffocate (Wizard Spell)",
+"name": "Suffocate",
+"listLevel": 7
+},
+{
+"title": "Suggestion (Wizard Spell)",
+"name": "Suggestion",
+"listLevel": 3
+},
+{
+"title": "Summon Cats (Wizard Spell)",
+"name": "Summon Cats",
+"listLevel": 2
+},
+{
+"title": "Summon Cosmic Storm (Wizard Spell)",
+"name": "Summon Cosmic Storm",
+"listLevel": 9
+},
+{
+"title": "Summon Darsson (Wizard Spell)",
+"name": "Summon Darsson",
+"listLevel": 5
+},
+{
+"title": "Summon Deadly Smog (Wizard Spell)",
+"name": "Summon Deadly Smog",
+"listLevel": 5
+},
+{
+"title": "Summon Equine Beings (Wizard Spell)",
+"name": "Summon Equine Beings",
+"listLevel": 2
+},
+{
+"title": "Summon Fetish Spirit (Wizard Spell)",
+"name": "Summon Fetish Spirit",
+"listLevel": 1
+},
+{
+"title": "Summon Fiend (Wizard Spell)",
+"name": "Summon Fiend",
+"listLevel": 8
+},
+{
+"title": "Summon Fire Dragons (Wizard Spell)",
+"name": "Summon Fire Dragons",
+"listLevel": 6
+},
+{
+"title": "Summon Least Yugoloth (Wizard Spell)",
+"name": "Summon Least Yugoloth",
+"listLevel": 6
+},
+{
+"title": "Summon Lycanthrope (Wizard Spell)",
+"name": "Summon Lycanthrope",
+"listLevel": 4
+},
+{
+"title": "Summon Modron (Wizard Spell)",
+"name": "Summon Modron",
+"listLevel": 3
+},
+{
+"title": "Summon Shadow (Wizard Spell)",
+"name": "Summon Shadow",
+"listLevel": 5
+},
+{
+"title": "Summon Spirit - Necromancer (Wizard Spell)",
+"name": "Summon Spirit - Necromancer",
+"listLevel": 4
+},
+{
+"title": "Summon Spirit - Wu Jen (Wizard Spell)",
+"name": "Summon Spirit - Wu Jen",
+"listLevel": 9
+},
+{
+"title": "Summon Swarm (Wizard Spell)",
+"name": "Summon Swarm",
+"listLevel": 2
+},
+{
+"title": "Summon Wind (Wizard Spell)",
+"name": "Summon Wind",
+"listLevel": 7
+},
+{
+"title": "Summon Wind Dragons (Wizard Spell)",
+"name": "Summon Wind Dragons",
+"listLevel": 6
+},
+{
+"title": "Summoning Wind (Wizard Spell)",
+"name": "Summoning Wind",
+"listLevel": 8
+},
+{
+"title": "Sun Stone (Wizard Spell)",
+"name": "Sun Stone",
+"listLevel": 7
+},
+{
+"title": "Sunburst - Lvl 4 (Wizard Spell)",
+"name": "Sunburst - Lvl 4",
+"listLevel": 4
+},
+{
+"title": "Sunburst - Lvl 8 (Wizard Spell)",
+"name": "Sunburst - Lvl 8",
+"listLevel": 8
+},
+{
+"title": "Sundazzle (Wizard Spell)",
+"name": "Sundazzle",
+"listLevel": 2
+},
+{
+"title": "Sunfire - At'ar's Fire (Wizard Spell)",
+"name": "Sunfire - At'ar's Fire",
+"listLevel": 4
+},
+{
+"title": "Sunflare (Wizard Spell)",
+"name": "Sunflare",
+"listLevel": 8
+},
+{
+"title": "Sungate (Wizard Spell)",
+"name": "Sungate",
+"listLevel": 9
+},
+{
+"title": "Sunscorch (Wizard Spell)",
+"name": "Sunscorch",
+"listLevel": 3
+},
+{
+"title": "Sunscream (Wizard Spell)",
+"name": "Sunscream",
+"listLevel": 9
+},
+{
+"title": "Sunshield (Wizard Spell)",
+"name": "Sunshield",
+"listLevel": 9
+},
+{
+"title": "Sunstrike (Wizard Spell)",
+"name": "Sunstrike",
+"listLevel": 8
+},
+{
+"title": "Sunwarp (Wizard Spell)",
+"name": "Sunwarp",
+"listLevel": 4
+},
+{
+"title": "Superior Magnetism (Wizard Spell)",
+"name": "Superior Magnetism",
+"listLevel": 6
+},
+{
+"title": "Suppress Blood Ability (Wizard Spell)",
+"name": "Suppress Blood Ability",
+"listLevel": 3
+},
+{
+"title": "Suppress Bloodline (Wizard Spell)",
+"name": "Suppress Bloodline",
+"listLevel": 6
+},
+{
+"title": "Suppress Lycanthropy (Wizard Spell)",
+"name": "Suppress Lycanthropy",
+"listLevel": 4
+},
+{
+"title": "Surelife (Wizard Spell)",
+"name": "Surelife",
+"listLevel": 8
+},
+{
+"title": "Suric's Swift Perusal (Wizard Spell)",
+"name": "Suric's Swift Perusal",
+"listLevel": 1
+},
+{
+"title": "Suspension (Wizard Spell)",
+"name": "Suspension",
+"listLevel": 5
+},
+{
+"title": "Sustain Fire (Wizard Spell)",
+"name": "Sustain Fire",
+"listLevel": 1
+},
+{
+"title": "Swim (Wizard Spell)",
+"name": "Swim",
+"listLevel": 1
+},
+{
+"title": "Sword of Darkness (Wizard Spell)",
+"name": "Sword of Darkness",
+"listLevel": 6
+},
+{
+"title": "Sword of Deception (Wizard Spell)",
+"name": "Sword of Deception",
+"listLevel": 5
+},
+{
+"title": "Swordshun (Wizard Spell)",
+"name": "Swordshun",
+"listLevel": 4
+},
+{
+"title": "Syluné's Absolute Immunity (Wizard Spell)",
+"name": "Syluné's Absolute Immunity",
+"listLevel": 8
+},
+{
+"title": "Syluné's Secret (Wizard Spell)",
+"name": "Syluné's Secret",
+"listLevel": 7
+},
+{
+"title": "Syluné's Streaking Meteor (Wizard Spell)",
+"name": "Syluné's Streaking Meteor",
+"listLevel": 7
+},
+{
+"title": "Syluné's Viper (Wizard Spell)",
+"name": "Syluné's Viper",
+"listLevel": 3
+},
+{
+"title": "Symbol (Wizard Spell)",
+"name": "Symbol",
+"listLevel": 8
+},
+{
+"title": "Tasha's Uncontrollable Hideous Laughter (Wizard Spell)",
+"name": "Tasha's Uncontrollable Hideous Laughter",
+"listLevel": 2
+},
+{
+"title": "Tasirin's Haunted Sleep (Wizard Spell)",
+"name": "Tasirin's Haunted Sleep",
+"listLevel": 3
+},
+{
+"title": "Tasso's Shriek (Wizard Spell)",
+"name": "Tasso's Shriek",
+"listLevel": 1
+},
+{
+"title": "Tattoo of Power (Wizard Spell)",
+"name": "Tattoo of Power",
+"listLevel": 6
+},
+{
+"title": "Taunt (Wizard Spell)",
+"name": "Taunt",
+"listLevel": 1
+},
+{
+"title": "Telekinesis (Wizard Spell)",
+"name": "Telekinesis",
+"listLevel": 5
+},
+{
+"title": "Teleport (Wizard Spell)",
+"name": "Teleport",
+"listLevel": 5
+},
+{
+"title": "Teleport Block (Wizard Spell)",
+"name": "Teleport Block",
+"listLevel": 8
+},
+{
+"title": "Teleport Dead (Wizard Spell)",
+"name": "Teleport Dead",
+"listLevel": 6
+},
+{
+"title": "Teleport Object (Wizard Spell)",
+"name": "Teleport Object",
+"listLevel": 3
+},
+{
+"title": "Teleport Other (Wizard Spell)",
+"name": "Teleport Other",
+"listLevel": 6
+},
+{
+"title": "Teleport Without Error (Wizard Spell)",
+"name": "Teleport Without Error",
+"listLevel": 7
+},
+{
+"title": "Tempestcone (Wizard Spell)",
+"name": "Tempestcone",
+"listLevel": 9
+},
+{
+"title": "Temporal Eye (Wizard Spell)",
+"name": "Temporal Eye",
+"listLevel": 7
+},
+{
+"title": "Temporal Freedom (Wizard Spell)",
+"name": "Temporal Freedom",
+"listLevel": 8
+},
+{
+"title": "Temporal Push (Wizard Spell)",
+"name": "Temporal Push",
+"listLevel": 4
+},
+{
+"title": "Temporal Shell (Wizard Spell)",
+"name": "Temporal Shell",
+"listLevel": 9
+},
+{
+"title": "Temporal Stasis (Wizard Spell)",
+"name": "Temporal Stasis",
+"listLevel": 9
+},
+{
+"title": "Temporal Wall (Wizard Spell)",
+"name": "Temporal Wall",
+"listLevel": 5
+},
+{
+"title": "Temporary Resurrection (Wizard Spell)",
+"name": "Temporary Resurrection",
+"listLevel": 8
+},
+{
+"title": "Tempus Fugit (Wizard Spell)",
+"name": "Tempus Fugit",
+"listLevel": 5
+},
+{
+"title": "Tenser's Brawl (Wizard Spell)",
+"name": "Tenser's Brawl",
+"listLevel": 2
+},
+{
+"title": "Tenser's Deadly Strike (Wizard Spell)",
+"name": "Tenser's Deadly Strike",
+"listLevel": 3
+},
+{
+"title": "Tenser's Destructive Resonance (Wizard Spell)",
+"name": "Tenser's Destructive Resonance",
+"listLevel": 5
+},
+{
+"title": "Tenser's Eye of the Eagle (Wizard Spell)",
+"name": "Tenser's Eye of the Eagle",
+"listLevel": 3
+},
+{
+"title": "Tenser's Eye of the Tiger (Wizard Spell)",
+"name": "Tenser's Eye of the Tiger",
+"listLevel": 1
+},
+{
+"title": "Tenser's Flaming Blade (Wizard Spell)",
+"name": "Tenser's Flaming Blade",
+"listLevel": 4
+},
+{
+"title": "Tenser's Floating Disc (Wizard Spell)",
+"name": "Tenser's Floating Disc",
+"listLevel": 1
+},
+{
+"title": "Tenser's Fortunes of War (Wizard Spell)",
+"name": "Tenser's Fortunes of War",
+"listLevel": 6
+},
+{
+"title": "Tenser's Giant Strength (Wizard Spell)",
+"name": "Tenser's Giant Strength",
+"listLevel": 4
+},
+{
+"title": "Tenser's Hunting Hawk (Wizard Spell)",
+"name": "Tenser's Hunting Hawk",
+"listLevel": 2
+},
+{
+"title": "Tenser's Master of Arms (Wizard Spell)",
+"name": "Tenser's Master of Arms",
+"listLevel": 4
+},
+{
+"title": "Tenser's Primal Fury (Wizard Spell)",
+"name": "Tenser's Primal Fury",
+"listLevel": 5
+},
+{
+"title": "Tenser's Running Warrior (Wizard Spell)",
+"name": "Tenser's Running Warrior",
+"listLevel": 4
+},
+{
+"title": "Tenser's Staff of Smiting (Wizard Spell)",
+"name": "Tenser's Staff of Smiting",
+"listLevel": 4
+},
+{
+"title": "Tenser's Steady Aim (Wizard Spell)",
+"name": "Tenser's Steady Aim",
+"listLevel": 1
+},
+{
+"title": "Tenser's Transformation (Wizard Spell)",
+"name": "Tenser's Transformation",
+"listLevel": 6
+},
+{
+"title": "Tentacles (Wizard Spell)",
+"name": "Tentacles",
+"listLevel": 6
+},
+{
+"title": "Thiondar's Permanent Anti-Magic Field (Wizard Spell)",
+"name": "Thiondar's Permanent Anti-Magic Field",
+"listLevel": 9
+},
+{
+"title": "Thornbush Arrows (Wizard Spell)",
+"name": "Thornbush Arrows",
+"listLevel": 5
+},
+{
+"title": "Threestones (Wizard Spell)",
+"name": "Threestones",
+"listLevel": 2
+},
+{
+"title": "Throbbing Bones (Wizard Spell)",
+"name": "Throbbing Bones",
+"listLevel": 5
+},
+{
+"title": "Thultaun's Thrust (Wizard Spell)",
+"name": "Thultaun's Thrust",
+"listLevel": 5
+},
+{
+"title": "Thump (Wizard Spell)",
+"name": "Thump",
+"listLevel": 2
+},
+{
+"title": "Thundaerl's Universal Taster (Wizard Spell)",
+"name": "Thundaerl's Universal Taster",
+"listLevel": 2
+},
+{
+"title": "Thunder Staff (Wizard Spell)",
+"name": "Thunder Staff",
+"listLevel": 4
+},
+{
+"title": "Thunderlance (Wizard Spell)",
+"name": "Thunderlance",
+"listLevel": 4
+},
+{
+"title": "Thunguul's Preservation (Wizard Spell)",
+"name": "Thunguul's Preservation",
+"listLevel": 5
+},
+{
+"title": "Tidal Wave (Wizard Spell)",
+"name": "Tidal Wave",
+"listLevel": 9
+},
+{
+"title": "Time Snare (Wizard Spell)",
+"name": "Time Snare",
+"listLevel": 3
+},
+{
+"title": "Time Stop (Wizard Spell)",
+"name": "Time Stop",
+"listLevel": 9
+},
+{
+"title": "Timed Stasis (Wizard Spell)",
+"name": "Timed Stasis",
+"listLevel": 7
+},
+{
+"title": "Timeheal (Wizard Spell)",
+"name": "Timeheal",
+"listLevel": 4
+},
+{
+"title": "Timereaver (Wizard Spell)",
+"name": "Timereaver",
+"listLevel": 8
+},
+{
+"title": "Timeslip (Wizard Spell)",
+"name": "Timeslip",
+"listLevel": 2
+},
+{
+"title": "Tipple (Wizard Spell)",
+"name": "Tipple",
+"listLevel": 1
+},
+{
+"title": "Tobian's Ultimate Circle (Wizard Spell)",
+"name": "Tobian's Ultimate Circle",
+"listLevel": 9
+},
+{
+"title": "Tongues (Wizard Spell)",
+"name": "Tongues",
+"listLevel": 3
+},
+{
+"title": "Tool (Wizard Spell)",
+"name": "Tool",
+"listLevel": 7
+},
+{
+"title": "Torment (Wizard Spell)",
+"name": "Torment",
+"listLevel": 7
+},
+{
+"title": "Tower of Mental Resistance (Wizard Spell)",
+"name": "Tower of Mental Resistance",
+"listLevel": 6
+},
+{
+"title": "Traceless Travel (Wizard Spell)",
+"name": "Traceless Travel",
+"listLevel": 1
+},
+{
+"title": "Transfix (Wizard Spell)",
+"name": "Transfix",
+"listLevel": 4
+},
+{
+"title": "Transforming Tune (Wizard Spell)",
+"name": "Transforming Tune",
+"listLevel": 9
+},
+{
+"title": "Translocation Shift (Wizard Spell)",
+"name": "Translocation Shift",
+"listLevel": 7
+},
+{
+"title": "Transmute Bone to Steel (Wizard Spell)",
+"name": "Transmute Bone to Steel",
+"listLevel": 6
+},
+{
+"title": "Transmute Rock to Mud (Wizard Spell)",
+"name": "Transmute Rock to Mud",
+"listLevel": 5
+},
+{
+"title": "Transmute Sand to Stone (Wizard Spell)",
+"name": "Transmute Sand to Stone",
+"listLevel": 4
+},
+{
+"title": "Transmute Snow to Stone (Wizard Spell)",
+"name": "Transmute Snow to Stone",
+"listLevel": 5
+},
+{
+"title": "Transmute Water to Dust (Wizard Spell)",
+"name": "Transmute Water to Dust",
+"listLevel": 6
+},
+{
+"title": "Transport (Wizard Spell)",
+"name": "Transport",
+"listLevel": 8
+},
+{
+"title": "Trap the Soul (Wizard Spell)",
+"name": "Trap the Soul",
+"listLevel": 8
+},
+{
+"title": "Trembling Horn (Wizard Spell)",
+"name": "Trembling Horn",
+"listLevel": 1
+},
+{
+"title": "Triad Gem (Wizard Spell)",
+"name": "Triad Gem",
+"listLevel": 9
+},
+{
+"title": "Troll Repellent (Wizard Spell)",
+"name": "Troll Repellent",
+"listLevel": 1
+},
+{
+"title": "Trollish Fortitude (Wizard Spell)",
+"name": "Trollish Fortitude",
+"listLevel": 6
+},
+{
+"title": "True Bearing (Wizard Spell)",
+"name": "True Bearing",
+"listLevel": 2
+},
+{
+"title": "True Dream (Wizard Spell)",
+"name": "True Dream",
+"listLevel": 4
+},
+{
+"title": "True Name (Wizard Spell)",
+"name": "True Name",
+"listLevel": 7
+},
+{
+"title": "True Nightmare (Wizard Spell)",
+"name": "True Nightmare",
+"listLevel": 4
+},
+{
+"title": "True Seeing (Wizard Spell)",
+"name": "True Seeing",
+"listLevel": 6
+},
+{
+"title": "Tsunami (Wizard Spell)",
+"name": "Tsunami",
+"listLevel": 9
+},
+{
+"title": "Tulrun's Tracer (Wizard Spell)",
+"name": "Tulrun's Tracer",
+"listLevel": 4
+},
+{
+"title": "Tunnel Vision (Wizard Spell)",
+"name": "Tunnel Vision",
+"listLevel": 2
+},
+{
+"title": "Turn Pebble to Boulder (Wizard Spell)",
+"name": "Turn Pebble to Boulder",
+"listLevel": 4
+},
+{
+"title": "Turnshadow (Wizard Spell)",
+"name": "Turnshadow",
+"listLevel": 6
+},
+{
+"title": "Turtle Soup (Wizard Spell)",
+"name": "Turtle Soup",
+"listLevel": 1
+},
+{
+"title": "Tymessul's Cerulean Traverse (Wizard Spell)",
+"name": "Tymessul's Cerulean Traverse",
+"listLevel": 9
+},
+{
+"title": "Tymessul's Planar Pacifier (Wizard Spell)",
+"name": "Tymessul's Planar Pacifier",
+"listLevel": 7
+},
+{
+"title": "Tymessul's Improved Planar Pacifier (Wizard Spell)",
+"name": "Tymessul's Improved Planar Pacifier",
+"listLevel": 9
+},
+{
+"title": "Tyranteyes (Wizard Spell)",
+"name": "Tyranteyes",
+"listLevel": 9
+},
+{
+"title": "Ultravision (Wizard Spell)",
+"name": "Ultravision",
+"listLevel": 4
+},
+{
+"title": "Unbinding (Wizard Spell)",
+"name": "Unbinding",
+"listLevel": 9
+},
+{
+"title": "Unburn (Wizard Spell)",
+"name": "Unburn",
+"listLevel": 4
+},
+{
+"title": "Undead Aides (Wizard Spell)",
+"name": "Undead Aides",
+"listLevel": 8
+},
+{
+"title": "Undead Control (Wizard Spell)",
+"name": "Undead Control",
+"listLevel": 3
+},
+{
+"title": "Undead Creation (Wizard Spell)",
+"name": "Undead Creation",
+"listLevel": 9
+},
+{
+"title": "Undead Familiar (Wizard Spell)",
+"name": "Undead Familiar",
+"listLevel": 5
+},
+{
+"title": "Undead Master (Wizard Spell)",
+"name": "Undead Master",
+"listLevel": 9
+},
+{
+"title": "Undead Mount (Wizard Spell)",
+"name": "Undead Mount",
+"listLevel": 2
+},
+{
+"title": "Undead Regeneration (Wizard Spell)",
+"name": "Undead Regeneration",
+"listLevel": 6
+},
+{
+"title": "Undead Servant (Wizard Spell)",
+"name": "Undead Servant",
+"listLevel": 1
+},
+{
+"title": "Undead Summoning I (Wizard Spell)",
+"name": "Undead Summoning I",
+"listLevel": 3
+},
+{
+"title": "Undead Summoning II (Wizard Spell)",
+"name": "Undead Summoning II",
+"listLevel": 4
+},
+{
+"title": "Undead Summoning III (Wizard Spell)",
+"name": "Undead Summoning III",
+"listLevel": 5
+},
+{
+"title": "Undead Summoning IV (Wizard Spell)",
+"name": "Undead Summoning IV",
+"listLevel": 6
+},
+{
+"title": "Undead Summoning V (Wizard Spell)",
+"name": "Undead Summoning V",
+"listLevel": 7
+},
+{
+"title": "Undead Summoning VI (Wizard Spell)",
+"name": "Undead Summoning VI",
+"listLevel": 8
+},
+{
+"title": "Undead Summoning VII (Wizard Spell)",
+"name": "Undead Summoning VII",
+"listLevel": 9
+},
+{
+"title": "Unleash Monolith (Wizard Spell)",
+"name": "Unleash Monolith",
+"listLevel": 8
+},
+{
+"title": "Unmask (Wizard Spell)",
+"name": "Unmask",
+"listLevel": 3
+},
+{
+"title": "Unpickable Lock (Wizard Spell)",
+"name": "Unpickable Lock",
+"listLevel": 2
+},
+{
+"title": "Unseen Servant (Wizard Spell)",
+"name": "Unseen Servant",
+"listLevel": 1
+},
+{
+"title": "Vacancy (Wizard Spell)",
+"name": "Vacancy",
+"listLevel": 4
+},
+{
+"title": "Valiancy (Wizard Spell)",
+"name": "Valiancy",
+"listLevel": 5
+},
+{
+"title": "Vampire Dagger (Wizard Spell)",
+"name": "Vampire Dagger",
+"listLevel": 6
+},
+{
+"title": "Vampire Mist (Wizard Spell)",
+"name": "Vampire Mist",
+"listLevel": 4
+},
+{
+"title": "Vampiric Touch (Wizard Spell)",
+"name": "Vampiric Touch",
+"listLevel": 3
+},
+{
+"title": "Vampiric Youthfulness (Wizard Spell)",
+"name": "Vampiric Youthfulness",
+"listLevel": 9
+},
+{
+"title": "Vanish (Wizard Spell)",
+"name": "Vanish",
+"listLevel": 7
+},
+{
+"title": "Veil (Wizard Spell)",
+"name": "Veil",
+"listLevel": 6
+},
+{
+"title": "Vengeance (Wizard Spell)",
+"name": "Vengeance",
+"listLevel": 4
+},
+{
+"title": "Ventriloquism (Wizard Spell)",
+"name": "Ventriloquism",
+"listLevel": 1
+},
+{
+"title": "Vessel (Wizard Spell)",
+"name": "Vessel",
+"listLevel": 6
+},
+{
+"title": "Vile Venom (Wizard Spell)",
+"name": "Vile Venom",
+"listLevel": 5
+},
+{
+"title": "Vipergout (Wizard Spell)",
+"name": "Vipergout",
+"listLevel": 7
+},
+{
+"title": "Virus Charm (Wizard Spell)",
+"name": "Virus Charm",
+"listLevel": 9
+},
+{
+"title": "Vision (Wizard Spell)",
+"name": "Vision",
+"listLevel": 7
+},
+{
+"title": "Vision Crystal (Wizard Spell)",
+"name": "Vision Crystal",
+"listLevel": 7
+},
+{
+"title": "Vision Stone (Wizard Spell)",
+"name": "Vision Stone",
+"listLevel": 4
+},
+{
+"title": "Vitriolic Sphere (Wizard Spell)",
+"name": "Vitriolic Sphere",
+"listLevel": 4
+},
+{
+"title": "Vocalize (Wizard Spell)",
+"name": "Vocalize",
+"listLevel": 2
+},
+{
+"title": "Von Gasik's Refusal (Wizard Spell)",
+"name": "Von Gasik's Refusal",
+"listLevel": 5
+},
+{
+"title": "Wail of the Banshee (Wizard Spell)",
+"name": "Wail of the Banshee",
+"listLevel": 9
+},
+{
+"title": "Wakefulness (Wizard Spell)",
+"name": "Wakefulness",
+"listLevel": 2
+},
+{
+"title": "Wall Against Noise (Wizard Spell)",
+"name": "Wall Against Noise",
+"listLevel": 2
+},
+{
+"title": "Wall of Bones (Wizard Spell)",
+"name": "Wall of Bones",
+"listLevel": 5
+},
+{
+"title": "Wall of Evil (Wizard Spell)",
+"name": "Wall of Evil",
+"listLevel": 4
+},
+{
+"title": "Wall of Fire (Wizard Spell)",
+"name": "Wall of Fire",
+"listLevel": 4
+},
+{
+"title": "Wall of Fog (Wizard Spell)",
+"name": "Wall of Fog",
+"listLevel": 1
+},
+{
+"title": "Wall of Force (Wizard Spell)",
+"name": "Wall of Force",
+"listLevel": 5
+},
+{
+"title": "Wall of Gloom (Wizard Spell)",
+"name": "Wall of Gloom",
+"listLevel": 2
+},
+{
+"title": "Wall of Ice (Wizard Spell)",
+"name": "Wall of Ice",
+"listLevel": 4
+},
+{
+"title": "Wall of Iron (Wizard Spell)",
+"name": "Wall of Iron",
+"listLevel": 5
+},
+{
+"title": "Wall of Paper (Wizard Spell)",
+"name": "Wall of Paper",
+"listLevel": 3
+},
+{
+"title": "Wall of Sand (Wizard Spell)",
+"name": "Wall of Sand",
+"listLevel": 4
+},
+{
+"title": "Wall of Stone (Wizard Spell)",
+"name": "Wall of Stone",
+"listLevel": 5
+},
+{
+"title": "Wall of Water (Wizard Spell)",
+"name": "Wall of Water",
+"listLevel": 3
+},
+{
+"title": "Wall with No Doors (Wizard Spell)",
+"name": "Wall with No Doors",
+"listLevel": 6
+},
+{
+"title": "Wandbane (Wizard Spell)",
+"name": "Wandbane",
+"listLevel": 1
+},
+{
+"title": "Wandweird (Wizard Spell)",
+"name": "Wandweird",
+"listLevel": 7
+},
+{
+"title": "Ward - Old Empire (Wizard Spell)",
+"name": "Ward - Old Empire",
+"listLevel": 1
+},
+{
+"title": "Ward Against Charms (Wizard Spell)",
+"name": "Ward Against Charms",
+"listLevel": 4
+},
+{
+"title": "Ward Against Undead (Wizard Spell)",
+"name": "Ward Against Undead",
+"listLevel": 3
+},
+{
+"title": "Wardaway (Wizard Spell)",
+"name": "Wardaway",
+"listLevel": 1
+},
+{
+"title": "Wardmist (Wizard Spell)",
+"name": "Wardmist",
+"listLevel": 7
+},
+{
+"title": "Warp Sense (Wizard Spell)",
+"name": "Warp Sense",
+"listLevel": 2
+},
+{
+"title": "Warp Stone (Wizard Spell)",
+"name": "Warp Stone",
+"listLevel": 6
+},
+{
+"title": "Warp Wood (Wizard Spell)",
+"name": "Warp Wood",
+"listLevel": 1
+},
+{
+"title": "Wasting (Wizard Spell)",
+"name": "Wasting",
+"listLevel": 8
+},
+{
+"title": "Watchful Eye (Wizard Spell)",
+"name": "Watchful Eye",
+"listLevel": 7
+},
+{
+"title": "Watchware (Wizard Spell)",
+"name": "Watchware",
+"listLevel": 4
+},
+{
+"title": "Watchware, 30' Radius (Wizard Spell)",
+"name": "Watchware, 30' Radius",
+"listLevel": 6
+},
+{
+"title": "Water Blast (Wizard Spell)",
+"name": "Water Blast",
+"listLevel": 5
+},
+{
+"title": "Water Bomb (Wizard Spell)",
+"name": "Water Bomb",
+"listLevel": 5
+},
+{
+"title": "Water Breathing (Wizard Spell)",
+"name": "Water Breathing",
+"listLevel": 3
+},
+{
+"title": "Water Form (Wizard Spell)",
+"name": "Water Form",
+"listLevel": 7
+},
+{
+"title": "Water Protection (Wizard Spell)",
+"name": "Water Protection",
+"listLevel": 1
+},
+{
+"title": "Water to Poison (Wizard Spell)",
+"name": "Water to Poison",
+"listLevel": 5
+},
+{
+"title": "Waterbane (Wizard Spell)",
+"name": "Waterbane",
+"listLevel": 1
+},
+{
+"title": "Waterspout (Wizard Spell)",
+"name": "Waterspout",
+"listLevel": 8
+},
+{
+"title": "Watery Double (Wizard Spell)",
+"name": "Watery Double",
+"listLevel": 3
+},
+{
+"title": "Watery Form (Wizard Spell)",
+"name": "Watery Form",
+"listLevel": 3
+},
+{
+"title": "Wave of Death (Wizard Spell)",
+"name": "Wave of Death",
+"listLevel": 8
+},
+{
+"title": "Waves of Sand (Wizard Spell)",
+"name": "Waves of Sand",
+"listLevel": 5
+},
+{
+"title": "Waves of Weariness - Lvl 2 (Wizard Spell)",
+"name": "Waves of Weariness - Lvl 2",
+"listLevel": 2
+},
+{
+"title": "Weapon Proficiency (Wizard Spell)",
+"name": "Weapon Proficiency",
+"listLevel": 3
+},
+{
+"title": "Weapon Return (Wizard Spell)",
+"name": "Weapon Return",
+"listLevel": 6
+},
+{
+"title": "Weathertell (Wizard Spell)",
+"name": "Weathertell",
+"listLevel": 1
+},
+{
+"title": "Weave Mythal (Wizard Spell)",
+"name": "Weave Mythal",
+"listLevel": 4
+},
+{
+"title": "Web (Wizard Spell)",
+"name": "Web",
+"listLevel": 2
+},
+{
+"title": "Web of Lightning (Wizard Spell)",
+"name": "Web of Lightning",
+"listLevel": 8
+},
+{
+"title": "Weird (Wizard Spell)",
+"name": "Weird",
+"listLevel": 9
+},
+{
+"title": "Wesley's Delayed Damage (Wizard Spell)",
+"name": "Wesley's Delayed Damage",
+"listLevel": 7
+},
+{
+"title": "Wesley's Temporal Disjunction (Wizard Spell)",
+"name": "Wesley's Temporal Disjunction",
+"listLevel": 4
+},
+{
+"title": "Whip (Wizard Spell)",
+"name": "Whip",
+"listLevel": 2
+},
+{
+"title": "Whip of Pain (Wizard Spell)",
+"name": "Whip of Pain",
+"listLevel": 3
+},
+{
+"title": "Whirling Blade (Wizard Spell)",
+"name": "Whirling Blade",
+"listLevel": 2
+},
+{
+"title": "Whirlpool (Wizard Spell)",
+"name": "Whirlpool",
+"listLevel": 7
+},
+{
+"title": "Whirlwind (Wizard Spell)",
+"name": "Whirlwind",
+"listLevel": 8
+},
+{
+"title": "Whisper Blade (Wizard Spell)",
+"name": "Whisper Blade",
+"listLevel": 4
+},
+{
+"title": "Whispering Sand (Wizard Spell)",
+"name": "Whispering Sand",
+"listLevel": 3
+},
+{
+"title": "Whispering Tide (Wizard Spell)",
+"name": "Whispering Tide",
+"listLevel": 2
+},
+{
+"title": "Whispering Wind (Wizard Spell)",
+"name": "Whispering Wind",
+"listLevel": 2
+},
+{
+"title": "Wind Blade (Wizard Spell)",
+"name": "Wind Blade",
+"listLevel": 4
+},
+{
+"title": "Wind Breath (Wizard Spell)",
+"name": "Wind Breath",
+"listLevel": 4
+},
+{
+"title": "Wind Carpet (Wizard Spell)",
+"name": "Wind Carpet",
+"listLevel": 5
+},
+{
+"title": "Wind Compass (Wizard Spell)",
+"name": "Wind Compass",
+"listLevel": 1
+},
+{
+"title": "Wind Servant (Wizard Spell)",
+"name": "Wind Servant",
+"listLevel": 3
+},
+{
+"title": "Wind Shadow (Wizard Spell)",
+"name": "Wind Shadow",
+"listLevel": 3
+},
+{
+"title": "Wind Wall (Wizard Spell)",
+"name": "Wind Wall",
+"listLevel": 3
+},
+{
+"title": "Windtomb (Wizard Spell)",
+"name": "Windtomb",
+"listLevel": 9
+},
+{
+"title": "Windwar (Wizard Spell)",
+"name": "Windwar",
+"listLevel": 9
+},
+{
+"title": "Wingbind - Lvl 9 (Wizard Spell)",
+"name": "Wingbind - Lvl 9",
+"listLevel": 9
+},
+{
+"title": "Wing Gifting (Wizard Spell)",
+"name": "Wing Gifting",
+"listLevel": 7
+},
+{
+"title": "Wings (Wizard Spell)",
+"name": "Wings",
+"listLevel": 2
+},
+{
+"title": "Wish (Wizard Spell)",
+"name": "Wish",
+"listLevel": 9
+},
+{
+"title": "Witch's Banishment (Wizard Spell)",
+"name": "Witch's Banishment",
+"listLevel": 9
+},
+{
+"title": "Witch's Death Spell (Wizard Spell)",
+"name": "Witch's Death Spell",
+"listLevel": 8
+},
+{
+"title": "Withering Palm (Wizard Spell)",
+"name": "Withering Palm",
+"listLevel": 7
+},
+{
+"title": "Wizard Eye (Wizard Spell)",
+"name": "Wizard Eye",
+"listLevel": 4
+},
+{
+"title": "Wizard Lock (Wizard Spell)",
+"name": "Wizard Lock",
+"listLevel": 2
+},
+{
+"title": "Wizard Mark (Wizard Spell)",
+"name": "Wizard Mark",
+"listLevel": 1
+},
+{
+"title": "Wizard Seal (Wizard Spell)",
+"name": "Wizard Seal",
+"listLevel": 6
+},
+{
+"title": "Wizard Sight (Wizard Spell)",
+"name": "Wizard Sight",
+"listLevel": 3
+},
+{
+"title": "Wizard's Oracle (Wizard Spell)",
+"name": "Wizard's Oracle",
+"listLevel": 5
+},
+{
+"title": "Wood Rot (Wizard Spell)",
+"name": "Wood Rot",
+"listLevel": 6
+},
+{
+"title": "Wood Shape (Wizard Spell)",
+"name": "Wood Shape",
+"listLevel": 3
+},
+{
+"title": "Woodiron (Wizard Spell)",
+"name": "Woodiron",
+"listLevel": 4
+},
+{
+"title": "Words of Fire (Wizard Spell)",
+"name": "Words of Fire",
+"listLevel": 2
+},
+{
+"title": "Worldwalk (Wizard Spell)",
+"name": "Worldwalk",
+"listLevel": 9
+},
+{
+"title": "Worship (Wizard Spell)",
+"name": "Worship",
+"listLevel": 6
+},
+{
+"title": "Worship - Old Empire (Wizard Spell)",
+"name": "Worship - Old Empire",
+"listLevel": 6
+},
+{
+"title": "Wound Bind (Wizard Spell)",
+"name": "Wound Bind",
+"listLevel": 2
+},
+{
+"title": "Wound Conferral (Wizard Spell)",
+"name": "Wound Conferral",
+"listLevel": 7
+},
+{
+"title": "Wraithform (Wizard Spell)",
+"name": "Wraithform",
+"listLevel": 3
+},
+{
+"title": "Write (Wizard Spell)",
+"name": "Write",
+"listLevel": 1
+},
+{
+"title": "Wylunde's Ward (Wizard Spell)",
+"name": "Wylunde's Ward",
+"listLevel": 3
+},
+{
+"title": "X-Ray Vision (Wizard Spell)",
+"name": "X-Ray Vision",
+"listLevel": 8
+},
+{
+"title": "Xult's Magical Doom (Wizard Spell)",
+"name": "Xult's Magical Doom",
+"listLevel": 5
+},
+{
+"title": "Year Stealing (Wizard Spell)",
+"name": "Year Stealing",
+"listLevel": 8
+},
+{
+"title": "Younger (Wizard Spell)",
+"name": "Younger",
+"listLevel": 7
+},
+{
+"title": "Zala's Amberhelm (Wizard Spell)",
+"name": "Zala's Amberhelm",
+"listLevel": 4
+},
+{
+"title": "Zala's Deception (Wizard Spell)",
+"name": "Zala's Deception",
+"listLevel": 5
+},
+{
+"title": "Zala's Disruption (Wizard Spell)",
+"name": "Zala's Disruption",
+"listLevel": 6
+},
+{
+"title": "Zala's Forcebuckler (Wizard Spell)",
+"name": "Zala's Forcebuckler",
+"listLevel": 3
+},
+{
+"title": "Zala's Icejacket (Wizard Spell)",
+"name": "Zala's Icejacket",
+"listLevel": 1
+},
+{
+"title": "Zala's Lifeforce Guardian (Wizard Spell)",
+"name": "Zala's Lifeforce Guardian",
+"listLevel": 2
+},
+{
+"title": "Zephyr (Wizard Spell)",
+"name": "Zephyr",
+"listLevel": 2
+},
+{
+"title": "Zikalan Fireform (Wizard Spell)",
+"name": "Zikalan Fireform",
+"listLevel": 3
+},
+{
+"title": "Zombie Animation (Wizard Spell)",
+"name": "Zombie Animation",
+"listLevel": 3
+},
+{
+"title": "Zombie Double (Wizard Spell)",
+"name": "Zombie Double",
+"listLevel": 7
+},
+{
+"title": "Zone of Despair (Wizard Spell)",
+"name": "Zone of Despair",
+"listLevel": 5
+}
+]

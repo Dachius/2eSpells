@@ -1,12 +1,26 @@
 // Make table
-var table;
-spellTable();
-async function spellTable() {
+let spells = [];
+
+const spellTable = document.getElementById("spell-list");
+const spellTableHeader = document.createElement("thead");
+
+// Refresh table on filter
+function renderTable() {
+  // TODO: Delete all rows in the table
+
+  // TODO: Add rows back to the table
+  spells.forEach((spell) => {
+    // Filter and organize the spell list and append passing rows in order
+  });
+}
+
+loadSpells();
+async function loadSpells() {
   let wizardData = await (await fetch("json/wizard.json")).json();
   let clericData = await (await fetch("json/cleric.json")).json();
 
-  // Determines default sort (i.e. initial sort and base for header sorts)
-  let jsonData = wizardData.concat(clericData).sort(function (a, b) {
+  // Default spell ordering
+  spells = wizardData.concat(clericData).sort(function (a, b) {
     if (a.level != b.level) {
       return a.level - b.level;
     } else if (a.name != b.name) {
@@ -18,37 +32,44 @@ async function spellTable() {
     }
   });
 
-  table = new Tabulator("#list", {
-    data: jsonData, // Assign data to table
-    height: "100%",
-    layout: "fitData",
-    columns: [
-      { title: "Lvl", field: "level", sorter: "number" },
-      { title: "Name", field: "name", sorter: "alphanum" },
-      { title: "School", field: "school", sorter: "alphanum" },
-      { title: "Class", field: "class", sorter: "alphanum" },
-    ],
+  // Make the rows and attach them to the spell objects
+  const spellTableColumns = ["level", "name", "school", "class"];
+
+  spells.forEach((spell) => {
+    const spellRow = document.createElement("tr");
+    spellTableColumns.forEach((key) => {
+      const cell = document.createElement("td");
+      cell.textContent = spell[key];
+      spellRow.append(cell);
+    });
+
+    spell.row = spellRow;
   });
 
-  table.on("rowClick", function (e, row) {
+  // TODO: migrate this
+  spellTable.addEventListener("click", function (e) {
+    const row = e.target.closest("tr");
     drawInfoBox(e, row);
   });
+
+  renderTable(); // Initial render
 }
 
 // Draw info box
 function drawInfoBox(e, row) {
-  var spacing = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
-  var data = row.getData();
+  let spacing = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+  let data = row.getData();
 
-  document.getElementById("Name").innerHTML = data.name;
-  document.getElementById("Source").innerHTML = "[" + data.source + "]";
+  document.getElementById("spell-info-name").innerHTML = data.name;
+  document.getElementById("spell-info-source").innerHTML =
+    "[" + data.source + "]";
 
   // Level, School, Sphere
-  var sphereString = "";
-  var spheres = data.spheres;
+  let sphereString = "";
+  let spheres = data.spheres;
   if (spheres != null) {
     sphereString += " [";
-    for (var i = 0; i < spheres.length - 1; i++) {
+    for (let i = 0; i < spheres.length - 1; i++) {
       sphereString += spheres[i] + ", ";
     }
     sphereString += spheres[spheres.length - 1] + "]";
@@ -68,7 +89,7 @@ function drawInfoBox(e, row) {
     "<strong>Save:</strong> " + data.save;
 
   // Components
-  var componentString = "<strong>Components:</strong> ";
+  let componentString = "<strong>Components:</strong> ";
   if (data.verbal) {
     componentString += "V";
     if (data.somatic || data.material) {
@@ -95,18 +116,18 @@ function drawInfoBox(e, row) {
     "<strong>Duration:</strong> " + data.duration;
 
   // Description
-  description = document.getElementById("Description");
+  let description = document.getElementById("Description");
   description.style.borderTop = "2px solid #d29a38";
   description.innerText = data.description;
 
   // Errata/Rulings
   if (data.errata != null) {
-    errata = document.getElementById("Errata");
+    let errata = document.getElementById("Errata");
     errata.style.borderTop = "2px solid #d29a38";
     errata.innerHTML =
       "<strong>Errata: </strong> " + data.errata.replaceAll("\n", "<br>");
   } else {
-    errata = document.getElementById("Errata");
+    let errata = document.getElementById("Errata");
     errata.style.borderTop = null;
     errata.innerText = null;
   }
@@ -122,27 +143,20 @@ function mod(n, m) {
 // Add button to element.
 function appendButton(base, type, text) {
   const button = document.createElement("button");
-  button.appendChild(document.createTextNode(text));
+  button.append(document.createTextNode(text));
   button.id = text;
   button.classList.add(type);
   button.classList.add("styledButton");
-  base.appendChild(button);
+  base.append(button);
 
   return button;
 }
 
-// Add cell to row.
-function appendCell(row, type, text) {
-  const td = row.insertCell();
-  td.classList.add(type);
-  td.appendChild(document.createTextNode(text));
-}
-
 // Gray/Blue/Red colors
-var buttonColors = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(138, 26, 27)"];
+let buttonColors = ["rgb(24, 26, 27)", "rgb(51, 122, 183)", "rgb(138, 26, 27)"];
 
 // Sphere Gray/Light-Blue/Blue colors
-var sphereColors = [
+let sphereColors = [
   "rgb(24, 26, 27)",
   "rgb(51, 122, 183)",
   "rgb(147, 168, 184)",
@@ -152,8 +166,8 @@ var sphereColors = [
 document.getElementById("name-filter").addEventListener("keyup", updateFilter);
 
 // Class button listeners
-var classButtons = document.getElementsByClassName("classButton");
-for (var i = 0; i < classButtons.length; i++) {
+let classButtons = document.getElementsByClassName("classButton");
+for (let i = 0; i < classButtons.length; i++) {
   classButtons[i].addEventListener("click", function () {
     leftClickBinary(this);
   });
@@ -163,8 +177,8 @@ for (var i = 0; i < classButtons.length; i++) {
 }
 
 // Specialist buttons
-var specialistButtons = [];
-var specialistNames = [
+let specialistButtons = [];
+let specialistNames = [
   "Abjurer",
   "Conjurer",
   "Diviner",
@@ -174,11 +188,10 @@ var specialistNames = [
   "Necromancer",
   "Transmuter",
 ];
-var tr = document.getElementById("specialist-table").insertRow();
-appendCell(tr, "nameCell", "Specialist");
+let row = document.getElementById("specialists");
 for (let i = 0; i < specialistNames.length; i++) {
   specialistButtons[i] = appendButton(
-    tr.insertCell(),
+    row,
     "specialistButton",
     specialistNames[i],
   );
@@ -203,7 +216,7 @@ for (let i = 0; i < specialistNames.length; i++) {
 
 // 0 = don't care, 1 = include, 2 = exclude
 // Abjuration/Alteration/Conjuration/Divination/Enchantment/Evocation/Illusion/Necromancy
-var specialistFilterArray = [
+let specialistFilterArray = [
   [0, 2, 0, 0, 0, 0, 2, 0], // Abjurer
   [0, 0, 0, 2, 0, 2, 0, 0], // Conjurer
   [0, 0, 2, 0, 0, 0, 0, 0], // Diviner
@@ -215,12 +228,12 @@ var specialistFilterArray = [
 ];
 
 function specialistUpdate(element) {
-  value = element.value;
+  let value = element.value;
   clearButtons();
   setButton(element, buttonColors, value);
   setButton(classButtons[1], buttonColors, value);
 
-  var index = element.parentNode.cellIndex - 1;
+  let index = specialistNames.indexOf(element.id);
   if (value == 1) {
     for (let i = 0; i < schoolButtons.length; i++) {
       schoolButtons[i].value = specialistFilterArray[index][i];
@@ -233,16 +246,11 @@ function specialistUpdate(element) {
 }
 
 // Source buttons
-var sourceButtons = [];
-var sourceNames = ["PHB", "ToM", "S&M", "Koibu", "Divan"];
-tr = document.getElementById("source-table").insertRow();
-appendCell(tr, "nameCell", "Source");
+let sourceButtons = [];
+let sourceNames = ["PHB", "ToM", "S&M", "Koibu", "Divan"];
+row = document.getElementById("sources");
 for (let i = 0; i < sourceNames.length; i++) {
-  sourceButtons[i] = appendButton(
-    tr.insertCell(),
-    "sourceButton",
-    sourceNames[i],
-  );
+  sourceButtons[i] = appendButton(row, "sourceButton", sourceNames[i]);
 
   sourceButtons[i].addEventListener("click", function () {
     leftClickTrinary(this);
@@ -253,10 +261,10 @@ for (let i = 0; i < sourceNames.length; i++) {
 }
 
 // Level buttons
-var lvlButtons = [];
-tr = document.getElementById("lvl-table").insertRow();
+let lvlButtons = [];
+row = document.getElementById("lvls");
 for (let i = 1; i <= 9; i++) {
-  lvlButtons[i - 1] = appendButton(tr.insertCell(), "lvlButton", i);
+  lvlButtons[i - 1] = appendButton(row, "lvlButton", i);
 
   lvlButtons[i - 1].addEventListener("click", function () {
     leftClickBinary(this);
@@ -267,8 +275,8 @@ for (let i = 1; i <= 9; i++) {
 }
 
 // School buttons
-var schoolButtons = [];
-var schoolNames = [
+let schoolButtons = [];
+let schoolNames = [
   "Abjuration",
   "Alteration",
   "Conjuration",
@@ -278,14 +286,9 @@ var schoolNames = [
   "Illusion",
   "Necromancy",
 ];
-tr = document.getElementById("school-table").insertRow();
-appendCell(tr, "nameCell", "School");
+row = document.getElementById("schools");
 for (let i = 0; i < schoolNames.length; i++) {
-  schoolButtons[i] = appendButton(
-    tr.insertCell(),
-    "schoolButton",
-    schoolNames[i],
-  );
+  schoolButtons[i] = appendButton(row, "schoolButton", schoolNames[i]);
 
   schoolButtons[i].addEventListener("click", function () {
     leftClickTrinary(this);
@@ -296,7 +299,7 @@ for (let i = 0; i < schoolNames.length; i++) {
 }
 
 // Sphere buttons
-var sphereNames = [
+let sphereNames = [
   "All",
   "Animal",
   "Astral",
@@ -325,14 +328,14 @@ var sphereNames = [
   "Wards",
   "Weather",
 ];
-tr = document.getElementById("sphere-table").insertRow();
+row = document.getElementById("spheres");
 for (let i = 0; i < sphereNames.length; i++) {
-  appendButton(tr.insertCell(), "sphereButton", sphereNames[i]);
+  appendButton(row, "sphereButton", sphereNames[i]);
 }
 
 // Sphere button listeners
-var sphereButtons = document.getElementsByClassName("sphereButton");
-for (var i = 0; i < sphereButtons.length; i++) {
+let sphereButtons = document.getElementsByClassName("sphereButton");
+for (let i = 0; i < sphereButtons.length; i++) {
   sphereButtons[i].addEventListener("click", function () {
     leftClickGradient(this);
   });
@@ -342,7 +345,7 @@ for (var i = 0; i < sphereButtons.length; i++) {
 }
 
 // God buttons
-var godNames = [
+let godNames = [
   "Astair",
   "Martha",
   "Voraci",
@@ -371,22 +374,16 @@ var godNames = [
   "Velmontarious",
   "Velthara",
   "Womaatoar",
-  "Electricity",
 ];
 
-tr = document.getElementById("koibu-table").insertRow();
+row = document.getElementById("koibu-gods");
 for (let i = 0; i < 28; i++) {
-  appendButton(tr.insertCell(), "godButton", godNames[i]);
-}
-
-tr = document.getElementById("science-table").insertRow();
-for (let i = 28; i < 29; i++) {
-  appendButton(tr.insertCell(), "godButton", godNames[i]);
+  appendButton(row, "godButton", godNames[i]);
 }
 
 // God button listeners
-var godButtons = document.getElementsByClassName("godButton");
-for (var i = 0; i < godButtons.length; i++) {
+let godButtons = document.getElementsByClassName("godButton");
+for (let i = 0; i < godButtons.length; i++) {
   godButtons[i].addEventListener("click", function () {
     this.value++;
     this.value = mod(this.value, 2);
@@ -407,7 +404,7 @@ for (var i = 0; i < godButtons.length; i++) {
 
 // 0 = don't care, 1 = major, 2 = minor
 // All/Animal/Astral/Chaos/Charm/Combat/Creation/Divination/Air/Earth/Fire/Water/Guardian/Healing/Law/Necromantic/Numbers/Plant/Protection/Summoning/Sun/Thought/Time/Travelers/War/Wards/Weather
-var godFilterArray = [
+let godFilterArray = [
   [
     1, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 2, 1, 1, 2, 1, 0, 2, 2, 0, 1, 0, 0, 2,
     2, 0,
@@ -520,28 +517,17 @@ var godFilterArray = [
     1, 1, 0, 0, 1, 0, 1, 0, 2, 2, 2, 2, 0, 1, 0, 2, 0, 2, 0, 0, 1, 2, 1, 1, 0,
     1, 0,
   ], // Womaatoar
-
-  [
-    0, 0, 0, 1, 0, 1, 2, 2, 1, 1, 2, 0, 0, 2, 0, 1, 2, 0, 0, 1, 0, 0, 0, 1, 0,
-    1, 1,
-  ], // Electricity
-
-  // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Khorne
-  // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Tzeentch
-  // [1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 2, 0, 1, 0, 0, 0, 0, 1, 0, 0], // Nurgle
-  // [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], // Slaanesh -
-  // [1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 2, 0], // Emperor
 ];
 
 function godUpdate(element) {
-  value = element.value;
+  let value = element.value;
   clearButtons();
   setButton(element, buttonColors, value);
   setButton(classButtons[0], buttonColors, value);
 
-  var index = godNames.indexOf(element.id);
+  let index = godNames.indexOf(element.id);
   if (value == 1) {
-    for (var i = 0; i < sphereButtons.length; i++) {
+    for (let i = 0; i < sphereButtons.length; i++) {
       sphereButtons[i].value = godFilterArray[index][i];
       sphereButtons[i].style.backgroundColor =
         sphereColors[sphereButtons[i].value];
@@ -618,7 +604,7 @@ function rightClickGradient(e, element) {
   updateFilter();
 }
 
-// Filter stuff
+// ==== FILTER ====
 
 function updateFilter() {
   table.setFilter(customFilter);
@@ -635,7 +621,7 @@ function customFilter(data) {
 
   // Filter by class
   let passes = true;
-  for (var i = 0; i < classButtons.length; i++)
+  for (let i = 0; i < classButtons.length; i++)
     if (
       classButtons[i].value == 1 &&
       (passes = data.class == classButtons[i].id)
@@ -645,7 +631,7 @@ function customFilter(data) {
   if (!passes) return false;
 
   // Filter by source
-  for (var i = 0; i < sourceButtons.length; i++) {
+  for (let i = 0; i < sourceButtons.length; i++) {
     if (sourceButtons[i].value == 1) {
       if ((passes = data.source == sourceNames[i])) break;
     } else if (sourceButtons[i].value == 2) {
@@ -656,13 +642,13 @@ function customFilter(data) {
   if (!passes) return false;
 
   // Filter by level
-  for (var i = 0; i < lvlButtons.length; i++)
+  for (let i = 0; i < lvlButtons.length; i++)
     if (lvlButtons[i].value == 1 && (passes = data.level == i + 1)) break;
 
   if (!passes) return false;
 
   // Filter by school
-  for (var i = 0; i < schoolButtons.length; i++) {
+  for (let i = 0; i < schoolButtons.length; i++) {
     if (schoolButtons[i].value == 1) {
       if ((passes = data.school == schoolNames[i])) break;
     } else if (schoolButtons[i].value == 2) {
@@ -683,12 +669,13 @@ function customFilter(data) {
   if (!passes) return false;
 
   // Filter by sphere
-  ((passes = false), (blank = true));
-  for (var i = 0; i < sphereButtons.length; i++) {
+  passes = false;
+  let blank = true;
+  for (let i = 0; i < sphereButtons.length; i++) {
     if (sphereButtons[i].value == 1) {
       blank = false;
       if (data.spheres != null) {
-        for (var j = 0; j < data.spheres.length; j++) {
+        for (let j = 0; j < data.spheres.length; j++) {
           if (data.spheres[j] == sphereNames[i]) {
             passes = true;
           }
@@ -697,7 +684,7 @@ function customFilter(data) {
     } else if (sphereButtons[i].value == 2) {
       blank = false;
       if (data.spheres != null) {
-        for (var j = 0; j < data.spheres.length; j++) {
+        for (let j = 0; j < data.spheres.length; j++) {
           if (data.spheres[j] == sphereNames[i] && data.level <= 3) {
             passes = true;
           }
@@ -711,4 +698,3 @@ function customFilter(data) {
   // If subfilters pass, let through filter
   return true;
 }
-
