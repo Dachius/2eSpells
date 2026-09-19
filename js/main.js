@@ -2,15 +2,28 @@
 let spells = [];
 
 const spellTable = document.getElementById("spell-list");
-const spellTableHeader = document.createElement("thead");
+const thead = spellTable.createTHead();
+const tbody = spellTable.createTBody();
 
-// Refresh table on filter
+const spellTableLabels = ["Lvl", "Name", "School", "Class"];
+const spellTableColumns = ["level", "name", "school", "class"];
+
+spellTableLabels.forEach((col) => {
+  const cell = document.createElement("th");
+  cell.textContent = col;
+  thead.append(cell);
+});
+
+// Refresh table on filter changes
 function renderTable() {
-  // TODO: Delete all rows in the table
+  // Delete all rows in the table
+  tbody.replaceChildren();
 
-  // TODO: Add rows back to the table
+  // Add rows back to the table
   spells.forEach((spell) => {
-    // Filter and organize the spell list and append passing rows in order
+    if (filterSpell(spell)) {
+      tbody.append(spell.row);
+    }
   });
 }
 
@@ -33,10 +46,10 @@ async function loadSpells() {
   });
 
   // Make the rows and attach them to the spell objects
-  const spellTableColumns = ["level", "name", "school", "class"];
 
   spells.forEach((spell) => {
     const spellRow = document.createElement("tr");
+    spellRow.addEventListener("click", (e) => drawInfoBox(e, spell));
     spellTableColumns.forEach((key) => {
       const cell = document.createElement("td");
       cell.textContent = spell[key];
@@ -46,27 +59,20 @@ async function loadSpells() {
     spell.row = spellRow;
   });
 
-  // TODO: migrate this
-  spellTable.addEventListener("click", function (e) {
-    const row = e.target.closest("tr");
-    drawInfoBox(e, row);
-  });
-
   renderTable(); // Initial render
 }
 
 // Draw info box
-function drawInfoBox(e, row) {
+function drawInfoBox(e, spell) {
   let spacing = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
-  let data = row.getData();
 
-  document.getElementById("spell-info-name").innerHTML = data.name;
+  document.getElementById("spell-info-name").innerHTML = spell.name;
   document.getElementById("spell-info-source").innerHTML =
-    "[" + data.source + "]";
+    "[" + spell.source + "]";
 
   // Level, School, Sphere
   let sphereString = "";
-  let spheres = data.spheres;
+  let spheres = spell.spheres;
   if (spheres != null) {
     sphereString += " [";
     for (let i = 0; i < spheres.length - 1; i++) {
@@ -76,56 +82,56 @@ function drawInfoBox(e, row) {
   }
 
   document.getElementById("Level&School&Sphere").innerHTML =
-    "Level " + data.level + " " + data.school + sphereString + spacing;
+    "Level " + spell.level + " " + spell.school + sphereString + spacing;
 
   // Casting time, Range, AOE, Save
   document.getElementById("CastingTime").innerHTML =
-    "<strong>Casting Time:</strong> " + data.castingTime + spacing;
+    "<strong>Casting Time:</strong> " + spell.castingTime + spacing;
   document.getElementById("Range").innerHTML =
-    "<strong>Range:</strong> " + data.range;
+    "<strong>Range:</strong> " + spell.range;
   document.getElementById("AOE").innerHTML =
-    "<strong>Area:</strong> " + data.aoe + spacing;
+    "<strong>Area:</strong> " + spell.aoe + spacing;
   document.getElementById("Save").innerHTML =
-    "<strong>Save:</strong> " + data.save;
+    "<strong>Save:</strong> " + spell.save;
 
   // Components
   let componentString = "<strong>Components:</strong> ";
-  if (data.verbal) {
+  if (spell.verbal) {
     componentString += "V";
-    if (data.somatic || data.material) {
+    if (spell.somatic || spell.material) {
       componentString += ", ";
     }
   }
-  if (data.somatic) {
+  if (spell.somatic) {
     componentString += "S";
-    if (data.material) {
+    if (spell.material) {
       componentString += ", ";
     }
   }
-  if (data.material) {
+  if (spell.material) {
     componentString += "M";
   }
-  if (data.materials != "") {
-    componentString += " (" + data.materials + ")";
+  if (spell.materials != "") {
+    componentString += " (" + spell.materials + ")";
   }
 
   document.getElementById("Components").innerHTML = componentString + spacing;
 
   // Duration
   document.getElementById("Duration").innerHTML =
-    "<strong>Duration:</strong> " + data.duration;
+    "<strong>Duration:</strong> " + spell.duration;
 
   // Description
   let description = document.getElementById("Description");
   description.style.borderTop = "2px solid #d29a38";
-  description.innerText = data.description;
+  description.innerText = spell.description;
 
   // Errata/Rulings
-  if (data.errata != null) {
+  if (spell.errata != null) {
     let errata = document.getElementById("Errata");
     errata.style.borderTop = "2px solid #d29a38";
     errata.innerHTML =
-      "<strong>Errata: </strong> " + data.errata.replaceAll("\n", "<br>");
+      "<strong>Errata: </strong> " + spell.errata.replaceAll("\n", "<br>");
   } else {
     let errata = document.getElementById("Errata");
     errata.style.borderTop = null;
@@ -607,13 +613,13 @@ function rightClickGradient(e, element) {
 // ==== FILTER ====
 
 function updateFilter() {
-  table.setFilter(customFilter);
+  renderTable();
 }
 
-function customFilter(data) {
+function filterSpell(spell) {
   // Filter by name
   if (
-    !data.name
+    !spell.name
       .toLowerCase()
       .includes(document.getElementById("name-filter").value.toLowerCase())
   )
@@ -624,7 +630,7 @@ function customFilter(data) {
   for (let i = 0; i < classButtons.length; i++)
     if (
       classButtons[i].value == 1 &&
-      (passes = data.class == classButtons[i].id)
+      (passes = spell.class == classButtons[i].id)
     )
       break;
 
@@ -633,9 +639,9 @@ function customFilter(data) {
   // Filter by source
   for (let i = 0; i < sourceButtons.length; i++) {
     if (sourceButtons[i].value == 1) {
-      if ((passes = data.source == sourceNames[i])) break;
+      if ((passes = spell.source == sourceNames[i])) break;
     } else if (sourceButtons[i].value == 2) {
-      if (data.source == sourceNames[i]) return false;
+      if (spell.source == sourceNames[i]) return false;
     }
   }
 
@@ -643,24 +649,24 @@ function customFilter(data) {
 
   // Filter by level
   for (let i = 0; i < lvlButtons.length; i++)
-    if (lvlButtons[i].value == 1 && (passes = data.level == i + 1)) break;
+    if (lvlButtons[i].value == 1 && (passes = spell.level == i + 1)) break;
 
   if (!passes) return false;
 
   // Filter by school
   for (let i = 0; i < schoolButtons.length; i++) {
     if (schoolButtons[i].value == 1) {
-      if ((passes = data.school == schoolNames[i])) break;
+      if ((passes = spell.school == schoolNames[i])) break;
     } else if (schoolButtons[i].value == 2) {
       // Allow school of "minor divination" for conjurers.
       if (
         specialistButtons[1].value == 1 &&
-        data.school == "Divination" &&
-        data.level <= 4
+        spell.school == "Divination" &&
+        spell.level <= 4
       ) {
         passes = true;
         break;
-      } else if (data.school == schoolNames[i]) {
+      } else if (spell.school == schoolNames[i]) {
         return false;
       }
     }
@@ -674,18 +680,18 @@ function customFilter(data) {
   for (let i = 0; i < sphereButtons.length; i++) {
     if (sphereButtons[i].value == 1) {
       blank = false;
-      if (data.spheres != null) {
-        for (let j = 0; j < data.spheres.length; j++) {
-          if (data.spheres[j] == sphereNames[i]) {
+      if (spell.spheres != null) {
+        for (let j = 0; j < spell.spheres.length; j++) {
+          if (spell.spheres[j] == sphereNames[i]) {
             passes = true;
           }
         }
       }
     } else if (sphereButtons[i].value == 2) {
       blank = false;
-      if (data.spheres != null) {
-        for (let j = 0; j < data.spheres.length; j++) {
-          if (data.spheres[j] == sphereNames[i] && data.level <= 3) {
+      if (spell.spheres != null) {
+        for (let j = 0; j < spell.spheres.length; j++) {
+          if (spell.spheres[j] == sphereNames[i] && spell.level <= 3) {
             passes = true;
           }
         }

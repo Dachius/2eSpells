@@ -14,6 +14,7 @@ body {
   height: 100dvh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 #header {
   position: relative;
@@ -45,15 +46,51 @@ body {
   margin: 1% 1% 1% 2%;
   display: flex;
   min-height: 0;
+  flex: 1;
 }
 #spell-select {
+  display: flex;
+  flex-direction: column;
   flex: none;
+  width: 25rem;
+  min-height: 0;
 }
+#spell-list-wrapper {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
+#spell-list {
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 1rem;
+  font-family: times, serif;
+  font-weight: 500;
+}
+#spell-list td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#spell-list th {
+  position: sticky;
+  top: 0;
+  background: var(--dark-gray);
+}
+#spell-list th:nth-child(1) {
+  width: 1.8rem;
+} /* Lvl */
+#spell-list th:nth-child(3) {
+  width: 6rem;
+} /* School */
+#spell-list th:nth-child(4) {
+  width: 3.5rem;
+} /* Class */
 #spell-info {
-  display: inline-block;
+  overflow-y: auto;
   flex: 1;
   margin-left: 1%;
-  height: 100%;
 }
 #name-filter {
   width: 100%;
