@@ -27,6 +27,9 @@ function renderTable() {
   });
 }
 
+// Names and counts
+const sources = new Map();
+
 loadSpells();
 async function loadSpells() {
   let wizardData = await (await fetch("json/wizard.json")).json();
@@ -45,9 +48,10 @@ async function loadSpells() {
     }
   });
 
-  // Make the rows and attach them to the spell objects
-
   spells.forEach((spell) => {
+    sources.set(spell.source, (sources.get(spell.source) ?? 0) + 1);
+
+    // Make the rows and attach them to the spell objects
     const spellRow = document.createElement("tr");
     spellRow.addEventListener("click", (e) => drawInfoBox(e, spell));
     spellTableColumns.forEach((key) => {
@@ -64,6 +68,9 @@ async function loadSpells() {
 
 // Draw info box
 function drawInfoBox(e, spell) {
+  tbody.querySelector("tr.selected")?.classList.remove("selected");
+  spell.row.classList.add("selected");
+
   let spacing = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
 
   document.getElementById("spell-info-name").innerHTML = spell.name;
@@ -253,10 +260,9 @@ function specialistUpdate(element) {
 
 // Source buttons
 let sourceButtons = [];
-let sourceNames = ["PHB", "ToM", "S&M", "Koibu", "Divan"];
 row = document.getElementById("sources");
-for (let i = 0; i < sourceNames.length; i++) {
-  sourceButtons[i] = appendButton(row, "sourceButton", sourceNames[i]);
+for (let i = 0; i < sources.length; i++) {
+  sourceButtons[i] = appendButton(row, "sourceButton", sources[i]);
 
   sourceButtons[i].addEventListener("click", function () {
     leftClickTrinary(this);
@@ -639,9 +645,9 @@ function filterSpell(spell) {
   // Filter by source
   for (let i = 0; i < sourceButtons.length; i++) {
     if (sourceButtons[i].value == 1) {
-      if ((passes = spell.source == sourceNames[i])) break;
+      if ((passes = spell.source == sources[i])) break;
     } else if (sourceButtons[i].value == 2) {
-      if (spell.source == sourceNames[i]) return false;
+      if (spell.source == sources[i]) return false;
     }
   }
 

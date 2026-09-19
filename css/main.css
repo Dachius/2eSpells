@@ -4,6 +4,15 @@
   --gray: rgb(187, 187, 187);
   --blue: rgb(105, 166, 213);
   --dark-gray: rgb(24, 26, 27);
+  /* Table rows, lifted from the old Tabulator "midnight" theme */
+  --row-odd: #333;
+  --row-even: #222;
+  --row-hover: #777;
+  --row-selected: #000;
+  --row-selected-hover: #888;
+  --row-head: #333;
+  --row-rule: #777;
+  --row-border: #666;
 }
 * {
   box-sizing: border-box;
@@ -59,6 +68,7 @@ body {
   flex: 1;
   overflow-y: auto;
   min-height: 0;
+  border: 1px solid var(--row-rule);
 }
 #spell-list {
   border-spacing: 0;
@@ -67,19 +77,36 @@ body {
   font-size: 1rem;
   font-family: times, serif;
   font-weight: 500;
+  color: #fff;
+  background-color: var(--row-odd);
 }
+#spell-list th,
 #spell-list td {
+  padding: 4px;
+  text-align: left;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+#spell-list td {
+  border-right: 1px solid var(--row-border);
+}
+#spell-list td:last-child {
+  border-right: none;
+}
 #spell-list th {
   position: sticky;
   top: 0;
-  background: var(--dark-gray);
+  background: var(--row-head);
+  border-bottom: 1px solid var(--row-rule);
+  border-right: 1px solid var(--row-rule);
+  font-weight: bold;
+}
+#spell-list th:last-child {
+  border-right: none;
 }
 #spell-list th:nth-child(1) {
-  width: 1.8rem;
+  width: 2.6rem;
 } /* Lvl */
 #spell-list th:nth-child(3) {
   width: 6rem;
@@ -87,6 +114,22 @@ body {
 #spell-list th:nth-child(4) {
   width: 3.5rem;
 } /* Class */
+#spell-list tbody tr {
+  background-color: var(--row-odd);
+  cursor: pointer;
+}
+#spell-list tbody tr:nth-child(even) {
+  background-color: var(--row-even);
+}
+#spell-list tbody tr:hover {
+  background-color: var(--row-hover);
+}
+#spell-list tbody tr.selected {
+  background-color: var(--row-selected);
+}
+#spell-list tbody tr.selected:hover {
+  background-color: var(--row-selected-hover);
+}
 #spell-info {
   overflow-y: auto;
   flex: 1;
@@ -94,6 +137,23 @@ body {
 }
 #name-filter {
   width: 100%;
+  margin-bottom: 0.4rem;
+  padding: 0.25rem 0.5rem;
+  background-color: var(--dark-gray);
+  color: var(--gray);
+  border: 1px solid var(--row-rule);
+  border-radius: 3px;
+  outline: none;
+  font-size: 0.9rem;
+  font-family: times, serif;
+  font-weight: normal;
+}
+#name-filter::placeholder {
+  color: var(--row-rule);
+}
+#name-filter:focus {
+  color: #fff;
+  border-color: var(--gold);
 }
 .infoHeader {
   display: flex;
