@@ -1,0 +1,6342 @@
+[
+{
+"title": "Abeyance (Priest Spell)",
+"name": "Abeyance",
+"listLevel": 5
+},
+{
+"title": "Ability Alteration (Priest Spell)",
+"name": "Ability Alteration",
+"listLevel": 3
+},
+{
+"title": "Abjure (Priest Spell)",
+"name": "Abjure",
+"listLevel": 4
+},
+{
+"title": "Abjure - Shukenja (Priest Spell)",
+"name": "Abjure - Shukenja",
+"listLevel": 4
+},
+{
+"title": "Accelerate Healing (Priest Spell)",
+"name": "Accelerate Healing",
+"listLevel": 3
+},
+{
+"title": "Acid Rain (Priest Spell)",
+"name": "Acid Rain",
+"listLevel": 4
+},
+{
+"title": "Adamantite Mace (Priest Spell)",
+"name": "Adamantite Mace",
+"listLevel": 4
+},
+{
+"title": "Adaptation - Lvl 5 (Priest Spell)",
+"name": "Adaptation - Lvl 5",
+"listLevel": 5
+},
+{
+"title": "Addition (Priest Spell)",
+"name": "Addition",
+"listLevel": 4
+},
+{
+"title": "Advanced Sunshine (Priest Spell)",
+"name": "Advanced Sunshine",
+"listLevel": 4
+},
+{
+"title": "Advice (Priest Spell)",
+"name": "Advice",
+"listLevel": 5
+},
+{
+"title": "Aerial Servant (Priest Spell)",
+"name": "Aerial Servant",
+"listLevel": 6
+},
+{
+"title": "Age Creature (Priest Spell)",
+"name": "Age Creature",
+"listLevel": 6
+},
+{
+"title": "Age Dragon (Priest Spell)",
+"name": "Age Dragon",
+"listLevel": 7
+},
+{
+"title": "Age Object (Priest Spell)",
+"name": "Age Object",
+"listLevel": 5
+},
+{
+"title": "Age Plant (Priest Spell)",
+"name": "Age Plant",
+"listLevel": 4
+},
+{
+"title": "Aid (Priest Spell)",
+"name": "Aid",
+"listLevel": 2
+},
+{
+"title": "Air Lens (Priest Spell)",
+"name": "Air Lens",
+"listLevel": 3
+},
+{
+"title": "Air Walk (Priest Spell)",
+"name": "Air Walk",
+"listLevel": 5
+},
+{
+"title": "Akadi's Vortex (Priest Spell)",
+"name": "Akadi's Vortex",
+"listLevel": 7
+},
+{
+"title": "Alert Vigil (Priest Spell)",
+"name": "Alert Vigil",
+"listLevel": 1
+},
+{
+"title": "Alicorn Lance (Priest Spell)",
+"name": "Alicorn Lance",
+"listLevel": 2
+},
+{
+"title": "All-Seeing Crystal Ball (Priest Spell)",
+"name": "All-Seeing Crystal Ball",
+"listLevel": 6
+},
+{
+"title": "Allergy Field (Priest Spell)",
+"name": "Allergy Field",
+"listLevel": 1
+},
+{
+"title": "Alter Luck (Priest Spell)",
+"name": "Alter Luck",
+"listLevel": 6
+},
+{
+"title": "Altruism (Priest Spell)",
+"name": "Altruism",
+"listLevel": 2
+},
+{
+"title": "Amanuensis (Priest Spell)",
+"name": "Amanuensis",
+"listLevel": 3
+},
+{
+"title": "Amaunator's Uncertainty (Priest Spell)",
+"name": "Amaunator's Uncertainty",
+"listLevel": 2
+},
+{
+"title": "Amulet (Priest Spell)",
+"name": "Amulet",
+"listLevel": 2
+},
+{
+"title": "Analyze Balance (Priest Spell)",
+"name": "Analyze Balance",
+"listLevel": 1
+},
+{
+"title": "Analyze Opponent (Priest Spell)",
+"name": "Analyze Opponent",
+"listLevel": 1
+},
+{
+"title": "Ancient Curse (Priest Spell)",
+"name": "Ancient Curse",
+"listLevel": 7
+},
+{
+"title": "Ancient Curse - Variant (Priest Spell)",
+"name": "Ancient Curse - Variant",
+"listLevel": 7
+},
+{
+"title": "Animal Animosity (Priest Spell)",
+"name": "Animal Animosity",
+"listLevel": 1
+},
+{
+"title": "Animal Companion (Priest Spell)",
+"name": "Animal Companion",
+"listLevel": 1
+},
+{
+"title": "Animal Eyes (Priest Spell)",
+"name": "Animal Eyes",
+"listLevel": 2
+},
+{
+"title": "Animal Friendship (Priest Spell)",
+"name": "Animal Friendship",
+"listLevel": 1
+},
+{
+"title": "Animal Growth (Priest Spell)",
+"name": "Animal Growth",
+"listLevel": 5
+},
+{
+"title": "Animal Sanctuary (Priest Spell)",
+"name": "Animal Sanctuary",
+"listLevel": 1
+},
+{
+"title": "Animal Sight (Priest Spell)",
+"name": "Animal Sight",
+"listLevel": 4
+},
+{
+"title": "Animal Speech (Priest Spell)",
+"name": "Animal Speech",
+"listLevel": 2
+},
+{
+"title": "Animal Spy (Priest Spell)",
+"name": "Animal Spy",
+"listLevel": 2
+},
+{
+"title": "Animal Spy - Shaman (Priest Spell)",
+"name": "Animal Spy - Shaman",
+"listLevel": 2
+},
+{
+"title": "Animal Summoning I (Priest Spell)",
+"name": "Animal Summoning I",
+"listLevel": 4
+},
+{
+"title": "Animal Summoning II (Priest Spell)",
+"name": "Animal Summoning II",
+"listLevel": 5
+},
+{
+"title": "Animal Summoning III (Priest Spell)",
+"name": "Animal Summoning III",
+"listLevel": 6
+},
+{
+"title": "Animal Transfer (Priest Spell)",
+"name": "Animal Transfer",
+"listLevel": 6
+},
+{
+"title": "Animal Trick (Priest Spell)",
+"name": "Animal Trick",
+"listLevel": 3
+},
+{
+"title": "Animate Dead (Priest Spell)",
+"name": "Animate Dead",
+"listLevel": 3
+},
+{
+"title": "Animate Dead Monsters (Priest Spell)",
+"name": "Animate Dead Monsters",
+"listLevel": 5
+},
+{
+"title": "Animate Flame (Priest Spell)",
+"name": "Animate Flame",
+"listLevel": 5
+},
+{
+"title": "Animate Object (Priest Spell)",
+"name": "Animate Object",
+"listLevel": 6
+},
+{
+"title": "Animate Rock (Priest Spell)",
+"name": "Animate Rock",
+"listLevel": 7
+},
+{
+"title": "Animate Statue (Priest Spell)",
+"name": "Animate Statue",
+"listLevel": 4
+},
+{
+"title": "Animate Tree (Priest Spell)",
+"name": "Animate Tree",
+"listLevel": 5
+},
+{
+"title": "Animate Weapon (Priest Spell)",
+"name": "Animate Weapon",
+"listLevel": 1
+},
+{
+"title": "Anti-Animal Shell (Priest Spell)",
+"name": "Anti-Animal Shell",
+"listLevel": 6
+},
+{
+"title": "Anti-Mineral Shell (Priest Spell)",
+"name": "Anti-Mineral Shell",
+"listLevel": 7
+},
+{
+"title": "Anti-Plant Shell (Priest Spell)",
+"name": "Anti-Plant Shell",
+"listLevel": 5
+},
+{
+"title": "Anti-Vermin Barrier (Priest Spell)",
+"name": "Anti-Vermin Barrier",
+"listLevel": 1
+},
+{
+"title": "Anyspell (Priest Spell)",
+"name": "Anyspell",
+"listLevel": 4
+},
+{
+"title": "Aranen's Divinial Armor (Priest Spell)",
+"name": "Aranen's Divinial Armor",
+"listLevel": 1
+},
+{
+"title": "Armor of Darkness (Priest Spell)",
+"name": "Armor of Darkness",
+"listLevel": 3
+},
+{
+"title": "Asphyxiate (Priest Spell)",
+"name": "Asphyxiate",
+"listLevel": 6
+},
+{
+"title": "Astaroth's Augmentation (Priest Spell)",
+"name": "Astaroth's Augmentation",
+"listLevel": 3
+},
+{
+"title": "Astral Awareness (Priest Spell)",
+"name": "Astral Awareness",
+"listLevel": 2
+},
+{
+"title": "Astral Celerity (Priest Spell)",
+"name": "Astral Celerity",
+"listLevel": 1
+},
+{
+"title": "Astral Spell (Priest Spell)",
+"name": "Astral Spell",
+"listLevel": 7
+},
+{
+"title": "Astral Window (Priest Spell)",
+"name": "Astral Window",
+"listLevel": 3
+},
+{
+"title": "Atonement (Priest Spell)",
+"name": "Atonement",
+"listLevel": 5
+},
+{
+"title": "Attraction (Priest Spell)",
+"name": "Attraction",
+"listLevel": 2
+},
+{
+"title": "Augury (Priest Spell)",
+"name": "Augury",
+"listLevel": 2
+},
+{
+"title": "Augury - Shukenja (Priest Spell)",
+"name": "Augury - Shukenja",
+"listLevel": 1
+},
+{
+"title": "Aura of Comfort (Priest Spell)",
+"name": "Aura of Comfort",
+"listLevel": 2
+},
+{
+"title": "Aura of Discomfort (Priest Spell)",
+"name": "Aura of Discomfort",
+"listLevel": 2
+},
+{
+"title": "Awaken Magical Item (Priest Spell)",
+"name": "Awaken Magical Item",
+"listLevel": 7
+},
+{
+"title": "Awakening (Priest Spell)",
+"name": "Awakening",
+"listLevel": 4
+},
+{
+"title": "Azuth's Alteration Mantle (Priest Spell)",
+"name": "Azuth's Alteration Mantle",
+"listLevel": 6
+},
+{
+"title": "Azuth's Exalted Triad (Priest Spell)",
+"name": "Azuth's Exalted Triad",
+"listLevel": 5
+},
+{
+"title": "Azuth's Fedensor (Priest Spell)",
+"name": "Azuth's Fedensor",
+"listLevel": 4
+},
+{
+"title": "Azuth's Firing Frenzy (Priest Spell)",
+"name": "Azuth's Firing Frenzy",
+"listLevel": 6
+},
+{
+"title": "Azuth's Immobility (Priest Spell)",
+"name": "Azuth's Immobility",
+"listLevel": 5
+},
+{
+"title": "Azuth's Spell Shield (Priest Spell)",
+"name": "Azuth's Spell Shield",
+"listLevel": 7
+},
+{
+"title": "Bad Medicine (Priest Spell)",
+"name": "Bad Medicine",
+"listLevel": 4
+},
+{
+"title": "Bane of Beshaba (Priest Spell)",
+"name": "Bane of Beshaba",
+"listLevel": 2
+},
+{
+"title": "Bane of the Defilers (Priest Spell)",
+"name": "Bane of the Defilers",
+"listLevel": 7
+},
+{
+"title": "Banish Blight (Priest Spell)",
+"name": "Banish Blight",
+"listLevel": 2
+},
+{
+"title": "Banish Flame (Priest Spell)",
+"name": "Banish Flame",
+"listLevel": 1
+},
+{
+"title": "Barkskin (Priest Spell)",
+"name": "Barkskin",
+"listLevel": 2
+},
+{
+"title": "Barrier of Retention (Priest Spell)",
+"name": "Barrier of Retention",
+"listLevel": 5
+},
+{
+"title": "Bat Sense (Priest Spell)",
+"name": "Bat Sense",
+"listLevel": 2
+},
+{
+"title": "Battle Song (Priest Spell)",
+"name": "Battle Song",
+"listLevel": 2
+},
+{
+"title": "Battle Trident (Priest Spell)",
+"name": "Battle Trident",
+"listLevel": 4
+},
+{
+"title": "Battlefate (Priest Spell)",
+"name": "Battlefate",
+"listLevel": 1
+},
+{
+"title": "Battletide (Priest Spell)",
+"name": "Battletide",
+"listLevel": 5
+},
+{
+"title": "Bear Hug (Priest Spell)",
+"name": "Bear Hug",
+"listLevel": 4
+},
+{
+"title": "Beast Claw (Priest Spell)",
+"name": "Beast Claw",
+"listLevel": 2
+},
+{
+"title": "Beastmask (Priest Spell)",
+"name": "Beastmask",
+"listLevel": 1
+},
+{
+"title": "Beastspite (Priest Spell)",
+"name": "Beastspite",
+"listLevel": 2
+},
+{
+"title": "Beckon Spirit (Priest Spell)",
+"name": "Beckon Spirit",
+"listLevel": 6
+},
+{
+"title": "Beguiling (Priest Spell)",
+"name": "Beguiling",
+"listLevel": 2
+},
+{
+"title": "Beneficence (Priest Spell)",
+"name": "Beneficence",
+"listLevel": 1
+},
+{
+"title": "Berserk (Priest Spell)",
+"name": "Berserk",
+"listLevel": 5
+},
+{
+"title": "Bestow Major Curse (Priest Spell)",
+"name": "Bestow Major Curse",
+"listLevel": 7
+},
+{
+"title": "Bestow Minor Curse (Priest Spell)",
+"name": "Bestow Minor Curse",
+"listLevel": 3
+},
+{
+"title": "Bind Fetish (Priest Spell)",
+"name": "Bind Fetish",
+"listLevel": 3
+},
+{
+"title": "Bind Guardian (Priest Spell)",
+"name": "Bind Guardian",
+"listLevel": 5
+},
+{
+"title": "Biting Shadow (Priest Spell)",
+"name": "Biting Shadow",
+"listLevel": 7
+},
+{
+"title": "Black Cairn (Priest Spell)",
+"name": "Black Cairn",
+"listLevel": 2
+},
+{
+"title": "Black Talon (Priest Spell)",
+"name": "Black Talon",
+"listLevel": 2
+},
+{
+"title": "Blackhand (Priest Spell)",
+"name": "Blackhand",
+"listLevel": 3
+},
+{
+"title": "Blacklight (Priest Spell)",
+"name": "Blacklight",
+"listLevel": 3
+},
+{
+"title": "Blade Barrier (Priest Spell)",
+"name": "Blade Barrier",
+"listLevel": 6
+},
+{
+"title": "Bladebless (Priest Spell)",
+"name": "Bladebless",
+"listLevel": 7
+},
+{
+"title": "Blaenther's Bowls (Priest Spell)",
+"name": "Blaenther's Bowls",
+"listLevel": 5
+},
+{
+"title": "Blast of Pain (Priest Spell)",
+"name": "Blast of Pain",
+"listLevel": 5
+},
+{
+"title": "Bless (Priest Spell)",
+"name": "Bless",
+"listLevel": 1
+},
+{
+"title": "Blessed Abundance (Priest Spell)",
+"name": "Blessed Abundance",
+"listLevel": 5
+},
+{
+"title": "Blessed Warmth (Priest Spell)",
+"name": "Blessed Warmth",
+"listLevel": 4
+},
+{
+"title": "Blessed Watchfulness (Priest Spell)",
+"name": "Blessed Watchfulness",
+"listLevel": 1
+},
+{
+"title": "Bliss (Priest Spell)",
+"name": "Bliss",
+"listLevel": 2
+},
+{
+"title": "Blood Bank (Priest Spell)",
+"name": "Blood Bank",
+"listLevel": 4
+},
+{
+"title": "Blood Bond (Priest Spell)",
+"name": "Blood Bond",
+"listLevel": 1
+},
+{
+"title": "Blood Link (Priest Spell)",
+"name": "Blood Link",
+"listLevel": 7
+},
+{
+"title": "Blood Lust (Priest Spell)",
+"name": "Blood Lust",
+"listLevel": 2
+},
+{
+"title": "Blood Mantle (Priest Spell)",
+"name": "Blood Mantle",
+"listLevel": 4
+},
+{
+"title": "Blood Rage (Priest Spell)",
+"name": "Blood Rage",
+"listLevel": 4
+},
+{
+"title": "Bloodgloat (Priest Spell)",
+"name": "Bloodgloat",
+"listLevel": 5
+},
+{
+"title": "Blossom (Priest Spell)",
+"name": "Blossom",
+"listLevel": 6
+},
+{
+"title": "Body Blades (Priest Spell)",
+"name": "Body Blades",
+"listLevel": 2
+},
+{
+"title": "Body Clock (Priest Spell)",
+"name": "Body Clock",
+"listLevel": 4
+},
+{
+"title": "Body Link (Priest Spell)",
+"name": "Body Link",
+"listLevel": 7
+},
+{
+"title": "Bolt of Glory (Priest Spell)",
+"name": "Bolt of Glory",
+"listLevel": 6
+},
+{
+"title": "Bone Bite (Priest Spell)",
+"name": "Bone Bite",
+"listLevel": 2
+},
+{
+"title": "Bonechain (Priest Spell)",
+"name": "Bonechain",
+"listLevel": 4
+},
+{
+"title": "Boneiron (Priest Spell)",
+"name": "Boneiron",
+"listLevel": 2
+},
+{
+"title": "Bonewood (Priest Spell)",
+"name": "Bonewood",
+"listLevel": 2
+},
+{
+"title": "Boon of Fortune (Priest Spell)",
+"name": "Boon of Fortune",
+"listLevel": 3
+},
+{
+"title": "Boon of Lathander (Priest Spell)",
+"name": "Boon of Lathander",
+"listLevel": 4
+},
+{
+"title": "Boon of the God (Priest Spell)",
+"name": "Boon of the God",
+"listLevel": 4
+},
+{
+"title": "Bramblestaff (Priest Spell)",
+"name": "Bramblestaff",
+"listLevel": 3
+},
+{
+"title": "Break Limb (Priest Spell)",
+"name": "Break Limb",
+"listLevel": 6
+},
+{
+"title": "Breath of Life (Priest Spell)",
+"name": "Breath of Life",
+"listLevel": 7
+},
+{
+"title": "Breath of the Elements (Priest Spell)",
+"name": "Breath of the Elements",
+"listLevel": 4
+},
+{
+"title": "Briartangle (Priest Spell)",
+"name": "Briartangle",
+"listLevel": 4
+},
+{
+"title": "Cairn (Priest Spell)",
+"name": "Cairn",
+"listLevel": 1
+},
+{
+"title": "Calculate (Priest Spell)",
+"name": "Calculate",
+"listLevel": 1
+},
+{
+"title": "Call Aerial Beings (Priest Spell)",
+"name": "Call Aerial Beings",
+"listLevel": 4
+},
+{
+"title": "Call Animal or Bird (Priest Spell)",
+"name": "Call Animal or Bird",
+"listLevel": 1
+},
+{
+"title": "Call Avatar (Priest Spell)",
+"name": "Call Avatar",
+"listLevel": 7
+},
+{
+"title": "Call Dinosaurs (Priest Spell)",
+"name": "Call Dinosaurs",
+"listLevel": 5
+},
+{
+"title": "Call Ghost Pack (Priest Spell)",
+"name": "Call Ghost Pack",
+"listLevel": 5
+},
+{
+"title": "Call Hunt (Priest Spell)",
+"name": "Call Hunt",
+"listLevel": 7
+},
+{
+"title": "Call Lightning (Priest Spell)",
+"name": "Call Lightning",
+"listLevel": 3
+},
+{
+"title": "Call Pack (Priest Spell)",
+"name": "Call Pack",
+"listLevel": 3
+},
+{
+"title": "Call Phoenix (Priest Spell)",
+"name": "Call Phoenix",
+"listLevel": 6
+},
+{
+"title": "Call Upon Faith (Priest Spell)",
+"name": "Call Upon Faith",
+"listLevel": 1
+},
+{
+"title": "Call Upon Gargauth (Priest Spell)",
+"name": "Call Upon Gargauth",
+"listLevel": 7
+},
+{
+"title": "Call Woodland Beings (Priest Spell)",
+"name": "Call Woodland Beings",
+"listLevel": 4
+},
+{
+"title": "Calm (Priest Spell)",
+"name": "Calm",
+"listLevel": 1
+},
+{
+"title": "Calm Animals (Priest Spell)",
+"name": "Calm Animals",
+"listLevel": 1
+},
+{
+"title": "Calm Chaos (Priest Spell)",
+"name": "Calm Chaos",
+"listLevel": 2
+},
+{
+"title": "Calm Water (Priest Spell)",
+"name": "Calm Water",
+"listLevel": 5
+},
+{
+"title": "Calm Winds (Priest Spell)",
+"name": "Calm Winds",
+"listLevel": 4
+},
+{
+"title": "Candle of Calm (Priest Spell)",
+"name": "Candle of Calm",
+"listLevel": 5
+},
+{
+"title": "Castigate (Priest Spell)",
+"name": "Castigate",
+"listLevel": 3
+},
+{
+"title": "Casting Out (Priest Spell)",
+"name": "Casting Out",
+"listLevel": 2
+},
+{
+"title": "Celestial Protection (Priest Spell)",
+"name": "Celestial Protection",
+"listLevel": 6
+},
+{
+"title": "Censure (Priest Spell)",
+"name": "Censure",
+"listLevel": 4
+},
+{
+"title": "Ceremony - Cleric (Priest Spell)",
+"name": "Ceremony - Cleric",
+"listLevel": 1
+},
+{
+"title": "Ceremony - Druid (Priest Spell)",
+"name": "Ceremony - Druid",
+"listLevel": 1
+},
+{
+"title": "Chain Creation (Priest Spell)",
+"name": "Chain Creation",
+"listLevel": 5
+},
+{
+"title": "Chain Madness (Priest Spell)",
+"name": "Chain Madness",
+"listLevel": 6
+},
+{
+"title": "Champion's Strength (Priest Spell)",
+"name": "Champion's Strength",
+"listLevel": 5
+},
+{
+"title": "Changestaff (Priest Spell)",
+"name": "Changestaff",
+"listLevel": 7
+},
+{
+"title": "Channel Flame (Priest Spell)",
+"name": "Channel Flame",
+"listLevel": 4
+},
+{
+"title": "Channel Stench (Priest Spell)",
+"name": "Channel Stench",
+"listLevel": 2
+},
+{
+"title": "Chant (Priest Spell)",
+"name": "Chant",
+"listLevel": 2
+},
+{
+"title": "Chant of Fangs (Priest Spell)",
+"name": "Chant of Fangs",
+"listLevel": 3
+},
+{
+"title": "Chaos Ward (Priest Spell)",
+"name": "Chaos Ward",
+"listLevel": 2
+},
+{
+"title": "Chaotic Combat (Priest Spell)",
+"name": "Chaotic Combat",
+"listLevel": 4
+},
+{
+"title": "Chaotic Commands (Priest Spell)",
+"name": "Chaotic Commands",
+"listLevel": 5
+},
+{
+"title": "Chaotic Sleep (Priest Spell)",
+"name": "Chaotic Sleep",
+"listLevel": 4
+},
+{
+"title": "Chariot of Sustarre (Priest Spell)",
+"name": "Chariot of Sustarre",
+"listLevel": 7
+},
+{
+"title": "Charm Person or Mammal (Priest Spell)",
+"name": "Charm Person or Mammal",
+"listLevel": 2
+},
+{
+"title": "Charm Spirit (Priest Spell)",
+"name": "Charm Spirit",
+"listLevel": 5
+},
+{
+"title": "Chattel Spirit (Priest Spell)",
+"name": "Chattel Spirit",
+"listLevel": 3
+},
+{
+"title": "Chilling Scythe (Priest Spell)",
+"name": "Chilling Scythe",
+"listLevel": 2
+},
+{
+"title": "Chimes of Finding (Priest Spell)",
+"name": "Chimes of Finding",
+"listLevel": 4
+},
+{
+"title": "Choose Future (Priest Spell)",
+"name": "Choose Future",
+"listLevel": 3
+},
+{
+"title": "Circle of Life (Priest Spell)",
+"name": "Circle of Life",
+"listLevel": 3
+},
+{
+"title": "Circle of Privacy (Priest Spell)",
+"name": "Circle of Privacy",
+"listLevel": 4
+},
+{
+"title": "Circle of Protection from Spirits (Priest Spell)",
+"name": "Circle of Protection from Spirits",
+"listLevel": 2
+},
+{
+"title": "Clawcloud (Priest Spell)",
+"name": "Clawcloud",
+"listLevel": 4
+},
+{
+"title": "Claws of Velsharoon (Priest Spell)",
+"name": "Claws of Velsharoon",
+"listLevel": 1
+},
+{
+"title": "Cleanse - Old Empire (Priest Spell)",
+"name": "Cleanse - Old Empire",
+"listLevel": 1
+},
+{
+"title": "Cleanse Community (Priest Spell)",
+"name": "Cleanse Community",
+"listLevel": 5
+},
+{
+"title": "Cleanse Hearth (Priest Spell)",
+"name": "Cleanse Hearth",
+"listLevel": 3
+},
+{
+"title": "Clear Air (Priest Spell)",
+"name": "Clear Air",
+"listLevel": 4
+},
+{
+"title": "Clear Path (Priest Spell)",
+"name": "Clear Path",
+"listLevel": 5
+},
+{
+"title": "Clear Water (Priest Spell)",
+"name": "Clear Water",
+"listLevel": 2
+},
+{
+"title": "Cloak of Bravery (Priest Spell)",
+"name": "Cloak of Bravery",
+"listLevel": 4
+},
+{
+"title": "Cloud of Pestilence (Priest Spell)",
+"name": "Cloud of Pestilence",
+"listLevel": 4
+},
+{
+"title": "Cloud of Purification (Priest Spell)",
+"name": "Cloud of Purification",
+"listLevel": 5
+},
+{
+"title": "Cloud of Putrefaction (Priest Spell)",
+"name": "Cloud of Putrefaction",
+"listLevel": 5
+},
+{
+"title": "Cloudburst (Priest Spell)",
+"name": "Cloudburst",
+"listLevel": 3
+},
+{
+"title": "Cloudscape (Priest Spell)",
+"name": "Cloudscape",
+"listLevel": 5
+},
+{
+"title": "Clues of Ash (Priest Spell)",
+"name": "Clues of Ash",
+"listLevel": 2
+},
+{
+"title": "Coat of Mist (Priest Spell)",
+"name": "Coat of Mist",
+"listLevel": 2
+},
+{
+"title": "Code of Secrecy (Priest Spell)",
+"name": "Code of Secrecy",
+"listLevel": 5
+},
+{
+"title": "Cold Hand (Priest Spell)",
+"name": "Cold Hand",
+"listLevel": 5
+},
+{
+"title": "Command (Priest Spell)",
+"name": "Command",
+"listLevel": 1
+},
+{
+"title": "Command Earth (Priest Spell)",
+"name": "Command Earth",
+"listLevel": 6
+},
+{
+"title": "Command Monster (Priest Spell)",
+"name": "Command Monster",
+"listLevel": 6
+},
+{
+"title": "Commune (Priest Spell)",
+"name": "Commune",
+"listLevel": 5
+},
+{
+"title": "Commune with Greater Spirit (Priest Spell)",
+"name": "Commune with Greater Spirit",
+"listLevel": 5
+},
+{
+"title": "Commune with Lesser Spirit (Priest Spell)",
+"name": "Commune with Lesser Spirit",
+"listLevel": 2
+},
+{
+"title": "Commune with Nature (Priest Spell)",
+"name": "Commune with Nature",
+"listLevel": 5
+},
+{
+"title": "Communicate (Priest Spell)",
+"name": "Communicate",
+"listLevel": 6
+},
+{
+"title": "Compel (Priest Spell)",
+"name": "Compel",
+"listLevel": 3
+},
+{
+"title": "Compel - Shukenja (Priest Spell)",
+"name": "Compel - Shukenja",
+"listLevel": 7
+},
+{
+"title": "Compulsive Order (Priest Spell)",
+"name": "Compulsive Order",
+"listLevel": 4
+},
+{
+"title": "Confusion (Priest Spell)",
+"name": "Confusion",
+"listLevel": 7
+},
+{
+"title": "Conjure Air Elemental (Priest Spell)",
+"name": "Conjure Air Elemental",
+"listLevel": 7
+},
+{
+"title": "Conjure Animals (Priest Spell)",
+"name": "Conjure Animals",
+"listLevel": 6
+},
+{
+"title": "Conjure Earth Elemental (Priest Spell)",
+"name": "Conjure Earth Elemental",
+"listLevel": 7
+},
+{
+"title": "Conjure Elemental (Priest Spell)",
+"name": "Conjure Elemental",
+"listLevel": 5
+},
+{
+"title": "Conjure Fire Elemental (Priest Spell)",
+"name": "Conjure Fire Elemental",
+"listLevel": 6
+},
+{
+"title": "Conjure Greater Elemental (Priest Spell)",
+"name": "Conjure Greater Elemental",
+"listLevel": 7
+},
+{
+"title": "Conjure Greater Elemental - Dark Sun (Priest Spell)",
+"name": "Conjure Greater Elemental - Dark Sun",
+"listLevel": 7
+},
+{
+"title": "Conjure Jungle Minions (Priest Spell)",
+"name": "Conjure Jungle Minions",
+"listLevel": 4
+},
+{
+"title": "Conjure Lesser Elemental (Priest Spell)",
+"name": "Conjure Lesser Elemental",
+"listLevel": 3
+},
+{
+"title": "Conjure Nature Elemental (Priest Spell)",
+"name": "Conjure Nature Elemental",
+"listLevel": 7
+},
+{
+"title": "Conjure Water Elemental (Priest Spell)",
+"name": "Conjure Water Elemental",
+"listLevel": 6
+},
+{
+"title": "Consequence (Priest Spell)",
+"name": "Consequence",
+"listLevel": 5
+},
+{
+"title": "Contact Home Power (Priest Spell)",
+"name": "Contact Home Power",
+"listLevel": 2
+},
+{
+"title": "Continual Faerie Fire (Priest Spell)",
+"name": "Continual Faerie Fire",
+"listLevel": 3
+},
+{
+"title": "Continual Light (Priest Spell)",
+"name": "Continual Light",
+"listLevel": 3
+},
+{
+"title": "Continual Shadow (Priest Spell)",
+"name": "Continual Shadow",
+"listLevel": 3
+},
+{
+"title": "Control Animal (Priest Spell)",
+"name": "Control Animal",
+"listLevel": 3
+},
+{
+"title": "Control Giant Insect (Priest Spell)",
+"name": "Control Giant Insect",
+"listLevel": 4
+},
+{
+"title": "Control Lycanthropes (Priest Spell)",
+"name": "Control Lycanthropes",
+"listLevel": 6
+},
+{
+"title": "Control Temperature, 10' Radius (Priest Spell)",
+"name": "Control Temperature, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Control Vapor (Priest Spell)",
+"name": "Control Vapor",
+"listLevel": 5
+},
+{
+"title": "Control Weather (Priest Spell)",
+"name": "Control Weather",
+"listLevel": 7
+},
+{
+"title": "Control Winds (Priest Spell)",
+"name": "Control Winds",
+"listLevel": 5
+},
+{
+"title": "Converse with Sea Creatures (Priest Spell)",
+"name": "Converse with Sea Creatures",
+"listLevel": 3
+},
+{
+"title": "Corpse Whisper (Priest Spell)",
+"name": "Corpse Whisper",
+"listLevel": 3
+},
+{
+"title": "Corrupt (Priest Spell)",
+"name": "Corrupt",
+"listLevel": 4
+},
+{
+"title": "Crawling Darkness (Priest Spell)",
+"name": "Crawling Darkness",
+"listLevel": 6
+},
+{
+"title": "Create Air (Priest Spell)",
+"name": "Create Air",
+"listLevel": 1
+},
+{
+"title": "Create Atmosphere (Priest Spell)",
+"name": "Create Atmosphere",
+"listLevel": 7
+},
+{
+"title": "Create Baneguard (Priest Spell)",
+"name": "Create Baneguard",
+"listLevel": 6
+},
+{
+"title": "Create Campsite (Priest Spell)",
+"name": "Create Campsite",
+"listLevel": 3
+},
+{
+"title": "Create Crypt Servant (Priest Spell)",
+"name": "Create Crypt Servant",
+"listLevel": 7
+},
+{
+"title": "Create Crypt Thing (Priest Spell)",
+"name": "Create Crypt Thing",
+"listLevel": 7
+},
+{
+"title": "Create Direguard (Priest Spell)",
+"name": "Create Direguard",
+"listLevel": 7
+},
+{
+"title": "Create Food & Water (Priest Spell)",
+"name": "Create Food & Water",
+"listLevel": 3
+},
+{
+"title": "Create Ibrandlin (Priest Spell)",
+"name": "Create Ibrandlin",
+"listLevel": 6
+},
+{
+"title": "Create Jungle Minions (Priest Spell)",
+"name": "Create Jungle Minions",
+"listLevel": 5
+},
+{
+"title": "Create Minor Helm (Priest Spell)",
+"name": "Create Minor Helm",
+"listLevel": 5
+},
+{
+"title": "Create Mirage (Priest Spell)",
+"name": "Create Mirage",
+"listLevel": 2
+},
+{
+"title": "Create Sanctuary (Priest Spell)",
+"name": "Create Sanctuary",
+"listLevel": 4
+},
+{
+"title": "Create Shrine (Priest Spell)",
+"name": "Create Shrine",
+"listLevel": 7
+},
+{
+"title": "Create Smoke (Priest Spell)",
+"name": "Create Smoke",
+"listLevel": 3
+},
+{
+"title": "Create Spring (Priest Spell)",
+"name": "Create Spring",
+"listLevel": 2
+},
+{
+"title": "Create Thassaloss (Priest Spell)",
+"name": "Create Thassaloss",
+"listLevel": 6
+},
+{
+"title": "Create Treant (Priest Spell)",
+"name": "Create Treant",
+"listLevel": 7
+},
+{
+"title": "Create Tree of Life (Priest Spell)",
+"name": "Create Tree of Life",
+"listLevel": 6
+},
+{
+"title": "Create Undead Minion (Priest Spell)",
+"name": "Create Undead Minion",
+"listLevel": 7
+},
+{
+"title": "Create Water (Priest Spell)",
+"name": "Create Water",
+"listLevel": 1
+},
+{
+"title": "Creature of Darkness (Priest Spell)",
+"name": "Creature of Darkness",
+"listLevel": 4
+},
+{
+"title": "Creeping Doom (Priest Spell)",
+"name": "Creeping Doom",
+"listLevel": 7
+},
+{
+"title": "Crumble (Priest Spell)",
+"name": "Crumble",
+"listLevel": 5
+},
+{
+"title": "Crushing Walls (Priest Spell)",
+"name": "Crushing Walls",
+"listLevel": 6
+},
+{
+"title": "Crystallize (Priest Spell)",
+"name": "Crystallize",
+"listLevel": 2
+},
+{
+"title": "Cure Blindness or Deafness (Priest Spell)",
+"name": "Cure Blindness or Deafness",
+"listLevel": 3
+},
+{
+"title": "Cure Critical Wounds (Priest Spell)",
+"name": "Cure Critical Wounds",
+"listLevel": 5
+},
+{
+"title": "Cure Disease (Priest Spell)",
+"name": "Cure Disease",
+"listLevel": 3
+},
+{
+"title": "Cure Insanity (Priest Spell)",
+"name": "Cure Insanity",
+"listLevel": 5
+},
+{
+"title": "Cure Light Wounds (Priest Spell)",
+"name": "Cure Light Wounds",
+"listLevel": 1
+},
+{
+"title": "Cure Moderate Wounds (Priest Spell)",
+"name": "Cure Moderate Wounds",
+"listLevel": 2
+},
+{
+"title": "Cure Rot (Priest Spell)",
+"name": "Cure Rot",
+"listLevel": 5
+},
+{
+"title": "Cure Scurvy (Priest Spell)",
+"name": "Cure Scurvy",
+"listLevel": 2
+},
+{
+"title": "Cure Serious Wounds (Priest Spell)",
+"name": "Cure Serious Wounds",
+"listLevel": 4
+},
+{
+"title": "Curse of Black Sand/Silt (Priest Spell)",
+"name": "Curse of Black Sand/Silt",
+"listLevel": 3
+},
+{
+"title": "Curse of the Choking Sands (Priest Spell)",
+"name": "Curse of the Choking Sands",
+"listLevel": 4
+},
+{
+"title": "Curse of Tongues (Priest Spell)",
+"name": "Curse of Tongues",
+"listLevel": 1
+},
+{
+"title": "Curse of Yondalla (Priest Spell)",
+"name": "Curse of Yondalla",
+"listLevel": 7
+},
+{
+"title": "Dance of Pain (Priest Spell)",
+"name": "Dance of Pain",
+"listLevel": 3
+},
+{
+"title": "Dance of the Fallen (Priest Spell)",
+"name": "Dance of the Fallen",
+"listLevel": 6
+},
+{
+"title": "Dance of the Unicorns (Priest Spell)",
+"name": "Dance of the Unicorns",
+"listLevel": 5
+},
+{
+"title": "Dark Aura (Priest Spell)",
+"name": "Dark Aura",
+"listLevel": 4
+},
+{
+"title": "Dark Fire (Priest Spell)",
+"name": "Dark Fire",
+"listLevel": 2
+},
+{
+"title": "Dark Path (Priest Spell)",
+"name": "Dark Path",
+"listLevel": 1
+},
+{
+"title": "Dark Promise (Priest Spell)",
+"name": "Dark Promise",
+"listLevel": 5
+},
+{
+"title": "Dark Road (Priest Spell)",
+"name": "Dark Road",
+"listLevel": 6
+},
+{
+"title": "Dark Way (Priest Spell)",
+"name": "Dark Way",
+"listLevel": 6
+},
+{
+"title": "Darkbolt (Priest Spell)",
+"name": "Darkbolt",
+"listLevel": 4
+},
+{
+"title": "Darkfire of Beshaba (Priest Spell)",
+"name": "Darkfire of Beshaba",
+"listLevel": 2
+},
+{
+"title": "Dead Magic Shield (Priest Spell)",
+"name": "Dead Magic Shield",
+"listLevel": 5
+},
+{
+"title": "Dead March (Priest Spell)",
+"name": "Dead March",
+"listLevel": 4
+},
+{
+"title": "Deadly Dance (Priest Spell)",
+"name": "Deadly Dance",
+"listLevel": 4
+},
+{
+"title": "Death Chariot (Priest Spell)",
+"name": "Death Chariot",
+"listLevel": 7
+},
+{
+"title": "Death Curse (Priest Spell)",
+"name": "Death Curse",
+"listLevel": 2
+},
+{
+"title": "Death Dragon (Priest Spell)",
+"name": "Death Dragon",
+"listLevel": 6
+},
+{
+"title": "Death Pact (Priest Spell)",
+"name": "Death Pact",
+"listLevel": 7
+},
+{
+"title": "Death Prayer (Priest Spell)",
+"name": "Death Prayer",
+"listLevel": 2
+},
+{
+"title": "Death Symbol of Bane (Priest Spell)",
+"name": "Death Symbol of Bane",
+"listLevel": 7
+},
+{
+"title": "Death Talisman (Priest Spell)",
+"name": "Death Talisman",
+"listLevel": 2
+},
+{
+"title": "Death Touch (Priest Spell)",
+"name": "Death Touch",
+"listLevel": 6
+},
+{
+"title": "Death's Door (Priest Spell)",
+"name": "Death's Door",
+"listLevel": 3
+},
+{
+"title": "Debris Barrier (Priest Spell)",
+"name": "Debris Barrier",
+"listLevel": 5
+},
+{
+"title": "Decay (Priest Spell)",
+"name": "Decay",
+"listLevel": 3
+},
+{
+"title": "Decompose (Priest Spell)",
+"name": "Decompose",
+"listLevel": 4
+},
+{
+"title": "Deep Breath (Priest Spell)",
+"name": "Deep Breath",
+"listLevel": 1
+},
+{
+"title": "Defensive Harmony (Priest Spell)",
+"name": "Defensive Harmony",
+"listLevel": 4
+},
+{
+"title": "Defiler Scent (Priest Spell)",
+"name": "Defiler Scent",
+"listLevel": 4
+},
+{
+"title": "Deflection (Priest Spell)",
+"name": "Deflection",
+"listLevel": 1
+},
+{
+"title": "Dehydrate (Priest Spell)",
+"name": "Dehydrate",
+"listLevel": 7
+},
+{
+"title": "Deny Death (Priest Spell)",
+"name": "Deny Death",
+"listLevel": 5
+},
+{
+"title": "Destroy Magedoom (Priest Spell)",
+"name": "Destroy Magedoom",
+"listLevel": 7
+},
+{
+"title": "Detect Ambush (Priest Spell)",
+"name": "Detect Ambush",
+"listLevel": 3
+},
+{
+"title": "Detect Animal Attacker (Priest Spell)",
+"name": "Detect Animal Attacker",
+"listLevel": 4
+},
+{
+"title": "Detect Balance (Priest Spell)",
+"name": "Detect Balance",
+"listLevel": 1
+},
+{
+"title": "Detect Charm (Priest Spell)",
+"name": "Detect Charm",
+"listLevel": 2
+},
+{
+"title": "Detect Curse - Old Empire (Priest Spell)",
+"name": "Detect Curse - Old Empire",
+"listLevel": 3
+},
+{
+"title": "Detect Curse - Shukenja (Priest Spell)",
+"name": "Detect Curse - Shukenja",
+"listLevel": 3
+},
+{
+"title": "Detect Cursed Item (Priest Spell)",
+"name": "Detect Cursed Item",
+"listLevel": 3
+},
+{
+"title": "Detect Disease (Priest Spell)",
+"name": "Detect Disease",
+"listLevel": 1
+},
+{
+"title": "Detect Evil (Priest Spell)",
+"name": "Detect Evil",
+"listLevel": 1
+},
+{
+"title": "Detect Harmony (Priest Spell)",
+"name": "Detect Harmony",
+"listLevel": 1
+},
+{
+"title": "Detect Illusion (Priest Spell)",
+"name": "Detect Illusion",
+"listLevel": 3
+},
+{
+"title": "Detect Lie (Priest Spell)",
+"name": "Detect Lie",
+"listLevel": 4
+},
+{
+"title": "Detect Life (Priest Spell)",
+"name": "Detect Life",
+"listLevel": 2
+},
+{
+"title": "Detect Living (Priest Spell)",
+"name": "Detect Living",
+"listLevel": 1
+},
+{
+"title": "Detect Magic (Priest Spell)",
+"name": "Detect Magic",
+"listLevel": 1
+},
+{
+"title": "Detect Poison (Priest Spell)",
+"name": "Detect Poison",
+"listLevel": 1
+},
+{
+"title": "Detect Powers (Priest Spell)",
+"name": "Detect Powers",
+"listLevel": 2
+},
+{
+"title": "Detect Predator (Priest Spell)",
+"name": "Detect Predator",
+"listLevel": 1
+},
+{
+"title": "Detect Psionic Use (Priest Spell)",
+"name": "Detect Psionic Use",
+"listLevel": 2
+},
+{
+"title": "Detect Shapechanger (Priest Spell)",
+"name": "Detect Shapechanger",
+"listLevel": 4
+},
+{
+"title": "Detect Snares & Pits (Priest Spell)",
+"name": "Detect Snares & Pits",
+"listLevel": 1
+},
+{
+"title": "Detect Spirits (Priest Spell)",
+"name": "Detect Spirits",
+"listLevel": 3
+},
+{
+"title": "Determine Final Rest (Priest Spell)",
+"name": "Determine Final Rest",
+"listLevel": 3
+},
+{
+"title": "Dictate - Lvl 3 (Priest Spell)",
+"name": "Dictate - Lvl 3",
+"listLevel": 3
+},
+{
+"title": "Dictation (Priest Spell)",
+"name": "Dictation",
+"listLevel": 1
+},
+{
+"title": "Dimensional Anchor (Priest Spell)",
+"name": "Dimensional Anchor",
+"listLevel": 4
+},
+{
+"title": "Dimensional Folding (Priest Spell)",
+"name": "Dimensional Folding",
+"listLevel": 4
+},
+{
+"title": "Dimensional Translocation (Priest Spell)",
+"name": "Dimensional Translocation",
+"listLevel": 5
+},
+{
+"title": "Disbelief (Priest Spell)",
+"name": "Disbelief",
+"listLevel": 6
+},
+{
+"title": "Disc of Concordant Opposition (Priest Spell)",
+"name": "Disc of Concordant Opposition",
+"listLevel": 6
+},
+{
+"title": "Discern Elven Influence (Priest Spell)",
+"name": "Discern Elven Influence",
+"listLevel": 1
+},
+{
+"title": "Dispel Darkness (Priest Spell)",
+"name": "Dispel Darkness",
+"listLevel": 1
+},
+{
+"title": "Dispel Evil (Priest Spell)",
+"name": "Dispel Evil",
+"listLevel": 5
+},
+{
+"title": "Dispel Fatigue (Priest Spell)",
+"name": "Dispel Fatigue",
+"listLevel": 1
+},
+{
+"title": "Dispel Magic (Priest Spell)",
+"name": "Dispel Magic",
+"listLevel": 3
+},
+{
+"title": "Dispel Silence (Priest Spell)",
+"name": "Dispel Silence",
+"listLevel": 3
+},
+{
+"title": "Dissension's Feast (Priest Spell)",
+"name": "Dissension's Feast",
+"listLevel": 2
+},
+{
+"title": "Divination (Priest Spell)",
+"name": "Divination",
+"listLevel": 4
+},
+{
+"title": "Divination - Shukenja (Priest Spell)",
+"name": "Divination - Shukenja",
+"listLevel": 3
+},
+{
+"title": "Divine Bloodline (Priest Spell)",
+"name": "Divine Bloodline",
+"listLevel": 1
+},
+{
+"title": "Divine Curse (Priest Spell)",
+"name": "Divine Curse",
+"listLevel": 6
+},
+{
+"title": "Divine Event (Priest Spell)",
+"name": "Divine Event",
+"listLevel": 6
+},
+{
+"title": "Divine Inspiration (Priest Spell)",
+"name": "Divine Inspiration",
+"listLevel": 7
+},
+{
+"title": "Divine Investiture (Priest Spell)",
+"name": "Divine Investiture",
+"listLevel": 5
+},
+{
+"title": "Divine Purpose (Priest Spell)",
+"name": "Divine Purpose",
+"listLevel": 3
+},
+{
+"title": "Divine Truth (Priest Spell)",
+"name": "Divine Truth",
+"listLevel": 3
+},
+{
+"title": "Divine Wind (Priest Spell)",
+"name": "Divine Wind",
+"listLevel": 7
+},
+{
+"title": "Divining Rod (Priest Spell)",
+"name": "Divining Rod",
+"listLevel": 1
+},
+{
+"title": "Dolorous Decay (Priest Spell)",
+"name": "Dolorous Decay",
+"listLevel": 6
+},
+{
+"title": "Doomtide (Priest Spell)",
+"name": "Doomtide",
+"listLevel": 4
+},
+{
+"title": "Doublecoin (Priest Spell)",
+"name": "Doublecoin",
+"listLevel": 4
+},
+{
+"title": "Dragon Scales (Priest Spell)",
+"name": "Dragon Scales",
+"listLevel": 4
+},
+{
+"title": "Dragonbane (Priest Spell)",
+"name": "Dragonbane",
+"listLevel": 6
+},
+{
+"title": "Draw Upon Holy Might (Priest Spell)",
+"name": "Draw Upon Holy Might",
+"listLevel": 2
+},
+{
+"title": "Dream Sight (Priest Spell)",
+"name": "Dream Sight",
+"listLevel": 2
+},
+{
+"title": "Dream Vision (Priest Spell)",
+"name": "Dream Vision",
+"listLevel": 3
+},
+{
+"title": "Druid's Decay (Priest Spell)",
+"name": "Druid's Decay",
+"listLevel": 3
+},
+{
+"title": "Druidsight (Priest Spell)",
+"name": "Druidsight",
+"listLevel": 2
+},
+{
+"title": "Dumathoin's Rest (Priest Spell)",
+"name": "Dumathoin's Rest",
+"listLevel": 2
+},
+{
+"title": "Duplicate (Priest Spell)",
+"name": "Duplicate",
+"listLevel": 4
+},
+{
+"title": "Dust Devil (Priest Spell)",
+"name": "Dust Devil",
+"listLevel": 2
+},
+{
+"title": "Dweomer Divination (Priest Spell)",
+"name": "Dweomer Divination",
+"listLevel": 7
+},
+{
+"title": "Dweomerflow (Priest Spell)",
+"name": "Dweomerflow",
+"listLevel": 4
+},
+{
+"title": "Earthenair (Priest Spell)",
+"name": "Earthenair",
+"listLevel": 3
+},
+{
+"title": "Earthenport (Priest Spell)",
+"name": "Earthenport",
+"listLevel": 5
+},
+{
+"title": "Earthmaw (Priest Spell)",
+"name": "Earthmaw",
+"listLevel": 4
+},
+{
+"title": "Earthquake (Priest Spell)",
+"name": "Earthquake",
+"listLevel": 7
+},
+{
+"title": "Earthwrack (Priest Spell)",
+"name": "Earthwrack",
+"listLevel": 6
+},
+{
+"title": "Ease Labor (Priest Spell)",
+"name": "Ease Labor",
+"listLevel": 3
+},
+{
+"title": "Easy March (Priest Spell)",
+"name": "Easy March",
+"listLevel": 5
+},
+{
+"title": "Easy Road (Priest Spell)",
+"name": "Easy Road",
+"listLevel": 1
+},
+{
+"title": "Ebony Hand (Priest Spell)",
+"name": "Ebony Hand",
+"listLevel": 1
+},
+{
+"title": "Ebony Tendrils (Priest Spell)",
+"name": "Ebony Tendrils",
+"listLevel": 5
+},
+{
+"title": "Echolocation (Priest Spell)",
+"name": "Echolocation",
+"listLevel": 5
+},
+{
+"title": "Effervescence (Priest Spell)",
+"name": "Effervescence",
+"listLevel": 4
+},
+{
+"title": "Efficacious Monster Ward (Priest Spell)",
+"name": "Efficacious Monster Ward",
+"listLevel": 3
+},
+{
+"title": "Ela's Accounts (Priest Spell)",
+"name": "Ela's Accounts",
+"listLevel": 2
+},
+{
+"title": "Ela's Blessing (Priest Spell)",
+"name": "Ela's Blessing",
+"listLevel": 3
+},
+{
+"title": "Eldath's Tranquility (Priest Spell)",
+"name": "Eldath's Tranquility",
+"listLevel": 2
+},
+{
+"title": "Elemental Bonding (Priest Spell)",
+"name": "Elemental Bonding",
+"listLevel": 1
+},
+{
+"title": "Elemental Breach (Priest Spell)",
+"name": "Elemental Breach",
+"listLevel": 7
+},
+{
+"title": "Elemental Control (Priest Spell)",
+"name": "Elemental Control",
+"listLevel": 4
+},
+{
+"title": "Elemental Forbiddance (Priest Spell)",
+"name": "Elemental Forbiddance",
+"listLevel": 5
+},
+{
+"title": "Elemental Protection (Priest Spell)",
+"name": "Elemental Protection",
+"listLevel": 5
+},
+{
+"title": "Elsewhere Chant (Priest Spell)",
+"name": "Elsewhere Chant",
+"listLevel": 7
+},
+{
+"title": "Embattlement (Priest Spell)",
+"name": "Embattlement",
+"listLevel": 3
+},
+{
+"title": "Emotion Control (Priest Spell)",
+"name": "Emotion Control",
+"listLevel": 3
+},
+{
+"title": "Emotion Read (Priest Spell)",
+"name": "Emotion Read",
+"listLevel": 1
+},
+{
+"title": "Empathy (Priest Spell)",
+"name": "Empathy",
+"listLevel": 1
+},
+{
+"title": "Enchant Phylactery (Priest Spell)",
+"name": "Enchant Phylactery",
+"listLevel": 5
+},
+{
+"title": "Endless Dance (Priest Spell)",
+"name": "Endless Dance",
+"listLevel": 6
+},
+{
+"title": "Endurance (Priest Spell)",
+"name": "Endurance",
+"listLevel": 4
+},
+{
+"title": "Endurance of Ilmater (Priest Spell)",
+"name": "Endurance of Ilmater",
+"listLevel": 4
+},
+{
+"title": "Endure Cold/Endure Heat (Priest Spell)",
+"name": "Endure Cold/Endure Heat",
+"listLevel": 1
+},
+{
+"title": "Enhance Blood Ability (Priest Spell)",
+"name": "Enhance Blood Ability",
+"listLevel": 2
+},
+{
+"title": "Enhance Turning (Priest Spell)",
+"name": "Enhance Turning",
+"listLevel": 2
+},
+{
+"title": "Enhance Water Creature (Priest Spell)",
+"name": "Enhance Water Creature",
+"listLevel": 4
+},
+{
+"title": "Enmeshment (Priest Spell)",
+"name": "Enmeshment",
+"listLevel": 6
+},
+{
+"title": "Entangle (Priest Spell)",
+"name": "Entangle",
+"listLevel": 1
+},
+{
+"title": "Enthrall (Priest Spell)",
+"name": "Enthrall",
+"listLevel": 2
+},
+{
+"title": "Entropy Shield (Priest Spell)",
+"name": "Entropy Shield",
+"listLevel": 6
+},
+{
+"title": "Eruption (Priest Spell)",
+"name": "Eruption",
+"listLevel": 7
+},
+{
+"title": "Eternal Flame (Priest Spell)",
+"name": "Eternal Flame",
+"listLevel": 5
+},
+{
+"title": "Ethereal Barrier (Priest Spell)",
+"name": "Ethereal Barrier",
+"listLevel": 2
+},
+{
+"title": "Etherealness (Priest Spell)",
+"name": "Etherealness",
+"listLevel": 3
+},
+{
+"title": "Everchanging Self (Priest Spell)",
+"name": "Everchanging Self",
+"listLevel": 6
+},
+{
+"title": "Exaction (Priest Spell)",
+"name": "Exaction",
+"listLevel": 7
+},
+{
+"title": "Exaltation (Priest Spell)",
+"name": "Exaltation",
+"listLevel": 3
+},
+{
+"title": "Excessive Indulgence (Priest Spell)",
+"name": "Excessive Indulgence",
+"listLevel": 1
+},
+{
+"title": "Exorcise (Priest Spell)",
+"name": "Exorcise",
+"listLevel": 4
+},
+{
+"title": "Extradimensional Detection (Priest Spell)",
+"name": "Extradimensional Detection",
+"listLevel": 3
+},
+{
+"title": "Extradimensional Manipulation (Priest Spell)",
+"name": "Extradimensional Manipulation",
+"listLevel": 5
+},
+{
+"title": "Extradimensional Pocket (Priest Spell)",
+"name": "Extradimensional Pocket",
+"listLevel": 5
+},
+{
+"title": "Eyes of the Undead (Priest Spell)",
+"name": "Eyes of the Undead",
+"listLevel": 3
+},
+{
+"title": "Faerie Fire (Priest Spell)",
+"name": "Faerie Fire",
+"listLevel": 1
+},
+{
+"title": "Faith Armor (Priest Spell)",
+"name": "Faith Armor",
+"listLevel": 5
+},
+{
+"title": "Faith Magic Zone (Priest Spell)",
+"name": "Faith Magic Zone",
+"listLevel": 4
+},
+{
+"title": "Faithful Mount (Priest Spell)",
+"name": "Faithful Mount",
+"listLevel": 7
+},
+{
+"title": "Falling Wall (Priest Spell)",
+"name": "Falling Wall",
+"listLevel": 6
+},
+{
+"title": "False Dawn (Priest Spell)",
+"name": "False Dawn",
+"listLevel": 6
+},
+{
+"title": "Fangs of Retribution (Priest Spell)",
+"name": "Fangs of Retribution",
+"listLevel": 2
+},
+{
+"title": "Fantastic Machine (Priest Spell)",
+"name": "Fantastic Machine",
+"listLevel": 6
+},
+{
+"title": "Fate (Priest Spell)",
+"name": "Fate",
+"listLevel": 4
+},
+{
+"title": "Favor (Priest Spell)",
+"name": "Favor",
+"listLevel": 5
+},
+{
+"title": "Favor of Ilmater (Priest Spell)",
+"name": "Favor of Ilmater",
+"listLevel": 3
+},
+{
+"title": "Favor of Shaundakul (Priest Spell)",
+"name": "Favor of Shaundakul",
+"listLevel": 2
+},
+{
+"title": "Favor of the Goddess (Priest Spell)",
+"name": "Favor of the Goddess",
+"listLevel": 2
+},
+{
+"title": "Favor of Tymora (Priest Spell)",
+"name": "Favor of Tymora",
+"listLevel": 2
+},
+{
+"title": "Favor of Valkur (Priest Spell)",
+"name": "Favor of Valkur",
+"listLevel": 2
+},
+{
+"title": "Favor of Yathaghera (Priest Spell)",
+"name": "Favor of Yathaghera",
+"listLevel": 3
+},
+{
+"title": "Feat (Priest Spell)",
+"name": "Feat",
+"listLevel": 4
+},
+{
+"title": "Feeblemind (Priest Spell)",
+"name": "Feeblemind",
+"listLevel": 6
+},
+{
+"title": "Feign Death (Priest Spell)",
+"name": "Feign Death",
+"listLevel": 3
+},
+{
+"title": "Feign Undead (Priest Spell)",
+"name": "Feign Undead",
+"listLevel": 4
+},
+{
+"title": "Feline Form (Priest Spell)",
+"name": "Feline Form",
+"listLevel": 7
+},
+{
+"title": "Fertility (Priest Spell)",
+"name": "Fertility",
+"listLevel": 4
+},
+{
+"title": "Find Companion (Priest Spell)",
+"name": "Find Companion",
+"listLevel": 4
+},
+{
+"title": "Find Drinkable Water (Priest Spell)",
+"name": "Find Drinkable Water",
+"listLevel": 1
+},
+{
+"title": "Find Portal (Priest Spell)",
+"name": "Find Portal",
+"listLevel": 3
+},
+{
+"title": "Find the Path (Priest Spell)",
+"name": "Find the Path",
+"listLevel": 6
+},
+{
+"title": "Find Traps (Priest Spell)",
+"name": "Find Traps",
+"listLevel": 2
+},
+{
+"title": "Find Water (Priest Spell)",
+"name": "Find Water",
+"listLevel": 1
+},
+{
+"title": "Finger of Death (Priest Spell)",
+"name": "Finger of Death",
+"listLevel": 7
+},
+{
+"title": "Fire of Justice (Priest Spell)",
+"name": "Fire of Justice",
+"listLevel": 5
+},
+{
+"title": "Fire Seeds (Priest Spell)",
+"name": "Fire Seeds",
+"listLevel": 6
+},
+{
+"title": "Fire Storm (Priest Spell)",
+"name": "Fire Storm",
+"listLevel": 7
+},
+{
+"title": "Fire Trap (Priest Spell)",
+"name": "Fire Trap",
+"listLevel": 2
+},
+{
+"title": "Firebreak (Priest Spell)",
+"name": "Firebreak",
+"listLevel": 2
+},
+{
+"title": "Firelight (Priest Spell)",
+"name": "Firelight",
+"listLevel": 1
+},
+{
+"title": "Fireward (Priest Spell)",
+"name": "Fireward",
+"listLevel": 5
+},
+{
+"title": "Fist of Faith (Priest Spell)",
+"name": "Fist of Faith",
+"listLevel": 2
+},
+{
+"title": "Fist of Gond (Priest Spell)",
+"name": "Fist of Gond",
+"listLevel": 6
+},
+{
+"title": "Flame Blade (Priest Spell)",
+"name": "Flame Blade",
+"listLevel": 2
+},
+{
+"title": "Flame Harvest (Priest Spell)",
+"name": "Flame Harvest",
+"listLevel": 5
+},
+{
+"title": "Flame Shield (Priest Spell)",
+"name": "Flame Shield",
+"listLevel": 3
+},
+{
+"title": "Flame Strike (Priest Spell)",
+"name": "Flame Strike",
+"listLevel": 5
+},
+{
+"title": "Flame Walk (Priest Spell)",
+"name": "Flame Walk",
+"listLevel": 3
+},
+{
+"title": "Flight of Remnis (Priest Spell)",
+"name": "Flight of Remnis",
+"listLevel": 4
+},
+{
+"title": "Float - Lvl 5 (Priest Spell)",
+"name": "Float",
+"listLevel": 5
+},
+{
+"title": "Flyfield (Priest Spell)",
+"name": "Flyfield",
+"listLevel": 5
+},
+{
+"title": "Focal Stone (Priest Spell)",
+"name": "Focal Stone",
+"listLevel": 5
+},
+{
+"title": "Foesight (Priest Spell)",
+"name": "Foesight",
+"listLevel": 4
+},
+{
+"title": "Footsore (Priest Spell)",
+"name": "Footsore",
+"listLevel": 4
+},
+{
+"title": "Forbiddance (Priest Spell)",
+"name": "Forbiddance",
+"listLevel": 6
+},
+{
+"title": "Force Shapechange (Priest Spell)",
+"name": "Force Shapechange",
+"listLevel": 6
+},
+{
+"title": "Forceward (Priest Spell)",
+"name": "Forceward",
+"listLevel": 3
+},
+{
+"title": "Foresight (Priest Spell)",
+"name": "Foresight",
+"listLevel": 1
+},
+{
+"title": "Forge Fire (Priest Spell)",
+"name": "Forge Fire",
+"listLevel": 2
+},
+{
+"title": "Forgotten Melody (Priest Spell)",
+"name": "Forgotten Melody",
+"listLevel": 5
+},
+{
+"title": "Fortifying Stew (Priest Spell)",
+"name": "Fortifying Stew",
+"listLevel": 2
+},
+{
+"title": "Fortitude of Uthgar (Priest Spell)",
+"name": "Fortitude of Uthgar",
+"listLevel": 1
+},
+{
+"title": "Fortunate Fate (Priest Spell)",
+"name": "Fortunate Fate",
+"listLevel": 7
+},
+{
+"title": "Fostered Protection (Priest Spell)",
+"name": "Fostered Protection",
+"listLevel": 3
+},
+{
+"title": "Free Action (Priest Spell)",
+"name": "Free Action",
+"listLevel": 4
+},
+{
+"title": "Free Will (Priest Spell)",
+"name": "Free Will",
+"listLevel": 2
+},
+{
+"title": "Frenzy of the Celts (Priest Spell)",
+"name": "Frenzy of the Celts",
+"listLevel": 3
+},
+{
+"title": "Frisky Chest (Priest Spell)",
+"name": "Frisky Chest",
+"listLevel": 2
+},
+{
+"title": "Frost Breath (Priest Spell)",
+"name": "Frost Breath",
+"listLevel": 2
+},
+{
+"title": "Frost Fingers (Priest Spell)",
+"name": "Frost Fingers",
+"listLevel": 1
+},
+{
+"title": "Frost Whip (Priest Spell)",
+"name": "Frost Whip",
+"listLevel": 2
+},
+{
+"title": "Gaseous Form (Priest Spell)",
+"name": "Gaseous Form",
+"listLevel": 5
+},
+{
+"title": "Gate (Priest Spell)",
+"name": "Gate",
+"listLevel": 7
+},
+{
+"title": "Gate of Doom (Priest Spell)",
+"name": "Gate of Doom",
+"listLevel": 7
+},
+{
+"title": "Gauntlet of Winds (Priest Spell)",
+"name": "Gauntlet of Winds",
+"listLevel": 4
+},
+{
+"title": "Genius (Priest Spell)",
+"name": "Genius",
+"listLevel": 4
+},
+{
+"title": "Geyser (Priest Spell)",
+"name": "Geyser",
+"listLevel": 5
+},
+{
+"title": "Ghost Knight (Priest Spell)",
+"name": "Ghost Knight",
+"listLevel": 4
+},
+{
+"title": "Ghost Pipes (Priest Spell)",
+"name": "Ghost Pipes",
+"listLevel": 2
+},
+{
+"title": "Giant Insect (Priest Spell)",
+"name": "Giant Insect",
+"listLevel": 4
+},
+{
+"title": "Gift of Speech (Priest Spell)",
+"name": "Gift of Speech",
+"listLevel": 2
+},
+{
+"title": "Glass Storm (Priest Spell)",
+"name": "Glass Storm",
+"listLevel": 7
+},
+{
+"title": "Gloomcloud (Priest Spell)",
+"name": "Gloomcloud",
+"listLevel": 4
+},
+{
+"title": "Glow (Priest Spell)",
+"name": "Glow",
+"listLevel": 3
+},
+{
+"title": "Glyph of Revealing (Priest Spell)",
+"name": "Glyph of Revealing",
+"listLevel": 2
+},
+{
+"title": "Glyph of Warding (Priest Spell)",
+"name": "Glyph of Warding",
+"listLevel": 3
+},
+{
+"title": "Glyph of Warding: Telatha (Priest Spell)",
+"name": "Glyph of Warding: Telatha",
+"listLevel": 3
+},
+{
+"title": "Goad of Misfortune (Priest Spell)",
+"name": "Goad of Misfortune",
+"listLevel": 6
+},
+{
+"title": "Golem (Priest Spell)",
+"name": "Golem",
+"listLevel": 5
+},
+{
+"title": "Good Weather (Priest Spell)",
+"name": "Good Weather",
+"listLevel": 5
+},
+{
+"title": "Goodberry (Priest Spell)",
+"name": "Goodberry",
+"listLevel": 2
+},
+{
+"title": "Grassdart (Priest Spell)",
+"name": "Grassdart",
+"listLevel": 2
+},
+{
+"title": "Greater Creature of Darkness (Priest Spell)",
+"name": "Greater Creature of Darkness",
+"listLevel": 6
+},
+{
+"title": "Greater Guardian Seal (Priest Spell)",
+"name": "Greater Guardian Seal",
+"listLevel": 6
+},
+{
+"title": "Greater Mantle of Mystra (Priest Spell)",
+"name": "Greater Mantle of Mystra",
+"listLevel": 6
+},
+{
+"title": "Greater Shield of Lathander (Priest Spell)",
+"name": "Greater Shield of Lathander",
+"listLevel": 7
+},
+{
+"title": "Greater Touchsickle (Priest Spell)",
+"name": "Greater Touchsickle",
+"listLevel": 5
+},
+{
+"title": "Greenwood (Priest Spell)",
+"name": "Greenwood",
+"listLevel": 3
+},
+{
+"title": "Ground Trace (Priest Spell)",
+"name": "Ground Trace",
+"listLevel": 4
+},
+{
+"title": "Group Mind (Priest Spell)",
+"name": "Group Mind",
+"listLevel": 6
+},
+{
+"title": "Hailstone (Priest Spell)",
+"name": "Hailstone",
+"listLevel": 2
+},
+{
+"title": "Hallucinatory Forest (Priest Spell)",
+"name": "Hallucinatory Forest",
+"listLevel": 4
+},
+{
+"title": "Hammer of Justice (Priest Spell)",
+"name": "Hammer of Justice",
+"listLevel": 5
+},
+{
+"title": "Hand of Fate (Priest Spell)",
+"name": "Hand of Fate",
+"listLevel": 4
+},
+{
+"title": "Hand of Hoar (Priest Spell)",
+"name": "Hand of Hoar",
+"listLevel": 4
+},
+{
+"title": "Hand of the Sorcerer-King (Priest Spell)",
+"name": "Hand of the Sorcerer-King",
+"listLevel": 1
+},
+{
+"title": "Hand of Torm (Priest Spell)",
+"name": "Hand of Torm",
+"listLevel": 4
+},
+{
+"title": "Handcandle (Priest Spell)",
+"name": "Handcandle",
+"listLevel": 3
+},
+{
+"title": "Handfang (Priest Spell)",
+"name": "Handfang",
+"listLevel": 2
+},
+{
+"title": "Handfire (Priest Spell)",
+"name": "Handfire",
+"listLevel": 1
+},
+{
+"title": "Hard Water (Priest Spell)",
+"name": "Hard Water",
+"listLevel": 5
+},
+{
+"title": "Harp of War (Priest Spell)",
+"name": "Harp of War",
+"listLevel": 7
+},
+{
+"title": "Haunted Visions (Priest Spell)",
+"name": "Haunted Visions",
+"listLevel": 3
+},
+{
+"title": "Heal (Priest Spell)",
+"name": "Heal",
+"listLevel": 6
+},
+{
+"title": "Heal Plants (Priest Spell)",
+"name": "Heal Plants",
+"listLevel": 1
+},
+{
+"title": "Heal Trees (Priest Spell)",
+"name": "Heal Trees",
+"listLevel": 4
+},
+{
+"title": "Healing Hand (Priest Spell)",
+"name": "Healing Hand",
+"listLevel": 4
+},
+{
+"title": "Healing Rays (Priest Spell)",
+"name": "Healing Rays",
+"listLevel": 4
+},
+{
+"title": "Hear Heartbeat (Priest Spell)",
+"name": "Hear Heartbeat",
+"listLevel": 2
+},
+{
+"title": "Heart Blight (Priest Spell)",
+"name": "Heart Blight",
+"listLevel": 4
+},
+{
+"title": "Heart Call (Priest Spell)",
+"name": "Heart Call",
+"listLevel": 5
+},
+{
+"title": "Heart of Ice (Priest Spell)",
+"name": "Heart of Ice",
+"listLevel": 7
+},
+{
+"title": "Heartseeker (Priest Spell)",
+"name": "Heartseeker",
+"listLevel": 6
+},
+{
+"title": "Heat Exhaustion (Priest Spell)",
+"name": "Heat Exhaustion",
+"listLevel": 3
+},
+{
+"title": "Heat Metal (Priest Spell)",
+"name": "Heat Metal",
+"listLevel": 2
+},
+{
+"title": "Helping Hand (Priest Spell)",
+"name": "Helping Hand",
+"listLevel": 6
+},
+{
+"title": "Henley's Digit of Disruption (Priest Spell)",
+"name": "Henley's Digit of Disruption",
+"listLevel": 7
+},
+{
+"title": "Heroes' Feast (Priest Spell)",
+"name": "Heroes' Feast",
+"listLevel": 6
+},
+{
+"title": "Heroism (Priest Spell)",
+"name": "Heroism",
+"listLevel": 4
+},
+{
+"title": "Hesitation (Priest Spell)",
+"name": "Hesitation",
+"listLevel": 2
+},
+{
+"title": "Hibernate (Priest Spell)",
+"name": "Hibernate",
+"listLevel": 1
+},
+{
+"title": "Higher Consecration (Priest Spell)",
+"name": "Higher Consecration",
+"listLevel": 6
+},
+{
+"title": "Hoar's Revenance (Priest Spell)",
+"name": "Hoar's Revenance",
+"listLevel": 6
+},
+{
+"title": "Hold Animal (Priest Spell)",
+"name": "Hold Animal",
+"listLevel": 3
+},
+{
+"title": "Hold Metal (Priest Spell)",
+"name": "Hold Metal",
+"listLevel": 4
+},
+{
+"title": "Hold Person (Priest Spell)",
+"name": "Hold Person",
+"listLevel": 2
+},
+{
+"title": "Hold Plant (Priest Spell)",
+"name": "Hold Plant",
+"listLevel": 4
+},
+{
+"title": "Hold Poison (Priest Spell)",
+"name": "Hold Poison",
+"listLevel": 3
+},
+{
+"title": "Hold Wave (Priest Spell)",
+"name": "Hold Wave",
+"listLevel": 4
+},
+{
+"title": "Holly Dart (Priest Spell)",
+"name": "Holly Dart",
+"listLevel": 7
+},
+{
+"title": "Holy Flail (Priest Spell)",
+"name": "Holy Flail",
+"listLevel": 3
+},
+{
+"title": "Holy Might (Priest Spell)",
+"name": "Holy Might",
+"listLevel": 6
+},
+{
+"title": "Holy Star (Priest Spell)",
+"name": "Holy Star",
+"listLevel": 6
+},
+{
+"title": "Holy Symbol (Priest Spell)",
+"name": "Holy Symbol",
+"listLevel": 2
+},
+{
+"title": "Holy Vesting (Priest Spell)",
+"name": "Holy Vesting",
+"listLevel": 6
+},
+{
+"title": "Holy Word (Priest Spell)",
+"name": "Holy Word",
+"listLevel": 7
+},
+{
+"title": "Home Port (Priest Spell)",
+"name": "Home Port",
+"listLevel": 3
+},
+{
+"title": "Hovering Road (Priest Spell)",
+"name": "Hovering Road",
+"listLevel": 7
+},
+{
+"title": "Hunger (Priest Spell)",
+"name": "Hunger",
+"listLevel": 4
+},
+{
+"title": "Hurl Thunderbolt (Priest Spell)",
+"name": "Hurl Thunderbolt",
+"listLevel": 4
+},
+{
+"title": "Ice Blade (Priest Spell)",
+"name": "Ice Blade",
+"listLevel": 4
+},
+{
+"title": "Ice Spikes (Priest Spell)",
+"name": "Ice Spikes",
+"listLevel": 3
+},
+{
+"title": "Ice Walk (Priest Spell)",
+"name": "Ice Walk",
+"listLevel": 1
+},
+{
+"title": "Idea (Priest Spell)",
+"name": "Idea",
+"listLevel": 2
+},
+{
+"title": "Illumination (Priest Spell)",
+"name": "Illumination",
+"listLevel": 5
+},
+{
+"title": "Ilmater's Fist (Priest Spell)",
+"name": "Ilmater's Fist",
+"listLevel": 4
+},
+{
+"title": "Image of the Sorcerer-Kings (Priest Spell)",
+"name": "Image of the Sorcerer-Kings",
+"listLevel": 4
+},
+{
+"title": "Imbue Purpose (Priest Spell)",
+"name": "Imbue Purpose",
+"listLevel": 6
+},
+{
+"title": "Imbue Undead with Spell Ability (Priest Spell)",
+"name": "Imbue Undead with Spell Ability",
+"listLevel": 5
+},
+{
+"title": "Imbue with Blood Ability (Priest Spell)",
+"name": "Imbue with Blood Ability",
+"listLevel": 3
+},
+{
+"title": "Imbue with Spell Ability (Priest Spell)",
+"name": "Imbue with Spell Ability",
+"listLevel": 4
+},
+{
+"title": "Immunity to Weapons (Priest Spell)",
+"name": "Immunity to Weapons",
+"listLevel": 6
+},
+{
+"title": "Impart Knowledge (Priest Spell)",
+"name": "Impart Knowledge",
+"listLevel": 2
+},
+{
+"title": "Impeding Permission (Priest Spell)",
+"name": "Impeding Permission",
+"listLevel": 5
+},
+{
+"title": "Impenetrable Falsehood (Priest Spell)",
+"name": "Impenetrable Falsehood",
+"listLevel": 2
+},
+{
+"title": "Impervious Sanctity of Mind (Priest Spell)",
+"name": "Impervious Sanctity of Mind",
+"listLevel": 7
+},
+{
+"title": "Impregnable Mind (Priest Spell)",
+"name": "Impregnable Mind",
+"listLevel": 5
+},
+{
+"title": "Inanimate Servant (Priest Spell)",
+"name": "Inanimate Servant",
+"listLevel": 6
+},
+{
+"title": "Infestation (Priest Spell)",
+"name": "Infestation",
+"listLevel": 4
+},
+{
+"title": "Infrainvisible (Priest Spell)",
+"name": "Infrainvisible",
+"listLevel": 2
+},
+{
+"title": "Inheritance Assurance (Priest Spell)",
+"name": "Inheritance Assurance",
+"listLevel": 4
+},
+{
+"title": "Initiation (Priest Spell)",
+"name": "Initiation",
+"listLevel": 7
+},
+{
+"title": "Inkjet (Priest Spell)",
+"name": "Inkjet",
+"listLevel": 3
+},
+{
+"title": "Inner Sanctum (Priest Spell)",
+"name": "Inner Sanctum",
+"listLevel": 7
+},
+{
+"title": "Insect Plague (Priest Spell)",
+"name": "Insect Plague",
+"listLevel": 5
+},
+{
+"title": "Insect Ward (Priest Spell)",
+"name": "Insect Ward",
+"listLevel": 3
+},
+{
+"title": "Instruct (Priest Spell)",
+"name": "Instruct",
+"listLevel": 6
+},
+{
+"title": "Intensify Sensation (Priest Spell)",
+"name": "Intensify Sensation",
+"listLevel": 3
+},
+{
+"title": "Interruptible Light (Priest Spell)",
+"name": "Interruptible Light",
+"listLevel": 4
+},
+{
+"title": "Inverted Ethics (Priest Spell)",
+"name": "Inverted Ethics",
+"listLevel": 4
+},
+{
+"title": "Invisibility to Animals (Priest Spell)",
+"name": "Invisibility to Animals",
+"listLevel": 1
+},
+{
+"title": "Invisibility to Animals, 10' Radius (Priest Spell)",
+"name": "Invisibility to Animals, 10' Radius",
+"listLevel": 3
+},
+{
+"title": "Invisibility to Enemies (Priest Spell)",
+"name": "Invisibility to Enemies",
+"listLevel": 6
+},
+{
+"title": "Invisibility to Spirits (Priest Spell)",
+"name": "Invisibility to Spirits",
+"listLevel": 3
+},
+{
+"title": "Invisibility to Undead (Priest Spell)",
+"name": "Invisibility to Undead",
+"listLevel": 1
+},
+{
+"title": "Iron Vigil (Priest Spell)",
+"name": "Iron Vigil",
+"listLevel": 2
+},
+{
+"title": "Ironskin (Priest Spell)",
+"name": "Ironskin",
+"listLevel": 5
+},
+{
+"title": "Isolate Templar (Priest Spell)",
+"name": "Isolate Templar",
+"listLevel": 6
+},
+{
+"title": "Istishia's Port (Priest Spell)",
+"name": "Istishia's Port",
+"listLevel": 7
+},
+{
+"title": "Istishia's Tsunami (Priest Spell)",
+"name": "Istishia's Tsunami",
+"listLevel": 7
+},
+{
+"title": "Ivy Siege (Priest Spell)",
+"name": "Ivy Siege",
+"listLevel": 6
+},
+{
+"title": "Jaws of the Wolf (Priest Spell)",
+"name": "Jaws of the Wolf",
+"listLevel": 2
+},
+{
+"title": "Jergal's Mind Probe (Priest Spell)",
+"name": "Jergal's Mind Probe",
+"listLevel": 5
+},
+{
+"title": "Join with Astral Traveler (Priest Spell)",
+"name": "Join with Astral Traveler",
+"listLevel": 4
+},
+{
+"title": "Journey's Orison (Priest Spell)",
+"name": "Journey's Orison",
+"listLevel": 1
+},
+{
+"title": "Jungle Avatar (Priest Spell)",
+"name": "Jungle Avatar",
+"listLevel": 1
+},
+{
+"title": "Kami Absorption (Priest Spell)",
+"name": "Kami Absorption",
+"listLevel": 5
+},
+{
+"title": "Karma Curse (Priest Spell)",
+"name": "Karma Curse",
+"listLevel": 7
+},
+{
+"title": "Kelemvor's Grace (Priest Spell)",
+"name": "Kelemvor's Grace",
+"listLevel": 5
+},
+{
+"title": "Kiss of Sharess (Priest Spell)",
+"name": "Kiss of Sharess",
+"listLevel": 5
+},
+{
+"title": "Kiss of Torment (Priest Spell)",
+"name": "Kiss of Torment",
+"listLevel": 4
+},
+{
+"title": "Knight's Move (Priest Spell)",
+"name": "Knight's Move",
+"listLevel": 3
+},
+{
+"title": "Know Age (Priest Spell)",
+"name": "Know Age",
+"listLevel": 1
+},
+{
+"title": "Know Alignment (Priest Spell)",
+"name": "Know Alignment",
+"listLevel": 2
+},
+{
+"title": "Know Bloodline (Priest Spell)",
+"name": "Know Bloodline",
+"listLevel": 1
+},
+{
+"title": "Know Customs (Priest Spell)",
+"name": "Know Customs",
+"listLevel": 3
+},
+{
+"title": "Know Direction (Priest Spell)",
+"name": "Know Direction",
+"listLevel": 1
+},
+{
+"title": "Know Faction (Priest Spell)",
+"name": "Know Faction",
+"listLevel": 1
+},
+{
+"title": "Know History (Priest Spell)",
+"name": "Know History",
+"listLevel": 1
+},
+{
+"title": "Know Language (Priest Spell)",
+"name": "Know Language",
+"listLevel": 2
+},
+{
+"title": "Know Time (Priest Spell)",
+"name": "Know Time",
+"listLevel": 1
+},
+{
+"title": "Knurl (Priest Spell)",
+"name": "Knurl",
+"listLevel": 4
+},
+{
+"title": "Lair Divination (Priest Spell)",
+"name": "Lair Divination",
+"listLevel": 4
+},
+{
+"title": "Land of Stability (Priest Spell)",
+"name": "Land of Stability",
+"listLevel": 6
+},
+{
+"title": "Laughing Water (Priest Spell)",
+"name": "Laughing Water",
+"listLevel": 3
+},
+{
+"title": "Leaf Into Dagger (Priest Spell)",
+"name": "Leaf Into Dagger",
+"listLevel": 1
+},
+{
+"title": "Legal Thoughts (Priest Spell)",
+"name": "Legal Thoughts",
+"listLevel": 6
+},
+{
+"title": "Lesser Guardian Seal (Priest Spell)",
+"name": "Lesser Guardian Seal",
+"listLevel": 4
+},
+{
+"title": "Life Drain (Priest Spell)",
+"name": "Life Drain",
+"listLevel": 3
+},
+{
+"title": "Lifebane (Priest Spell)",
+"name": "Lifebane",
+"listLevel": 5
+},
+{
+"title": "Light (Priest Spell)",
+"name": "Light",
+"listLevel": 1
+},
+{
+"title": "Lighten Load (Priest Spell)",
+"name": "Lighten Load",
+"listLevel": 2
+},
+{
+"title": "Lightning Lance (Priest Spell)",
+"name": "Lightning Lance",
+"listLevel": 4
+},
+{
+"title": "Lightning Water (Priest Spell)",
+"name": "Lightning Water",
+"listLevel": 3
+},
+{
+"title": "Lion's Claws (Priest Spell)",
+"name": "Lion's Claws",
+"listLevel": 3
+},
+{
+"title": "Lionheart (Priest Spell)",
+"name": "Lionheart",
+"listLevel": 2
+},
+{
+"title": "Listening Shadow (Priest Spell)",
+"name": "Listening Shadow",
+"listLevel": 3
+},
+{
+"title": "Liveoak (Priest Spell)",
+"name": "Liveoak",
+"listLevel": 6
+},
+{
+"title": "Living Ward (Priest Spell)",
+"name": "Living Ward",
+"listLevel": 5
+},
+{
+"title": "Lizard Limbs (Priest Spell)",
+"name": "Lizard Limbs",
+"listLevel": 4
+},
+{
+"title": "Locate Animals or Plants (Priest Spell)",
+"name": "Locate Animals or Plants",
+"listLevel": 1
+},
+{
+"title": "Locate Object (Priest Spell)",
+"name": "Locate Object",
+"listLevel": 3
+},
+{
+"title": "Locate Spirit Animal (Priest Spell)",
+"name": "Locate Spirit Animal",
+"listLevel": 4
+},
+{
+"title": "Log of Everburning (Priest Spell)",
+"name": "Log of Everburning",
+"listLevel": 1
+},
+{
+"title": "Log to Lizard (Priest Spell)",
+"name": "Log to Lizard",
+"listLevel": 4
+},
+{
+"title": "Longevity (Priest Spell)",
+"name": "Longevity",
+"listLevel": 6
+},
+{
+"title": "Love Bite (Priest Spell)",
+"name": "Love Bite",
+"listLevel": 2
+},
+{
+"title": "Loviatar's Caress (Priest Spell)",
+"name": "Loviatar's Caress",
+"listLevel": 2
+},
+{
+"title": "Loving Pain (Priest Spell)",
+"name": "Loving Pain",
+"listLevel": 5
+},
+{
+"title": "Lower Water (Priest Spell)",
+"name": "Lower Water",
+"listLevel": 4
+},
+{
+"title": "Loyal Vassal (Priest Spell)",
+"name": "Loyal Vassal",
+"listLevel": 3
+},
+{
+"title": "Luckbolt (Priest Spell)",
+"name": "Luckbolt",
+"listLevel": 6
+},
+{
+"title": "Lungs of Water (Priest Spell)",
+"name": "Lungs of Water",
+"listLevel": 4
+},
+{
+"title": "Lure (Priest Spell)",
+"name": "Lure",
+"listLevel": 3
+},
+{
+"title": "Mace of Odo (Priest Spell)",
+"name": "Mace of Odo",
+"listLevel": 3
+},
+{
+"title": "Mace of Xvim (Priest Spell)",
+"name": "Mace of Xvim",
+"listLevel": 2
+},
+{
+"title": "Maelstrom (Priest Spell)",
+"name": "Maelstrom",
+"listLevel": 7
+},
+{
+"title": "Magic Creeper (Priest Spell)",
+"name": "Magic Creeper",
+"listLevel": 1
+},
+{
+"title": "Magic Font (Priest Spell)",
+"name": "Magic Font",
+"listLevel": 5
+},
+{
+"title": "Magical Stone (Priest Spell)",
+"name": "Magical Stone",
+"listLevel": 1
+},
+{
+"title": "Magical Tether (Priest Spell)",
+"name": "Magical Tether",
+"listLevel": 1
+},
+{
+"title": "Magical Vestment (Priest Spell)",
+"name": "Magical Vestment",
+"listLevel": 3
+},
+{
+"title": "Magical Vestment - Shukenja (Priest Spell)",
+"name": "Magical Vestment - Shukenja",
+"listLevel": 3
+},
+{
+"title": "Magma Blade (Priest Spell)",
+"name": "Magma Blade",
+"listLevel": 4
+},
+{
+"title": "Magma Jet (Priest Spell)",
+"name": "Magma Jet",
+"listLevel": 3
+},
+{
+"title": "Magma Shield (Priest Spell)",
+"name": "Magma Shield",
+"listLevel": 4
+},
+{
+"title": "Magma Tunnel (Priest Spell)",
+"name": "Magma Tunnel",
+"listLevel": 7
+},
+{
+"title": "Magnetism (Priest Spell)",
+"name": "Magnetism",
+"listLevel": 4
+},
+{
+"title": "Maintain (Priest Spell)",
+"name": "Maintain",
+"listLevel": 3
+},
+{
+"title": "Major Ward (Priest Spell)",
+"name": "Major Ward",
+"listLevel": 5
+},
+{
+"title": "Make Real (Priest Spell)",
+"name": "Make Real",
+"listLevel": 7
+},
+{
+"title": "Mantle of Mystra (Priest Spell)",
+"name": "Mantle of Mystra",
+"listLevel": 4
+},
+{
+"title": "Manythorns (Priest Spell)",
+"name": "Manythorns",
+"listLevel": 2
+},
+{
+"title": "Mark of the Hunted (Priest Spell)",
+"name": "Mark of the Hunted",
+"listLevel": 6
+},
+{
+"title": "Mask of Gargauth (Priest Spell)",
+"name": "Mask of Gargauth",
+"listLevel": 3
+},
+{
+"title": "Master Rune (Priest Spell)",
+"name": "Master Rune",
+"listLevel": 7
+},
+{
+"title": "Measure Cinnabryl (Priest Spell)",
+"name": "Measure Cinnabryl",
+"listLevel": 1
+},
+{
+"title": "Meld Into Stone (Priest Spell)",
+"name": "Meld Into Stone",
+"listLevel": 3
+},
+{
+"title": "Melisander's Harp (Priest Spell)",
+"name": "Melisander's Harp",
+"listLevel": 5
+},
+{
+"title": "Memory (Priest Spell)",
+"name": "Memory",
+"listLevel": 6
+},
+{
+"title": "Memory Wrack (Priest Spell)",
+"name": "Memory Wrack",
+"listLevel": 5
+},
+{
+"title": "Mental Domination (Priest Spell)",
+"name": "Mental Domination",
+"listLevel": 4
+},
+{
+"title": "Mental Prowess (Priest Spell)",
+"name": "Mental Prowess",
+"listLevel": 3
+},
+{
+"title": "Mental Strength (Priest Spell)",
+"name": "Mental Strength",
+"listLevel": 5
+},
+{
+"title": "Merciful Shadows (Priest Spell)",
+"name": "Merciful Shadows",
+"listLevel": 1
+},
+{
+"title": "Merge with Nature (Priest Spell)",
+"name": "Merge with Nature",
+"listLevel": 6
+},
+{
+"title": "Message Mote (Priest Spell)",
+"name": "Message Mote",
+"listLevel": 2
+},
+{
+"title": "Messenger (Priest Spell)",
+"name": "Messenger",
+"listLevel": 2
+},
+{
+"title": "Metal Skin (Priest Spell)",
+"name": "Metal Skin",
+"listLevel": 6
+},
+{
+"title": "Meteors of Celestian (Priest Spell)",
+"name": "Meteors of Celestian",
+"listLevel": 4
+},
+{
+"title": "Might of Mystra (Priest Spell)",
+"name": "Might of Mystra",
+"listLevel": 5
+},
+{
+"title": "Might of the Sorcerer-Kings (Priest Spell)",
+"name": "Might of the Sorcerer-Kings",
+"listLevel": 2
+},
+{
+"title": "Mind Cloak (Priest Spell)",
+"name": "Mind Cloak",
+"listLevel": 4
+},
+{
+"title": "Mind Read (Priest Spell)",
+"name": "Mind Read",
+"listLevel": 2
+},
+{
+"title": "Mindkiller (Priest Spell)",
+"name": "Mindkiller",
+"listLevel": 7
+},
+{
+"title": "Mindshatter (Priest Spell)",
+"name": "Mindshatter",
+"listLevel": 5
+},
+{
+"title": "Mindspin (Priest Spell)",
+"name": "Mindspin",
+"listLevel": 7
+},
+{
+"title": "Minor Ward (Priest Spell)",
+"name": "Minor Ward",
+"listLevel": 4
+},
+{
+"title": "Minor Wealthtwist (Priest Spell)",
+"name": "Minor Wealthtwist",
+"listLevel": 5
+},
+{
+"title": "Mirage of Despair (Priest Spell)",
+"name": "Mirage of Despair",
+"listLevel": 4
+},
+{
+"title": "Mirror Vestments (Priest Spell)",
+"name": "Mirror Vestments",
+"listLevel": 3
+},
+{
+"title": "Miscast Magic (Priest Spell)",
+"name": "Miscast Magic",
+"listLevel": 3
+},
+{
+"title": "Misfire (Priest Spell)",
+"name": "Misfire",
+"listLevel": 4
+},
+{
+"title": "Misfortune (Priest Spell)",
+"name": "Misfortune",
+"listLevel": 5
+},
+{
+"title": "Missing Word (Priest Spell)",
+"name": "Missing Word",
+"listLevel": 7
+},
+{
+"title": "Mist of the Goddess (Priest Spell)",
+"name": "Mist of the Goddess",
+"listLevel": 7
+},
+{
+"title": "Mistaken Missive (Priest Spell)",
+"name": "Mistaken Missive",
+"listLevel": 1
+},
+{
+"title": "Modify Memory (Priest Spell)",
+"name": "Modify Memory",
+"listLevel": 4
+},
+{
+"title": "Mold Touch (Priest Spell)",
+"name": "Mold Touch",
+"listLevel": 3
+},
+{
+"title": "Moment (Priest Spell)",
+"name": "Moment",
+"listLevel": 2
+},
+{
+"title": "Moment Reading (Priest Spell)",
+"name": "Moment Reading",
+"listLevel": 3
+},
+{
+"title": "Monster Mount (Priest Spell)",
+"name": "Monster Mount",
+"listLevel": 6
+},
+{
+"title": "Monstrous Illusion (Priest Spell)",
+"name": "Monstrous Illusion",
+"listLevel": 4
+},
+{
+"title": "Moon Blade (Priest Spell)",
+"name": "Moon Blade",
+"listLevel": 3
+},
+{
+"title": "Moon Path (Priest Spell)",
+"name": "Moon Path",
+"listLevel": 5
+},
+{
+"title": "Moon Rising (Priest Spell)",
+"name": "Moon Rising",
+"listLevel": 4
+},
+{
+"title": "Moon Shield (Priest Spell)",
+"name": "Moon Shield",
+"listLevel": 2
+},
+{
+"title": "Moonbeam (Priest Spell)",
+"name": "Moonbeam",
+"listLevel": 5
+},
+{
+"title": "Moonbeam - Cerilia (Priest Spell)",
+"name": "Moonbeam - Cerilia",
+"listLevel": 1
+},
+{
+"title": "Moonfire (Priest Spell)",
+"name": "Moonfire",
+"listLevel": 5
+},
+{
+"title": "Moonveil (Priest Spell)",
+"name": "Moonveil",
+"listLevel": 7
+},
+{
+"title": "Moonweb (Priest Spell)",
+"name": "Moonweb",
+"listLevel": 5
+},
+{
+"title": "Moss Skull (Priest Spell)",
+"name": "Moss Skull",
+"listLevel": 5
+},
+{
+"title": "Mulch (Priest Spell)",
+"name": "Mulch",
+"listLevel": 5
+},
+{
+"title": "Multiple Message Mote (Priest Spell)",
+"name": "Multiple Message Mote",
+"listLevel": 4
+},
+{
+"title": "Music of the Spheres (Priest Spell)",
+"name": "Music of the Spheres",
+"listLevel": 2
+},
+{
+"title": "Mystic Lash (Priest Spell)",
+"name": "Mystic Lash",
+"listLevel": 5
+},
+{
+"title": "Nap (Priest Spell)",
+"name": "Nap",
+"listLevel": 2
+},
+{
+"title": "Natural Attunement (Priest Spell)",
+"name": "Natural Attunement",
+"listLevel": 2
+},
+{
+"title": "Natural Fortitude (Priest Spell)",
+"name": "Natural Fortitude",
+"listLevel": 1
+},
+{
+"title": "Nature's Charm (Priest Spell)",
+"name": "Nature's Charm",
+"listLevel": 5
+},
+{
+"title": "Nectar (Priest Spell)",
+"name": "Nectar",
+"listLevel": 1
+},
+{
+"title": "Needlestorm (Priest Spell)",
+"name": "Needlestorm",
+"listLevel": 4
+},
+{
+"title": "Negative Plane Protection (Priest Spell)",
+"name": "Negative Plane Protection",
+"listLevel": 3
+},
+{
+"title": "Neutralize Poison (Priest Spell)",
+"name": "Neutralize Poison",
+"listLevel": 4
+},
+{
+"title": "Oakheart (Priest Spell)",
+"name": "Oakheart",
+"listLevel": 4
+},
+{
+"title": "Oars to Snakes (Priest Spell)",
+"name": "Oars to Snakes",
+"listLevel": 4
+},
+{
+"title": "Oath (Priest Spell)",
+"name": "Oath",
+"listLevel": 3
+},
+{
+"title": "Obscurement (Priest Spell)",
+"name": "Obscurement",
+"listLevel": 2
+},
+{
+"title": "Oil Spray (Priest Spell)",
+"name": "Oil Spray",
+"listLevel": 3
+},
+{
+"title": "Omen (Priest Spell)",
+"name": "Omen",
+"listLevel": 1
+},
+{
+"title": "Omen - Old Empire (Priest Spell)",
+"name": "Omen - Old Empire",
+"listLevel": 2
+},
+{
+"title": "Omen I (Priest Spell)",
+"name": "Omen I",
+"listLevel": 2
+},
+{
+"title": "Omen II (Priest Spell)",
+"name": "Omen II",
+"listLevel": 4
+},
+{
+"title": "Omen III (Priest Spell)",
+"name": "Omen III",
+"listLevel": 6
+},
+{
+"title": "Omniscient Eye (Priest Spell)",
+"name": "Omniscient Eye",
+"listLevel": 4
+},
+{
+"title": "Orison (Priest Spell)",
+"name": "Orison",
+"listLevel": 1
+},
+{
+"title": "Othertime (Priest Spell)",
+"name": "Othertime",
+"listLevel": 5
+},
+{
+"title": "Otherworld (Priest Spell)",
+"name": "Otherworld",
+"listLevel": 6
+},
+{
+"title": "Oxen Strength (Priest Spell)",
+"name": "Oxen Strength",
+"listLevel": 3
+},
+{
+"title": "Pacify (Priest Spell)",
+"name": "Pacify",
+"listLevel": 4
+},
+{
+"title": "Page Guardian (Priest Spell)",
+"name": "Page Guardian",
+"listLevel": 5
+},
+{
+"title": "Part Water (Priest Spell)",
+"name": "Part Water",
+"listLevel": 6
+},
+{
+"title": "Pass Plant (Priest Spell)",
+"name": "Pass Plant",
+"listLevel": 5
+},
+{
+"title": "Pass Without Notice (Priest Spell)",
+"name": "Pass Without Notice",
+"listLevel": 2
+},
+{
+"title": "Pass Without Trace (Priest Spell)",
+"name": "Pass Without Trace",
+"listLevel": 1
+},
+{
+"title": "Pass Without Trace, 10' Radius (Priest Spell)",
+"name": "Pass Without Trace, 10' Radius",
+"listLevel": 3
+},
+{
+"title": "Passweb (Priest Spell)",
+"name": "Passweb",
+"listLevel": 4
+},
+{
+"title": "Penetrate Disguise (Priest Spell)",
+"name": "Penetrate Disguise",
+"listLevel": 4
+},
+{
+"title": "Permanency Prayer (Priest Spell)",
+"name": "Permanency Prayer",
+"listLevel": 7
+},
+{
+"title": "Permanent Lure (Priest Spell)",
+"name": "Permanent Lure",
+"listLevel": 6
+},
+{
+"title": "Personal Reading (Priest Spell)",
+"name": "Personal Reading",
+"listLevel": 1
+},
+{
+"title": "Petrify Wood (Priest Spell)",
+"name": "Petrify Wood",
+"listLevel": 1
+},
+{
+"title": "Phantom Plow (Priest Spell)",
+"name": "Phantom Plow",
+"listLevel": 3
+},
+{
+"title": "Physical Mirror (Priest Spell)",
+"name": "Physical Mirror",
+"listLevel": 6
+},
+{
+"title": "Plague (Priest Spell)",
+"name": "Plague",
+"listLevel": 4
+},
+{
+"title": "Plague Curse (Priest Spell)",
+"name": "Plague Curse",
+"listLevel": 4
+},
+{
+"title": "Plane Shift (Priest Spell)",
+"name": "Plane Shift",
+"listLevel": 5
+},
+{
+"title": "Plane Shift - Shukenja (Priest Spell)",
+"name": "Plane Shift - Shukenja",
+"listLevel": 5
+},
+{
+"title": "Plant Door (Priest Spell)",
+"name": "Plant Door",
+"listLevel": 4
+},
+{
+"title": "Plant Growth (Priest Spell)",
+"name": "Plant Growth",
+"listLevel": 3
+},
+{
+"title": "Plant Lance (Priest Spell)",
+"name": "Plant Lance",
+"listLevel": 4
+},
+{
+"title": "Plant Renewal (Priest Spell)",
+"name": "Plant Renewal",
+"listLevel": 2
+},
+{
+"title": "Poison Touch (Priest Spell)",
+"name": "Poison Touch",
+"listLevel": 2
+},
+{
+"title": "Polymorph Plant (Priest Spell)",
+"name": "Polymorph Plant",
+"listLevel": 3
+},
+{
+"title": "Polymorph Self (Priest Spell)",
+"name": "Polymorph Self",
+"listLevel": 4
+},
+{
+"title": "Portent (Priest Spell)",
+"name": "Portent",
+"listLevel": 1
+},
+{
+"title": "Possess (Priest Spell)",
+"name": "Possess",
+"listLevel": 5
+},
+{
+"title": "Possess Animal (Priest Spell)",
+"name": "Possess Animal",
+"listLevel": 3
+},
+{
+"title": "Prayer (Priest Spell)",
+"name": "Prayer",
+"listLevel": 3
+},
+{
+"title": "Precipitation (Priest Spell)",
+"name": "Precipitation",
+"listLevel": 1
+},
+{
+"title": "Predict Weather (Priest Spell)",
+"name": "Predict Weather",
+"listLevel": 1
+},
+{
+"title": "Prepare Enchantment (Priest Spell)",
+"name": "Prepare Enchantment",
+"listLevel": 5
+},
+{
+"title": "Pressure Resistance (Priest Spell)",
+"name": "Pressure Resistance",
+"listLevel": 1
+},
+{
+"title": "Pride of Nobanion (Priest Spell)",
+"name": "Pride of Nobanion",
+"listLevel": 4
+},
+{
+"title": "Priest Lock (Priest Spell)",
+"name": "Priest Lock",
+"listLevel": 2
+},
+{
+"title": "Probability Control (Priest Spell)",
+"name": "Probability Control",
+"listLevel": 4
+},
+{
+"title": "Probing Arm (Priest Spell)",
+"name": "Probing Arm",
+"listLevel": 5
+},
+{
+"title": "Produce Fire (Priest Spell)",
+"name": "Produce Fire",
+"listLevel": 4
+},
+{
+"title": "Produce Flame (Priest Spell)",
+"name": "Produce Flame",
+"listLevel": 2
+},
+{
+"title": "Produce Ice (Priest Spell)",
+"name": "Produce Ice",
+"listLevel": 5
+},
+{
+"title": "Proof Against Undeath (Priest Spell)",
+"name": "Proof Against Undeath",
+"listLevel": 1
+},
+{
+"title": "Protection from Amorphs (Priest Spell)",
+"name": "Protection from Amorphs",
+"listLevel": 3
+},
+{
+"title": "Protection from Animals (Priest Spell)",
+"name": "Protection from Animals",
+"listLevel": 2
+},
+{
+"title": "Protection from Chaos (Priest Spell)",
+"name": "Protection from Chaos",
+"listLevel": 1
+},
+{
+"title": "Protection from Charm (Priest Spell)",
+"name": "Protection from Charm",
+"listLevel": 2
+},
+{
+"title": "Protection from Cold (Priest Spell)",
+"name": "Protection from Cold",
+"listLevel": 3
+},
+{
+"title": "Protection from Death (Priest Spell)",
+"name": "Protection from Death",
+"listLevel": 7
+},
+{
+"title": "Protection from Earth (Priest Spell)",
+"name": "Protection from Earth",
+"listLevel": 3
+},
+{
+"title": "Protection from Electricity (Priest Spell)",
+"name": "Protection from Electricity",
+"listLevel": 4
+},
+{
+"title": "Protection from Electricity, 10' Radius (Priest Spell)",
+"name": "Protection from Electricity, 10' Radius",
+"listLevel": 6
+},
+{
+"title": "Protection from Elementals, 10' Radius (Priest Spell)",
+"name": "Protection from Elementals, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Evil (Priest Spell)",
+"name": "Protection from Evil",
+"listLevel": 1
+},
+{
+"title": "Protection from Evil, 10' Radius (Priest Spell)",
+"name": "Protection from Evil, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Fiends, 10' Radius (Priest Spell)",
+"name": "Protection from Fiends, 10' Radius",
+"listLevel": 5
+},
+{
+"title": "Protection from Fire (Priest Spell)",
+"name": "Protection from Fire",
+"listLevel": 3
+},
+{
+"title": "Protection from Gas, 5' Radius (Priest Spell)",
+"name": "Protection from Gas, 5' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Insects (Priest Spell)",
+"name": "Protection from Insects",
+"listLevel": 3
+},
+{
+"title": "Protection from Lightning (Priest Spell)",
+"name": "Protection from Lightning",
+"listLevel": 4
+},
+{
+"title": "Protection from Lycanthropes, 10' Radius (Priest Spell)",
+"name": "Protection from Lycanthropes, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Misfortune (Priest Spell)",
+"name": "Protection from Misfortune",
+"listLevel": 4
+},
+{
+"title": "Protection from Orisons (Priest Spell)",
+"name": "Protection from Orisons",
+"listLevel": 2
+},
+{
+"title": "Protection from Petrification, 10' Radius (Priest Spell)",
+"name": "Protection from Petrification, 10' Radius",
+"listLevel": 5
+},
+{
+"title": "Protection from Prime (Priest Spell)",
+"name": "Protection from Prime",
+"listLevel": 1
+},
+{
+"title": "Protection from Prime, 10' Radius (Priest Spell)",
+"name": "Protection from Prime, 10' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Silver (Priest Spell)",
+"name": "Protection from Silver",
+"listLevel": 1
+},
+{
+"title": "Protection from Spirits (Priest Spell)",
+"name": "Protection from Spirits",
+"listLevel": 2
+},
+{
+"title": "Protection from Traps, 5' Radius (Priest Spell)",
+"name": "Protection from Traps, 5' Radius",
+"listLevel": 5
+},
+{
+"title": "Protection from Undead, 5' Radius (Priest Spell)",
+"name": "Protection from Undead, 5' Radius",
+"listLevel": 4
+},
+{
+"title": "Protection from Weather (Priest Spell)",
+"name": "Protection from Weather",
+"listLevel": 4
+},
+{
+"title": "Protection from Winds (Priest Spell)",
+"name": "Protection from Winds",
+"listLevel": 3
+},
+{
+"title": "Psionic Barrier (Priest Spell)",
+"name": "Psionic Barrier",
+"listLevel": 6
+},
+{
+"title": "Psychic Immolation (Priest Spell)",
+"name": "Psychic Immolation",
+"listLevel": 3
+},
+{
+"title": "Puffball (Priest Spell)",
+"name": "Puffball",
+"listLevel": 1
+},
+{
+"title": "Purify Food & Drink (Priest Spell)",
+"name": "Purify Food & Drink",
+"listLevel": 1
+},
+{
+"title": "Purify Self (Priest Spell)",
+"name": "Purify Self",
+"listLevel": 1
+},
+{
+"title": "Pyrotechnics (Priest Spell)",
+"name": "Pyrotechnics",
+"listLevel": 3
+},
+{
+"title": "Quench the Spirit (Priest Spell)",
+"name": "Quench the Spirit",
+"listLevel": 6
+},
+{
+"title": "Quest (Priest Spell)",
+"name": "Quest",
+"listLevel": 5
+},
+{
+"title": "Quickgrowth (Priest Spell)",
+"name": "Quickgrowth",
+"listLevel": 6
+},
+{
+"title": "Rage (Priest Spell)",
+"name": "Rage",
+"listLevel": 5
+},
+{
+"title": "Rainbow (Priest Spell)",
+"name": "Rainbow",
+"listLevel": 5
+},
+{
+"title": "Rainshield (Priest Spell)",
+"name": "Rainshield",
+"listLevel": 1
+},
+{
+"title": "Raise Dead (Priest Spell)",
+"name": "Raise Dead",
+"listLevel": 5
+},
+{
+"title": "Random Causality (Priest Spell)",
+"name": "Random Causality",
+"listLevel": 3
+},
+{
+"title": "Ranike Cloud (Priest Spell)",
+"name": "Ranike Cloud",
+"listLevel": 3
+},
+{
+"title": "Rapport (Priest Spell)",
+"name": "Rapport",
+"listLevel": 4
+},
+{
+"title": "Rapture (Priest Spell)",
+"name": "Rapture",
+"listLevel": 3
+},
+{
+"title": "Rapture of the Deep (Priest Spell)",
+"name": "Rapture of the Deep",
+"listLevel": 6
+},
+{
+"title": "Read Language (Priest Spell)",
+"name": "Read Language",
+"listLevel": 1
+},
+{
+"title": "Reanimation (Priest Spell)",
+"name": "Reanimation",
+"listLevel": 4
+},
+{
+"title": "Reaving Blades (Priest Spell)",
+"name": "Reaving Blades",
+"listLevel": 4
+},
+{
+"title": "Recitation (Priest Spell)",
+"name": "Recitation",
+"listLevel": 4
+},
+{
+"title": "Reflect (Priest Spell)",
+"name": "Reflect",
+"listLevel": 5
+},
+{
+"title": "Reflecting Pool (Priest Spell)",
+"name": "Reflecting Pool",
+"listLevel": 4
+},
+{
+"title": "Regenerate (Priest Spell)",
+"name": "Regenerate",
+"listLevel": 7
+},
+{
+"title": "Regenerate Critical Wounds (Priest Spell)",
+"name": "Regenerate Critical Wounds",
+"listLevel": 5
+},
+{
+"title": "Regenerate Light Wounds (Priest Spell)",
+"name": "Regenerate Light Wounds",
+"listLevel": 1
+},
+{
+"title": "Regenerate Serious Wounds (Priest Spell)",
+"name": "Regenerate Serious Wounds",
+"listLevel": 4
+},
+{
+"title": "Regenerative Heal (Priest Spell)",
+"name": "Regenerative Heal",
+"listLevel": 7
+},
+{
+"title": "Reincarnate (Priest Spell)",
+"name": "Reincarnate",
+"listLevel": 7
+},
+{
+"title": "Reincarnate - Shukenja (Priest Spell)",
+"name": "Reincarnate - Shukenja",
+"listLevel": 7
+},
+{
+"title": "Remember (Priest Spell)",
+"name": "Remember",
+"listLevel": 5
+},
+{
+"title": "Remorse (Priest Spell)",
+"name": "Remorse",
+"listLevel": 4
+},
+{
+"title": "Remove Curse (Priest Spell)",
+"name": "Remove Curse",
+"listLevel": 3
+},
+{
+"title": "Remove Fear (Priest Spell)",
+"name": "Remove Fear",
+"listLevel": 1
+},
+{
+"title": "Remove Paralysis (Priest Spell)",
+"name": "Remove Paralysis",
+"listLevel": 3
+},
+{
+"title": "Remove Paralysis – Shukenja (Priest Spell)",
+"name": "Remove Paralysis – Shukenja",
+"listLevel": 3
+},
+{
+"title": "Rending (Priest Spell)",
+"name": "Rending",
+"listLevel": 4
+},
+{
+"title": "Renewed Ability (Priest Spell)",
+"name": "Renewed Ability",
+"listLevel": 2
+},
+{
+"title": "Repair Injury (Priest Spell)",
+"name": "Repair Injury",
+"listLevel": 3
+},
+{
+"title": "Repair Item (Priest Spell)",
+"name": "Repair Item",
+"listLevel": 5
+},
+{
+"title": "Repeat Action (Priest Spell)",
+"name": "Repeat Action",
+"listLevel": 5
+},
+{
+"title": "Repel Insects (Priest Spell)",
+"name": "Repel Insects",
+"listLevel": 4
+},
+{
+"title": "Request (Priest Spell)",
+"name": "Request",
+"listLevel": 2
+},
+{
+"title": "Resist (Priest Spell)",
+"name": "Resist",
+"listLevel": 1
+},
+{
+"title": "Resist Acid and Corrosion (Priest Spell)",
+"name": "Resist Acid and Corrosion",
+"listLevel": 2
+},
+{
+"title": "Resist Fire/Resist Cold (Priest Spell)",
+"name": "Resist Fire/Resist Cold",
+"listLevel": 2
+},
+{
+"title": "Resist Injury (Priest Spell)",
+"name": "Resist Injury",
+"listLevel": 3
+},
+{
+"title": "Resist Turning (Priest Spell)",
+"name": "Resist Turning",
+"listLevel": 2
+},
+{
+"title": "Resplendence of Renewed Youth (Priest Spell)",
+"name": "Resplendence of Renewed Youth",
+"listLevel": 7
+},
+{
+"title": "Restoration (Priest Spell)",
+"name": "Restoration",
+"listLevel": 7
+},
+{
+"title": "Restore Bloodline (Priest Spell)",
+"name": "Restore Bloodline",
+"listLevel": 6
+},
+{
+"title": "Restore Earth (Priest Spell)",
+"name": "Restore Earth",
+"listLevel": 4
+},
+{
+"title": "Restore Rune (Priest Spell)",
+"name": "Restore Rune",
+"listLevel": 6
+},
+{
+"title": "Restore Spirit (Priest Spell)",
+"name": "Restore Spirit",
+"listLevel": 7
+},
+{
+"title": "Restore Strength (Priest Spell)",
+"name": "Restore Strength",
+"listLevel": 2
+},
+{
+"title": "Resurrection (Priest Spell)",
+"name": "Resurrection",
+"listLevel": 7
+},
+{
+"title": "Resurrection - Shukenja (Priest Spell)",
+"name": "Resurrection - Shukenja",
+"listLevel": 7
+},
+{
+"title": "Retarget (Priest Spell)",
+"name": "Retarget",
+"listLevel": 5
+},
+{
+"title": "Return to Earth (Priest Spell)",
+"name": "Return to Earth",
+"listLevel": 4
+},
+{
+"title": "Reveal (Priest Spell)",
+"name": "Reveal",
+"listLevel": 4
+},
+{
+"title": "Revelation (Priest Spell)",
+"name": "Revelation",
+"listLevel": 5
+},
+{
+"title": "Reverse Fossilization (Priest Spell)",
+"name": "Reverse Fossilization",
+"listLevel": 3
+},
+{
+"title": "Reverse Time (Priest Spell)",
+"name": "Reverse Time",
+"listLevel": 6
+},
+{
+"title": "Reward (Priest Spell)",
+"name": "Reward",
+"listLevel": 4
+},
+{
+"title": "Rigid Thinking (Priest Spell)",
+"name": "Rigid Thinking",
+"listLevel": 3
+},
+{
+"title": "Ripen (Priest Spell)",
+"name": "Ripen",
+"listLevel": 1
+},
+{
+"title": "Ripen Plant (Priest Spell)",
+"name": "Ripen Plant",
+"listLevel": 2
+},
+{
+"title": "Rising Rot (Priest Spell)",
+"name": "Rising Rot",
+"listLevel": 5
+},
+{
+"title": "Roar of the King (Priest Spell)",
+"name": "Roar of the King",
+"listLevel": 4
+},
+{
+"title": "Roots of the Assassin (Priest Spell)",
+"name": "Roots of the Assassin",
+"listLevel": 6
+},
+{
+"title": "Rosemantle (Priest Spell)",
+"name": "Rosemantle",
+"listLevel": 1
+},
+{
+"title": "Rosetouch (Priest Spell)",
+"name": "Rosetouch",
+"listLevel": 2
+},
+{
+"title": "Rosewater (Priest Spell)",
+"name": "Rosewater",
+"listLevel": 2
+},
+{
+"title": "Royalberry (Priest Spell)",
+"name": "Royalberry",
+"listLevel": 5
+},
+{
+"title": "Sacred Guardian (Priest Spell)",
+"name": "Sacred Guardian",
+"listLevel": 1
+},
+{
+"title": "Sacred Link (Priest Spell)",
+"name": "Sacred Link",
+"listLevel": 7
+},
+{
+"title": "Sacred Strike (Priest Spell)",
+"name": "Sacred Strike",
+"listLevel": 4
+},
+{
+"title": "Sacrosanct (Priest Spell)",
+"name": "Sacrosanct",
+"listLevel": 7
+},
+{
+"title": "Sanctified Marker (Priest Spell)",
+"name": "Sanctified Marker",
+"listLevel": 4
+},
+{
+"title": "Sanctify Sacred Site (Priest Spell)",
+"name": "Sanctify Sacred Site",
+"listLevel": 7
+},
+{
+"title": "Sanctuary (Priest Spell)",
+"name": "Sanctuary",
+"listLevel": 1
+},
+{
+"title": "Sand Blade (Priest Spell)",
+"name": "Sand Blade",
+"listLevel": 6
+},
+{
+"title": "Sand Spray (Priest Spell)",
+"name": "Sand Spray",
+"listLevel": 3
+},
+{
+"title": "Sand Warriors (Priest Spell)",
+"name": "Sand Warriors",
+"listLevel": 4
+},
+{
+"title": "Sands of Time (Priest Spell)",
+"name": "Sands of Time",
+"listLevel": 5
+},
+{
+"title": "Sandstorm (Priest Spell)",
+"name": "Sandstorm",
+"listLevel": 5
+},
+{
+"title": "Scent of Vengeance (Priest Spell)",
+"name": "Scent of Vengeance",
+"listLevel": 2
+},
+{
+"title": "Scourge (Priest Spell)",
+"name": "Scourge",
+"listLevel": 5
+},
+{
+"title": "Scouring Wind (Priest Spell)",
+"name": "Scouring Wind",
+"listLevel": 5
+},
+{
+"title": "Screaming Skull (Priest Spell)",
+"name": "Screaming Skull",
+"listLevel": 5
+},
+{
+"title": "Scribe (Priest Spell)",
+"name": "Scribe",
+"listLevel": 1
+},
+{
+"title": "Scroll (Priest Spell)",
+"name": "Scroll",
+"listLevel": 4
+},
+{
+"title": "Sea Form (Priest Spell)",
+"name": "Sea Form",
+"listLevel": 4
+},
+{
+"title": "Sea Legs (Priest Spell)",
+"name": "Sea Legs",
+"listLevel": 1
+},
+{
+"title": "Sea Mount (Priest Spell)",
+"name": "Sea Mount",
+"listLevel": 6
+},
+{
+"title": "Seal of Destiny (Priest Spell)",
+"name": "Seal of Destiny",
+"listLevel": 6
+},
+{
+"title": "Searing Song (Priest Spell)",
+"name": "Searing Song",
+"listLevel": 4
+},
+{
+"title": "Seclusion (Priest Spell)",
+"name": "Seclusion",
+"listLevel": 6
+},
+{
+"title": "Seed of Moander (Priest Spell)",
+"name": "Seed of Moander",
+"listLevel": 5
+},
+{
+"title": "Seek (Priest Spell)",
+"name": "Seek",
+"listLevel": 6
+},
+{
+"title": "Seek Eternal Rest (Priest Spell)",
+"name": "Seek Eternal Rest",
+"listLevel": 4
+},
+{
+"title": "Seeking Mote (Priest Spell)",
+"name": "Seeking Mote",
+"listLevel": 1
+},
+{
+"title": "Seeking Sword (Priest Spell)",
+"name": "Seeking Sword",
+"listLevel": 4
+},
+{
+"title": "Sense Direction (Priest Spell)",
+"name": "Sense Direction",
+"listLevel": 1
+},
+{
+"title": "Sentry of Helm (Priest Spell)",
+"name": "Sentry of Helm",
+"listLevel": 1
+},
+{
+"title": "Sever the Silver Cord (Priest Spell)",
+"name": "Sever the Silver Cord",
+"listLevel": 5
+},
+{
+"title": "Shadow Sword (Priest Spell)",
+"name": "Shadow Sword",
+"listLevel": 3
+},
+{
+"title": "Shadowcloak (Priest Spell)",
+"name": "Shadowcloak",
+"listLevel": 3
+},
+{
+"title": "Shape Wood (Priest Spell)",
+"name": "Shape Wood",
+"listLevel": 3
+},
+{
+"title": "Sharpleaf (Priest Spell)",
+"name": "Sharpleaf",
+"listLevel": 2
+},
+{
+"title": "Shatter Stone and Metal (Priest Spell)",
+"name": "Shatter Stone and Metal",
+"listLevel": 5
+},
+{
+"title": "Shellskin (Priest Spell)",
+"name": "Shellskin",
+"listLevel": 4
+},
+{
+"title": "Shield of the Archons (Priest Spell)",
+"name": "Shield of the Archons",
+"listLevel": 7
+},
+{
+"title": "Shield of the God (Priest Spell)",
+"name": "Shield of the God",
+"listLevel": 5
+},
+{
+"title": "Shield of Lathander (Priest Spell)",
+"name": "Shield of Lathander",
+"listLevel": 5
+},
+{
+"title": "Shift Glyph (Priest Spell)",
+"name": "Shift Glyph",
+"listLevel": 3
+},
+{
+"title": "Shillelagh (Priest Spell)",
+"name": "Shillelagh",
+"listLevel": 1
+},
+{
+"title": "Ship Shield (Priest Spell)",
+"name": "Ship Shield",
+"listLevel": 5
+},
+{
+"title": "Shrieking Walls (Priest Spell)",
+"name": "Shrieking Walls",
+"listLevel": 5
+},
+{
+"title": "Silence, 15' Radius (Priest Spell)",
+"name": "Silence, 15' Radius",
+"listLevel": 2
+},
+{
+"title": "Silt Cyclone (Priest Spell)",
+"name": "Silt Cyclone",
+"listLevel": 7
+},
+{
+"title": "Silt Tides (Priest Spell)",
+"name": "Silt Tides",
+"listLevel": 6
+},
+{
+"title": "Silver Tongue and Starry Eyes (Priest Spell)",
+"name": "Silver Tongue and Starry Eyes",
+"listLevel": 6
+},
+{
+"title": "Singing Stone (Priest Spell)",
+"name": "Singing Stone",
+"listLevel": 4
+},
+{
+"title": "Sink into Earth (Priest Spell)",
+"name": "Sink into Earth",
+"listLevel": 5
+},
+{
+"title": "Siren Song (Priest Spell)",
+"name": "Siren Song",
+"listLevel": 2
+},
+{
+"title": "Sirocco (Priest Spell)",
+"name": "Sirocco",
+"listLevel": 7
+},
+{
+"title": "Skeletal Servant (Priest Spell)",
+"name": "Skeletal Servant",
+"listLevel": 1
+},
+{
+"title": "Skip Day (Priest Spell)",
+"name": "Skip Day",
+"listLevel": 6
+},
+{
+"title": "Skulk (Priest Spell)",
+"name": "Skulk",
+"listLevel": 4
+},
+{
+"title": "Skull of Secrets (Priest Spell)",
+"name": "Skull of Secrets",
+"listLevel": 4
+},
+{
+"title": "Slave Scent (Priest Spell)",
+"name": "Slave Scent",
+"listLevel": 2
+},
+{
+"title": "Sleep of Dragons (Priest Spell)",
+"name": "Sleep of Dragons",
+"listLevel": 6
+},
+{
+"title": "Slicing Shadow (Priest Spell)",
+"name": "Slicing Shadow",
+"listLevel": 5
+},
+{
+"title": "Slow Boon (Priest Spell)",
+"name": "Slow Boon",
+"listLevel": 3
+},
+{
+"title": "Slow Poison (Priest Spell)",
+"name": "Slow Poison",
+"listLevel": 2
+},
+{
+"title": "Slow Poison - Shukenja (Priest Spell)",
+"name": "Slow Poison - Shukenja",
+"listLevel": 2
+},
+{
+"title": "Slow Rot (Priest Spell)",
+"name": "Slow Rot",
+"listLevel": 3
+},
+{
+"title": "Smite (Priest Spell)",
+"name": "Smite",
+"listLevel": 6
+},
+{
+"title": "Smiting (Priest Spell)",
+"name": "Smiting",
+"listLevel": 4
+},
+{
+"title": "Smoke Bridge (Priest Spell)",
+"name": "Smoke Bridge",
+"listLevel": 5
+},
+{
+"title": "Smoke Ghost (Priest Spell)",
+"name": "Smoke Ghost",
+"listLevel": 4
+},
+{
+"title": "Snake Barrier (Priest Spell)",
+"name": "Snake Barrier",
+"listLevel": 4
+},
+{
+"title": "Snake Charm (Priest Spell)",
+"name": "Snake Charm",
+"listLevel": 2
+},
+{
+"title": "Snake Charm of Sseth (Priest Spell)",
+"name": "Snake Charm of Sseth",
+"listLevel": 1
+},
+{
+"title": "Snake Skin (Priest Spell)",
+"name": "Snake Skin",
+"listLevel": 4
+},
+{
+"title": "Snake Summoning (Priest Spell)",
+"name": "Snake Summoning",
+"listLevel": 2
+},
+{
+"title": "Snapdragon (Priest Spell)",
+"name": "Snapdragon",
+"listLevel": 3
+},
+{
+"title": "Snare (Priest Spell)",
+"name": "Snare",
+"listLevel": 3
+},
+{
+"title": "Snow Boots (Priest Spell)",
+"name": "Snow Boots",
+"listLevel": 1
+},
+{
+"title": "Snow Snake (Priest Spell)",
+"name": "Snow Snake",
+"listLevel": 5
+},
+{
+"title": "Soften Earth and Stone (Priest Spell)",
+"name": "Soften Earth and Stone",
+"listLevel": 2
+},
+{
+"title": "Softwood (Priest Spell)",
+"name": "Softwood",
+"listLevel": 4
+},
+{
+"title": "Sol's Searing Orb (Priest Spell)",
+"name": "Sol's Searing Orb",
+"listLevel": 6
+},
+{
+"title": "Solipsism (Priest Spell)",
+"name": "Solipsism",
+"listLevel": 4
+},
+{
+"title": "Song of Compulsion (Priest Spell)",
+"name": "Song of Compulsion",
+"listLevel": 3
+},
+{
+"title": "Song of Healing (Priest Spell)",
+"name": "Song of Healing",
+"listLevel": 5
+},
+{
+"title": "Soothe (Priest Spell)",
+"name": "Soothe",
+"listLevel": 4
+},
+{
+"title": "Spacewarp (Priest Spell)",
+"name": "Spacewarp",
+"listLevel": 7
+},
+{
+"title": "Spark of Blinding (Priest Spell)",
+"name": "Spark of Blinding",
+"listLevel": 1
+},
+{
+"title": "Spawn of Tiamat (Priest Spell)",
+"name": "Spawn of Tiamat",
+"listLevel": 6
+},
+{
+"title": "Speak with Animals (Priest Spell)",
+"name": "Speak with Animals",
+"listLevel": 2
+},
+{
+"title": "Speak with Astral Traveler (Priest Spell)",
+"name": "Speak with Astral Traveler",
+"listLevel": 1
+},
+{
+"title": "Speak with Dead (Priest Spell)",
+"name": "Speak with Dead",
+"listLevel": 3
+},
+{
+"title": "Speak with Dead - Shukenja (Priest Spell)",
+"name": "Speak with Dead - Shukenja",
+"listLevel": 3
+},
+{
+"title": "Speak with Dragonkind (Priest Spell)",
+"name": "Speak with Dragonkind",
+"listLevel": 6
+},
+{
+"title": "Speak with Monsters (Priest Spell)",
+"name": "Speak with Monsters",
+"listLevel": 6
+},
+{
+"title": "Speak with Plants (Priest Spell)",
+"name": "Speak with Plants",
+"listLevel": 4
+},
+{
+"title": "Speak with Sea Creatures (Priest Spell)",
+"name": "Speak with Sea Creatures",
+"listLevel": 2
+},
+{
+"title": "Speak with the Drowned Dead (Priest Spell)",
+"name": "Speak with the Drowned Dead",
+"listLevel": 3
+},
+{
+"title": "Speak with Water (Priest Spell)",
+"name": "Speak with Water",
+"listLevel": 2
+},
+{
+"title": "Spectral Manticore (Priest Spell)",
+"name": "Spectral Manticore",
+"listLevel": 4
+},
+{
+"title": "Spectral Senses (Priest Spell)",
+"name": "Spectral Senses",
+"listLevel": 1
+},
+{
+"title": "Spectral Stag (Priest Spell)",
+"name": "Spectral Stag",
+"listLevel": 4
+},
+{
+"title": "Speed Rot (Priest Spell)",
+"name": "Speed Rot",
+"listLevel": 3
+},
+{
+"title": "Speeding Trident (Priest Spell)",
+"name": "Speeding Trident",
+"listLevel": 2
+},
+{
+"title": "Spell Immunity (Priest Spell)",
+"name": "Spell Immunity",
+"listLevel": 4
+},
+{
+"title": "Spell Immunity - Shukenja (Priest Spell)",
+"name": "Spell Immunity - Shukenja",
+"listLevel": 4
+},
+{
+"title": "Spell Ward (Priest Spell)",
+"name": "Spell Ward",
+"listLevel": 7
+},
+{
+"title": "Spellbind (Priest Spell)",
+"name": "Spellbind",
+"listLevel": 7
+},
+{
+"title": "Spelltouch (Priest Spell)",
+"name": "Spelltouch",
+"listLevel": 4
+},
+{
+"title": "Sphere of Adaptation (Priest Spell)",
+"name": "Sphere of Adaptation",
+"listLevel": 7
+},
+{
+"title": "Sphere of Survival (Priest Spell)",
+"name": "Sphere of Survival",
+"listLevel": 7
+},
+{
+"title": "Spike Growth (Priest Spell)",
+"name": "Spike Growth",
+"listLevel": 3
+},
+{
+"title": "Spike Stones (Priest Spell)",
+"name": "Spike Stones",
+"listLevel": 5
+},
+{
+"title": "Spirit Animal Form (Priest Spell)",
+"name": "Spirit Animal Form",
+"listLevel": 3
+},
+{
+"title": "Spirit Annihilation (Priest Spell)",
+"name": "Spirit Annihilation",
+"listLevel": 6
+},
+{
+"title": "Spirit Bind (Priest Spell)",
+"name": "Spirit Bind",
+"listLevel": 3
+},
+{
+"title": "Spirit Mask (Priest Spell)",
+"name": "Spirit Mask",
+"listLevel": 1
+},
+{
+"title": "Spirit of Flame (Priest Spell)",
+"name": "Spirit of Flame",
+"listLevel": 6
+},
+{
+"title": "Spirit Quest (Priest Spell)",
+"name": "Spirit Quest",
+"listLevel": 6
+},
+{
+"title": "Spiritual Corruption (Priest Spell)",
+"name": "Spiritual Corruption",
+"listLevel": 6
+},
+{
+"title": "Spiritual Hammer (Priest Spell)",
+"name": "Spiritual Hammer",
+"listLevel": 2
+},
+{
+"title": "Spittle (Priest Spell)",
+"name": "Spittle",
+"listLevel": 1
+},
+{
+"title": "Spliff's Wonder Bubbles (Priest Spell)",
+"name": "Spliff's Wonder Bubbles",
+"listLevel": 3
+},
+{
+"title": "Splinter Wood (Priest Spell)",
+"name": "Splinter Wood",
+"listLevel": 3
+},
+{
+"title": "Spring (Priest Spell)",
+"name": "Spring",
+"listLevel": 2
+},
+{
+"title": "Spring Mastery (Priest Spell)",
+"name": "Spring Mastery",
+"listLevel": 6
+},
+{
+"title": "Squeaking Floors (Priest Spell)",
+"name": "Squeaking Floors",
+"listLevel": 3
+},
+{
+"title": "Stalk (Priest Spell)",
+"name": "Stalk",
+"listLevel": 2
+},
+{
+"title": "Starharp (Priest Spell)",
+"name": "Starharp",
+"listLevel": 6
+},
+{
+"title": "Starshine (Priest Spell)",
+"name": "Starshine",
+"listLevel": 3
+},
+{
+"title": "Steal Breath (Priest Spell)",
+"name": "Steal Breath",
+"listLevel": 2
+},
+{
+"title": "Sticks to Snakes (Priest Spell)",
+"name": "Sticks to Snakes",
+"listLevel": 4
+},
+{
+"title": "Still Waves (Priest Spell)",
+"name": "Still Waves",
+"listLevel": 4
+},
+{
+"title": "Stone Curse (Priest Spell)",
+"name": "Stone Curse",
+"listLevel": 5
+},
+{
+"title": "Stone of Sharpening (Priest Spell)",
+"name": "Stone of Sharpening",
+"listLevel": 4
+},
+{
+"title": "Stone Shape (Priest Spell)",
+"name": "Stone Shape",
+"listLevel": 3
+},
+{
+"title": "Stone Tell (Priest Spell)",
+"name": "Stone Tell",
+"listLevel": 6
+},
+{
+"title": "Stone to Flesh (Priest Spell)",
+"name": "Stone to Flesh",
+"listLevel": 6
+},
+{
+"title": "Stone Walk (Priest Spell)",
+"name": "Stone Walk",
+"listLevel": 7
+},
+{
+"title": "Stone Walk - Drow (Priest Spell)",
+"name": "Stone Walk - Drow",
+"listLevel": 4
+},
+{
+"title": "Stonebirds (Priest Spell)",
+"name": "Stonebirds",
+"listLevel": 3
+},
+{
+"title": "Stoneiron (Priest Spell)",
+"name": "Stoneiron",
+"listLevel": 3
+},
+{
+"title": "Stonewood (Priest Spell)",
+"name": "Stonewood",
+"listLevel": 5
+},
+{
+"title": "Storm Cone (Priest Spell)",
+"name": "Storm Cone",
+"listLevel": 5
+},
+{
+"title": "Storm Shield (Priest Spell)",
+"name": "Storm Shield",
+"listLevel": 3
+},
+{
+"title": "Stormcloak (Priest Spell)",
+"name": "Stormcloak",
+"listLevel": 4
+},
+{
+"title": "Stormrage (Priest Spell)",
+"name": "Stormrage",
+"listLevel": 6
+},
+{
+"title": "Stormvoice (Priest Spell)",
+"name": "Stormvoice",
+"listLevel": 2
+},
+{
+"title": "Strength - Shukenja (Priest Spell)",
+"name": "Strength - Shukenja",
+"listLevel": 5
+},
+{
+"title": "Strength - Dwarf (Priest Spell)",
+"name": "Strength - Dwarf",
+"listLevel": 5
+},
+{
+"title": "Strength of One (Priest Spell)",
+"name": "Strength of One",
+"listLevel": 3
+},
+{
+"title": "Strength of Stone (Priest Spell)",
+"name": "Strength of Stone",
+"listLevel": 3
+},
+{
+"title": "Strengthen Stone (Priest Spell)",
+"name": "Strengthen Stone",
+"listLevel": 3
+},
+{
+"title": "Striking Shadows (Priest Spell)",
+"name": "Striking Shadows",
+"listLevel": 6
+},
+{
+"title": "Striking Wave (Priest Spell)",
+"name": "Striking Wave",
+"listLevel": 4
+},
+{
+"title": "Substitution (Priest Spell)",
+"name": "Substitution",
+"listLevel": 3
+},
+{
+"title": "Succor (Priest Spell)",
+"name": "Succor",
+"listLevel": 7
+},
+{
+"title": "Summon Ancestor (Priest Spell)",
+"name": "Summon Ancestor",
+"listLevel": 3
+},
+{
+"title": "Summon Animal Spirit (Priest Spell)",
+"name": "Summon Animal Spirit",
+"listLevel": 3
+},
+{
+"title": "Summon Insects (Priest Spell)",
+"name": "Summon Insects",
+"listLevel": 3
+},
+{
+"title": "Summon Lock Lurker (Priest Spell)",
+"name": "Summon Lock Lurker",
+"listLevel": 3
+},
+{
+"title": "Summon Shadow Spirit (Priest Spell)",
+"name": "Summon Shadow Spirit",
+"listLevel": 4
+},
+{
+"title": "Summon Spectator (Priest Spell)",
+"name": "Summon Spectator",
+"listLevel": 5
+},
+{
+"title": "Summon Spectral Death (Priest Spell)",
+"name": "Summon Spectral Death",
+"listLevel": 6
+},
+{
+"title": "Summon Undead (Priest Spell)",
+"name": "Summon Undead",
+"listLevel": 6
+},
+{
+"title": "Summon Varrangoin (Priest Spell)",
+"name": "Summon Varrangoin",
+"listLevel": 6
+},
+{
+"title": "Sun Scepter (Priest Spell)",
+"name": "Sun Scepter",
+"listLevel": 6
+},
+{
+"title": "Sunblade (Priest Spell)",
+"name": "Sunblade",
+"listLevel": 3
+},
+{
+"title": "Sunburst (Priest Spell)",
+"name": "Sunburst",
+"listLevel": 4
+},
+{
+"title": "Sunray (Priest Spell)",
+"name": "Sunray",
+"listLevel": 7
+},
+{
+"title": "Sunrise (Priest Spell)",
+"name": "Sunrise",
+"listLevel": 3
+},
+{
+"title": "Sunscorch (Priest Spell)",
+"name": "Sunscorch",
+"listLevel": 1
+},
+{
+"title": "Sunstroke (Priest Spell)",
+"name": "Sunstroke",
+"listLevel": 6
+},
+{
+"title": "Sunstroke - Old Empire (Priest Spell)",
+"name": "Sunstroke - Old Empire",
+"listLevel": 3
+},
+{
+"title": "Superheroism (Priest Spell)",
+"name": "Superheroism",
+"listLevel": 6
+},
+{
+"title": "Surelock (Priest Spell)",
+"name": "Surelock",
+"listLevel": 4
+},
+{
+"title": "Surf (Priest Spell)",
+"name": "Surf",
+"listLevel": 3
+},
+{
+"title": "Suspended Animation (Priest Spell)",
+"name": "Suspended Animation",
+"listLevel": 4
+},
+{
+"title": "Sustain (Priest Spell)",
+"name": "Sustain",
+"listLevel": 4
+},
+{
+"title": "Sustarre's Transformation (Priest Spell)",
+"name": "Sustarre's Transformation",
+"listLevel": 7
+},
+{
+"title": "Swim (Priest Spell)",
+"name": "Swim",
+"listLevel": 2
+},
+{
+"title": "Sword and Hammer (Priest Spell)",
+"name": "Sword and Hammer",
+"listLevel": 6
+},
+{
+"title": "Swordward (Priest Spell)",
+"name": "Swordward",
+"listLevel": 6
+},
+{
+"title": "Symbol (Priest Spell)",
+"name": "Symbol",
+"listLevel": 7
+},
+{
+"title": "Symbol - Reworked (Priest Spell)",
+"name": "Symbol - Reworked",
+"listLevel": 8
+},
+{
+"title": "Sympathetic Magic I (Priest Spell)",
+"name": "Sympathetic Magic I",
+"listLevel": 3
+},
+{
+"title": "Sympathetic Magic II (Priest Spell)",
+"name": "Sympathetic Magic II",
+"listLevel": 5
+},
+{
+"title": "Talona's Blessing (Priest Spell)",
+"name": "Talona's Blessing",
+"listLevel": 5
+},
+{
+"title": "Telepathic Broadcast (Priest Spell)",
+"name": "Telepathic Broadcast",
+"listLevel": 5
+},
+{
+"title": "Telepathy (Priest Spell)",
+"name": "Telepathy",
+"listLevel": 3
+},
+{
+"title": "Telethaumaturgy (Priest Spell)",
+"name": "Telethaumaturgy",
+"listLevel": 3
+},
+{
+"title": "Tenfold Ironguard (Priest Spell)",
+"name": "Tenfold Ironguard",
+"listLevel": 6
+},
+{
+"title": "Tentacle of Withering (Priest Spell)",
+"name": "Tentacle of Withering",
+"listLevel": 6
+},
+{
+"title": "Tentacle Walls (Priest Spell)",
+"name": "Tentacle Walls",
+"listLevel": 7
+},
+{
+"title": "That Art Thou (Priest Spell)",
+"name": "That Art Thou",
+"listLevel": 3
+},
+{
+"title": "The Doom of Bane (Priest Spell)",
+"name": "The Doom of Bane",
+"listLevel": 4
+},
+{
+"title": "Thief's Lament (Priest Spell)",
+"name": "Thief's Lament",
+"listLevel": 3
+},
+{
+"title": "Thorn Spray (Priest Spell)",
+"name": "Thorn Spray",
+"listLevel": 4
+},
+{
+"title": "Thorns of Binding (Priest Spell)",
+"name": "Thorns of Binding",
+"listLevel": 4
+},
+{
+"title": "Thornwrack (Priest Spell)",
+"name": "Thornwrack",
+"listLevel": 5
+},
+{
+"title": "Thought Broadcast (Priest Spell)",
+"name": "Thought Broadcast",
+"listLevel": 4
+},
+{
+"title": "Thought Capture (Priest Spell)",
+"name": "Thought Capture",
+"listLevel": 1
+},
+{
+"title": "Threefold Boon (Priest Spell)",
+"name": "Threefold Boon",
+"listLevel": 5
+},
+{
+"title": "Thunderclap (Priest Spell)",
+"name": "Thunderclap",
+"listLevel": 3
+},
+{
+"title": "Thundercone (Priest Spell)",
+"name": "Thundercone",
+"listLevel": 3
+},
+{
+"title": "Time Pool (Priest Spell)",
+"name": "Time Pool",
+"listLevel": 5
+},
+{
+"title": "Timelessness (Priest Spell)",
+"name": "Timelessness",
+"listLevel": 7
+},
+{
+"title": "Tongues (Priest Spell)",
+"name": "Tongues",
+"listLevel": 4
+},
+{
+"title": "Totem Beast (Priest Spell)",
+"name": "Totem Beast",
+"listLevel": 3
+},
+{
+"title": "Totemic Image (Priest Spell)",
+"name": "Totemic Image",
+"listLevel": 1
+},
+{
+"title": "Touch of the Styx (Priest Spell)",
+"name": "Touch of the Styx",
+"listLevel": 4
+},
+{
+"title": "Touch of the Talontar (Priest Spell)",
+"name": "Touch of the Talontar",
+"listLevel": 4
+},
+{
+"title": "Touchsickle (Priest Spell)",
+"name": "Touchsickle",
+"listLevel": 2
+},
+{
+"title": "Tracking (Priest Spell)",
+"name": "Tracking",
+"listLevel": 2
+},
+{
+"title": "Trance (Priest Spell)",
+"name": "Trance",
+"listLevel": 1
+},
+{
+"title": "Translate (Priest Spell)",
+"name": "Translate",
+"listLevel": 2
+},
+{
+"title": "Transmute Metal to Wood (Priest Spell)",
+"name": "Transmute Metal to Wood",
+"listLevel": 7
+},
+{
+"title": "Transmute Rock to Magma (Priest Spell)",
+"name": "Transmute Rock to Magma",
+"listLevel": 6
+},
+{
+"title": "Transmute Rock to Mud (Priest Spell)",
+"name": "Transmute Rock to Mud",
+"listLevel": 5
+},
+{
+"title": "Transmute Water to Dust (Priest Spell)",
+"name": "Transmute Water to Dust",
+"listLevel": 6
+},
+{
+"title": "Transport Via Plants (Priest Spell)",
+"name": "Transport Via Plants",
+"listLevel": 6
+},
+{
+"title": "Treasure Scent (Priest Spell)",
+"name": "Treasure Scent",
+"listLevel": 1
+},
+{
+"title": "Tree (Priest Spell)",
+"name": "Tree",
+"listLevel": 3
+},
+{
+"title": "Tree Growth (Priest Spell)",
+"name": "Tree Growth",
+"listLevel": 6
+},
+{
+"title": "Tree Healing (Priest Spell)",
+"name": "Tree Healing",
+"listLevel": 5
+},
+{
+"title": "Tree Spirit (Priest Spell)",
+"name": "Tree Spirit",
+"listLevel": 7
+},
+{
+"title": "Tree Steed (Priest Spell)",
+"name": "Tree Steed",
+"listLevel": 4
+},
+{
+"title": "Trip (Priest Spell)",
+"name": "Trip",
+"listLevel": 2
+},
+{
+"title": "Triple Mask (Priest Spell)",
+"name": "Triple Mask",
+"listLevel": 5
+},
+{
+"title": "True Seeing (Priest Spell)",
+"name": "True Seeing",
+"listLevel": 5
+},
+{
+"title": "True Seeing - Shukenja (Priest Spell)",
+"name": "True Seeing - Shukenja",
+"listLevel": 5
+},
+{
+"title": "Truemetal (Priest Spell)",
+"name": "Truemetal",
+"listLevel": 1
+},
+{
+"title": "Tsunami (Priest Spell)",
+"name": "Tsunami",
+"listLevel": 7
+},
+{
+"title": "Tsunami - Shukenja (Priest Spell)",
+"name": "Tsunami - Shukenja",
+"listLevel": 7
+},
+{
+"title": "Tumblethorns (Priest Spell)",
+"name": "Tumblethorns",
+"listLevel": 2
+},
+{
+"title": "Turn Wood (Priest Spell)",
+"name": "Turn Wood",
+"listLevel": 6
+},
+{
+"title": "Turnbane (Priest Spell)",
+"name": "Turnbane",
+"listLevel": 3
+},
+{
+"title": "Tyranny (Priest Spell)",
+"name": "Tyranny",
+"listLevel": 7
+},
+{
+"title": "Unceasing Vigilance of the Holy Sentinel (Priest Spell)",
+"name": "Unceasing Vigilance of the Holy Sentinel",
+"listLevel": 5
+},
+{
+"title": "Uncontrolled Weather (Priest Spell)",
+"name": "Uncontrolled Weather",
+"listLevel": 7
+},
+{
+"title": "Undead Alacrity (Priest Spell)",
+"name": "Undead Alacrity",
+"listLevel": 1
+},
+{
+"title": "Undead Form (Priest Spell)",
+"name": "Undead Form",
+"listLevel": 4
+},
+{
+"title": "Undead Regeneration (Priest Spell)",
+"name": "Undead Regeneration",
+"listLevel": 5
+},
+{
+"title": "Undead Spell Focus (Priest Spell)",
+"name": "Undead Spell Focus",
+"listLevel": 5
+},
+{
+"title": "Undead Ward (Priest Spell)",
+"name": "Undead Ward",
+"listLevel": 5
+},
+{
+"title": "Undeath After Death (Priest Spell)",
+"name": "Undeath After Death",
+"listLevel": 6
+},
+{
+"title": "Undeath to Death (Priest Spell)",
+"name": "Undeath to Death",
+"listLevel": 7
+},
+{
+"title": "Understand Device (Priest Spell)",
+"name": "Understand Device",
+"listLevel": 7
+},
+{
+"title": "Unfailing Endurance (Priest Spell)",
+"name": "Unfailing Endurance",
+"listLevel": 4
+},
+{
+"title": "Unfailing Premonition (Priest Spell)",
+"name": "Unfailing Premonition",
+"listLevel": 3
+},
+{
+"title": "Unicorn Steed (Priest Spell)",
+"name": "Unicorn Steed",
+"listLevel": 3
+},
+{
+"title": "Unliving Identity (Priest Spell)",
+"name": "Unliving Identity",
+"listLevel": 6
+},
+{
+"title": "Unquestioning Obedience (Priest Spell)",
+"name": "Unquestioning Obedience",
+"listLevel": 2
+},
+{
+"title": "Unwilling Wood (Priest Spell)",
+"name": "Unwilling Wood",
+"listLevel": 7
+},
+{
+"title": "Vampiric Mist (Priest Spell)",
+"name": "Vampiric Mist",
+"listLevel": 6
+},
+{
+"title": "Veil of Djalice (Priest Spell)",
+"name": "Veil of Djalice",
+"listLevel": 4
+},
+{
+"title": "Velsharoon's Death Pact (Priest Spell)",
+"name": "Velsharoon's Death Pact",
+"listLevel": 7
+},
+{
+"title": "Venom of Varae (Priest Spell)",
+"name": "Venom of Varae",
+"listLevel": 3
+},
+{
+"title": "Venomed Claws (Priest Spell)",
+"name": "Venomed Claws",
+"listLevel": 5
+},
+{
+"title": "Vicissitude (Priest Spell)",
+"name": "Vicissitude",
+"listLevel": 2
+},
+{
+"title": "View Animal Mind (Priest Spell)",
+"name": "View Animal Mind",
+"listLevel": 7
+},
+{
+"title": "Viper's Bite (Priest Spell)",
+"name": "Viper's Bite",
+"listLevel": 5
+},
+{
+"title": "Voodoo (Priest Spell)",
+"name": "Voodoo",
+"listLevel": 1
+},
+{
+"title": "Wailing Whips (Priest Spell)",
+"name": "Wailing Whips",
+"listLevel": 5
+},
+{
+"title": "Wailing Wind (Priest Spell)",
+"name": "Wailing Wind",
+"listLevel": 1
+},
+{
+"title": "Wall of Fire (Priest Spell)",
+"name": "Wall of Fire",
+"listLevel": 5
+},
+{
+"title": "Wall of Moonlight (Priest Spell)",
+"name": "Wall of Moonlight",
+"listLevel": 4
+},
+{
+"title": "Wall of Shadow (Priest Spell)",
+"name": "Wall of Shadow",
+"listLevel": 5
+},
+{
+"title": "Wall of Stone (Priest Spell)",
+"name": "Wall of Stone",
+"listLevel": 6
+},
+{
+"title": "Wall of Tentacles (Priest Spell)",
+"name": "Wall of Tentacles",
+"listLevel": 7
+},
+{
+"title": "Wall of Thorns (Priest Spell)",
+"name": "Wall of Thorns",
+"listLevel": 6
+},
+{
+"title": "Wandering Glyphs (Priest Spell)",
+"name": "Wandering Glyphs",
+"listLevel": 5
+},
+{
+"title": "Ward of Light (Priest Spell)",
+"name": "Ward of Light",
+"listLevel": 6
+},
+{
+"title": "Warmth (Priest Spell)",
+"name": "Warmth",
+"listLevel": 3
+},
+{
+"title": "Warning (Priest Spell)",
+"name": "Warning",
+"listLevel": 2
+},
+{
+"title": "Warp and Weave (Priest Spell)",
+"name": "Warp and Weave",
+"listLevel": 4
+},
+{
+"title": "Warp Sense (Priest Spell)",
+"name": "Warp Sense",
+"listLevel": 2
+},
+{
+"title": "Warp Stone or Metal (Priest Spell)",
+"name": "Warp Stone or Metal",
+"listLevel": 4
+},
+{
+"title": "Warp Wood (Priest Spell)",
+"name": "Warp Wood",
+"listLevel": 2
+},
+{
+"title": "Watchfire (Priest Spell)",
+"name": "Watchfire",
+"listLevel": 6
+},
+{
+"title": "Watchful Eyes (Priest Spell)",
+"name": "Watchful Eyes",
+"listLevel": 6
+},
+{
+"title": "Watching Shadow (Priest Spell)",
+"name": "Watching Shadow",
+"listLevel": 4
+},
+{
+"title": "Water Breathing (Priest Spell)",
+"name": "Water Breathing",
+"listLevel": 3
+},
+{
+"title": "Water Form (Priest Spell)",
+"name": "Water Form",
+"listLevel": 7
+},
+{
+"title": "Water of Eldath (Priest Spell)",
+"name": "Water of Eldath",
+"listLevel": 5
+},
+{
+"title": "Water Serpent (Priest Spell)",
+"name": "Water Serpent",
+"listLevel": 5
+},
+{
+"title": "Water Trap (Priest Spell)",
+"name": "Water Trap",
+"listLevel": 4
+},
+{
+"title": "Water Walk (Priest Spell)",
+"name": "Water Walk",
+"listLevel": 3
+},
+{
+"title": "Water Window (Priest Spell)",
+"name": "Water Window",
+"listLevel": 3
+},
+{
+"title": "Water Witch (Priest Spell)",
+"name": "Water Witch",
+"listLevel": 2
+},
+{
+"title": "Water Wyvern (Priest Spell)",
+"name": "Water Wyvern",
+"listLevel": 3
+},
+{
+"title": "Waterfloat (Priest Spell)",
+"name": "Waterfloat",
+"listLevel": 1
+},
+{
+"title": "Waters of Life (Priest Spell)",
+"name": "Waters of Life",
+"listLevel": 6
+},
+{
+"title": "Waterspout (Priest Spell)",
+"name": "Waterspout",
+"listLevel": 6
+},
+{
+"title": "Waterwall (Priest Spell)",
+"name": "Waterwall",
+"listLevel": 4
+},
+{
+"title": "Watery Fist (Priest Spell)",
+"name": "Watery Fist",
+"listLevel": 2
+},
+{
+"title": "Watery Travel (Priest Spell)",
+"name": "Watery Travel",
+"listLevel": 5
+},
+{
+"title": "Wave (Priest Spell)",
+"name": "Wave",
+"listLevel": 2
+},
+{
+"title": "Wealthtwist (Priest Spell)",
+"name": "Wealthtwist",
+"listLevel": 7
+},
+{
+"title": "Wealthword (Priest Spell)",
+"name": "Wealthword",
+"listLevel": 7
+},
+{
+"title": "Weapon Bless (Priest Spell)",
+"name": "Weapon Bless",
+"listLevel": 1
+},
+{
+"title": "Weather Dome (Priest Spell)",
+"name": "Weather Dome",
+"listLevel": 4
+},
+{
+"title": "Weather Prediction (Priest Spell)",
+"name": "Weather Prediction",
+"listLevel": 3
+},
+{
+"title": "Weather Stasis (Priest Spell)",
+"name": "Weather Stasis",
+"listLevel": 4
+},
+{
+"title": "Weather Summoning (Priest Spell)",
+"name": "Weather Summoning",
+"listLevel": 6
+},
+{
+"title": "Weathertell (Priest Spell)",
+"name": "Weathertell",
+"listLevel": 1
+},
+{
+"title": "Weighty Chest (Priest Spell)",
+"name": "Weighty Chest",
+"listLevel": 1
+},
+{
+"title": "Wheat into Blade (Priest Spell)",
+"name": "Wheat into Blade",
+"listLevel": 3
+},
+{
+"title": "Wheel of Bones (Priest Spell)",
+"name": "Wheel of Bones",
+"listLevel": 3
+},
+{
+"title": "Whip of Flame (Priest Spell)",
+"name": "Whip of Flame",
+"listLevel": 2
+},
+{
+"title": "Whip of Pain (Priest Spell)",
+"name": "Whip of Pain",
+"listLevel": 3
+},
+{
+"title": "Whip of Shar (Priest Spell)",
+"name": "Whip of Shar",
+"listLevel": 3
+},
+{
+"title": "Whip of Woe (Priest Spell)",
+"name": "Whip of Woe",
+"listLevel": 5
+},
+{
+"title": "Whirlchain (Priest Spell)",
+"name": "Whirlchain",
+"listLevel": 4
+},
+{
+"title": "Whirlpool (Priest Spell)",
+"name": "Whirlpool",
+"listLevel": 6
+},
+{
+"title": "Whirlpool of Doom (Priest Spell)",
+"name": "Whirlpool of Doom",
+"listLevel": 4
+},
+{
+"title": "Whirlwave (Priest Spell)",
+"name": "Whirlwave",
+"listLevel": 4
+},
+{
+"title": "Whirlwind (Priest Spell)",
+"name": "Whirlwind",
+"listLevel": 6
+},
+{
+"title": "Whirlwind of Akadi (Priest Spell)",
+"name": "Whirlwind of Akadi",
+"listLevel": 7
+},
+{
+"title": "Whirlwind of Steel (Priest Spell)",
+"name": "Whirlwind of Steel",
+"listLevel": 5
+},
+{
+"title": "Whispers (Priest Spell)",
+"name": "Whispers",
+"listLevel": 2
+},
+{
+"title": "Whisperward (Priest Spell)",
+"name": "Whisperward",
+"listLevel": 1
+},
+{
+"title": "Wieldskill (Priest Spell)",
+"name": "Wieldskill",
+"listLevel": 1
+},
+{
+"title": "Wild Deer Speed (Priest Spell)",
+"name": "Wild Deer Speed",
+"listLevel": 2
+},
+{
+"title": "Wild Lands (Priest Spell)",
+"name": "Wild Lands",
+"listLevel": 7
+},
+{
+"title": "Wind and Rain Protection (Priest Spell)",
+"name": "Wind and Rain Protection",
+"listLevel": 3
+},
+{
+"title": "Wind Column (Priest Spell)",
+"name": "Wind Column",
+"listLevel": 1
+},
+{
+"title": "Wind Lash (Priest Spell)",
+"name": "Wind Lash",
+"listLevel": 2
+},
+{
+"title": "Wind Walk (Priest Spell)",
+"name": "Wind Walk",
+"listLevel": 7
+},
+{
+"title": "Wind Walk - Shukenja (Priest Spell)",
+"name": "Wind Walk - Shukenja",
+"listLevel": 7
+},
+{
+"title": "Windbearer (Priest Spell)",
+"name": "Windbearer",
+"listLevel": 3
+},
+{
+"title": "Windborne (Priest Spell)",
+"name": "Windborne",
+"listLevel": 4
+},
+{
+"title": "Windlance (Priest Spell)",
+"name": "Windlance",
+"listLevel": 5
+},
+{
+"title": "Winds of Akadi (Priest Spell)",
+"name": "Winds of Akadi",
+"listLevel": 4
+},
+{
+"title": "Winds of Change (Priest Spell)",
+"name": "Winds of Change",
+"listLevel": 2
+},
+{
+"title": "Wisdom of the Sorcerer-Kings (Priest Spell)",
+"name": "Wisdom of the Sorcerer-Kings",
+"listLevel": 2
+},
+{
+"title": "Withdraw (Priest Spell)",
+"name": "Withdraw",
+"listLevel": 2
+},
+{
+"title": "Wither (Priest Spell)",
+"name": "Wither",
+"listLevel": 5
+},
+{
+"title": "Wolfjaws (Priest Spell)",
+"name": "Wolfjaws",
+"listLevel": 2
+},
+{
+"title": "Wondrous Recall (Priest Spell)",
+"name": "Wondrous Recall",
+"listLevel": 6
+},
+{
+"title": "Wood Rot (Priest Spell)",
+"name": "Wood Rot",
+"listLevel": 3
+},
+{
+"title": "Wood Sword (Priest Spell)",
+"name": "Wood Sword",
+"listLevel": 2
+},
+{
+"title": "Woodiron (Priest Spell)",
+"name": "Woodiron",
+"listLevel": 4
+},
+{
+"title": "Word of Binding (Priest Spell)",
+"name": "Word of Binding",
+"listLevel": 5
+},
+{
+"title": "Word of Recall (Priest Spell)",
+"name": "Word of Recall",
+"listLevel": 6
+},
+{
+"title": "Word of Vengeance (Priest Spell)",
+"name": "Word of Vengeance",
+"listLevel": 6
+},
+{
+"title": "Wound (Priest Spell)",
+"name": "Wound",
+"listLevel": 5
+},
+{
+"title": "Wrath of Torm (Priest Spell)",
+"name": "Wrath of Torm",
+"listLevel": 6
+},
+{
+"title": "Wyvern Watch (Priest Spell)",
+"name": "Wyvern Watch",
+"listLevel": 2
+},
+{
+"title": "Zin-Carla (Priest Spell)",
+"name": "Zin-Carla",
+"listLevel": 7
+},
+{
+"title": "Zone of Deception (Priest Spell)",
+"name": "Zone of Deception",
+"listLevel": 2
+},
+{
+"title": "Zone of Sweet Air (Priest Spell)",
+"name": "Zone of Sweet Air",
+"listLevel": 3
+},
+{
+"title": "Zone of Truth (Priest Spell)",
+"name": "Zone of Truth",
+"listLevel": 2
+}
+]
